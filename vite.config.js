@@ -3,7 +3,7 @@ import vue from '@vitejs/plugin-vue'
 
 export default defineConfig({
   plugins: [vue()],
-  base: '/adopt-map/',
+  base: '/AdoptMap.TW/',
   build: {
     outDir: 'dist'
   }
