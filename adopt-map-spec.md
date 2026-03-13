@@ -702,11 +702,11 @@ L.Icon.Default.mergeOptions({
 
 ### Phase 2：資料串接（預計 2-3 天）
 
-- [ ] 撰寫 fetch_animals.py（農業部 API）
-- [ ] 撰寫 geocode.py（含快取）
-- [ ] 撰寫 build_data.py（主控腳本）
-- [ ] 設定 GitHub Actions 排程
-- [ ] 前端改為讀取真實資料
+- [x] 撰寫 fetch_animals.py（農業部 API）
+- [x] 撰寫 geocode.py（含快取）
+- [x] 撰寫 build_data.py（主控腳本）
+- [x] 設定 GitHub Actions 排程
+- [x] 前端改為讀取真實資料
 
 ### Phase 3：送養佈告欄（預計 2-3 天）
 
