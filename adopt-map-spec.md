@@ -698,7 +698,7 @@ L.Icon.Default.mergeOptions({
 - [x] 實作 MapView 元件（Leaflet 地圖 + markers）
 - [x] 實作 FilterBar 元件（貓/狗切換）
 - [x] 點擊 marker 顯示基本 popup
-- [ ] 部署到 GitHub Pages
+- [x] 部署到 GitHub Pages
 
 ### Phase 2：資料串接（預計 2-3 天）
 

@@ -31,6 +31,9 @@ __pycache__/
 # Scripts cache (geocode results - committed intentionally when updated)
 # scripts/.cache/  ← keep this tracked so geocode cache is preserved
 
+# Wrong output path artifact (build_data.py now uses PROJECT_ROOT instead)
+scripts/public/
+
 # Local env
 .env
 .env.local

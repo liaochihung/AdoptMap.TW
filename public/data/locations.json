@@ -1,16 +1,6 @@
 {
-  "updated_at": "2026-03-13T06:00:00+08:00",
+  "updated_at": "2026-03-14T00:46:25+08:00",
   "locations": [
-    {
-      "id": "loc_nantun",
-      "name": "臺中市動物之家南屯園區",
-      "address": "臺中市南屯區中台路601號",
-      "phone": "04-23850949",
-      "lat": 24.1366,
-      "lng": 120.6175,
-      "type": "shelter",
-      "counts": { "cat": 2, "dog": 2 }
-    },
     {
       "id": "loc_houli",
       "name": "臺中市動物之家后里園區",
@@ -19,37 +9,23 @@
       "lat": 24.3049,
       "lng": 120.7106,
       "type": "shelter",
-      "counts": { "cat": 1, "dog": 1 }
+      "counts": {
+        "cat": 9,
+        "dog": 37
+      }
     },
     {
-      "id": "loc_vet_001",
-      "name": "愛心動物醫院（中途收容）",
-      "address": "臺中市西區民權路120號",
-      "phone": "04-2222-3333",
-      "lat": 24.1538,
-      "lng": 120.6568,
-      "type": "vet_transit",
-      "counts": { "cat": 1, "dog": 1 }
-    },
-    {
-      "id": "loc_bulletin_xitun",
-      "name": "民眾送養 — 西屯區",
-      "address": "臺中市西屯區",
-      "phone": "",
-      "lat": 24.1630,
-      "lng": 120.6350,
-      "type": "bulletin",
-      "counts": { "cat": 0, "dog": 1 }
-    },
-    {
-      "id": "loc_bulletin_beitun",
-      "name": "民眾送養 — 北屯區",
-      "address": "臺中市北屯區",
-      "phone": "",
-      "lat": 24.1820,
-      "lng": 120.6890,
-      "type": "bulletin",
-      "counts": { "cat": 1, "dog": 0 }
+      "id": "loc_nantun",
+      "name": "臺中市動物之家南屯園區",
+      "address": "臺中市南屯區中台路601號",
+      "phone": "04-23850949",
+      "lat": 24.1366,
+      "lng": 120.6175,
+      "type": "shelter",
+      "counts": {
+        "cat": 2,
+        "dog": 34
+      }
     }
   ]
 }
