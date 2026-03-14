@@ -41,12 +41,14 @@ const bodytypeLabel = { small: '小型', medium: '中型', large: '大型' }
 const typeLabel = {
   shelter: '公立收容所',
   vet_transit: '中途動物醫院',
+  yiqi: '益起認養吧',
   bulletin: '民眾送養',
 }
 
 const typeColor = {
   shelter: 'bg-blue-100 text-blue-700',
   vet_transit: 'bg-green-100 text-green-700',
+  yiqi: 'bg-purple-100 text-purple-700',
   bulletin: 'bg-orange-100 text-orange-700',
 }
 </script>
