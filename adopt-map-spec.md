@@ -729,14 +729,16 @@ L.Icon.Default.mergeOptions({
 - 益起認養吧：`我在區域"店名"等待...電話：XXXX 台中市XX區XX路XX號`
 - 中途動物醫院：`我在 " 區域 店名 " 等待...電話：XXXX`（無地址）
 
-**待辦**：
+**完成（2026-03-14）**：
 
-- [ ] 撰寫 `scripts/scrape_taichung.py`：爬取 `animal.taichung.gov.tw/1521490` 全部 5 頁列表，取得每筆的 nodeId
-- [ ] 每筆動物頁面（`/1521490/animalCp?nodeId=XXXX`）解析：編號、所在園區、年齡、性別、體型、毛色、備註、照片
-- [ ] 依「所在園區」欄位分類：`南屯園區`/`后里園區` → `shelter`；`益起認養吧` → `yiqi`；`中途動物醫院` → `vet_transit`
-- [ ] 備註欄地址解析（`parse_remark_location` 已實作於 `fetch_animals.py`，可抽出共用）
-- [ ] 整合至 `build_data.py`（合併農業部 API 與台中市爬蟲資料，去重）
-- [ ] 前端 `AnimalCard.vue`：已新增 `yiqi` 標籤（紫色）✅
+- [x] 撰寫 `scripts/scrape_taichung.py`：爬取 `animal.taichung.gov.tw/1521490` 全部 5 頁列表，取得每筆的 nodeId
+- [x] 每筆動物頁面（`/1521490/animalCp?nodeId=XXXX`）解析：編號、所在園區、年齡、性別、體型、毛色、備註、照片
+- [x] 依「所在園區」欄位分類：`南屯園區`/`后里園區` → `shelter`；`益起認養吧` → `yiqi`；`中途動物醫院` → `vet_transit`
+- [x] 備註欄地址解析（`parse_remark_location` 已實作於 `fetch_animals.py`，共用）
+- [x] 整合至 `build_data.py`（台中市爬蟲為主，農業部 API 為備援）
+- [x] 前端 `AnimalCard.vue`：已新增 `yiqi` 標籤（紫色）✅
+- [x] geocode 改進：支援多門牌格式（78,80號）與省略縣市前綴 fallback
+- [x] 結果：149/149 筆全部成功，14 個地點
 
 ### Phase 4：UI 優化（預計 1-2 天）
 
