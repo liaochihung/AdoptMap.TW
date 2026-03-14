@@ -41,3 +41,10 @@ OUTPUT_DIR = "public/data"
 CACHE_DIR = "scripts/.cache"
 GEOCODE_CACHE_FILE = "scripts/.cache/geocode_cache.json"
 GEOCODE_FAILURES_LOG = "scripts/.cache/geocode_failures.log"
+
+# 來源類型常數（對應 location.type）
+LOCATION_TYPES = {
+    "shelter": "公立收容所",
+    "vet_transit": "中途動物醫院",
+    "yiqi": "益起認養吧",
+}
