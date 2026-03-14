@@ -82,22 +82,50 @@ def _extract_shelter_key(record: dict) -> str:
     return shelter_name
 
 
-def _extract_vet_transit_info(remark: str):
+def parse_remark_location(remark: str, shelter_zone: str) -> dict | None:
     """
-    嘗試從 animal_remark 中解析中途動物醫院名稱。
-    回傳 (name, address) 或 (None, None)。
+    依據「所在園區」欄位值與備註內容，解析地點資訊。
+
+    回傳 dict（含 type / name / address / phone）或 None（表示使用預設收容所邏輯）。
+
+    來源類型對照：
+    - shelter_zone 為 '南屯園區' / '后里園區' → 回傳 None（由 KNOWN_LOCATIONS 處理）
+    - shelter_zone 為 '中途動物醫院' → type='vet_transit'，解析店名與電話
+    - shelter_zone 為 '益起認養吧'   → type='yiqi'，解析店名、電話、完整地址
     """
-    # 常見格式：「XX動物醫院」或「XX動物診所」
-    patterns = [
-        r"([\w\s]+(?:動物醫院|動物診所|獸醫院))[，,、\s]*(臺中[^\s，,、]+)?",
-    ]
-    for pat in patterns:
-        m = re.search(pat, remark)
-        if m:
-            name = m.group(1).strip()
-            address = (m.group(2) or "").strip()
-            return name, address
-    return None, None
+    SHELTER_ZONES = {"南屯園區", "后里園區"}
+    if shelter_zone in SHELTER_ZONES or not remark:
+        return None
+
+    # 益起認養吧：備註末尾有完整地址
+    # 格式：我在區域"店名"等待...電話：XXXX 台中市XX區...
+    if shelter_zone == "益起認養吧":
+        phone_match = re.search(r"電話[：:]([\d\-]+)", remark)
+        phone = phone_match.group(1).strip() if phone_match else ""
+        # 店名在引號內
+        name_match = re.search(r'["\u201c\u300c](.*?)["\u201d\u300d]', remark)
+        name = name_match.group(1).strip() if name_match else ""
+        # 完整地址在電話後，格式為 台中市...
+        addr_match = re.search(r"((?:台中市|臺中市)[^\s]+(?:路|街|道|巷|弄|號)[^\s]*)", remark)
+        address = addr_match.group(1).strip() if addr_match else ""
+        return {"type": "yiqi", "name": name, "address": address, "phone": phone}
+
+    # 中途動物醫院：有店名但無完整地址
+    # 格式：我在 " 區域 店名 " 等待...電話：XXXX
+    if shelter_zone == "中途動物醫院":
+        phone_match = re.search(r"電話[：:]([\d\-]+)", remark)
+        phone = phone_match.group(1).strip() if phone_match else ""
+        # 店名在引號內（含前後空白）
+        name_match = re.search(r'["\u201c\u300c]\s*(.*?)\s*["\u201d\u300d]', remark)
+        if name_match:
+            # 格式通常是 "區域 店名"，取最後一個詞（店名）
+            name_parts = name_match.group(1).strip().split()
+            name = "".join(name_parts[1:]) if len(name_parts) > 1 else name_match.group(1).strip()
+        else:
+            name = ""
+        return {"type": "vet_transit", "name": name, "address": "", "phone": phone}
+
+    return None
 
 
 def fetch_animals() -> list[dict]:
@@ -140,16 +168,30 @@ def fetch_animals() -> list[dict]:
         shelter_address = rec.get("shelter_address", "").strip()
         remark = rec.get("animal_remark", "") or ""
 
-        # 嘗試辨識中途動物醫院
-        vet_name, vet_address = _extract_vet_transit_info(remark)
+        # 依據所在園區與備註解析來源類型
+        shelter_zone = rec.get("animal_place", "").strip()
+        # animal_place 格式為「臺中市動物之家南屯園區」，取最後部分
+        for zone_suffix in ("南屯園區", "后里園區", "中途動物醫院", "益起認養吧"):
+            if shelter_zone.endswith(zone_suffix):
+                shelter_zone = zone_suffix
+                break
+
+        parsed = parse_remark_location(remark, shelter_zone)
 
         # 決定地址欄位（供 geocoding 使用）
+        # 注意：shelter_zone 來自 animal_place（用於辨識來源類型）
+        #        shelter_name 來自 shelter_name 欄位（用於查詢 KNOWN_LOCATIONS，包含完整名稱如「臺中市動物之家南屯園區」）
         if shelter_name in KNOWN_LOCATIONS:
-            geo_address = shelter_name  # 用名稱當 key，直接對應固定座標
+            geo_address = shelter_name
             location_type = "shelter"
-        elif vet_name:
-            geo_address = vet_address or vet_name
-            location_type = "vet_transit"
+        elif parsed:
+            location_type = parsed["type"]
+            if parsed["address"]:
+                geo_address = parsed["address"]
+            elif parsed["name"]:
+                geo_address = parsed["name"]
+            else:
+                geo_address = shelter_address or shelter_name
         else:
             geo_address = shelter_address or shelter_name
             location_type = "shelter"
@@ -170,9 +212,9 @@ def fetch_animals() -> list[dict]:
             "open_date": _fmt_date(rec.get("animal_opendate", "")),
             "update_date": _fmt_date(rec.get("animal_update", "")),
             # 以下欄位供 build_data.py 組合地點時使用，不進入最終 JSON
-            "_shelter_name": shelter_name,
-            "_shelter_address": shelter_address,
-            "_shelter_phone": rec.get("shelter_tel", "") or "",
+            "_shelter_name": (parsed["name"] if parsed and parsed["name"] else shelter_name),
+            "_shelter_address": (parsed["address"] if parsed and parsed["address"] else shelter_address),
+            "_shelter_phone": (parsed["phone"] if parsed and parsed["phone"] else rec.get("shelter_tel", "") or ""),
             "_geo_address": geo_address,
             "_location_type": location_type,
             "source_url": f"https://www.pet.gov.tw/Web/L315.aspx?no={rec.get('animal_id', '')}",
