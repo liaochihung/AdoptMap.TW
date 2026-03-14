@@ -2,9 +2,12 @@
 
 > **For agentic workers:** REQUIRED: Use superpowers:subagent-driven-development (if subagents available) or superpowers:executing-plans to implement this plan. Steps use checkbox (`- [ ]`) syntax for tracking.
 
-**Goal:** 擴充農業部 API 資料解析，正確識別三種來源（政府收容所 / 中途動物醫院 / 益起認養吧），從備註欄解析地址並 geocoding，前端顯示對應標籤。
+**Goal:** 爬取台中市動保處「待認養犬貓照片檢索」網站（149 筆），解析三種來源（收容所 / 益起認養吧 / 中途動物醫院），並整合至現有 `build_data.py`。
 
-**Architecture:** 在 `fetch_animals.py` 新增備註解析函式（取代現有 `_extract_vet_transit_info`），辨識三種來源並回傳標準化的 `location_type`、地址、店名。`config.py` 新增 `yiqi` 常數。`build_data.py` 不需改動（已支援 `_location_type` 傳遞）。前端 `AnimalCard.vue` 新增 `yiqi` 標籤樣式。
+> ⚠️ **重要說明（2026-03-14 驗證）**：台中市動保處網站（`animal.taichung.gov.tw/1521490`）是**獨立系統**，與農業部 Open Data API 不同。
+> 農業部 API 目前台中資料只有 82 筆（南屯 36 + 后里 46 兩個收容所），中途動物醫院與益起認養吧的 67 筆**不在農業部 API 裡**，必須爬取台中市動保處網站才能取得。
+
+**Architecture:** 新增 `scripts/scrape_taichung.py` 爬蟲，爬取台中市動保處列表頁（5 頁）和每筆動物詳細頁，解析欄位後整合至 `build_data.py`。`parse_remark_location()` 已實作於 `fetch_animals.py`，抽出至共用模組供爬蟲使用。前端 `AnimalCard.vue` 已新增 `yiqi` 標籤（紫色）。
 
 **Tech Stack:** Python 3.11+（regex, requests）、Vue 3 Composition API、Tailwind CSS
 

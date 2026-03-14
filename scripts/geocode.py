@@ -39,25 +39,64 @@ def _log_failure(address: str, reason: str) -> None:
 
 def _query_nominatim(address: str) -> tuple[float, float] | None:
     """向 Nominatim 查詢一個地址，回傳 (lat, lng) 或 None。"""
-    params = {
-        "q": address,
-        "format": "json",
-        "limit": 1,
-        "countrycodes": "tw",
-        "viewbox": TAICHUNG_VIEWBOX,
-        "bounded": 0,  # 0 = 超出 viewbox 也可回傳，但優先 viewbox 內
-    }
+    import re as _re
     headers = {"User-Agent": NOMINATIM_USER_AGENT}
-    try:
-        resp = requests.get(NOMINATIM_URL, params=params, headers=headers, timeout=15)
-        resp.raise_for_status()
-        results = resp.json()
-        if results:
-            lat = float(results[0]["lat"])
-            lng = float(results[0]["lon"])
-            return lat, lng
-    except Exception as e:
-        print(f"  Nominatim 請求失敗：{address}  ({e})")
+
+    def _query(q: str) -> tuple[float, float] | None:
+        params = {
+            "q": q,
+            "format": "json",
+            "limit": 1,
+            "countrycodes": "tw",
+            "viewbox": TAICHUNG_VIEWBOX,
+            "bounded": 0,
+        }
+        try:
+            resp = requests.get(NOMINATIM_URL, params=params, headers=headers, timeout=15)
+            resp.raise_for_status()
+            results = resp.json()
+            if results:
+                return float(results[0]["lat"]), float(results[0]["lon"])
+        except Exception as e:
+            print(f"  Nominatim 請求失敗：{q}  ({e})")
+        return None
+
+    # 嘗試原始地址
+    result = _query(address)
+    if result:
+        return result
+
+    # 若含逗號分隔多門牌（如 78,80號），先取第一個號碼再試
+    # 例：台中市南屯區五權西路二段78,80號 → 台中市南屯區五權西路二段78號
+    single_no = _re.sub(r"(\d+)[,，]\d+號", r"\1號", address)
+    if single_no != address:
+        time.sleep(NOMINATIM_DELAY)
+        result = _query(single_no)
+        if result:
+            return result
+
+    # 若含「號」，移除號碼後再試（Nominatim 對中文門牌號支援差）
+    # 例：台中市西屯區西屯路三段92-1號 → 台中市西屯區西屯路三段
+    stripped = _re.sub(r"\d[\d\-,，]*號.*$", "", address).strip()
+    if stripped and stripped != address:
+        time.sleep(NOMINATIM_DELAY)
+        result = _query(stripped)
+        if result:
+            return result
+
+    # 移除「台中市XX區」前綴，只留路段（部分路名 Nominatim 需省略縣市才能找到）
+    # 例：台中市南屯區五權西路二段 → 五權西路二段 南屯 台中
+    no_prefix = _re.sub(r"^(?:台中市|臺中市)(\w+區)", r"\1", stripped or address)
+    if no_prefix != (stripped or address):
+        # 轉為「路段 區名 台中」格式
+        district_m = _re.match(r"(\w+區)(.*)", no_prefix)
+        if district_m:
+            query_alt = district_m.group(2).strip() + " " + district_m.group(1) + " 台中"
+            time.sleep(NOMINATIM_DELAY)
+            result = _query(query_alt)
+            if result:
+                return result
+
     return None
 
 
