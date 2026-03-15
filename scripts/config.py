@@ -33,9 +33,6 @@ KNOWN_LOCATIONS = {
     },
 }
 
-# 台中市關鍵字（用於過濾）
-TAICHUNG_KEYWORDS = ["臺中", "台中"]
-
 # 輸出路徑
 OUTPUT_DIR = "public/data"
 CACHE_DIR = "scripts/.cache"
