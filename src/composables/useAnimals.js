@@ -35,6 +35,7 @@ export function useAnimals() {
   const locations = ref([])
   const loading = ref(true)
   const error = ref(null)
+  const noData = ref(false)
   const updatedAt = ref('')
 
   // Primary filters
@@ -99,6 +100,7 @@ export function useAnimals() {
   async function loadData(city = '臺中市') {
     loading.value = true
     error.value = null
+    noData.value = false
     currentCity.value = city
     resetSecondaryFilters()
 
@@ -109,11 +111,25 @@ export function useAnimals() {
         fetch(`${base}data/animals_${suffix}.json`),
         fetch(`${base}data/locations_${suffix}.json`),
       ])
-      if (!animalsRes.ok) throw new Error(`無法載入動物資料：${animalsRes.status}`)
-      if (!locationsRes.ok) throw new Error(`無法載入地點資料：${locationsRes.status}`)
 
-      const animalsData = await animalsRes.json()
-      const locationsData = await locationsRes.json()
+      if (!animalsRes.ok || !locationsRes.ok) {
+        noData.value = true
+        animals.value = []
+        locations.value = []
+        return
+      }
+
+      const animalsText = await animalsRes.text()
+      const locationsText = await locationsRes.text()
+      if (!animalsText.trimStart().startsWith('{')) {
+        noData.value = true
+        animals.value = []
+        locations.value = []
+        return
+      }
+
+      const animalsData = JSON.parse(animalsText)
+      const locationsData = JSON.parse(locationsText)
 
       animals.value = animalsData.animals
       locations.value = locationsData.locations
@@ -130,6 +146,7 @@ export function useAnimals() {
     locations,
     loading,
     error,
+    noData,
     updatedAt,
     currentCity,
     filterKind,

@@ -1,6 +1,7 @@
 {
-  "updated_at": "2026-03-15T06:03:07+08:00",
-  "total": 149,
+  "updated_at": "2026-03-15T18:02:32+08:00",
+  "total": 146,
+  "city": "臺中市",
   "animals": [
     {
       "id": "TC-11501210004",
@@ -18,6 +19,7 @@
       "open_date": "",
       "update_date": "",
       "source_url": "https://www.animal.taichung.gov.tw/1521490/animalCp?nodeId=3906289",
+      "city": "臺中市",
       "location_id": "loc_nantun"
     },
     {
@@ -36,6 +38,7 @@
       "open_date": "",
       "update_date": "",
       "source_url": "https://www.animal.taichung.gov.tw/1521490/animalCp?nodeId=3905720",
+      "city": "臺中市",
       "location_id": "loc_信揚動物醫院"
     },
     {
@@ -54,6 +57,7 @@
       "open_date": "",
       "update_date": "",
       "source_url": "https://www.animal.taichung.gov.tw/1521490/animalCp?nodeId=3905707",
+      "city": "臺中市",
       "location_id": "loc_信揚動物醫院"
     },
     {
@@ -72,6 +76,7 @@
       "open_date": "",
       "update_date": "",
       "source_url": "https://www.animal.taichung.gov.tw/1521490/animalCp?nodeId=3905336",
+      "city": "臺中市",
       "location_id": "loc_nantun"
     },
     {
@@ -90,6 +95,7 @@
       "open_date": "",
       "update_date": "",
       "source_url": "https://www.animal.taichung.gov.tw/1521490/animalCp?nodeId=3905321",
+      "city": "臺中市",
       "location_id": "loc_nantun"
     },
     {
@@ -108,6 +114,7 @@
       "open_date": "",
       "update_date": "",
       "source_url": "https://www.animal.taichung.gov.tw/1521490/animalCp?nodeId=3898703",
+      "city": "臺中市",
       "location_id": "loc_houli"
     },
     {
@@ -126,6 +133,7 @@
       "open_date": "",
       "update_date": "",
       "source_url": "https://www.animal.taichung.gov.tw/1521490/animalCp?nodeId=3898829",
+      "city": "臺中市",
       "location_id": "loc_houli"
     },
     {
@@ -144,6 +152,7 @@
       "open_date": "",
       "update_date": "",
       "source_url": "https://www.animal.taichung.gov.tw/1521490/animalCp?nodeId=3904196",
+      "city": "臺中市",
       "location_id": "loc_nantun"
     },
     {
@@ -162,6 +171,7 @@
       "open_date": "",
       "update_date": "",
       "source_url": "https://www.animal.taichung.gov.tw/1521490/animalCp?nodeId=3903982",
+      "city": "臺中市",
       "location_id": "loc_nantun"
     },
     {
@@ -180,25 +190,8 @@
       "open_date": "",
       "update_date": "",
       "source_url": "https://www.animal.taichung.gov.tw/1521490/animalCp?nodeId=3903368",
+      "city": "臺中市",
       "location_id": "loc_台中市大里區成功路498號"
-    },
-    {
-      "id": "TC-11501280005",
-      "source": "taichung_shelter",
-      "kind": "dog",
-      "name": "",
-      "sex": "M",
-      "age": "child",
-      "bodytype": "medium",
-      "colour": "米白",
-      "sterilized": true,
-      "vaccinated": null,
-      "photo_url": "https://www.animal.taichung.gov.tw/media/1324038/asumiiqedl-2fzdimcomwq.jpg",
-      "remark": "我在南屯區\"魚中魚文心店\"等待愛心認養喔！聯絡電話：04-23292999 台中市南屯區文心路一段372號",
-      "open_date": "",
-      "update_date": "",
-      "source_url": "https://www.animal.taichung.gov.tw/1521490/animalCp?nodeId=3903386",
-      "location_id": "loc_台中市南屯區文心路一段372號"
     },
     {
       "id": "TC-11501236003",
@@ -216,6 +209,7 @@
       "open_date": "",
       "update_date": "",
       "source_url": "https://www.animal.taichung.gov.tw/1521490/animalCp?nodeId=3896289",
+      "city": "臺中市",
       "location_id": "loc_houli"
     },
     {
@@ -234,6 +228,7 @@
       "open_date": "",
       "update_date": "",
       "source_url": "https://www.animal.taichung.gov.tw/1521490/animalCp?nodeId=3902822",
+      "city": "臺中市",
       "location_id": "loc_nantun"
     },
     {
@@ -252,6 +247,7 @@
       "open_date": "",
       "update_date": "",
       "source_url": "https://www.animal.taichung.gov.tw/1521490/animalCp?nodeId=3902813",
+      "city": "臺中市",
       "location_id": "loc_nantun"
     },
     {
@@ -270,6 +266,7 @@
       "open_date": "",
       "update_date": "",
       "source_url": "https://www.animal.taichung.gov.tw/1521490/animalCp?nodeId=3901325",
+      "city": "臺中市",
       "location_id": "loc_nantun"
     },
     {
@@ -288,6 +285,7 @@
       "open_date": "",
       "update_date": "",
       "source_url": "https://www.animal.taichung.gov.tw/1521490/animalCp?nodeId=3901054",
+      "city": "臺中市",
       "location_id": "loc_nantun"
     },
     {
@@ -306,6 +304,7 @@
       "open_date": "",
       "update_date": "",
       "source_url": "https://www.animal.taichung.gov.tw/1521490/animalCp?nodeId=3901043",
+      "city": "臺中市",
       "location_id": "loc_nantun"
     },
     {
@@ -324,6 +323,7 @@
       "open_date": "",
       "update_date": "",
       "source_url": "https://www.animal.taichung.gov.tw/1521490/animalCp?nodeId=3898764",
+      "city": "臺中市",
       "location_id": "loc_houli"
     },
     {
@@ -342,6 +342,7 @@
       "open_date": "",
       "update_date": "",
       "source_url": "https://www.animal.taichung.gov.tw/1521490/animalCp?nodeId=3898635",
+      "city": "臺中市",
       "location_id": "loc_houli"
     },
     {
@@ -360,6 +361,7 @@
       "open_date": "",
       "update_date": "",
       "source_url": "https://www.animal.taichung.gov.tw/1521490/animalCp?nodeId=3895636",
+      "city": "臺中市",
       "location_id": "loc_houli"
     },
     {
@@ -378,6 +380,7 @@
       "open_date": "",
       "update_date": "",
       "source_url": "https://www.animal.taichung.gov.tw/1521490/animalCp?nodeId=3894624",
+      "city": "臺中市",
       "location_id": "loc_houli"
     },
     {
@@ -396,6 +399,7 @@
       "open_date": "",
       "update_date": "",
       "source_url": "https://www.animal.taichung.gov.tw/1521490/animalCp?nodeId=3898606",
+      "city": "臺中市",
       "location_id": "loc_houli"
     },
     {
@@ -414,6 +418,7 @@
       "open_date": "",
       "update_date": "",
       "source_url": "https://www.animal.taichung.gov.tw/1521490/animalCp?nodeId=3885030",
+      "city": "臺中市",
       "location_id": "loc_houli"
     },
     {
@@ -432,6 +437,7 @@
       "open_date": "",
       "update_date": "",
       "source_url": "https://www.animal.taichung.gov.tw/1521490/animalCp?nodeId=3899706",
+      "city": "臺中市",
       "location_id": "loc_houli"
     },
     {
@@ -450,6 +456,7 @@
       "open_date": "",
       "update_date": "",
       "source_url": "https://www.animal.taichung.gov.tw/1521490/animalCp?nodeId=3898967",
+      "city": "臺中市",
       "location_id": "loc_田心動物醫院"
     },
     {
@@ -468,6 +475,7 @@
       "open_date": "",
       "update_date": "",
       "source_url": "https://www.animal.taichung.gov.tw/1521490/animalCp?nodeId=3898912",
+      "city": "臺中市",
       "location_id": "loc_田心動物醫院"
     },
     {
@@ -486,6 +494,7 @@
       "open_date": "",
       "update_date": "",
       "source_url": "https://www.animal.taichung.gov.tw/1521490/animalCp?nodeId=3898867",
+      "city": "臺中市",
       "location_id": "loc_田心動物醫院"
     },
     {
@@ -504,6 +513,7 @@
       "open_date": "",
       "update_date": "",
       "source_url": "https://www.animal.taichung.gov.tw/1521490/animalCp?nodeId=3898858",
+      "city": "臺中市",
       "location_id": "loc_田心動物醫院"
     },
     {
@@ -522,6 +532,7 @@
       "open_date": "",
       "update_date": "",
       "source_url": "https://www.animal.taichung.gov.tw/1521490/animalCp?nodeId=3898837",
+      "city": "臺中市",
       "location_id": "loc_田心動物醫院"
     },
     {
@@ -540,6 +551,7 @@
       "open_date": "",
       "update_date": "",
       "source_url": "https://www.animal.taichung.gov.tw/1521490/animalCp?nodeId=3898549",
+      "city": "臺中市",
       "location_id": "loc_nantun"
     },
     {
@@ -558,6 +570,7 @@
       "open_date": "",
       "update_date": "",
       "source_url": "https://www.animal.taichung.gov.tw/1521490/animalCp?nodeId=3898523",
+      "city": "臺中市",
       "location_id": "loc_nantun"
     },
     {
@@ -576,6 +589,7 @@
       "open_date": "",
       "update_date": "",
       "source_url": "https://www.animal.taichung.gov.tw/1521490/animalCp?nodeId=3895794",
+      "city": "臺中市",
       "location_id": "loc_houli"
     },
     {
@@ -594,6 +608,7 @@
       "open_date": "",
       "update_date": "",
       "source_url": "https://www.animal.taichung.gov.tw/1521490/animalCp?nodeId=3897355",
+      "city": "臺中市",
       "location_id": "loc_nantun"
     },
     {
@@ -612,6 +627,7 @@
       "open_date": "",
       "update_date": "",
       "source_url": "https://www.animal.taichung.gov.tw/1521490/animalCp?nodeId=3896847",
+      "city": "臺中市",
       "location_id": "loc_nantun"
     },
     {
@@ -630,6 +646,7 @@
       "open_date": "",
       "update_date": "",
       "source_url": "https://www.animal.taichung.gov.tw/1521490/animalCp?nodeId=3894860",
+      "city": "臺中市",
       "location_id": "loc_nantun"
     },
     {
@@ -648,6 +665,7 @@
       "open_date": "",
       "update_date": "",
       "source_url": "https://www.animal.taichung.gov.tw/1521490/animalCp?nodeId=3894826",
+      "city": "臺中市",
       "location_id": "loc_nantun"
     },
     {
@@ -666,6 +684,7 @@
       "open_date": "",
       "update_date": "",
       "source_url": "https://www.animal.taichung.gov.tw/1521490/animalCp?nodeId=3894496",
+      "city": "臺中市",
       "location_id": "loc_nantun"
     },
     {
@@ -684,6 +703,7 @@
       "open_date": "",
       "update_date": "",
       "source_url": "https://www.animal.taichung.gov.tw/1521490/animalCp?nodeId=3875918",
+      "city": "臺中市",
       "location_id": "loc_houli"
     },
     {
@@ -702,6 +722,7 @@
       "open_date": "",
       "update_date": "",
       "source_url": "https://www.animal.taichung.gov.tw/1521490/animalCp?nodeId=3899936",
+      "city": "臺中市",
       "location_id": "loc_台中市北屯區北華街119號"
     },
     {
@@ -720,6 +741,7 @@
       "open_date": "",
       "update_date": "",
       "source_url": "https://www.animal.taichung.gov.tw/1521490/animalCp?nodeId=3892342",
+      "city": "臺中市",
       "location_id": "loc_台中市西屯區西屯路三段92_1號"
     },
     {
@@ -738,25 +760,8 @@
       "open_date": "",
       "update_date": "",
       "source_url": "https://www.animal.taichung.gov.tw/1521490/animalCp?nodeId=3892328",
+      "city": "臺中市",
       "location_id": "loc_台中市西屯區西屯路三段92_1號"
-    },
-    {
-      "id": "TC-11411290017",
-      "source": "taichung_shelter",
-      "kind": "cat",
-      "name": "",
-      "sex": "M",
-      "age": "adult",
-      "bodytype": "small",
-      "colour": "黃色",
-      "sterilized": true,
-      "vaccinated": null,
-      "photo_url": "https://www.animal.taichung.gov.tw/media/1304466/11411290017開.jpg",
-      "remark": "我在豐原區\"魚中魚豐原店\"等待主人的愛心認養喔！聯絡電話：04-25158666 台中市豐原區豐原大道6段835號",
-      "open_date": "",
-      "update_date": "",
-      "source_url": "https://www.animal.taichung.gov.tw/1521490/animalCp?nodeId=3859995",
-      "location_id": "loc_台中市豐原區豐原大道6段835號"
     },
     {
       "id": "TC-11501280001",
@@ -774,6 +779,7 @@
       "open_date": "",
       "update_date": "",
       "source_url": "https://www.animal.taichung.gov.tw/1521490/animalCp?nodeId=3891188",
+      "city": "臺中市",
       "location_id": "loc_nantun"
     },
     {
@@ -792,6 +798,7 @@
       "open_date": "",
       "update_date": "",
       "source_url": "https://www.animal.taichung.gov.tw/1521490/animalCp?nodeId=3890844",
+      "city": "臺中市",
       "location_id": "loc_nantun"
     },
     {
@@ -810,6 +817,7 @@
       "open_date": "",
       "update_date": "",
       "source_url": "https://www.animal.taichung.gov.tw/1521490/animalCp?nodeId=3874352",
+      "city": "臺中市",
       "location_id": "loc_houli"
     },
     {
@@ -828,6 +836,7 @@
       "open_date": "",
       "update_date": "",
       "source_url": "https://www.animal.taichung.gov.tw/1521490/animalCp?nodeId=3888566",
+      "city": "臺中市",
       "location_id": "loc_台中市西屯區逢甲路206號"
     },
     {
@@ -846,6 +855,7 @@
       "open_date": "",
       "update_date": "",
       "source_url": "https://www.animal.taichung.gov.tw/1521490/animalCp?nodeId=3883511",
+      "city": "臺中市",
       "location_id": "loc_nantun"
     },
     {
@@ -864,25 +874,8 @@
       "open_date": "",
       "update_date": "",
       "source_url": "https://www.animal.taichung.gov.tw/1521490/animalCp?nodeId=3882868",
+      "city": "臺中市",
       "location_id": "loc_台中市北區崇德路一段516號"
-    },
-    {
-      "id": "TC-11501128011",
-      "source": "taichung_shelter",
-      "kind": "dog",
-      "name": "",
-      "sex": "M",
-      "age": "child",
-      "bodytype": "medium",
-      "colour": "黑色",
-      "sterilized": true,
-      "vaccinated": null,
-      "photo_url": "https://www.animal.taichung.gov.tw/media/1314108/11501128011-吉美-1.jpg",
-      "remark": "我在大里區\"魚中魚大里店\"等待主人的愛心認養喔！聯絡電話：04-24073388 台中市大里區國光路二段505號",
-      "open_date": "",
-      "update_date": "",
-      "source_url": "https://www.animal.taichung.gov.tw/1521490/animalCp?nodeId=3881758",
-      "location_id": "loc_台中市大里區國光路二段505號"
     },
     {
       "id": "TC-11501098005",
@@ -900,6 +893,7 @@
       "open_date": "",
       "update_date": "",
       "source_url": "https://www.animal.taichung.gov.tw/1521490/animalCp?nodeId=3880796",
+      "city": "臺中市",
       "location_id": "loc_nantun"
     },
     {
@@ -918,6 +912,7 @@
       "open_date": "",
       "update_date": "",
       "source_url": "https://www.animal.taichung.gov.tw/1521490/animalCp?nodeId=3878035",
+      "city": "臺中市",
       "location_id": "loc_nantun"
     },
     {
@@ -936,6 +931,7 @@
       "open_date": "",
       "update_date": "",
       "source_url": "https://www.animal.taichung.gov.tw/1521490/animalCp?nodeId=3875970",
+      "city": "臺中市",
       "location_id": "loc_nantun"
     },
     {
@@ -954,6 +950,7 @@
       "open_date": "",
       "update_date": "",
       "source_url": "https://www.animal.taichung.gov.tw/1521490/animalCp?nodeId=3875582",
+      "city": "臺中市",
       "location_id": "loc_台中市南屯區五權西路二段78_80號"
     },
     {
@@ -972,6 +969,7 @@
       "open_date": "",
       "update_date": "",
       "source_url": "https://www.animal.taichung.gov.tw/1521490/animalCp?nodeId=3874722",
+      "city": "臺中市",
       "location_id": "loc_nantun"
     },
     {
@@ -990,6 +988,7 @@
       "open_date": "",
       "update_date": "",
       "source_url": "https://www.animal.taichung.gov.tw/1521490/animalCp?nodeId=3871617",
+      "city": "臺中市",
       "location_id": "loc_houli"
     },
     {
@@ -1008,6 +1007,7 @@
       "open_date": "",
       "update_date": "",
       "source_url": "https://www.animal.taichung.gov.tw/1521490/animalCp?nodeId=3872572",
+      "city": "臺中市",
       "location_id": "loc_nantun"
     },
     {
@@ -1026,6 +1026,7 @@
       "open_date": "",
       "update_date": "",
       "source_url": "https://www.animal.taichung.gov.tw/1521490/animalCp?nodeId=3865952",
+      "city": "臺中市",
       "location_id": "loc_houli"
     },
     {
@@ -1044,6 +1045,7 @@
       "open_date": "",
       "update_date": "",
       "source_url": "https://www.animal.taichung.gov.tw/1521490/animalCp?nodeId=3840430",
+      "city": "臺中市",
       "location_id": "loc_台中市北屯區北華街119號"
     },
     {
@@ -1062,6 +1064,7 @@
       "open_date": "",
       "update_date": "",
       "source_url": "https://www.animal.taichung.gov.tw/1521490/animalCp?nodeId=3840468",
+      "city": "臺中市",
       "location_id": "loc_台中市北屯區北華街119號"
     },
     {
@@ -1080,6 +1083,7 @@
       "open_date": "",
       "update_date": "",
       "source_url": "https://www.animal.taichung.gov.tw/1521490/animalCp?nodeId=3868198",
+      "city": "臺中市",
       "location_id": "loc_nantun"
     },
     {
@@ -1098,6 +1102,7 @@
       "open_date": "",
       "update_date": "",
       "source_url": "https://www.animal.taichung.gov.tw/1521490/animalCp?nodeId=3868191",
+      "city": "臺中市",
       "location_id": "loc_台中市南屯區五權西路二段78_80號"
     },
     {
@@ -1116,6 +1121,7 @@
       "open_date": "",
       "update_date": "",
       "source_url": "https://www.animal.taichung.gov.tw/1521490/animalCp?nodeId=3868185",
+      "city": "臺中市",
       "location_id": "loc_nantun"
     },
     {
@@ -1134,6 +1140,7 @@
       "open_date": "",
       "update_date": "",
       "source_url": "https://www.animal.taichung.gov.tw/1521490/animalCp?nodeId=3861542",
+      "city": "臺中市",
       "location_id": "loc_houli"
     },
     {
@@ -1152,6 +1159,7 @@
       "open_date": "",
       "update_date": "",
       "source_url": "https://www.animal.taichung.gov.tw/1521490/animalCp?nodeId=3734962",
+      "city": "臺中市",
       "location_id": "loc_houli"
     },
     {
@@ -1170,6 +1178,7 @@
       "open_date": "",
       "update_date": "",
       "source_url": "https://www.animal.taichung.gov.tw/1521490/animalCp?nodeId=3863170",
+      "city": "臺中市",
       "location_id": "loc_houli"
     },
     {
@@ -1188,6 +1197,7 @@
       "open_date": "",
       "update_date": "",
       "source_url": "https://www.animal.taichung.gov.tw/1521490/animalCp?nodeId=3863142",
+      "city": "臺中市",
       "location_id": "loc_nantun"
     },
     {
@@ -1206,6 +1216,7 @@
       "open_date": "",
       "update_date": "",
       "source_url": "https://www.animal.taichung.gov.tw/1521490/animalCp?nodeId=3863131",
+      "city": "臺中市",
       "location_id": "loc_nantun"
     },
     {
@@ -1224,6 +1235,7 @@
       "open_date": "",
       "update_date": "",
       "source_url": "https://www.animal.taichung.gov.tw/1521490/animalCp?nodeId=3863113",
+      "city": "臺中市",
       "location_id": "loc_nantun"
     },
     {
@@ -1242,6 +1254,7 @@
       "open_date": "",
       "update_date": "",
       "source_url": "https://www.animal.taichung.gov.tw/1521490/animalCp?nodeId=3861690",
+      "city": "臺中市",
       "location_id": "loc_nantun"
     },
     {
@@ -1260,6 +1273,7 @@
       "open_date": "",
       "update_date": "",
       "source_url": "https://www.animal.taichung.gov.tw/1521490/animalCp?nodeId=3860003",
+      "city": "臺中市",
       "location_id": "loc_nantun"
     },
     {
@@ -1278,6 +1292,7 @@
       "open_date": "",
       "update_date": "",
       "source_url": "https://www.animal.taichung.gov.tw/1521490/animalCp?nodeId=3857241",
+      "city": "臺中市",
       "location_id": "loc_nantun"
     },
     {
@@ -1296,6 +1311,7 @@
       "open_date": "",
       "update_date": "",
       "source_url": "https://www.animal.taichung.gov.tw/1521490/animalCp?nodeId=3855940",
+      "city": "臺中市",
       "location_id": "loc_nantun"
     },
     {
@@ -1314,6 +1330,7 @@
       "open_date": "",
       "update_date": "",
       "source_url": "https://www.animal.taichung.gov.tw/1521490/animalCp?nodeId=3855433",
+      "city": "臺中市",
       "location_id": "loc_nantun"
     },
     {
@@ -1332,6 +1349,7 @@
       "open_date": "",
       "update_date": "",
       "source_url": "https://www.animal.taichung.gov.tw/1521490/animalCp?nodeId=3822823",
+      "city": "臺中市",
       "location_id": "loc_houli"
     },
     {
@@ -1350,6 +1368,7 @@
       "open_date": "",
       "update_date": "",
       "source_url": "https://www.animal.taichung.gov.tw/1521490/animalCp?nodeId=3837463",
+      "city": "臺中市",
       "location_id": "loc_nantun"
     },
     {
@@ -1368,6 +1387,7 @@
       "open_date": "",
       "update_date": "",
       "source_url": "https://www.animal.taichung.gov.tw/1521490/animalCp?nodeId=3836246",
+      "city": "臺中市",
       "location_id": "loc_nantun"
     },
     {
@@ -1386,6 +1406,7 @@
       "open_date": "",
       "update_date": "",
       "source_url": "https://www.animal.taichung.gov.tw/1521490/animalCp?nodeId=3836213",
+      "city": "臺中市",
       "location_id": "loc_nantun"
     },
     {
@@ -1404,6 +1425,7 @@
       "open_date": "",
       "update_date": "",
       "source_url": "https://www.animal.taichung.gov.tw/1521490/animalCp?nodeId=3827152",
+      "city": "臺中市",
       "location_id": "loc_houli"
     },
     {
@@ -1422,6 +1444,7 @@
       "open_date": "",
       "update_date": "",
       "source_url": "https://www.animal.taichung.gov.tw/1521490/animalCp?nodeId=3830063",
+      "city": "臺中市",
       "location_id": "loc_houli"
     },
     {
@@ -1440,6 +1463,7 @@
       "open_date": "",
       "update_date": "",
       "source_url": "https://www.animal.taichung.gov.tw/1521490/animalCp?nodeId=3826002",
+      "city": "臺中市",
       "location_id": "loc_nantun"
     },
     {
@@ -1458,6 +1482,7 @@
       "open_date": "",
       "update_date": "",
       "source_url": "https://www.animal.taichung.gov.tw/1521490/animalCp?nodeId=3821555",
+      "city": "臺中市",
       "location_id": "loc_nantun"
     },
     {
@@ -1476,6 +1501,7 @@
       "open_date": "",
       "update_date": "",
       "source_url": "https://www.animal.taichung.gov.tw/1521490/animalCp?nodeId=3810607",
+      "city": "臺中市",
       "location_id": "loc_houli"
     },
     {
@@ -1494,6 +1520,7 @@
       "open_date": "",
       "update_date": "",
       "source_url": "https://www.animal.taichung.gov.tw/1521490/animalCp?nodeId=3817809",
+      "city": "臺中市",
       "location_id": "loc_nantun"
     },
     {
@@ -1512,6 +1539,7 @@
       "open_date": "",
       "update_date": "",
       "source_url": "https://www.animal.taichung.gov.tw/1521490/animalCp?nodeId=3807115",
+      "city": "臺中市",
       "location_id": "loc_houli"
     },
     {
@@ -1530,6 +1558,7 @@
       "open_date": "",
       "update_date": "",
       "source_url": "https://www.animal.taichung.gov.tw/1521490/animalCp?nodeId=3794173",
+      "city": "臺中市",
       "location_id": "loc_nantun"
     },
     {
@@ -1548,6 +1577,7 @@
       "open_date": "",
       "update_date": "",
       "source_url": "https://www.animal.taichung.gov.tw/1521490/animalCp?nodeId=3787492",
+      "city": "臺中市",
       "location_id": "loc_houli"
     },
     {
@@ -1566,6 +1596,7 @@
       "open_date": "",
       "update_date": "",
       "source_url": "https://www.animal.taichung.gov.tw/1521490/animalCp?nodeId=3780329",
+      "city": "臺中市",
       "location_id": "loc_nantun"
     },
     {
@@ -1584,6 +1615,7 @@
       "open_date": "",
       "update_date": "",
       "source_url": "https://www.animal.taichung.gov.tw/1521490/animalCp?nodeId=3780321",
+      "city": "臺中市",
       "location_id": "loc_nantun"
     },
     {
@@ -1602,6 +1634,7 @@
       "open_date": "",
       "update_date": "",
       "source_url": "https://www.animal.taichung.gov.tw/1521490/animalCp?nodeId=3776836",
+      "city": "臺中市",
       "location_id": "loc_nantun"
     },
     {
@@ -1620,6 +1653,7 @@
       "open_date": "",
       "update_date": "",
       "source_url": "https://www.animal.taichung.gov.tw/1521490/animalCp?nodeId=3767313",
+      "city": "臺中市",
       "location_id": "loc_nantun"
     },
     {
@@ -1638,6 +1672,7 @@
       "open_date": "",
       "update_date": "",
       "source_url": "https://www.animal.taichung.gov.tw/1521490/animalCp?nodeId=3769136",
+      "city": "臺中市",
       "location_id": "loc_nantun"
     },
     {
@@ -1656,6 +1691,7 @@
       "open_date": "",
       "update_date": "",
       "source_url": "https://www.animal.taichung.gov.tw/1521490/animalCp?nodeId=3774578",
+      "city": "臺中市",
       "location_id": "loc_台中市西屯區西屯路三段92_1號"
     },
     {
@@ -1674,6 +1710,7 @@
       "open_date": "",
       "update_date": "",
       "source_url": "https://www.animal.taichung.gov.tw/1521490/animalCp?nodeId=3746672",
+      "city": "臺中市",
       "location_id": "loc_houli"
     },
     {
@@ -1692,6 +1729,7 @@
       "open_date": "",
       "update_date": "",
       "source_url": "https://www.animal.taichung.gov.tw/1521490/animalCp?nodeId=3761869",
+      "city": "臺中市",
       "location_id": "loc_nantun"
     },
     {
@@ -1710,6 +1748,7 @@
       "open_date": "",
       "update_date": "",
       "source_url": "https://www.animal.taichung.gov.tw/1521490/animalCp?nodeId=3721618",
+      "city": "臺中市",
       "location_id": "loc_houli"
     },
     {
@@ -1728,6 +1767,7 @@
       "open_date": "",
       "update_date": "",
       "source_url": "https://www.animal.taichung.gov.tw/1521490/animalCp?nodeId=3755247",
+      "city": "臺中市",
       "location_id": "loc_nantun"
     },
     {
@@ -1746,6 +1786,7 @@
       "open_date": "",
       "update_date": "",
       "source_url": "https://www.animal.taichung.gov.tw/1521490/animalCp?nodeId=3734325",
+      "city": "臺中市",
       "location_id": "loc_houli"
     },
     {
@@ -1764,6 +1805,7 @@
       "open_date": "",
       "update_date": "",
       "source_url": "https://www.animal.taichung.gov.tw/1521490/animalCp?nodeId=3737886",
+      "city": "臺中市",
       "location_id": "loc_nantun"
     },
     {
@@ -1782,6 +1824,7 @@
       "open_date": "",
       "update_date": "",
       "source_url": "https://www.animal.taichung.gov.tw/1521490/animalCp?nodeId=3738526",
+      "city": "臺中市",
       "location_id": "loc_houli"
     },
     {
@@ -1800,6 +1843,7 @@
       "open_date": "",
       "update_date": "",
       "source_url": "https://www.animal.taichung.gov.tw/1521490/animalCp?nodeId=3732253",
+      "city": "臺中市",
       "location_id": "loc_nantun"
     },
     {
@@ -1818,6 +1862,7 @@
       "open_date": "",
       "update_date": "",
       "source_url": "https://www.animal.taichung.gov.tw/1521490/animalCp?nodeId=3726673",
+      "city": "臺中市",
       "location_id": "loc_nantun"
     },
     {
@@ -1836,6 +1881,7 @@
       "open_date": "",
       "update_date": "",
       "source_url": "https://www.animal.taichung.gov.tw/1521490/animalCp?nodeId=3722692",
+      "city": "臺中市",
       "location_id": "loc_nantun"
     },
     {
@@ -1854,6 +1900,7 @@
       "open_date": "",
       "update_date": "",
       "source_url": "https://www.animal.taichung.gov.tw/1521490/animalCp?nodeId=3723303",
+      "city": "臺中市",
       "location_id": "loc_nantun"
     },
     {
@@ -1872,6 +1919,7 @@
       "open_date": "",
       "update_date": "",
       "source_url": "https://www.animal.taichung.gov.tw/1521490/animalCp?nodeId=3711486",
+      "city": "臺中市",
       "location_id": "loc_houli"
     },
     {
@@ -1890,6 +1938,7 @@
       "open_date": "",
       "update_date": "",
       "source_url": "https://www.animal.taichung.gov.tw/1521490/animalCp?nodeId=3717179",
+      "city": "臺中市",
       "location_id": "loc_nantun"
     },
     {
@@ -1908,6 +1957,7 @@
       "open_date": "",
       "update_date": "",
       "source_url": "https://www.animal.taichung.gov.tw/1521490/animalCp?nodeId=3717169",
+      "city": "臺中市",
       "location_id": "loc_nantun"
     },
     {
@@ -1926,6 +1976,7 @@
       "open_date": "",
       "update_date": "",
       "source_url": "https://www.animal.taichung.gov.tw/1521490/animalCp?nodeId=3647240",
+      "city": "臺中市",
       "location_id": "loc_nantun"
     },
     {
@@ -1944,6 +1995,7 @@
       "open_date": "",
       "update_date": "",
       "source_url": "https://www.animal.taichung.gov.tw/1521490/animalCp?nodeId=3704657",
+      "city": "臺中市",
       "location_id": "loc_nantun"
     },
     {
@@ -1962,6 +2014,7 @@
       "open_date": "",
       "update_date": "",
       "source_url": "https://www.animal.taichung.gov.tw/1521490/animalCp?nodeId=3713822",
+      "city": "臺中市",
       "location_id": "loc_nantun"
     },
     {
@@ -1980,6 +2033,7 @@
       "open_date": "",
       "update_date": "",
       "source_url": "https://www.animal.taichung.gov.tw/1521490/animalCp?nodeId=3695875",
+      "city": "臺中市",
       "location_id": "loc_houli"
     },
     {
@@ -1998,6 +2052,7 @@
       "open_date": "",
       "update_date": "",
       "source_url": "https://www.animal.taichung.gov.tw/1521490/animalCp?nodeId=3686518",
+      "city": "臺中市",
       "location_id": "loc_nantun"
     },
     {
@@ -2016,6 +2071,7 @@
       "open_date": "",
       "update_date": "",
       "source_url": "https://www.animal.taichung.gov.tw/1521490/animalCp?nodeId=3682309",
+      "city": "臺中市",
       "location_id": "loc_nantun"
     },
     {
@@ -2034,6 +2090,7 @@
       "open_date": "",
       "update_date": "",
       "source_url": "https://www.animal.taichung.gov.tw/1521490/animalCp?nodeId=3665306",
+      "city": "臺中市",
       "location_id": "loc_nantun"
     },
     {
@@ -2052,6 +2109,7 @@
       "open_date": "",
       "update_date": "",
       "source_url": "https://www.animal.taichung.gov.tw/1521490/animalCp?nodeId=3651281",
+      "city": "臺中市",
       "location_id": "loc_nantun"
     },
     {
@@ -2070,6 +2128,7 @@
       "open_date": "",
       "update_date": "",
       "source_url": "https://www.animal.taichung.gov.tw/1521490/animalCp?nodeId=3660371",
+      "city": "臺中市",
       "location_id": "loc_houli"
     },
     {
@@ -2088,6 +2147,7 @@
       "open_date": "",
       "update_date": "",
       "source_url": "https://www.animal.taichung.gov.tw/1521490/animalCp?nodeId=3658022",
+      "city": "臺中市",
       "location_id": "loc_nantun"
     },
     {
@@ -2106,6 +2166,7 @@
       "open_date": "",
       "update_date": "",
       "source_url": "https://www.animal.taichung.gov.tw/1521490/animalCp?nodeId=3634580",
+      "city": "臺中市",
       "location_id": "loc_nantun"
     },
     {
@@ -2124,6 +2185,7 @@
       "open_date": "",
       "update_date": "",
       "source_url": "https://www.animal.taichung.gov.tw/1521490/animalCp?nodeId=3643893",
+      "city": "臺中市",
       "location_id": "loc_nantun"
     },
     {
@@ -2142,6 +2204,7 @@
       "open_date": "",
       "update_date": "",
       "source_url": "https://www.animal.taichung.gov.tw/1521490/animalCp?nodeId=3586654",
+      "city": "臺中市",
       "location_id": "loc_houli"
     },
     {
@@ -2160,6 +2223,7 @@
       "open_date": "",
       "update_date": "",
       "source_url": "https://www.animal.taichung.gov.tw/1521490/animalCp?nodeId=3570048",
+      "city": "臺中市",
       "location_id": "loc_nantun"
     },
     {
@@ -2178,6 +2242,7 @@
       "open_date": "",
       "update_date": "",
       "source_url": "https://www.animal.taichung.gov.tw/1521490/animalCp?nodeId=3551098",
+      "city": "臺中市",
       "location_id": "loc_nantun"
     },
     {
@@ -2196,6 +2261,7 @@
       "open_date": "",
       "update_date": "",
       "source_url": "https://www.animal.taichung.gov.tw/1521490/animalCp?nodeId=3550929",
+      "city": "臺中市",
       "location_id": "loc_nantun"
     },
     {
@@ -2214,6 +2280,7 @@
       "open_date": "",
       "update_date": "",
       "source_url": "https://www.animal.taichung.gov.tw/1521490/animalCp?nodeId=3531887",
+      "city": "臺中市",
       "location_id": "loc_nantun"
     },
     {
@@ -2232,6 +2299,7 @@
       "open_date": "",
       "update_date": "",
       "source_url": "https://www.animal.taichung.gov.tw/1521490/animalCp?nodeId=3540146",
+      "city": "臺中市",
       "location_id": "loc_nantun"
     },
     {
@@ -2250,6 +2318,7 @@
       "open_date": "",
       "update_date": "",
       "source_url": "https://www.animal.taichung.gov.tw/1521490/animalCp?nodeId=3539335",
+      "city": "臺中市",
       "location_id": "loc_nantun"
     },
     {
@@ -2268,6 +2337,7 @@
       "open_date": "",
       "update_date": "",
       "source_url": "https://www.animal.taichung.gov.tw/1521490/animalCp?nodeId=3535226",
+      "city": "臺中市",
       "location_id": "loc_nantun"
     },
     {
@@ -2286,6 +2356,7 @@
       "open_date": "",
       "update_date": "",
       "source_url": "https://www.animal.taichung.gov.tw/1521490/animalCp?nodeId=3525554",
+      "city": "臺中市",
       "location_id": "loc_nantun"
     },
     {
@@ -2304,6 +2375,7 @@
       "open_date": "",
       "update_date": "",
       "source_url": "https://www.animal.taichung.gov.tw/1521490/animalCp?nodeId=3532718",
+      "city": "臺中市",
       "location_id": "loc_nantun"
     },
     {
@@ -2322,6 +2394,7 @@
       "open_date": "",
       "update_date": "",
       "source_url": "https://www.animal.taichung.gov.tw/1521490/animalCp?nodeId=3525277",
+      "city": "臺中市",
       "location_id": "loc_nantun"
     },
     {
@@ -2340,6 +2413,7 @@
       "open_date": "",
       "update_date": "",
       "source_url": "https://www.animal.taichung.gov.tw/1521490/animalCp?nodeId=3518304",
+      "city": "臺中市",
       "location_id": "loc_nantun"
     },
     {
@@ -2358,6 +2432,7 @@
       "open_date": "",
       "update_date": "",
       "source_url": "https://www.animal.taichung.gov.tw/1521490/animalCp?nodeId=3506242",
+      "city": "臺中市",
       "location_id": "loc_nantun"
     },
     {
@@ -2376,6 +2451,7 @@
       "open_date": "",
       "update_date": "",
       "source_url": "https://www.animal.taichung.gov.tw/1521490/animalCp?nodeId=3501613",
+      "city": "臺中市",
       "location_id": "loc_nantun"
     },
     {
@@ -2394,6 +2470,7 @@
       "open_date": "",
       "update_date": "",
       "source_url": "https://www.animal.taichung.gov.tw/1521490/animalCp?nodeId=3503452",
+      "city": "臺中市",
       "location_id": "loc_nantun"
     },
     {
@@ -2412,6 +2489,7 @@
       "open_date": "",
       "update_date": "",
       "source_url": "https://www.animal.taichung.gov.tw/1521490/animalCp?nodeId=3501092",
+      "city": "臺中市",
       "location_id": "loc_nantun"
     },
     {
@@ -2430,6 +2508,7 @@
       "open_date": "",
       "update_date": "",
       "source_url": "https://www.animal.taichung.gov.tw/1521490/animalCp?nodeId=3435697",
+      "city": "臺中市",
       "location_id": "loc_houli"
     },
     {
@@ -2448,6 +2527,7 @@
       "open_date": "",
       "update_date": "",
       "source_url": "https://www.animal.taichung.gov.tw/1521490/animalCp?nodeId=3444382",
+      "city": "臺中市",
       "location_id": "loc_nantun"
     },
     {
@@ -2466,6 +2546,7 @@
       "open_date": "",
       "update_date": "",
       "source_url": "https://www.animal.taichung.gov.tw/1521490/animalCp?nodeId=3444200",
+      "city": "臺中市",
       "location_id": "loc_nantun"
     },
     {
@@ -2484,6 +2565,7 @@
       "open_date": "",
       "update_date": "",
       "source_url": "https://www.animal.taichung.gov.tw/1521490/animalCp?nodeId=3346554",
+      "city": "臺中市",
       "location_id": "loc_nantun"
     },
     {
@@ -2502,6 +2584,7 @@
       "open_date": "",
       "update_date": "",
       "source_url": "https://www.animal.taichung.gov.tw/1521490/animalCp?nodeId=3293699",
+      "city": "臺中市",
       "location_id": "loc_houli"
     },
     {
@@ -2520,6 +2603,7 @@
       "open_date": "",
       "update_date": "",
       "source_url": "https://www.animal.taichung.gov.tw/1521490/animalCp?nodeId=3142596",
+      "city": "臺中市",
       "location_id": "loc_houli"
     },
     {
@@ -2538,6 +2622,7 @@
       "open_date": "",
       "update_date": "",
       "source_url": "https://www.animal.taichung.gov.tw/1521490/animalCp?nodeId=3016090",
+      "city": "臺中市",
       "location_id": "loc_houli"
     },
     {
@@ -2556,6 +2641,7 @@
       "open_date": "",
       "update_date": "",
       "source_url": "https://www.animal.taichung.gov.tw/1521490/animalCp?nodeId=2819902",
+      "city": "臺中市",
       "location_id": "loc_nantun"
     },
     {
@@ -2574,6 +2660,7 @@
       "open_date": "",
       "update_date": "",
       "source_url": "https://www.animal.taichung.gov.tw/1521490/animalCp?nodeId=2785390",
+      "city": "臺中市",
       "location_id": "loc_houli"
     },
     {
@@ -2592,6 +2679,7 @@
       "open_date": "",
       "update_date": "",
       "source_url": "https://www.animal.taichung.gov.tw/1521490/animalCp?nodeId=2723885",
+      "city": "臺中市",
       "location_id": "loc_houli"
     },
     {
@@ -2610,6 +2698,7 @@
       "open_date": "",
       "update_date": "",
       "source_url": "https://www.animal.taichung.gov.tw/1521490/animalCp?nodeId=2599131",
+      "city": "臺中市",
       "location_id": "loc_nantun"
     },
     {
@@ -2628,6 +2717,7 @@
       "open_date": "",
       "update_date": "",
       "source_url": "https://www.animal.taichung.gov.tw/1521490/animalCp?nodeId=2545921",
+      "city": "臺中市",
       "location_id": "loc_nantun"
     },
     {
@@ -2646,6 +2736,7 @@
       "open_date": "",
       "update_date": "",
       "source_url": "https://www.animal.taichung.gov.tw/1521490/animalCp?nodeId=2514124",
+      "city": "臺中市",
       "location_id": "loc_nantun"
     },
     {
@@ -2664,6 +2755,7 @@
       "open_date": "",
       "update_date": "",
       "source_url": "https://www.animal.taichung.gov.tw/1521490/animalCp?nodeId=2321388",
+      "city": "臺中市",
       "location_id": "loc_台中市太平區山田路26巷5號"
     },
     {
@@ -2682,6 +2774,7 @@
       "open_date": "",
       "update_date": "",
       "source_url": "https://www.animal.taichung.gov.tw/1521490/animalCp?nodeId=1732983",
+      "city": "臺中市",
       "location_id": "loc_houli"
     }
   ]

@@ -12,6 +12,7 @@ import { useAnimals, ALL_CITIES } from './composables/useAnimals.js'
 const {
   loading,
   error,
+  noData,
   updatedAt,
   currentCity,
   filterKind,
@@ -149,6 +150,14 @@ function formatDate(isoStr) {
       <div class="text-center text-red-600">
         <div class="text-4xl mb-2">⚠️</div>
         <div class="text-sm">{{ error }}</div>
+      </div>
+    </div>
+
+    <!-- No data overlay (shows map underneath) -->
+    <div v-if="noData && !loading" class="absolute top-[44px] inset-x-0 z-[999] flex justify-center pointer-events-none">
+      <div class="mt-6 flex items-center gap-2 bg-white/90 backdrop-blur-sm text-gray-500 text-sm px-4 py-2.5 rounded-xl shadow-md">
+        <span>😔</span>
+        <span>{{ currentCity }} 目前尚無領養資料</span>
       </div>
     </div>
 
