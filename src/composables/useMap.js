@@ -1,7 +1,6 @@
 // src/composables/useMap.js
 import L from 'leaflet'
 import { CITY_CENTERS } from './useAnimals.js'
-import 'leaflet.markercluster'
 import 'leaflet.markercluster/dist/MarkerCluster.css'
 import 'leaflet.markercluster/dist/MarkerCluster.Default.css'
 
