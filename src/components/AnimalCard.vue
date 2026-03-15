@@ -257,8 +257,7 @@ const photoBg = computed(() => {
       <!-- Name + counter -->
       <div class="flex items-start justify-between gap-2 mb-2.5">
         <div class="min-w-0">
-          <h3 class="font-bold text-gray-900 text-base leading-tight">{{ displayName }}</h3>
-          <div class="text-xs text-gray-400 mt-0.5 truncate">{{ location.name }}</div>
+          <h3 class="font-semibold text-gray-800 text-sm leading-tight truncate">{{ location.name }}</h3>
         </div>
         <span v-if="total > 1" class="flex-shrink-0 text-xs text-gray-400 bg-gray-100 rounded-full px-2 py-0.5 mt-0.5 tabular-nums">
           {{ currentIndex + 1 }}&thinsp;/&thinsp;{{ total }}
