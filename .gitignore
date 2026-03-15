@@ -41,3 +41,6 @@ scripts/public/
 
 # Git worktrees
 .worktrees/
+
+# Superpowers brainstorm files
+.superpowers/

@@ -1,5 +1,6 @@
 // src/composables/useMap.js
 import L from 'leaflet'
+import { CITY_CENTERS } from './useAnimals.js'
 import 'leaflet.markercluster'
 import 'leaflet.markercluster/dist/MarkerCluster.css'
 import 'leaflet.markercluster/dist/MarkerCluster.Default.css'
@@ -124,6 +125,13 @@ export function useMap() {
     map?.flyTo([lat, lng], zoom)
   }
 
+  function flyToCity(city) {
+    const center = CITY_CENTERS[city]
+    if (center && map) {
+      map.flyTo([center.lat, center.lng], center.zoom, { duration: 1.2 })
+    }
+  }
+
   function invalidateSize() {
     map?.invalidateSize()
   }
@@ -173,5 +181,5 @@ export function useMap() {
     )
   }
 
-  return { initMap, updateMarkers, flyTo, invalidateSize, locateUser }
+  return { initMap, updateMarkers, flyTo, flyToCity, invalidateSize, locateUser }
 }

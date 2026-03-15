@@ -11,7 +11,7 @@ const props = defineProps({
 })
 
 const emit = defineEmits(['locationClick', 'locationHover'])
-const { initMap, updateMarkers, locateUser } = useMap()
+const { initMap, updateMarkers, flyToCity, locateUser } = useMap()
 
 // Locate button state
 const locating = ref(false)
@@ -52,6 +52,8 @@ function handleLocate() {
     }
   )
 }
+
+defineExpose({ flyToCity })
 </script>
 
 <template>

@@ -1,6 +1,6 @@
 # scripts/fetch_animals.py
 """
-從農業部動物認領養 Open Data API 抓取台中市待領養動物資料。
+從農業部動物認領養 Open Data API 抓取全台待領養動物資料。
 """
 
 import re
@@ -11,23 +11,25 @@ from config import (
     MOA_API_URL,
     MOA_UNIT_ID,
     MOA_PAGE_SIZE,
-    TAICHUNG_KEYWORDS,
     KNOWN_LOCATIONS,
+    ALL_CITIES,
 )
 
 
-def _is_taichung(record: dict) -> bool:
-    """判斷此動物是否屬於台中市。"""
+def _extract_city(record: dict) -> str:
+    """從農業部 API 記錄中提取縣市名稱（回傳 ALL_CITIES 中的標準名稱）。"""
     fields = [
         record.get("animal_place", ""),
         record.get("shelter_name", ""),
         record.get("shelter_address", ""),
     ]
-    return any(
-        kw in field
-        for field in fields
-        for kw in TAICHUNG_KEYWORDS
-    )
+    for field in fields:
+        normalized_field = field.replace("台", "臺")
+        for city in ALL_CITIES:
+            normalized_city = city.replace("台", "臺")
+            if normalized_city in normalized_field:
+                return city
+    return ""
 
 
 def _map_sex(raw: str) -> str:
@@ -71,17 +73,6 @@ def _map_kind(raw: str) -> str:
     return "dog"
 
 
-def _extract_shelter_key(record: dict) -> str:
-    """
-    回傳對應 KNOWN_LOCATIONS 的 key（收容所名稱），
-    或從 shelter_name 組出地址字串供 geocoding 使用。
-    """
-    shelter_name = record.get("shelter_name", "").strip()
-    if shelter_name in KNOWN_LOCATIONS:
-        return shelter_name
-    return shelter_name
-
-
 def parse_remark_location(remark: str, shelter_zone: str) -> dict | None:
     """
     依據「所在園區」欄位值與備註內容，解析地點資訊。
@@ -98,15 +89,17 @@ def parse_remark_location(remark: str, shelter_zone: str) -> dict | None:
         return None
 
     # 益起認養吧：備註末尾有完整地址
-    # 格式：我在區域"店名"等待...電話：XXXX 台中市XX區...
+    # 格式：我在區域"店名"等待...電話：XXXX XX市XX區...
     if shelter_zone == "益起認養吧":
         phone_match = re.search(r"電話[：:]([\d\-]+)", remark)
         phone = phone_match.group(1).strip() if phone_match else ""
-        # 店名在引號內
         name_match = re.search(r'["\u201c\u300c](.*?)["\u201d\u300d]', remark)
         name = name_match.group(1).strip() if name_match else ""
-        # 完整地址在電話後，格式為 台中市...
-        addr_match = re.search(r"((?:台中市|臺中市)[^\s]+(?:路|街|道|巷|弄|號)[^\s]*)", remark)
+        # Match any city/county address (not just Taichung)
+        addr_match = re.search(
+            r"((?:[\u4e00-\u9fff]{2}市|[\u4e00-\u9fff]{2}縣)[^\s]+(?:路|街|道|巷|弄|號)[^\s]*)",
+            remark
+        )
         address = addr_match.group(1).strip() if addr_match else ""
         return {"type": "yiqi", "name": name, "address": address, "phone": phone}
 
@@ -115,10 +108,8 @@ def parse_remark_location(remark: str, shelter_zone: str) -> dict | None:
     if shelter_zone == "中途動物醫院":
         phone_match = re.search(r"電話[：:]([\d\-]+)", remark)
         phone = phone_match.group(1).strip() if phone_match else ""
-        # 店名在引號內（含前後空白）
         name_match = re.search(r'["\u201c\u300c]\s*(.*?)\s*["\u201d\u300d]', remark)
         if name_match:
-            # 格式通常是 "區域 店名"，取最後一個詞（店名）
             name_parts = name_match.group(1).strip().split()
             name = "".join(name_parts[1:]) if len(name_parts) > 1 else name_match.group(1).strip()
         else:
@@ -128,9 +119,10 @@ def parse_remark_location(remark: str, shelter_zone: str) -> dict | None:
     return None
 
 
-def fetch_animals() -> list[dict]:
+def fetch_animals(city_filter: str | None = None) -> list[dict]:
     """
-    分頁抓取農業部 API，回傳台中市動物的標準化 list。
+    分頁抓取農業部 API，回傳所有（或指定縣市）待領養動物的標準化 list。
+    city_filter: 若為 None 則回傳全台；否則只回傳符合縣市的資料。
     """
     all_records = []
     skip = 0
@@ -145,22 +137,20 @@ def fetch_animals() -> list[dict]:
         resp = requests.get(MOA_API_URL, params=params, timeout=30, verify=False)
         resp.raise_for_status()
         batch = resp.json()
-
         if not batch:
             break
-
         all_records.extend(batch)
         print(f"  已取得 {len(all_records)} 筆（本次 {len(batch)} 筆）")
-
         if len(batch) < MOA_PAGE_SIZE:
             break
         skip += MOA_PAGE_SIZE
 
-    print(f"農業部 API 總計 {len(all_records)} 筆，篩選台中市中...")
+    print(f"農業部 API 總計 {len(all_records)} 筆")
 
     animals = []
     for rec in all_records:
-        if not _is_taichung(rec):
+        city = _extract_city(rec)
+        if city_filter and city != city_filter:
             continue
 
         animal_id = f"GOV-{rec.get('animal_id', '')}"
@@ -168,9 +158,7 @@ def fetch_animals() -> list[dict]:
         shelter_address = rec.get("shelter_address", "").strip()
         remark = rec.get("animal_remark", "") or ""
 
-        # 依據所在園區與備註解析來源類型
         shelter_zone = rec.get("animal_place", "").strip()
-        # animal_place 格式為「臺中市動物之家南屯園區」，取最後部分
         for zone_suffix in ("南屯園區", "后里園區", "中途動物醫院", "益起認養吧"):
             if shelter_zone.endswith(zone_suffix):
                 shelter_zone = zone_suffix
@@ -178,20 +166,12 @@ def fetch_animals() -> list[dict]:
 
         parsed = parse_remark_location(remark, shelter_zone)
 
-        # 決定地址欄位（供 geocoding 使用）
-        # 注意：shelter_zone 來自 animal_place（用於辨識來源類型）
-        #        shelter_name 來自 shelter_name 欄位（用於查詢 KNOWN_LOCATIONS，包含完整名稱如「臺中市動物之家南屯園區」）
         if shelter_name in KNOWN_LOCATIONS:
             geo_address = shelter_name
             location_type = "shelter"
         elif parsed:
             location_type = parsed["type"]
-            if parsed["address"]:
-                geo_address = parsed["address"]
-            elif parsed["name"]:
-                geo_address = parsed["name"]
-            else:
-                geo_address = shelter_address or shelter_name
+            geo_address = parsed["address"] or parsed["name"] or shelter_address or shelter_name
         else:
             geo_address = shelter_address or shelter_name
             location_type = "shelter"
@@ -211,7 +191,7 @@ def fetch_animals() -> list[dict]:
             "remark": remark,
             "open_date": _fmt_date(rec.get("animal_opendate", "")),
             "update_date": _fmt_date(rec.get("animal_update", "")),
-            # 以下欄位供 build_data.py 組合地點時使用，不進入最終 JSON
+            "city": city,
             "_shelter_name": (parsed["name"] if parsed and parsed["name"] else shelter_name),
             "_shelter_address": (parsed["address"] if parsed and parsed["address"] else shelter_address),
             "_shelter_phone": (parsed["phone"] if parsed and parsed["phone"] else rec.get("shelter_tel", "") or ""),
@@ -220,15 +200,11 @@ def fetch_animals() -> list[dict]:
             "source_url": f"https://www.pet.gov.tw/Web/L315.aspx?no={rec.get('animal_id', '')}",
         })
 
-    print(f"台中市動物 {len(animals)} 筆")
+    print(f"符合條件動物 {len(animals)} 筆")
     return animals
 
 
 def _fmt_date(raw: str) -> str:
-    """
-    把 '2026/03/13' 或 '2026-03-13' 格式統一為 'YYYY-MM-DD'，
-    無法解析則回傳空字串。
-    """
     if not raw:
         return ""
     raw = raw.strip().split(" ")[0].split("T")[0]
