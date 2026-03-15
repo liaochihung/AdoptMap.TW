@@ -45,7 +45,7 @@ FilterBar.vue
 **Popover dismiss:**
 - Click the trigger button again
 - Click anywhere outside the popover (implemented via `document.addEventListener('pointerdown', handler, true)` in capture phase, registered on open and removed on close / `onUnmounted`)
-- Press Escape — handled inside `TaiwanCityPicker` with `event.stopPropagation()` so it does not bubble to `App.vue`'s global Escape handler (which closes `AnimalCard`)
+- Press Escape — `TaiwanCityPicker` registers a `keydown` listener on its own root element (not `window`), so it fires before `App.vue`'s `window`-level Escape handler in the bubble chain; call `event.stopPropagation()` to prevent the event reaching `window` and accidentally closing `AnimalCard`
 
 **Popover** — appears below the trigger button, `position: fixed`, `z-index: 1001` (above FilterBar's `z-[1000]`). Contains:
 1. The SVG map of Taiwan mainland counties/cities (19 paths)
@@ -62,7 +62,8 @@ Total cities: 22 縣市 + 全台灣 = 23 items (matching `Object.keys(CITY_CENTE
   - Default: `fill: #e5e7eb` (gray-200), `stroke: #fff`, `stroke-width: 0.5`
   - Hover: `fill: #93c5fd` (blue-300)
   - Selected (matches `currentCity`): `fill: #2563eb` (blue-600), label colour `#fff`
-- Clicking a path emits `update:currentCity` and closes the popover
+- Each path's `data-city` value must exactly match a key in `CITY_CENTERS`; clicking an unmatched path (if any) is a no-op
+- Clicking a matched path emits `update:currentCity` and closes the popover
 
 **Offshore islands row** — three pill buttons with the same hover/selected colour logic as the SVG paths.
 
@@ -90,7 +91,7 @@ Taiwan county outline SVG path data taken from the `twgeojson` open-source proje
 |------|--------|
 | `src/components/TaiwanCityPicker.vue` | **New** — SVG picker component |
 | `src/components/FilterBar.vue` | Replace `<select>` with `<TaiwanCityPicker>`; remove `allCities` prop |
-| `src/App.vue` | Remove `:all-cities="ALL_CITIES"` binding from `<FilterBar>` |
+| `src/App.vue` | Remove `:all-cities="ALL_CITIES"` binding from `<FilterBar>`; remove `ALL_CITIES` from the named import on line 10 |
 
 `useAnimals.js` and all other files are unchanged.
 
