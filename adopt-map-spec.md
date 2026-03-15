@@ -796,3 +796,4 @@ claude
 - Vite 文件：https://vitejs.dev/guide/
 - Tailwind CSS：https://tailwindcss.com/docs
 - Leaflet.markercluster：https://github.com/Leaflet/Leaflet.markercluster
+- 全國動物收容管理系統：https://www.pet.gov.tw/AnimalApp/AnnounceMent.aspx?PageType=Adopt
