@@ -87,7 +87,6 @@ const panelStyle = computed(() => {
   if (!props.position) return {}
 
   const vw = window.innerWidth
-  const vh = window.innerHeight
 
   // Absolute Y of the marker center in the viewport
   const markerAbsY = props.position.y + props.mapTopOffset
@@ -120,7 +119,7 @@ const typeLabel = {
 const typeColor = {
   shelter:    '#1d4ed8',
   vet_transit:'#15803d',
-  yiqi:       '#6d28d9',
+  yiqi:       '#d97706',
   // bulletin:   '#c2410c',
 }
 

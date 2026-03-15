@@ -7,7 +7,7 @@ const collapsed = ref(false)
 const items = [
   { color: '#1d4ed8', label: '公立收容所' },
   { color: '#15803d', label: '中途動物醫院' },
-  { color: '#6d28d9', label: '益起認養吧' },
+  { color: '#d97706', label: '益起認養吧' },
   // { color: '#c2410c', label: '民眾送養' },
 ]
 </script>

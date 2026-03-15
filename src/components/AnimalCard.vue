@@ -101,12 +101,12 @@ const typeLabel = {
 const typeBadge = {
   shelter:    'bg-blue-100 text-blue-700 border-blue-200',
   vet_transit:'bg-green-100 text-green-700 border-green-200',
-  yiqi:       'bg-purple-100 text-purple-700 border-purple-200',
+  yiqi:       'bg-amber-100 text-amber-700 border-amber-200',
 }
 const typeAccent = {
   shelter:    '#1d4ed8',
   vet_transit:'#15803d',
-  yiqi:       '#6d28d9',
+  yiqi:       '#d97706',
 }
 
 const kindEmoji = computed(() => currentAnimal.value?.kind === 'cat' ? '🐱' : '🐶')
@@ -307,7 +307,7 @@ const photoBg = computed(() => {
       <div v-if="currentAnimal.remark" class="mb-2.5 bg-gray-50 rounded-lg px-2.5 py-2">
         <p class="text-xs text-gray-500 leading-relaxed">{{ displayRemark }}<button
           v-if="remarkNeedsExpand"
-          class="ml-1 text-blue-500 hover:text-blue-700 font-medium transition-colors"
+          class="ml-1 text-orange-500 hover:text-orange-700 font-medium transition-colors"
           @click.stop="remarkExpanded = !remarkExpanded"
         >{{ remarkExpanded ? '收起' : '展開' }}</button></p>
       </div>
@@ -317,7 +317,7 @@ const photoBg = computed(() => {
         <a
           v-if="currentAnimal.contact_phone || location.phone"
           :href="`tel:${currentAnimal.contact_phone || location.phone}`"
-          class="inline-flex items-center gap-1 text-xs text-gray-500 hover:text-blue-600 transition-colors"
+          class="inline-flex items-center gap-1 text-xs text-gray-500 hover:text-orange-600 transition-colors"
         >
           <svg xmlns="http://www.w3.org/2000/svg" class="w-3.5 h-3.5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
             <path stroke-linecap="round" stroke-linejoin="round" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"/>
@@ -329,7 +329,7 @@ const photoBg = computed(() => {
           :href="currentAnimal.source_url"
           target="_blank"
           rel="noopener noreferrer"
-          class="inline-flex items-center gap-1 text-xs text-blue-600 hover:text-blue-700 font-medium ml-auto transition-colors"
+          class="inline-flex items-center gap-1 text-xs text-orange-600 hover:text-orange-700 font-medium ml-auto transition-colors"
         >
           查看詳情
           <svg xmlns="http://www.w3.org/2000/svg" class="w-3 h-3" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">

@@ -8,7 +8,7 @@ import 'leaflet.markercluster/dist/MarkerCluster.Default.css'
 const TYPE_COLORS = {
   shelter: '#1d4ed8',      // blue-700
   vet_transit: '#15803d',  // green-700
-  yiqi: '#6d28d9',         // violet-700
+  yiqi: '#d97706',         // amber-600
   bulletin: '#c2410c',     // orange-700
 }
 
@@ -66,18 +66,19 @@ export function useMap() {
     if (cat > 0 && dog === 0) emoji = '🐱'
     else if (dog > 0 && cat === 0) emoji = '🐶'
 
+    const size = 52
     const html = `
-      <div style="position:relative;width:44px;height:44px;">
+      <div style="position:relative;width:${size}px;height:${size}px;">
         <div style="
-          width:44px;height:44px;border-radius:50%;
+          width:${size}px;height:${size}px;border-radius:50%;
           background:${color};
-          border:4px solid white;
-          box-shadow:0 3px 8px rgba(0,0,0,0.45),0 1px 3px rgba(0,0,0,0.3);
+          border:3px solid white;
+          box-shadow:0 3px 10px rgba(0,0,0,0.45),0 1px 3px rgba(0,0,0,0.3);
           display:flex;align-items:center;justify-content:center;
-          font-size:20px;line-height:1;
-        ">${emoji}</div>
+          font-size:26px;line-height:1;
+        "><span style="filter:drop-shadow(0 0 4px white) drop-shadow(0 0 4px white);">${emoji}</span></div>
         <div style="
-          position:absolute;top:-6px;right:-6px;
+          position:absolute;top:-5px;right:-5px;
           background:#dc2626;color:white;
           border-radius:999px;min-width:20px;height:20px;
           display:flex;align-items:center;justify-content:center;
@@ -92,9 +93,9 @@ export function useMap() {
     return L.divIcon({
       html,
       className: '',
-      iconSize: [44, 44],
-      iconAnchor: [22, 22],
-      popupAnchor: [0, -26],
+      iconSize: [size, size],
+      iconAnchor: [size / 2, size / 2],
+      popupAnchor: [0, -30],
     })
   }
 

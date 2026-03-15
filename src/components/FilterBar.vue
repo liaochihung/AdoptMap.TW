@@ -40,7 +40,7 @@ const SOURCE_LABELS = {
   all:         '全部',
   shelter:     '🏛️ 收容所',
   vet_transit: '🏥 中途醫院',
-  yiqi:        '🟣 益起認養吧',
+  yiqi:        '🟡 益起認養吧',
 }
 
 const sourceOptions = computed(() => {
@@ -87,7 +87,7 @@ const activeSecondaryCount = computed(() => {
           :class="[
             'px-2.5 sm:px-3 py-1 rounded-full text-xs sm:text-sm font-medium transition-all',
             filterKind === opt.value
-              ? 'bg-blue-600 text-white shadow-sm scale-105'
+              ? 'bg-orange-600 text-white shadow-sm scale-105'
               : 'bg-gray-100 text-gray-600 hover:bg-gray-200 active:scale-95',
           ]"
           @click="emit('update:filterKind', opt.value)"
@@ -101,7 +101,7 @@ const activeSecondaryCount = computed(() => {
         :class="[
           'ml-auto flex items-center gap-1.5 px-2.5 py-1 rounded-lg text-xs font-medium transition-all',
           panelOpen
-            ? 'bg-blue-50 text-blue-700 border border-blue-200'
+            ? 'bg-orange-50 text-orange-700 border border-orange-200'
             : 'bg-gray-100 text-gray-600 hover:bg-gray-200',
         ]"
         @click="panelOpen = !panelOpen"
@@ -135,7 +135,7 @@ const activeSecondaryCount = computed(() => {
               :class="[
                 'px-2 py-0.5 rounded-full text-[11px] font-medium transition-all',
                 filterSource === opt.value
-                  ? 'bg-blue-600 text-white'
+                  ? 'bg-orange-600 text-white'
                   : 'bg-white text-gray-600 border border-gray-200 hover:bg-gray-100',
               ]"
               @click="emit('update:filterSource', opt.value)"
@@ -153,7 +153,7 @@ const activeSecondaryCount = computed(() => {
               :class="[
                 'px-2 py-0.5 rounded-full text-[11px] font-medium transition-all',
                 filterSex === opt.value
-                  ? 'bg-blue-600 text-white'
+                  ? 'bg-orange-600 text-white'
                   : 'bg-white text-gray-600 border border-gray-200 hover:bg-gray-100',
               ]"
               @click="emit('update:filterSex', opt.value)"
@@ -167,7 +167,7 @@ const activeSecondaryCount = computed(() => {
           <select
             :value="filterColour"
             class="text-[11px] border border-gray-200 rounded-lg px-2 py-0.5 bg-white text-gray-700
-                   focus:outline-none focus:ring-1 focus:ring-blue-400 cursor-pointer"
+                   focus:outline-none focus:ring-1 focus:ring-orange-400 cursor-pointer"
             @change="emit('update:filterColour', $event.target.value)"
           >
             <option value="all">全部</option>
