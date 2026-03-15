@@ -38,3 +38,6 @@ scripts/public/
 .env
 .env.local
 .env.*.local
+
+# Git worktrees
+.worktrees/
