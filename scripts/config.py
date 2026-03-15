@@ -40,6 +40,7 @@ TAICHUNG_KEYWORDS = ["臺中", "台中"]
 OUTPUT_DIR = "public/data"
 CACHE_DIR = "scripts/.cache"
 GEOCODE_CACHE_FILE = "scripts/.cache/geocode_cache.json"
+GEOCODE_OVERRIDES_FILE = "scripts/geocode_overrides.json"
 GEOCODE_FAILURES_LOG = "scripts/.cache/geocode_failures.log"
 
 # 來源類型常數（對應 location.type）
