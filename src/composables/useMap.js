@@ -1,11 +1,12 @@
 // src/composables/useMap.js
 import L from 'leaflet'
 
-// Color scheme per location type
+// Color scheme per location type — deeper tones for contrast against OSM basemap
 const TYPE_COLORS = {
-  shelter: '#3b82f6',      // blue
-  vet_transit: '#22c55e',  // green
-  bulletin: '#f97316',     // orange
+  shelter: '#1d4ed8',      // blue-700 (deeper than OSM water)
+  vet_transit: '#15803d',  // green-700
+  yiqi: '#6d28d9',         // violet-700
+  bulletin: '#c2410c',     // orange-700
 }
 
 export function useMap() {
@@ -22,7 +23,7 @@ export function useMap() {
   }
 
   function createCustomIcon(location) {
-    const color = TYPE_COLORS[location.type] || '#6b7280'
+    const color = TYPE_COLORS[location.type] || '#4b5563'
     const { cat, dog } = location.counts
     const total = cat + dog
 
@@ -34,38 +35,40 @@ export function useMap() {
     const html = `
       <div style="
         position: relative;
-        width: 40px;
-        height: 40px;
+        width: 44px;
+        height: 44px;
       ">
         <div style="
-          width: 40px;
-          height: 40px;
+          width: 44px;
+          height: 44px;
           border-radius: 50%;
           background: ${color};
-          border: 3px solid white;
-          box-shadow: 0 2px 6px rgba(0,0,0,0.35);
+          border: 4px solid white;
+          box-shadow: 0 3px 8px rgba(0,0,0,0.45), 0 1px 3px rgba(0,0,0,0.3);
           display: flex;
           align-items: center;
           justify-content: center;
-          font-size: 18px;
+          font-size: 20px;
           line-height: 1;
+          transition: transform 0.15s ease;
         ">${emoji}</div>
         <div style="
           position: absolute;
           top: -6px;
           right: -6px;
-          background: #ef4444;
+          background: #dc2626;
           color: white;
           border-radius: 999px;
-          min-width: 18px;
-          height: 18px;
+          min-width: 20px;
+          height: 20px;
           display: flex;
           align-items: center;
           justify-content: center;
           font-size: 11px;
-          font-weight: bold;
+          font-weight: 700;
           padding: 0 4px;
-          border: 1.5px solid white;
+          border: 2px solid white;
+          box-shadow: 0 1px 3px rgba(0,0,0,0.3);
           line-height: 1;
         ">${total}</div>
       </div>
@@ -74,13 +77,13 @@ export function useMap() {
     return L.divIcon({
       html,
       className: '',
-      iconSize: [40, 40],
-      iconAnchor: [20, 20],
-      popupAnchor: [0, -24],
+      iconSize: [44, 44],
+      iconAnchor: [22, 22],
+      popupAnchor: [0, -26],
     })
   }
 
-  function updateMarkers(locations, onMarkerClick) {
+  function updateMarkers(locations, onMarkerClick, onMarkerHover) {
     if (!markerLayer) return
     markerLayer.clearLayers()
     locations.forEach(loc => {
@@ -88,6 +91,17 @@ export function useMap() {
         icon: createCustomIcon(loc),
       })
       marker.on('click', () => onMarkerClick(loc))
+
+      if (onMarkerHover) {
+        marker.on('mouseover', () => {
+          const point = map.latLngToContainerPoint([loc.lat, loc.lng])
+          onMarkerHover(loc, { x: point.x, y: point.y })
+        })
+        marker.on('mouseout', () => {
+          onMarkerHover(null, null)
+        })
+      }
+
       markerLayer.addLayer(marker)
     })
   }

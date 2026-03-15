@@ -10,19 +10,25 @@ const props = defineProps({
   },
 })
 
-const emit = defineEmits(['locationClick'])
+const emit = defineEmits(['locationClick', 'locationHover'])
 const { initMap, updateMarkers } = useMap()
+
+function registerMarkers(locs) {
+  updateMarkers(
+    locs,
+    loc => emit('locationClick', loc),
+    (loc, pos) => emit('locationHover', loc, pos),
+  )
+}
 
 onMounted(() => {
   initMap('map-container')
-  updateMarkers(props.locations, loc => emit('locationClick', loc))
+  registerMarkers(props.locations)
 })
 
 watch(
   () => props.locations,
-  newLocs => {
-    updateMarkers(newLocs, loc => emit('locationClick', loc))
-  },
+  newLocs => registerMarkers(newLocs),
   { deep: true }
 )
 </script>

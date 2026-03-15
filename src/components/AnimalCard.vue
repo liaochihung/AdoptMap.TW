@@ -11,6 +11,10 @@ const props = defineProps({
     type: Array,
     default: () => [],
   },
+  initialIndex: {
+    type: Number,
+    default: 0,
+  },
 })
 
 const emit = defineEmits(['close'])
@@ -31,8 +35,11 @@ function next() {
   if (currentIndex.value < locationAnimals.value.length - 1) currentIndex.value++
 }
 
-// Reset page when location changes
-watch(() => props.location?.id, () => { currentIndex.value = 0 })
+// Reset to initialIndex when location or initialIndex changes
+watch(
+  [() => props.location?.id, () => props.initialIndex],
+  () => { currentIndex.value = props.initialIndex ?? 0 },
+)
 
 const sexLabel = { M: '♂ 公', F: '♀ 母', N: '未知' }
 const ageLabel = { adult: '成年', child: '幼年' }
@@ -42,54 +49,58 @@ const typeLabel = {
   shelter: '公立收容所',
   vet_transit: '中途動物醫院',
   yiqi: '益起認養吧',
-  bulletin: '民眾送養',
+  // bulletin: '民眾送養',
 }
 
 const typeColor = {
   shelter: 'bg-blue-100 text-blue-700',
   vet_transit: 'bg-green-100 text-green-700',
   yiqi: 'bg-purple-100 text-purple-700',
-  bulletin: 'bg-orange-100 text-orange-700',
+  // bulletin: 'bg-orange-100 text-orange-700',
 }
 </script>
 
 <template>
+  <Transition name="card-slide">
   <div
     v-if="location"
-    class="absolute bottom-6 right-4 z-[1000] w-72 bg-white rounded-xl shadow-2xl overflow-hidden"
+    class="absolute bottom-6 right-4 z-[1000] w-72 bg-white rounded-2xl shadow-2xl overflow-hidden"
+    style="box-shadow: 0 8px 32px rgba(0,0,0,0.18), 0 2px 8px rgba(0,0,0,0.1);"
   >
     <!-- Header: location info -->
-    <div class="flex items-start justify-between px-4 pt-3 pb-2 bg-gray-50 border-b">
+    <div class="flex items-start justify-between px-4 pt-3 pb-2 bg-white border-b border-gray-100">
       <div class="flex-1 min-w-0">
-        <div class="font-semibold text-gray-800 text-sm leading-tight truncate">{{ location.name }}</div>
-        <div class="text-xs text-gray-500 mt-0.5 truncate">{{ location.address }}</div>
+        <div class="flex items-center gap-1.5 mb-0.5">
+          <span :class="['text-xs px-2 py-0.5 rounded-full font-medium', typeColor[location.type] || 'bg-gray-100 text-gray-600']">
+            {{ typeLabel[location.type] || location.type }}
+          </span>
+        </div>
+        <div class="font-semibold text-gray-900 text-sm leading-tight truncate">{{ location.name }}</div>
+        <div class="text-xs text-gray-400 mt-0.5 truncate">{{ location.address }}</div>
       </div>
       <button
-        class="ml-2 text-gray-400 hover:text-gray-600 text-lg leading-none flex-shrink-0"
+        class="ml-2 w-6 h-6 flex items-center justify-center rounded-full text-gray-400 hover:text-gray-600 hover:bg-gray-100 transition-colors flex-shrink-0"
         @click="emit('close')"
       >✕</button>
     </div>
 
     <!-- Animal info -->
     <div v-if="currentAnimal" class="px-4 py-3">
-      <!-- Photo placeholder -->
-      <div class="w-full h-28 bg-gray-100 rounded-lg flex items-center justify-center mb-3 overflow-hidden">
+      <!-- Photo -->
+      <div class="w-full h-72 bg-gray-100 rounded-xl flex items-center justify-center mb-3 overflow-hidden">
         <img
           v-if="currentAnimal.photo_url"
           :src="currentAnimal.photo_url"
           :alt="currentAnimal.name || '待領養動物'"
-          class="w-full h-full object-cover"
+          class="w-full h-full object-cover object-center"
         />
-        <span v-else class="text-5xl">{{ currentAnimal.kind === 'cat' ? '🐱' : '🐶' }}</span>
+        <span v-else class="text-6xl">{{ currentAnimal.kind === 'cat' ? '🐱' : '🐶' }}</span>
       </div>
 
       <!-- Name -->
       <div class="flex items-center gap-2 mb-2">
-        <span class="font-semibold text-gray-800">
-          {{ currentAnimal.name || (currentAnimal.kind === 'cat' ? '無名貓咪' : '無名狗狗') }}
-        </span>
-        <span :class="['text-xs px-2 py-0.5 rounded-full', typeColor[location.type] || 'bg-gray-100 text-gray-600']">
-          {{ typeLabel[location.type] || location.type }}
+        <span class="font-semibold text-gray-900">
+          {{ currentAnimal.name || (currentAnimal.kind === 'cat' ? '貓咪' : currentAnimal.kind === 'dog' ? '狗狗' : currentAnimal.id) }}
         </span>
       </div>
 
@@ -134,25 +145,42 @@ const typeColor = {
     <!-- Pagination -->
     <div
       v-if="locationAnimals.length > 1"
-      class="flex items-center justify-between px-4 py-2 border-t bg-gray-50 text-sm"
+      class="flex items-center justify-between px-4 py-2 border-t border-gray-100 bg-gray-50 text-sm"
     >
       <button
         :disabled="currentIndex === 0"
-        class="px-2 py-0.5 rounded disabled:opacity-30 hover:bg-gray-200"
+        class="px-2 py-1 rounded-lg text-gray-600 disabled:opacity-30 hover:bg-white hover:shadow-sm transition-all text-xs"
         @click="prev"
       >← 上一隻</button>
-      <span class="text-xs text-gray-500">{{ currentIndex + 1 }} / {{ locationAnimals.length }}</span>
+      <span class="text-xs text-gray-400 font-medium">{{ currentIndex + 1 }} / {{ locationAnimals.length }}</span>
       <button
         :disabled="currentIndex === locationAnimals.length - 1"
-        class="px-2 py-0.5 rounded disabled:opacity-30 hover:bg-gray-200"
+        class="px-2 py-1 rounded-lg text-gray-600 disabled:opacity-30 hover:bg-white hover:shadow-sm transition-all text-xs"
         @click="next"
       >下一隻 →</button>
     </div>
   </div>
+  </Transition>
 </template>
 
 <style scoped>
 .tag {
   @apply text-xs bg-gray-100 text-gray-600 px-2 py-0.5 rounded-full;
+}
+
+/* Card slide-in from right */
+.card-slide-enter-active {
+  transition: all 0.22s cubic-bezier(0.16, 1, 0.3, 1);
+}
+.card-slide-leave-active {
+  transition: all 0.18s ease-in;
+}
+.card-slide-enter-from {
+  opacity: 0;
+  transform: translateX(16px) scale(0.97);
+}
+.card-slide-leave-to {
+  opacity: 0;
+  transform: translateX(8px) scale(0.97);
 }
 </style>
