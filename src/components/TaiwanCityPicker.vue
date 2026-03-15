@@ -91,10 +91,6 @@ const triggerLabel = computed(() =>
   props.currentCity === '全台灣' ? '🌏 全台灣' : props.currentCity,
 )
 
-function pathFill(city) {
-  if (city === props.currentCity) return '#2563eb'
-  return '#e5e7eb'
-}
 function pathTextFill(city) {
   return city === props.currentCity ? '#ffffff' : '#374151'
 }
@@ -135,12 +131,11 @@ function islandActive(city) {
               v-for="item in CITY_PATHS"
               :key="item.city"
               :data-city="item.city"
+              :data-selected="item.city === currentCity ? 'true' : null"
               :d="item.d"
-              :fill="pathFill(item.city)"
               stroke="#ffffff"
               stroke-width="0.5"
-              class="cursor-pointer transition-colors duration-100"
-              :class="item.city !== currentCity ? 'hover:fill-[#93c5fd]' : ''"
+              class="city-path cursor-pointer"
               @click="selectCity(item.city)"
             />
             <text
@@ -188,4 +183,18 @@ function islandActive(city) {
 .picker-leave-active { transition: opacity 0.1s ease-in, transform 0.1s ease-in; }
 .picker-enter-from   { opacity: 0; transform: translateY(-4px); }
 .picker-leave-to     { opacity: 0; transform: translateY(-4px); }
+
+.city-path {
+  fill: #e5e7eb;
+  transition: fill 0.1s;
+}
+.city-path:hover {
+  fill: #93c5fd;
+}
+.city-path[data-selected="true"] {
+  fill: #2563eb;
+}
+.city-path[data-selected="true"]:hover {
+  fill: #2563eb;
+}
 </style>
