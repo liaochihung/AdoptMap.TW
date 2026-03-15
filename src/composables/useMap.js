@@ -28,8 +28,9 @@ export function useMap() {
     clusterGroup = L.markerClusterGroup({
       // Custom cluster icon styling
       iconCreateFunction(cluster) {
-        const count = cluster.getChildCount()
-        const size = count < 10 ? 36 : count < 50 ? 44 : 52
+        const animalTotal = cluster.getAllChildMarkers()
+          .reduce((sum, m) => sum + (m.options.animalCount ?? 0), 0)
+        const size = animalTotal < 10 ? 36 : animalTotal < 50 ? 44 : 52
         return L.divIcon({
           html: `<div style="
             width:${size}px;height:${size}px;
@@ -38,10 +39,10 @@ export function useMap() {
             border:3px solid white;
             box-shadow:0 3px 10px rgba(0,0,0,0.35);
             display:flex;align-items:center;justify-content:center;
-            font-size:${count < 10 ? 13 : 12}px;font-weight:700;
+            font-size:${animalTotal < 10 ? 13 : 12}px;font-weight:700;
             color:white;
             backdrop-filter:blur(4px);
-          ">${count}</div>`,
+          ">${animalTotal}</div>`,
           className: '',
           iconSize: [size, size],
           iconAnchor: [size / 2, size / 2],
@@ -102,8 +103,10 @@ export function useMap() {
     if (!clusterGroup) return
     clusterGroup.clearLayers()
     locations.forEach(loc => {
+      const animalCount = (loc.counts?.cat ?? 0) + (loc.counts?.dog ?? 0)
       const marker = L.marker([loc.lat, loc.lng], {
         icon: createCustomIcon(loc),
+        animalCount,
       })
       marker.on('click', () => onMarkerClick(loc))
 
