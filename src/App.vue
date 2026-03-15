@@ -7,7 +7,7 @@ import AnimalCard from './components/AnimalCard.vue'
 import LegendPanel from './components/LegendPanel.vue'
 import HoverPreview from './components/HoverPreview.vue'
 import ToastNotification from './components/ToastNotification.vue'
-import { useAnimals, ALL_CITIES } from './composables/useAnimals.js'
+import { useAnimals } from './composables/useAnimals.js'
 
 const {
   loading,
@@ -119,7 +119,6 @@ function formatDate(isoStr) {
     <!-- Filter bar -->
     <FilterBar
       :current-city="currentCity"
-      :all-cities="ALL_CITIES"
       :filter-kind="filterKind"
       :filter-source="filterSource"
       :filter-sex="filterSex"
