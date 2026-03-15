@@ -236,17 +236,6 @@ function onPointerUp() {
                 </div>
               </div>
 
-              <!-- Name tooltip -->
-              <Transition name="thumb-tip">
-                <div
-                  v-if="hoveredThumb === animal.id"
-                  class="absolute bottom-full left-1/2 -translate-x-1/2 mb-2 whitespace-nowrap bg-gray-900 text-white text-xs px-2.5 py-1 rounded-lg pointer-events-none z-10"
-                  style="box-shadow:0 2px 8px rgba(0,0,0,0.2);"
-                >
-                  {{ animalDisplayName(animal) }}
-                  <div class="absolute top-full left-1/2 -translate-x-1/2 w-0 h-0" style="border-left:5px solid transparent;border-right:5px solid transparent;border-top:5px solid #111827;" />
-                </div>
-              </Transition>
             </div>
           </div>
 
@@ -309,12 +298,6 @@ div[style*="scrollbar-width"]::-webkit-scrollbar { display: none; }
 .hover-popup-leave-active { transition: all 0.14s ease-in; }
 .hover-popup-enter-from   { opacity:0; transform:translateY(6px) scale(0.95); }
 .hover-popup-leave-to     { opacity:0; transform:translateY(4px) scale(0.96); }
-
-.thumb-tip-enter-active, .thumb-tip-leave-active { transition: all 0.12s ease; }
-.thumb-tip-enter-from, .thumb-tip-leave-to {
-  opacity: 0;
-  transform: translateX(-50%) translateY(3px);
-}
 
 .fade-overlay-enter-active, .fade-overlay-leave-active { transition: opacity 0.2s ease; }
 .fade-overlay-enter-from, .fade-overlay-leave-to { opacity: 0; }
