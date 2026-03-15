@@ -1,6 +1,6 @@
 <!-- src/components/TaiwanCityPicker.vue -->
 <script setup>
-import { ref, computed, onMounted, onUnmounted } from 'vue'
+import { ref, computed, onUnmounted } from 'vue'
 import { CITY_CENTERS } from '../composables/useAnimals.js'
 
 // SVG path data — Taiwan county outlines
@@ -44,6 +44,9 @@ let pointerHandler = null
 
 function openPopover() {
   open.value = true
+  if (pointerHandler) {
+    document.removeEventListener('pointerdown', pointerHandler, true)
+  }
   pointerHandler = (e) => {
     if (rootEl.value && !rootEl.value.contains(e.target)) {
       open.value = false
