@@ -1,10 +1,10 @@
 <!-- src/components/FilterBar.vue -->
 <script setup>
 import { ref, computed } from 'vue'
+import TaiwanCityPicker from './TaiwanCityPicker.vue'
 
 const props = defineProps({
   currentCity:      { type: String,  default: '臺中市' },
-  allCities:        { type: Array,   default: () => [] },
   filterKind:       { type: String,  default: 'all' },
   filterSource:     { type: String,  default: 'all' },
   filterSex:        { type: String,  default: 'all' },
@@ -59,10 +59,6 @@ const activeSecondaryCount = computed(() => {
   if (props.filterColour !== 'all') n++
   return n
 })
-
-function onCityChange(e) {
-  emit('update:currentCity', e.target.value)
-}
 </script>
 
 <template>
@@ -78,16 +74,10 @@ function onCityChange(e) {
       </span>
 
       <!-- City selector -->
-      <select
-        :value="currentCity"
-        class="text-xs sm:text-sm border border-gray-200 rounded-lg px-2 py-1 bg-white text-gray-700
-               focus:outline-none focus:ring-2 focus:ring-blue-400 cursor-pointer"
-        @change="onCityChange"
-      >
-        <option v-for="city in allCities" :key="city" :value="city">
-          {{ city === '全台灣' ? '🌏 ' + city : city }}
-        </option>
-      </select>
+      <TaiwanCityPicker
+        :current-city="currentCity"
+        @update:current-city="emit('update:currentCity', $event)"
+      />
 
       <!-- Kind pills -->
       <div class="flex gap-1">
