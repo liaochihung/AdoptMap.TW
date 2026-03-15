@@ -8,21 +8,13 @@ import vue from '@vitejs/plugin-vue'
 function leafletMarkerclusterPlugin() {
   return {
     name: 'leaflet-markercluster-fix',
+    enforce: 'pre',
     transform(code, id) {
       if (!id.includes('leaflet.markercluster') || !id.endsWith('.js')) return
-      // The UMD wrapper:
-      //   factory(exports)                  ← CJS branch, no L
-      //   factory((global.Leaflet...))      ← browser branch, also no L
-      // Rewrite to inject L into the factory call in all branches,
-      // and prepend an import so Rollup knows to include leaflet first.
       const patched = code
-        // CJS branch: factory(exports) → factory(exports, L)
         .replace('factory(exports)', 'factory(exports, L)')
-        // AMD branch: define(['exports'], factory) → define(['exports', 'leaflet'], factory)
         .replace("define(['exports'], factory)", "define(['exports', 'leaflet'], factory)")
-        // IIFE browser branch: factory((global.Leaflet...)) → factory((global.Leaflet...), global.L)
         .replace(/factory\((global\.Leaflet[^)]+)\)/, 'factory($1, global.L)')
-        // factory signature: function (exports) → function (exports, L)
         .replace('function (exports) {', 'function (exports, L) {')
 
       return {
@@ -36,6 +28,10 @@ function leafletMarkerclusterPlugin() {
 export default defineConfig({
   plugins: [vue(), leafletMarkerclusterPlugin()],
   base: '/AdoptMap.TW/',
+  optimizeDeps: {
+    // Exclude from pre-bundling so our transform plugin can process it
+    exclude: ['leaflet.markercluster'],
+  },
   build: {
     outDir: 'dist'
   },
