@@ -1,6 +1,6 @@
 <!-- src/components/HoverPreview.vue -->
 <script setup>
-import { computed, ref } from 'vue'
+import { computed, nextTick, ref, watch } from 'vue'
 
 const props = defineProps({
   location:     { type: Object, default: null },
@@ -20,30 +20,64 @@ const locationAnimals = computed(() =>
 // Show all animals in scrollable strip
 const visibleAnimals = computed(() => locationAnimals.value)
 
-// Track scroll position to compute remaining animals dynamically
+// Track scroll state precisely using DOM measurements
 const scrollLeft = ref(0)
+const scrollWidth = ref(0)
+const clientWidth = ref(0)
 const ITEM_W = 90 // w-20 (80px) + gap-2.5 (10px)
-const VISIBLE_COUNT = 4
 
-const firstHiddenIndex = computed(() => {
-  const firstVisible = Math.floor(scrollLeft.value / ITEM_W)
-  return firstVisible + VISIBLE_COUNT
+// How many items are hidden to the RIGHT of current viewport
+const extraCount = computed(() => {
+  if (!scrollEl.value) return 0
+  const remaining = scrollWidth.value - clientWidth.value - scrollLeft.value
+  // Each hidden item takes ~ITEM_W px; clamp to actual total
+  return Math.max(0, Math.round(remaining / ITEM_W))
 })
 
-const extraCount = computed(() =>
-  Math.max(0, locationAnimals.value.length - firstHiddenIndex.value)
-)
+// Whether user has scrolled far enough to show the left fade (half an item width)
+const hasScrolledLeft = computed(() => scrollLeft.value > ITEM_W / 2)
 
 function onScroll(e) {
   scrollLeft.value = e.target.scrollLeft
+  scrollWidth.value = e.target.scrollWidth
+  clientWidth.value = e.target.clientWidth
 }
+
+// Sync dimensions whenever the panel appears or location changes
+function syncScrollDimensions() {
+  if (!scrollEl.value) return
+  scrollWidth.value = scrollEl.value.scrollWidth
+  clientWidth.value = scrollEl.value.clientWidth
+}
+
+watch(() => props.location?.id, async () => {
+  scrollLeft.value = 0
+  scrollWidth.value = 0
+  clientWidth.value = 0
+  await nextTick()
+  syncScrollDimensions()
+})
 
 function scrollToMore() {
   if (!scrollEl.value) return
-  scrollEl.value.scrollTo({ left: firstHiddenIndex.value * ITEM_W, behavior: 'smooth' })
+  const firstVisible = Math.round(scrollLeft.value / ITEM_W)
+  scrollEl.value.scrollTo({ left: (firstVisible + 4) * ITEM_W, behavior: 'smooth' })
 }
 
-const PANEL_W = 420
+function scrollBack() {
+  if (!scrollEl.value) return
+  const firstVisible = Math.round(scrollLeft.value / ITEM_W)
+  const target = Math.max(0, firstVisible - 4) * ITEM_W
+  scrollEl.value.scrollTo({ left: target, behavior: 'smooth' })
+}
+
+const PANEL_W_MAX = 420
+const PANEL_W = computed(() => {
+  const count = locationAnimals.value.length
+  // px-3 on each side = 12px×2 = 24px; each item is ITEM_W (90px) wide
+  const natural = count * ITEM_W + 24
+  return Math.max(180, Math.min(PANEL_W_MAX, natural))
+})
 const PANEL_H = 220   // approx height for position calc
 const MARKER_R = 22   // marker radius px
 const ARROW_H  = 9    // arrow height px
@@ -67,11 +101,12 @@ const panelStyle = computed(() => {
     : markerAbsY - MARKER_R - ARROW_H - PANEL_H
 
   // Clamp horizontally so panel never goes off screen
-  const rawLeft = props.position.x - PANEL_W / 2
-  const left    = Math.max(MARGIN, Math.min(rawLeft, vw - PANEL_W - MARGIN))
+  const pw = PANEL_W.value
+  const rawLeft = props.position.x - pw / 2
+  const left    = Math.max(MARGIN, Math.min(rawLeft, vw - pw - MARGIN))
 
   // Arrow x offset from panel center (compensate for horizontal clamping)
-  const arrowOffset = props.position.x - (left + PANEL_W / 2)
+  const arrowOffset = props.position.x - (left + pw / 2)
 
   return { top: `${top}px`, left: `${left}px`, '--arrow-offset': `${arrowOffset}px`, '--show-below': showBelow ? '1' : '0' }
 })
@@ -148,7 +183,7 @@ function onPointerUp() {
 
       <div
         class="rounded-2xl overflow-hidden"
-        :style="`width:${PANEL_W}px;background:rgba(255,255,255,0.97);backdrop-filter:blur(14px);box-shadow:0 10px 36px rgba(0,0,0,0.16),0 3px 10px rgba(0,0,0,0.08);`"
+        :style="`width:${PANEL_W}px;background:rgba(255,255,255,0.97);backdrop-filter:blur(14px);box-shadow:0 10px 36px rgba(0,0,0,0.16),0 3px 10px rgba(0,0,0,0.08);transition:width 0.18s ease;`"
       >
         <!-- Header -->
         <div class="px-4 pt-3 pb-2 border-b border-gray-100">
@@ -159,13 +194,14 @@ function onPointerUp() {
           <div class="font-semibold text-gray-900 text-sm leading-tight mt-0.5 truncate">{{ location.name }}</div>
         </div>
 
-        <!-- Scrollable thumbnail strip + +N overlay -->
+        <!-- Scrollable thumbnail strip + edge overlays -->
         <div class="relative">
           <div
             ref="scrollEl"
-            class="pl-3 pr-3 py-3 flex items-center gap-2.5 overflow-x-auto"
+            class="px-3 py-3 flex items-center gap-2.5 overflow-x-auto"
+            :style="locationAnimals.length <= 4 ? 'justify-content:center' : ''"
             :class="drag.active ? 'cursor-grabbing' : 'cursor-grab'"
-            :style="`scrollbar-width:none;-ms-overflow-style:none;scroll-snap-type:x mandatory;${extraCount > 0 ? 'padding-right: 56px;' : ''}`"
+            style="scrollbar-width:none;-ms-overflow-style:none;scroll-snap-type:x mandatory;"
             @scroll="onScroll"
             @wheel.prevent="e => { scrollEl.scrollLeft += e.deltaY !== 0 ? e.deltaY : e.deltaX }"
             @pointerdown="onPointerDown"
@@ -215,18 +251,43 @@ function onPointerUp() {
             </div>
           </div>
 
-          <!-- +N fade overlay on right edge — only when there are more than 4 animals and not scrolled to end -->
+          <!-- Left fade — back to start -->
+          <Transition name="fade-overlay">
+            <div
+              v-if="hasScrolledLeft"
+              class="absolute left-0 top-0 bottom-0 pointer-events-none"
+              style="width:56px;background:linear-gradient(to right, rgba(255,255,255,0.97) 40%, transparent);"
+            >
+              <div
+                class="h-full flex items-center pl-1.5 pointer-events-auto cursor-pointer"
+                title="往前瀏覽"
+                @click.stop="scrollBack"
+              >
+                <div class="flex items-center justify-center w-8 h-8 rounded-lg bg-white border border-gray-200 shadow-sm hover:bg-gray-50 transition-colors">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4 text-gray-500" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M15 19l-7-7 7-7"/>
+                  </svg>
+                </div>
+              </div>
+            </div>
+          </Transition>
+
+          <!-- Right fade — more items ahead -->
           <Transition name="fade-overlay">
             <div
               v-if="extraCount > 0"
-              class="absolute right-0 top-0 bottom-0 flex items-center pr-2 cursor-pointer"
-              style="background:linear-gradient(to right, transparent, rgba(255,255,255,0.95) 40%);padding-left:32px;"
-              title="捲動查看更多"
-              @click.stop="scrollToMore"
+              class="absolute right-0 top-0 bottom-0 pointer-events-none"
+              style="width:56px;background:linear-gradient(to left, rgba(255,255,255,0.97) 40%, transparent);"
             >
-              <div class="flex flex-col items-center justify-center w-10 h-10 rounded-xl bg-white border border-gray-200 shadow-sm hover:bg-gray-50 transition-colors">
-                <span class="text-xs font-bold text-gray-600">+{{ extraCount }}</span>
-                <span class="text-gray-400" style="font-size:10px;">更多</span>
+              <div
+                class="h-full flex items-center justify-end pr-1.5 pointer-events-auto cursor-pointer"
+                title="捲動查看更多"
+                @click.stop="scrollToMore"
+              >
+                <div class="flex flex-col items-center justify-center w-8 h-8 rounded-lg bg-white border border-gray-200 shadow-sm hover:bg-gray-50 transition-colors">
+                  <span class="text-xs font-bold text-gray-600 leading-none">+{{ extraCount }}</span>
+                  <span class="text-gray-400 leading-none mt-0.5" style="font-size:9px;">更多</span>
+                </div>
               </div>
             </div>
           </Transition>

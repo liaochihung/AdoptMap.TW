@@ -742,11 +742,11 @@ L.Icon.Default.mergeOptions({
 
 ### Phase 4：UI 優化（預計 1-2 天）
 
-- [ ] 自訂 marker 圖示（貓/狗/混合）
-- [ ] AnimalCard 美化（照片、標籤、翻頁）
-- [ ] 手機版響應式調整
-- [ ] 增加 marker cluster 聚合
-- [ ] 新增「定位我的位置」按鈕
+- [x] 自訂 marker 圖示（貓/狗/混合 emoji + 數量 badge + 地點類型顏色圈）
+- [x] AnimalCard 美化（照片 contain 不裁切、模糊背景、標籤、翻頁箭頭、dots 指示器、滑鼠拖曳/滾輪翻頁、備註可展開）
+- [x] 手機版響應式調整（AnimalCard 底部 sheet 滑出、FilterBar 精簡、HoverPreview/Legend 手機隱藏）
+- [x] 增加 marker cluster 聚合（leaflet.markercluster，zoom ≥ 15 自動展開）
+- [x] 新增「定位我的位置」按鈕（右下角，含 spinner、錯誤提示、使用者位置 marker）
 
 ### Phase 5：進階功能（未來可選）
 
