@@ -15,6 +15,7 @@ from config import (
     GEOCODE_CACHE_FILE,
     GEOCODE_FAILURES_LOG,
     KNOWN_LOCATIONS,
+    GEOCODE_OVERRIDES_FILE,
 )
 
 
@@ -22,6 +23,14 @@ def _load_cache() -> dict:
     if os.path.exists(GEOCODE_CACHE_FILE):
         with open(GEOCODE_CACHE_FILE, encoding="utf-8") as f:
             return json.load(f)
+    return {}
+
+
+def _load_overrides() -> dict:
+    if os.path.exists(GEOCODE_OVERRIDES_FILE):
+        with open(GEOCODE_OVERRIDES_FILE, encoding="utf-8") as f:
+            return json.load(f)
+    print(f"  ⚠ 找不到 geocode overrides 檔案：{GEOCODE_OVERRIDES_FILE}（手動覆寫功能停用）")
     return {}
 
 
@@ -108,6 +117,7 @@ def geocode_addresses(addresses: list[str]) -> dict[str, dict]:
     - 新地址查詢 Nominatim，間隔 NOMINATIM_DELAY 秒。
     """
     cache = _load_cache()
+    overrides = _load_overrides()
     result = {}
 
     new_queries = 0
@@ -118,6 +128,12 @@ def geocode_addresses(addresses: list[str]) -> dict[str, dict]:
         # 已知固定座標（收容所）
         if address in KNOWN_LOCATIONS:
             loc = KNOWN_LOCATIONS[address]
+            result[address] = {"lat": loc["lat"], "lng": loc["lng"]}
+            continue
+
+        # 手動覆寫座標（優先於快取與 Nominatim）
+        if address in overrides:
+            loc = overrides[address]
             result[address] = {"lat": loc["lat"], "lng": loc["lng"]}
             continue
 
