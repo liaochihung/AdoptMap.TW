@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-15T18:02:32+08:00",
+  "updated_at": "2026-03-15T22:16:30+08:00",
   "total": 149,
   "city": "新竹市",
   "animals": [
@@ -19,7 +19,7 @@
       "open_date": "",
       "update_date": "2026-03-13",
       "city": "新竹市",
-      "source_url": "https://www.pet.gov.tw/Web/L315.aspx?no=445380",
+      "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=UkFBQUcxMTUwMzEyMDA1&UT=UkFBQUc=",
       "location_id": "loc_新竹市南寮里海濱路250號"
     },
     {
@@ -38,7 +38,7 @@
       "open_date": "2026-03-13",
       "update_date": "2026-03-12",
       "city": "新竹市",
-      "source_url": "https://www.pet.gov.tw/Web/L315.aspx?no=444361",
+      "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=UkFBQUcxMTUwMzA1MDAx&UT=UkFBQUc=",
       "location_id": "loc_新竹市南寮里海濱路250號"
     },
     {
@@ -57,7 +57,7 @@
       "open_date": "2026-02-09",
       "update_date": "2026-03-12",
       "city": "新竹市",
-      "source_url": "https://www.pet.gov.tw/Web/L315.aspx?no=441236",
+      "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=UkFBQUcxMTUwMjAyMDAx&UT=UkFBQUc=",
       "location_id": "loc_新竹市南寮里海濱路250號"
     },
     {
@@ -76,7 +76,7 @@
       "open_date": "2026-02-11",
       "update_date": "2026-03-12",
       "city": "新竹市",
-      "source_url": "https://www.pet.gov.tw/Web/L315.aspx?no=441659",
+      "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=UkFBQUcxMTUwMjA0MDAx&UT=UkFBQUc=",
       "location_id": "loc_新竹市南寮里海濱路250號"
     },
     {
@@ -95,7 +95,7 @@
       "open_date": "2026-01-22",
       "update_date": "2026-03-12",
       "city": "新竹市",
-      "source_url": "https://www.pet.gov.tw/Web/L315.aspx?no=439067",
+      "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=UkFBQUcxMTUwMTE2MDAx&UT=UkFBQUc=",
       "location_id": "loc_新竹市南寮里海濱路250號"
     },
     {
@@ -114,7 +114,7 @@
       "open_date": "2026-03-17",
       "update_date": "2026-03-12",
       "city": "新竹市",
-      "source_url": "https://www.pet.gov.tw/Web/L315.aspx?no=444878",
+      "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=UkFBQUcxMTUwMzEwMDAx&UT=UkFBQUc=",
       "location_id": "loc_新竹市南寮里海濱路250號"
     },
     {
@@ -133,7 +133,7 @@
       "open_date": "2026-03-03",
       "update_date": "2026-03-12",
       "city": "新竹市",
-      "source_url": "https://www.pet.gov.tw/Web/L315.aspx?no=443235",
+      "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=UkFBQUcxMTUwMjI0MDAx&UT=UkFBQUc=",
       "location_id": "loc_新竹市南寮里海濱路250號"
     },
     {
@@ -152,7 +152,7 @@
       "open_date": "2026-02-13",
       "update_date": "2026-03-12",
       "city": "新竹市",
-      "source_url": "https://www.pet.gov.tw/Web/L315.aspx?no=441924",
+      "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=UkFBQUcxMTUwMjA2MDA0&UT=UkFBQUc=",
       "location_id": "loc_新竹市南寮里海濱路250號"
     },
     {
@@ -171,7 +171,7 @@
       "open_date": "2026-02-13",
       "update_date": "2026-03-12",
       "city": "新竹市",
-      "source_url": "https://www.pet.gov.tw/Web/L315.aspx?no=441923",
+      "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=UkFBQUcxMTUwMjA2MDAz&UT=UkFBQUc=",
       "location_id": "loc_新竹市南寮里海濱路250號"
     },
     {
@@ -190,7 +190,7 @@
       "open_date": "2026-02-12",
       "update_date": "2026-03-12",
       "city": "新竹市",
-      "source_url": "https://www.pet.gov.tw/Web/L315.aspx?no=441756",
+      "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=UkFBQUcxMTUwMjA1MDAx&UT=UkFBQUc=",
       "location_id": "loc_新竹市南寮里海濱路250號"
     },
     {
@@ -209,7 +209,7 @@
       "open_date": "2026-03-18",
       "update_date": "2026-03-11",
       "city": "新竹市",
-      "source_url": "https://www.pet.gov.tw/Web/L315.aspx?no=445060",
+      "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=UkFBQUcxMTUwMzExMDAx&UT=UkFBQUc=",
       "location_id": "loc_新竹市南寮里海濱路250號"
     },
     {
@@ -228,7 +228,7 @@
       "open_date": "",
       "update_date": "2026-03-06",
       "city": "新竹市",
-      "source_url": "https://www.pet.gov.tw/Web/L315.aspx?no=444417",
+      "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=UkFBQUcxMTUwMzA2MDAz&UT=UkFBQUc=",
       "location_id": "loc_新竹市南寮里海濱路250號"
     },
     {
@@ -247,7 +247,7 @@
       "open_date": "2024-07-04",
       "update_date": "2026-03-03",
       "city": "新竹市",
-      "source_url": "https://www.pet.gov.tw/Web/L315.aspx?no=363922",
+      "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=UkFBQUcxMTMwNjI3MDAx&UT=UkFBQUc=",
       "location_id": "loc_新竹市南寮里海濱路250號"
     },
     {
@@ -266,7 +266,7 @@
       "open_date": "2026-03-10",
       "update_date": "2026-03-03",
       "city": "新竹市",
-      "source_url": "https://www.pet.gov.tw/Web/L315.aspx?no=443862",
+      "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=UkFBQUcxMTUwMzAzMDAx&UT=UkFBQUc=",
       "location_id": "loc_新竹市南寮里海濱路250號"
     },
     {
@@ -285,7 +285,7 @@
       "open_date": "2026-03-09",
       "update_date": "2026-03-02",
       "city": "新竹市",
-      "source_url": "https://www.pet.gov.tw/Web/L315.aspx?no=443815",
+      "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=UkFBQUcxMTUwMzAyMDAy&UT=UkFBQUc=",
       "location_id": "loc_新竹市南寮里海濱路250號"
     },
     {
@@ -304,7 +304,7 @@
       "open_date": "2026-02-04",
       "update_date": "2026-02-26",
       "city": "新竹市",
-      "source_url": "https://www.pet.gov.tw/Web/L315.aspx?no=440637",
+      "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=UkFBQUcxMTUwMTI4MDAx&UT=UkFBQUc=",
       "location_id": "loc_新竹市南寮里海濱路250號"
     },
     {
@@ -323,7 +323,7 @@
       "open_date": "2026-02-26",
       "update_date": "2026-02-26",
       "city": "新竹市",
-      "source_url": "https://www.pet.gov.tw/Web/L315.aspx?no=442677",
+      "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=UkFBQUcxMTUwMjEyMDAx&UT=UkFBQUc=",
       "location_id": "loc_新竹市南寮里海濱路250號"
     },
     {
@@ -342,7 +342,7 @@
       "open_date": "2026-02-26",
       "update_date": "2026-02-26",
       "city": "新竹市",
-      "source_url": "https://www.pet.gov.tw/Web/L315.aspx?no=442984",
+      "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=UkFBQUcxMTUwMjE0MDAx&UT=UkFBQUc=",
       "location_id": "loc_新竹市南寮里海濱路250號"
     },
     {
@@ -361,7 +361,7 @@
       "open_date": "2026-02-25",
       "update_date": "2026-02-23",
       "city": "新竹市",
-      "source_url": "https://www.pet.gov.tw/Web/L315.aspx?no=442983",
+      "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=UkFBQUcxMTUwMjE4MDAx&UT=UkFBQUc=",
       "location_id": "loc_新竹市南寮里海濱路250號"
     },
     {
@@ -380,7 +380,7 @@
       "open_date": "2026-02-13",
       "update_date": "2026-02-13",
       "city": "新竹市",
-      "source_url": "https://www.pet.gov.tw/Web/L315.aspx?no=441911",
+      "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=UkFBQUcxMTUwMjA2MDAy&UT=UkFBQUc=",
       "location_id": "loc_新竹市南寮里海濱路250號"
     },
     {
@@ -399,7 +399,7 @@
       "open_date": "2023-11-09",
       "update_date": "2026-02-12",
       "city": "新竹市",
-      "source_url": "https://www.pet.gov.tw/Web/L315.aspx?no=272095",
+      "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=UkFBQUcxMTEwODMwMDA1&UT=UkFBQUc=",
       "location_id": "loc_新竹市南寮里海濱路250號"
     },
     {
@@ -418,7 +418,7 @@
       "open_date": "2025-11-26",
       "update_date": "2026-02-12",
       "city": "新竹市",
-      "source_url": "https://www.pet.gov.tw/Web/L315.aspx?no=432193",
+      "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=UkFBQUcxMTQxMTI1MDAy&UT=UkFBQUc=",
       "location_id": "loc_新竹市南寮里海濱路250號"
     },
     {
@@ -437,7 +437,7 @@
       "open_date": "2026-02-05",
       "update_date": "2026-02-05",
       "city": "新竹市",
-      "source_url": "https://www.pet.gov.tw/Web/L315.aspx?no=437353",
+      "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=UkFBQUcxMTUwMTA0MDAx&UT=UkFBQUc=",
       "location_id": "loc_新竹市南寮里海濱路250號"
     },
     {
@@ -456,7 +456,7 @@
       "open_date": "2026-02-10",
       "update_date": "2026-02-03",
       "city": "新竹市",
-      "source_url": "https://www.pet.gov.tw/Web/L315.aspx?no=441418",
+      "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=UkFBQUcxMTUwMjAzMDAy&UT=UkFBQUc=",
       "location_id": "loc_新竹市南寮里海濱路250號"
     },
     {
@@ -475,7 +475,7 @@
       "open_date": "2026-02-09",
       "update_date": "2026-02-02",
       "city": "新竹市",
-      "source_url": "https://www.pet.gov.tw/Web/L315.aspx?no=441235",
+      "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=UkFBQUcxMTUwMjAxMDAx&UT=UkFBQUc=",
       "location_id": "loc_新竹市南寮里海濱路250號"
     },
     {
@@ -494,7 +494,7 @@
       "open_date": "2026-02-05",
       "update_date": "2026-01-29",
       "city": "新竹市",
-      "source_url": "https://www.pet.gov.tw/Web/L315.aspx?no=440870",
+      "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=UkFBQUcxMTUwMTI5MDAy&UT=UkFBQUc=",
       "location_id": "loc_新竹市南寮里海濱路250號"
     },
     {
@@ -513,7 +513,7 @@
       "open_date": "2026-01-29",
       "update_date": "2026-01-22",
       "city": "新竹市",
-      "source_url": "https://www.pet.gov.tw/Web/L315.aspx?no=439887",
+      "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=UkFBQUcxMTUwMTIyMDAx&UT=UkFBQUc=",
       "location_id": "loc_新竹市南寮里海濱路250號"
     },
     {
@@ -532,7 +532,7 @@
       "open_date": "2025-09-19",
       "update_date": "2026-01-12",
       "city": "新竹市",
-      "source_url": "https://www.pet.gov.tw/Web/L315.aspx?no=423092",
+      "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=UkFBQUcxMTQwOTE5MDAy&UT=UkFBQUc=",
       "location_id": "loc_新竹市南寮里海濱路250號"
     },
     {
@@ -551,7 +551,7 @@
       "open_date": "2025-12-23",
       "update_date": "2025-12-26",
       "city": "新竹市",
-      "source_url": "https://www.pet.gov.tw/Web/L315.aspx?no=426997",
+      "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=UkFBQUcxMTQxMDIzMDAx&UT=UkFBQUc=",
       "location_id": "loc_新竹市南寮里海濱路250號"
     },
     {
@@ -570,7 +570,7 @@
       "open_date": "2025-12-23",
       "update_date": "2025-12-23",
       "city": "新竹市",
-      "source_url": "https://www.pet.gov.tw/Web/L315.aspx?no=427001",
+      "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=UkFBQUcxMTQxMDIzMDAz&UT=UkFBQUc=",
       "location_id": "loc_新竹市南寮里海濱路250號"
     },
     {
@@ -589,7 +589,7 @@
       "open_date": "2025-06-02",
       "update_date": "2025-11-27",
       "city": "新竹市",
-      "source_url": "https://www.pet.gov.tw/Web/L315.aspx?no=402003",
+      "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=UkFBQUcxMTQwNDE4MDAx&UT=UkFBQUc=",
       "location_id": "loc_新竹市南寮里海濱路250號"
     },
     {
@@ -608,7 +608,7 @@
       "open_date": "",
       "update_date": "2025-11-26",
       "city": "新竹市",
-      "source_url": "https://www.pet.gov.tw/Web/L315.aspx?no=432466",
+      "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=UkFBQUcxMTQxMTI2MDAx&UT=UkFBQUc=",
       "location_id": "loc_新竹市南寮里海濱路250號"
     },
     {
@@ -627,7 +627,7 @@
       "open_date": "2020-05-11",
       "update_date": "2025-11-18",
       "city": "新竹市",
-      "source_url": "https://www.pet.gov.tw/Web/L315.aspx?no=158354",
+      "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=UkFBQUcxMDkwNTA1MDA4&UT=UkFBQUc=",
       "location_id": "loc_新竹市南寮里海濱路250號"
     },
     {
@@ -646,7 +646,7 @@
       "open_date": "2025-11-14",
       "update_date": "2025-11-10",
       "city": "新竹市",
-      "source_url": "https://www.pet.gov.tw/Web/L315.aspx?no=429956",
+      "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=UkFBQUcxMTQxMTA3MDAx&UT=UkFBQUc=",
       "location_id": "loc_新竹市南寮里海濱路250號"
     },
     {
@@ -665,7 +665,7 @@
       "open_date": "2025-09-15",
       "update_date": "2025-10-28",
       "city": "新竹市",
-      "source_url": "https://www.pet.gov.tw/Web/L315.aspx?no=421339",
+      "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=UkFBQUcxMTQwOTA4MDAx&UT=UkFBQUc=",
       "location_id": "loc_新竹市南寮里海濱路250號"
     },
     {
@@ -684,7 +684,7 @@
       "open_date": "2025-10-15",
       "update_date": "2025-10-28",
       "city": "新竹市",
-      "source_url": "https://www.pet.gov.tw/Web/L315.aspx?no=425234",
+      "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=UkFBQUcxMTQxMDA4MDAx&UT=UkFBQUc=",
       "location_id": "loc_新竹市南寮里海濱路250號"
     },
     {
@@ -703,7 +703,7 @@
       "open_date": "2025-10-20",
       "update_date": "2025-10-13",
       "city": "新竹市",
-      "source_url": "https://www.pet.gov.tw/Web/L315.aspx?no=425663",
+      "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=UkFBQUcxMTQxMDEyMDAx&UT=UkFBQUc=",
       "location_id": "loc_新竹市南寮里海濱路250號"
     },
     {
@@ -722,7 +722,7 @@
       "open_date": "2025-07-21",
       "update_date": "2025-10-03",
       "city": "新竹市",
-      "source_url": "https://www.pet.gov.tw/Web/L315.aspx?no=396161",
+      "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=UkFBQUcxMTQwMzA0MDAx&UT=UkFBQUc=",
       "location_id": "loc_新竹市南寮里海濱路250號"
     },
     {
@@ -741,7 +741,7 @@
       "open_date": "",
       "update_date": "2025-09-30",
       "city": "新竹市",
-      "source_url": "https://www.pet.gov.tw/Web/L315.aspx?no=424311",
+      "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=UkFBQUcxMTQwOTMwMDAx&UT=UkFBQUc=",
       "location_id": "loc_新竹市南寮里海濱路250號"
     },
     {
@@ -760,7 +760,7 @@
       "open_date": "",
       "update_date": "2025-09-12",
       "city": "新竹市",
-      "source_url": "https://www.pet.gov.tw/Web/L315.aspx?no=414024",
+      "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=UkFBQUcxMTQwNzExMDA4&UT=UkFBQUc=",
       "location_id": "loc_新竹市南寮里海濱路250號"
     },
     {
@@ -779,7 +779,7 @@
       "open_date": "2018-04-18",
       "update_date": "2025-09-10",
       "city": "新竹市",
-      "source_url": "https://www.pet.gov.tw/Web/L315.aspx?no=46391",
+      "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=UkFBQUcxMDcwNDI1MDAy&UT=UkFBQUc=",
       "location_id": "loc_新竹市南寮里海濱路250號"
     },
     {
@@ -798,7 +798,7 @@
       "open_date": "2016-09-21",
       "update_date": "2025-09-10",
       "city": "新竹市",
-      "source_url": "https://www.pet.gov.tw/Web/L315.aspx?no=29265",
+      "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=UkFBQUcxMDUwOTIxMDAx&UT=UkFBQUc=",
       "location_id": "loc_新竹市南寮里海濱路250號"
     },
     {
@@ -817,7 +817,7 @@
       "open_date": "2016-01-30",
       "update_date": "2025-09-05",
       "city": "新竹市",
-      "source_url": "https://www.pet.gov.tw/Web/L315.aspx?no=29241",
+      "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=UkFBQUcxMDUwMTMwMDAx&UT=UkFBQUc=",
       "location_id": "loc_新竹市南寮里海濱路250號"
     },
     {
@@ -836,7 +836,7 @@
       "open_date": "2020-12-28",
       "update_date": "2025-09-05",
       "city": "新竹市",
-      "source_url": "https://www.pet.gov.tw/Web/L315.aspx?no=190185",
+      "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=UkFBQUcxMDkxMjI4MDAy&UT=UkFBQUc=",
       "location_id": "loc_新竹市南寮里海濱路250號"
     },
     {
@@ -855,7 +855,7 @@
       "open_date": "2022-05-05",
       "update_date": "2025-09-01",
       "city": "新竹市",
-      "source_url": "https://www.pet.gov.tw/Web/L315.aspx?no=253826",
+      "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=UkFBQUcxMTEwNTA1MDA0&UT=UkFBQUc=",
       "location_id": "loc_新竹市南寮里海濱路250號"
     },
     {
@@ -874,7 +874,7 @@
       "open_date": "",
       "update_date": "2025-08-06",
       "city": "新竹市",
-      "source_url": "https://www.pet.gov.tw/Web/L315.aspx?no=417244",
+      "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=UkFBQUcxMTQwODA2MDAx&UT=UkFBQUc=",
       "location_id": "loc_新竹市南寮里海濱路250號"
     },
     {
@@ -893,7 +893,7 @@
       "open_date": "2025-05-06",
       "update_date": "2025-07-21",
       "city": "新竹市",
-      "source_url": "https://www.pet.gov.tw/Web/L315.aspx?no=403414",
+      "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=UkFBQUcxMTQwNDI5MDAx&UT=UkFBQUc=",
       "location_id": "loc_新竹市南寮里海濱路250號"
     },
     {
@@ -912,7 +912,7 @@
       "open_date": "2025-07-07",
       "update_date": "2025-06-30",
       "city": "新竹市",
-      "source_url": "https://www.pet.gov.tw/Web/L315.aspx?no=412595",
+      "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=UkFBQUcxMTQwNjMwMDAz&UT=UkFBQUc=",
       "location_id": "loc_新竹市南寮里海濱路250號"
     },
     {
@@ -931,7 +931,7 @@
       "open_date": "2025-07-07",
       "update_date": "2025-06-30",
       "city": "新竹市",
-      "source_url": "https://www.pet.gov.tw/Web/L315.aspx?no=412596",
+      "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=UkFBQUcxMTQwNjMwMDA0&UT=UkFBQUc=",
       "location_id": "loc_新竹市南寮里海濱路250號"
     },
     {
@@ -950,7 +950,7 @@
       "open_date": "",
       "update_date": "2025-06-27",
       "city": "新竹市",
-      "source_url": "https://www.pet.gov.tw/Web/L315.aspx?no=412253",
+      "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=UkFBQUcxMTQwNjI3MDAx&UT=UkFBQUc=",
       "location_id": "loc_新竹市南寮里海濱路250號"
     },
     {
@@ -969,7 +969,7 @@
       "open_date": "2025-05-19",
       "update_date": "2025-05-19",
       "city": "新竹市",
-      "source_url": "https://www.pet.gov.tw/Web/L315.aspx?no=386802",
+      "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=UkFBQUcxMTMxMjE2MDAz&UT=UkFBQUc=",
       "location_id": "loc_新竹市南寮里海濱路250號"
     },
     {
@@ -988,7 +988,7 @@
       "open_date": "2025-05-08",
       "update_date": "2025-05-08",
       "city": "新竹市",
-      "source_url": "https://www.pet.gov.tw/Web/L315.aspx?no=397235",
+      "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=UkFBQUcxMTQwMzExMDAy&UT=UkFBQUc=",
       "location_id": "loc_新竹市南寮里海濱路250號"
     },
     {
@@ -1007,7 +1007,7 @@
       "open_date": "2025-01-07",
       "update_date": "2025-01-17",
       "city": "新竹市",
-      "source_url": "https://www.pet.gov.tw/Web/L315.aspx?no=388462",
+      "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=UkFBQUcxMTMxMjMxMDAy&UT=UkFBQUc=",
       "location_id": "loc_新竹市南寮里海濱路250號"
     },
     {
@@ -1026,7 +1026,7 @@
       "open_date": "2022-07-14",
       "update_date": "2024-12-30",
       "city": "新竹市",
-      "source_url": "https://www.pet.gov.tw/Web/L315.aspx?no=264325",
+      "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=UkFBQUcxMTEwNzA3MDA1&UT=UkFBQUc=",
       "location_id": "loc_新竹市南寮里海濱路250號"
     },
     {
@@ -1045,7 +1045,7 @@
       "open_date": "2022-04-29",
       "update_date": "2024-12-12",
       "city": "新竹市",
-      "source_url": "https://www.pet.gov.tw/Web/L315.aspx?no=252998",
+      "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=UkFBQUcxMTEwNDI5MDA0&UT=UkFBQUc=",
       "location_id": "loc_新竹市南寮里海濱路250號"
     },
     {
@@ -1064,7 +1064,7 @@
       "open_date": "2022-04-29",
       "update_date": "2024-12-12",
       "city": "新竹市",
-      "source_url": "https://www.pet.gov.tw/Web/L315.aspx?no=252996",
+      "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=UkFBQUcxMTEwNDI5MDAz&UT=UkFBQUc=",
       "location_id": "loc_新竹市南寮里海濱路250號"
     },
     {
@@ -1083,7 +1083,7 @@
       "open_date": "2021-03-04",
       "update_date": "2021-02-26",
       "city": "新竹市",
-      "source_url": "https://www.pet.gov.tw/Web/L315.aspx?no=196048",
+      "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=UkFBQUcxMTAwMjI0MDA0&UT=UkFBQUc=",
       "location_id": "loc_新竹市南寮里海濱路250號"
     },
     {
@@ -1102,7 +1102,7 @@
       "open_date": "2020-06-17",
       "update_date": "2020-06-19",
       "city": "新竹市",
-      "source_url": "https://www.pet.gov.tw/Web/L315.aspx?no=164934",
+      "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=UkFBQUcxMDkwNjE3MDAy&UT=UkFBQUc=",
       "location_id": "loc_新竹市南寮里海濱路250號"
     },
     {
@@ -1121,7 +1121,7 @@
       "open_date": "2020-06-17",
       "update_date": "2020-06-19",
       "city": "新竹市",
-      "source_url": "https://www.pet.gov.tw/Web/L315.aspx?no=164931",
+      "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=UkFBQUcxMDkwNjE3MDAx&UT=UkFBQUc=",
       "location_id": "loc_新竹市南寮里海濱路250號"
     },
     {
@@ -1140,7 +1140,7 @@
       "open_date": "2020-01-23",
       "update_date": "2020-01-30",
       "city": "新竹市",
-      "source_url": "https://www.pet.gov.tw/Web/L315.aspx?no=141615",
+      "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=UkFBQUcxMDkwMTMwMDA3&UT=UkFBQUc=",
       "location_id": "loc_新竹市南寮里海濱路250號"
     },
     {
@@ -1159,7 +1159,7 @@
       "open_date": "2024-07-10",
       "update_date": "2024-07-16",
       "city": "新竹市",
-      "source_url": "https://www.pet.gov.tw/Web/L315.aspx?no=364608",
+      "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=UkFBQUcxMTMwNzAzMDAx&UT=UkFBQUc=",
       "location_id": "loc_新竹市南寮里海濱路250號"
     },
     {
@@ -1178,7 +1178,7 @@
       "open_date": "2024-04-08",
       "update_date": "2024-04-25",
       "city": "新竹市",
-      "source_url": "https://www.pet.gov.tw/Web/L315.aspx?no=352465",
+      "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=UkFBQUcxMTMwNDAxMDAz&UT=UkFBQUc=",
       "location_id": "loc_新竹市南寮里海濱路250號"
     },
     {
@@ -1197,7 +1197,7 @@
       "open_date": "2022-05-06",
       "update_date": "2022-06-08",
       "city": "新竹市",
-      "source_url": "https://www.pet.gov.tw/Web/L315.aspx?no=253925",
+      "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=UkFBQUcxMTEwNTA2MDA2&UT=UkFBQUc=",
       "location_id": "loc_新竹市南寮里海濱路250號"
     },
     {
@@ -1216,7 +1216,7 @@
       "open_date": "2022-05-11",
       "update_date": "2023-09-26",
       "city": "新竹市",
-      "source_url": "https://www.pet.gov.tw/Web/L315.aspx?no=253660",
+      "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=UkFBQUcxMTEwNTA0MDAy&UT=UkFBQUc=",
       "location_id": "loc_新竹市南寮里海濱路250號"
     },
     {
@@ -1235,7 +1235,7 @@
       "open_date": "2022-09-22",
       "update_date": "2023-09-07",
       "city": "新竹市",
-      "source_url": "https://www.pet.gov.tw/Web/L315.aspx?no=275087",
+      "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=UkFBQUcxMTEwOTIxMDA2&UT=UkFBQUc=",
       "location_id": "loc_新竹市南寮里海濱路250號"
     },
     {
@@ -1254,7 +1254,7 @@
       "open_date": "2022-09-22",
       "update_date": "2023-05-11",
       "city": "新竹市",
-      "source_url": "https://www.pet.gov.tw/Web/L315.aspx?no=275076",
+      "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=UkFBQUcxMTEwOTIxMDA0&UT=UkFBQUc=",
       "location_id": "loc_新竹市南寮里海濱路250號"
     },
     {
@@ -1273,7 +1273,7 @@
       "open_date": "2022-05-05",
       "update_date": "2023-05-11",
       "city": "新竹市",
-      "source_url": "https://www.pet.gov.tw/Web/L315.aspx?no=253823",
+      "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=UkFBQUcxMTEwNTA1MDAz&UT=UkFBQUc=",
       "location_id": "loc_新竹市南寮里海濱路250號"
     },
     {
@@ -1292,7 +1292,7 @@
       "open_date": "2022-09-22",
       "update_date": "2023-05-11",
       "city": "新竹市",
-      "source_url": "https://www.pet.gov.tw/Web/L315.aspx?no=275085",
+      "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=UkFBQUcxMTEwOTIxMDA1&UT=UkFBQUc=",
       "location_id": "loc_新竹市南寮里海濱路250號"
     },
     {
@@ -1311,7 +1311,7 @@
       "open_date": "2020-07-31",
       "update_date": "2024-01-05",
       "city": "新竹市",
-      "source_url": "https://www.pet.gov.tw/Web/L315.aspx?no=169154",
+      "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=UkFBQUcxMDkwNzIzMDA2&UT=UkFBQUc=",
       "location_id": "loc_新竹市南寮里海濱路250號"
     },
     {
@@ -1330,7 +1330,7 @@
       "open_date": "2022-02-21",
       "update_date": "2024-01-05",
       "city": "新竹市",
-      "source_url": "https://www.pet.gov.tw/Web/L315.aspx?no=201943",
+      "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=UkFBQUcxMTAwNDEwMDA1&UT=UkFBQUc=",
       "location_id": "loc_新竹市南寮里海濱路250號"
     },
     {
@@ -1349,7 +1349,7 @@
       "open_date": "2020-11-21",
       "update_date": "2024-01-05",
       "city": "新竹市",
-      "source_url": "https://www.pet.gov.tw/Web/L315.aspx?no=184181",
+      "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=UkFBQUcxMDkxMTEzMDAy&UT=UkFBQUc=",
       "location_id": "loc_新竹市南寮里海濱路250號"
     },
     {
@@ -1368,7 +1368,7 @@
       "open_date": "2022-11-17",
       "update_date": "2023-09-07",
       "city": "新竹市",
-      "source_url": "https://www.pet.gov.tw/Web/L315.aspx?no=282504",
+      "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=UkFBQUcxMTExMTEwMDA5&UT=UkFBQUc=",
       "location_id": "loc_新竹市南寮里海濱路250號"
     },
     {
@@ -1387,7 +1387,7 @@
       "open_date": "2023-11-20",
       "update_date": "2023-11-24",
       "city": "新竹市",
-      "source_url": "https://www.pet.gov.tw/Web/L315.aspx?no=322564",
+      "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=UkFBQUcxMTIwODI1MDAx&UT=UkFBQUc=",
       "location_id": "loc_新竹市南寮里海濱路250號"
     },
     {
@@ -1406,7 +1406,7 @@
       "open_date": "2023-07-10",
       "update_date": "2023-11-21",
       "city": "新竹市",
-      "source_url": "https://www.pet.gov.tw/Web/L315.aspx?no=315305",
+      "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=UkFBQUcxMTIwNzAzMDA3&UT=UkFBQUc=",
       "location_id": "loc_新竹市南寮里海濱路250號"
     },
     {
@@ -1425,7 +1425,7 @@
       "open_date": "2023-07-10",
       "update_date": "2023-11-21",
       "city": "新竹市",
-      "source_url": "https://www.pet.gov.tw/Web/L315.aspx?no=315304",
+      "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=UkFBQUcxMTIwNzAzMDA2&UT=UkFBQUc=",
       "location_id": "loc_新竹市南寮里海濱路250號"
     },
     {
@@ -1444,7 +1444,7 @@
       "open_date": "2022-05-05",
       "update_date": "2023-11-17",
       "city": "新竹市",
-      "source_url": "https://www.pet.gov.tw/Web/L315.aspx?no=253818",
+      "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=UkFBQUcxMTEwNTA1MDAy&UT=UkFBQUc=",
       "location_id": "loc_新竹市南寮里海濱路250號"
     },
     {
@@ -1463,7 +1463,7 @@
       "open_date": "2023-04-03",
       "update_date": "2023-11-17",
       "city": "新竹市",
-      "source_url": "https://www.pet.gov.tw/Web/L315.aspx?no=301141",
+      "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=UkFBQUcxMTIwMzI3MDAx&UT=UkFBQUc=",
       "location_id": "loc_新竹市南寮里海濱路250號"
     },
     {
@@ -1482,7 +1482,7 @@
       "open_date": "2019-10-02",
       "update_date": "2023-10-17",
       "city": "新竹市",
-      "source_url": "https://www.pet.gov.tw/Web/L315.aspx?no=122244",
+      "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=UkFBQUcxMDgxMDAyMDAy&UT=UkFBQUc=",
       "location_id": "loc_新竹市南寮里海濱路250號"
     },
     {
@@ -1501,7 +1501,7 @@
       "open_date": "2016-11-22",
       "update_date": "2023-10-12",
       "city": "新竹市",
-      "source_url": "https://www.pet.gov.tw/Web/L315.aspx?no=29276",
+      "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=UkFBQUcxMDUxMTIyMDAz&UT=UkFBQUc=",
       "location_id": "loc_新竹市南寮里海濱路250號"
     },
     {
@@ -1520,7 +1520,7 @@
       "open_date": "2022-06-29",
       "update_date": "2023-09-14",
       "city": "新竹市",
-      "source_url": "https://www.pet.gov.tw/Web/L315.aspx?no=263117",
+      "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=UkFBQUcxMTEwNjI5MDAz&UT=UkFBQUc=",
       "location_id": "loc_新竹市南寮里海濱路250號"
     },
     {
@@ -1539,7 +1539,7 @@
       "open_date": "2018-01-15",
       "update_date": "2023-09-08",
       "city": "新竹市",
-      "source_url": "https://www.pet.gov.tw/Web/L315.aspx?no=34118",
+      "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=UkFBQUcxMDcwMjEzMDEw&UT=UkFBQUc=",
       "location_id": "loc_新竹市南寮里海濱路250號"
     },
     {
@@ -1558,7 +1558,7 @@
       "open_date": "2021-03-27",
       "update_date": "2023-09-07",
       "city": "新竹市",
-      "source_url": "https://www.pet.gov.tw/Web/L315.aspx?no=199245",
+      "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=UkFBQUcxMTAwMzE5MDAz&UT=UkFBQUc=",
       "location_id": "loc_新竹市南寮里海濱路250號"
     },
     {
@@ -1577,7 +1577,7 @@
       "open_date": "2022-12-06",
       "update_date": "2023-09-07",
       "city": "新竹市",
-      "source_url": "https://www.pet.gov.tw/Web/L315.aspx?no=286352",
+      "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=UkFBQUcxMTExMjA2MDA3&UT=UkFBQUc=",
       "location_id": "loc_新竹市南寮里海濱路250號"
     },
     {
@@ -1596,7 +1596,7 @@
       "open_date": "2021-08-31",
       "update_date": "2023-09-06",
       "city": "新竹市",
-      "source_url": "https://www.pet.gov.tw/Web/L315.aspx?no=218937",
+      "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=UkFBQUcxMTAwODIzMDA0&UT=UkFBQUc=",
       "location_id": "loc_新竹市南寮里海濱路250號"
     },
     {
@@ -1615,7 +1615,7 @@
       "open_date": "2021-09-11",
       "update_date": "2023-09-06",
       "city": "新竹市",
-      "source_url": "https://www.pet.gov.tw/Web/L315.aspx?no=220835",
+      "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=UkFBQUcxMTAwOTAzMDAz&UT=UkFBQUc=",
       "location_id": "loc_新竹市南寮里海濱路250號"
     },
     {
@@ -1634,7 +1634,7 @@
       "open_date": "2021-09-11",
       "update_date": "2023-09-06",
       "city": "新竹市",
-      "source_url": "https://www.pet.gov.tw/Web/L315.aspx?no=220836",
+      "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=UkFBQUcxMTAwOTAzMDA0&UT=UkFBQUc=",
       "location_id": "loc_新竹市南寮里海濱路250號"
     },
     {
@@ -1653,7 +1653,7 @@
       "open_date": "2017-01-06",
       "update_date": "2023-08-31",
       "city": "新竹市",
-      "source_url": "https://www.pet.gov.tw/Web/L315.aspx?no=29280",
+      "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=UkFBQUcxMDYwMTA2MDAx&UT=UkFBQUc=",
       "location_id": "loc_新竹市南寮里海濱路250號"
     },
     {
@@ -1672,7 +1672,7 @@
       "open_date": "2019-11-11",
       "update_date": "2023-08-30",
       "city": "新竹市",
-      "source_url": "https://www.pet.gov.tw/Web/L315.aspx?no=129067",
+      "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=UkFBQUcxMDgxMTEyMDAx&UT=UkFBQUc=",
       "location_id": "loc_新竹市南寮里海濱路250號"
     },
     {
@@ -1691,7 +1691,7 @@
       "open_date": "2022-06-22",
       "update_date": "2023-08-23",
       "city": "新竹市",
-      "source_url": "https://www.pet.gov.tw/Web/L315.aspx?no=260939",
+      "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=UkFBQUcxMTEwNjIyMDAx&UT=UkFBQUc=",
       "location_id": "loc_新竹市南寮里海濱路250號"
     },
     {
@@ -1710,7 +1710,7 @@
       "open_date": "2022-11-03",
       "update_date": "2023-08-22",
       "city": "新竹市",
-      "source_url": "https://www.pet.gov.tw/Web/L315.aspx?no=280074",
+      "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=UkFBQUcxMTExMDI3MDAz&UT=UkFBQUc=",
       "location_id": "loc_新竹市南寮里海濱路250號"
     },
     {
@@ -1729,7 +1729,7 @@
       "open_date": "2019-09-20",
       "update_date": "2023-08-21",
       "city": "新竹市",
-      "source_url": "https://www.pet.gov.tw/Web/L315.aspx?no=120592",
+      "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=UkFBQUcxMDgwOTIwMDAz&UT=UkFBQUc=",
       "location_id": "loc_新竹市南寮里海濱路250號"
     },
     {
@@ -1748,7 +1748,7 @@
       "open_date": "",
       "update_date": "2023-07-24",
       "city": "新竹市",
-      "source_url": "https://www.pet.gov.tw/Web/L315.aspx?no=317879",
+      "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=UkFBQUcxMTIwNzI0MDA3&UT=UkFBQUc=",
       "location_id": "loc_新竹市南寮里海濱路250號"
     },
     {
@@ -1767,7 +1767,7 @@
       "open_date": "2022-04-22",
       "update_date": "2023-05-29",
       "city": "新竹市",
-      "source_url": "https://www.pet.gov.tw/Web/L315.aspx?no=251919",
+      "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=UkFBQUcxMTEwNDIyMDEy&UT=UkFBQUc=",
       "location_id": "loc_新竹市南寮里海濱路250號"
     },
     {
@@ -1786,7 +1786,7 @@
       "open_date": "2018-07-03",
       "update_date": "2023-05-23",
       "city": "新竹市",
-      "source_url": "https://www.pet.gov.tw/Web/L315.aspx?no=54908",
+      "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=UkFBQUcxMDcwNzAzMDA0&UT=UkFBQUc=",
       "location_id": "loc_新竹市南寮里海濱路250號"
     },
     {
@@ -1805,7 +1805,7 @@
       "open_date": "2019-10-03",
       "update_date": "2023-05-23",
       "city": "新竹市",
-      "source_url": "https://www.pet.gov.tw/Web/L315.aspx?no=122509",
+      "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=UkFBQUcxMDgxMDAzMDAx&UT=UkFBQUc=",
       "location_id": "loc_新竹市南寮里海濱路250號"
     },
     {
@@ -1824,7 +1824,7 @@
       "open_date": "2019-11-11",
       "update_date": "2023-05-22",
       "city": "新竹市",
-      "source_url": "https://www.pet.gov.tw/Web/L315.aspx?no=129072",
+      "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=UkFBQUcxMDgxMTEyMDAz&UT=UkFBQUc=",
       "location_id": "loc_新竹市南寮里海濱路250號"
     },
     {
@@ -1843,7 +1843,7 @@
       "open_date": "2019-07-15",
       "update_date": "2023-05-18",
       "city": "新竹市",
-      "source_url": "https://www.pet.gov.tw/Web/L315.aspx?no=108537",
+      "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=UkFBQUcxMDgwNzE1MDAy&UT=UkFBQUc=",
       "location_id": "loc_新竹市南寮里海濱路250號"
     },
     {
@@ -1862,7 +1862,7 @@
       "open_date": "2020-07-06",
       "update_date": "2023-05-18",
       "city": "新竹市",
-      "source_url": "https://www.pet.gov.tw/Web/L315.aspx?no=166061",
+      "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=UkFBQUcxMDkwNjI5MDAx&UT=UkFBQUc=",
       "location_id": "loc_新竹市南寮里海濱路250號"
     },
     {
@@ -1881,7 +1881,7 @@
       "open_date": "2020-06-10",
       "update_date": "2023-05-18",
       "city": "新竹市",
-      "source_url": "https://www.pet.gov.tw/Web/L315.aspx?no=153906",
+      "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=UkFBQUcxMDkwNDE2MDAx&UT=UkFBQUc=",
       "location_id": "loc_新竹市南寮里海濱路250號"
     },
     {
@@ -1900,7 +1900,7 @@
       "open_date": "2016-08-03",
       "update_date": "2023-05-18",
       "city": "新竹市",
-      "source_url": "https://www.pet.gov.tw/Web/L315.aspx?no=29262",
+      "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=UkFBQUcxMDUwODAzMDAx&UT=UkFBQUc=",
       "location_id": "loc_新竹市南寮里海濱路250號"
     },
     {
@@ -1919,7 +1919,7 @@
       "open_date": "2020-04-15",
       "update_date": "2023-05-18",
       "city": "新竹市",
-      "source_url": "https://www.pet.gov.tw/Web/L315.aspx?no=152860",
+      "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=UkFBQUcxMDkwNDA5MDAy&UT=UkFBQUc=",
       "location_id": "loc_新竹市南寮里海濱路250號"
     },
     {
@@ -1938,7 +1938,7 @@
       "open_date": "2020-10-20",
       "update_date": "2023-05-17",
       "city": "新竹市",
-      "source_url": "https://www.pet.gov.tw/Web/L315.aspx?no=179716",
+      "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=UkFBQUcxMDkxMDEyMDAz&UT=UkFBQUc=",
       "location_id": "loc_新竹市南寮里海濱路250號"
     },
     {
@@ -1957,7 +1957,7 @@
       "open_date": "2020-10-15",
       "update_date": "2023-05-17",
       "city": "新竹市",
-      "source_url": "https://www.pet.gov.tw/Web/L315.aspx?no=179315",
+      "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=UkFBQUcxMDkxMDA3MDAy&UT=UkFBQUc=",
       "location_id": "loc_新竹市南寮里海濱路250號"
     },
     {
@@ -1976,7 +1976,7 @@
       "open_date": "2020-01-06",
       "update_date": "2023-05-17",
       "city": "新竹市",
-      "source_url": "https://www.pet.gov.tw/Web/L315.aspx?no=138581",
+      "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=UkFBQUcxMDkwMTA3MDAx&UT=UkFBQUc=",
       "location_id": "loc_新竹市南寮里海濱路250號"
     },
     {
@@ -1995,7 +1995,7 @@
       "open_date": "2019-11-13",
       "update_date": "2023-05-17",
       "city": "新竹市",
-      "source_url": "https://www.pet.gov.tw/Web/L315.aspx?no=129450",
+      "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=UkFBQUcxMDgxMTE0MDEx&UT=UkFBQUc=",
       "location_id": "loc_新竹市南寮里海濱路250號"
     },
     {
@@ -2014,7 +2014,7 @@
       "open_date": "2019-11-12",
       "update_date": "2023-05-17",
       "city": "新竹市",
-      "source_url": "https://www.pet.gov.tw/Web/L315.aspx?no=129184",
+      "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=UkFBQUcxMDgxMTEyMDEw&UT=UkFBQUc=",
       "location_id": "loc_新竹市南寮里海濱路250號"
     },
     {
@@ -2033,7 +2033,7 @@
       "open_date": "2019-06-13",
       "update_date": "2023-05-17",
       "city": "新竹市",
-      "source_url": "https://www.pet.gov.tw/Web/L315.aspx?no=100669",
+      "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=UkFBQUcxMDgwNTI3MDAy&UT=UkFBQUc=",
       "location_id": "loc_新竹市南寮里海濱路250號"
     },
     {
@@ -2052,7 +2052,7 @@
       "open_date": "2019-10-31",
       "update_date": "2023-05-16",
       "city": "新竹市",
-      "source_url": "https://www.pet.gov.tw/Web/L315.aspx?no=127467",
+      "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=UkFBQUcxMDgxMTAxMDAx&UT=UkFBQUc=",
       "location_id": "loc_新竹市南寮里海濱路250號"
     },
     {
@@ -2071,7 +2071,7 @@
       "open_date": "2019-10-30",
       "update_date": "2023-05-16",
       "city": "新竹市",
-      "source_url": "https://www.pet.gov.tw/Web/L315.aspx?no=127248",
+      "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=UkFBQUcxMDgxMDMwMDA2&UT=UkFBQUc=",
       "location_id": "loc_新竹市南寮里海濱路250號"
     },
     {
@@ -2090,7 +2090,7 @@
       "open_date": "2019-10-29",
       "update_date": "2023-05-16",
       "city": "新竹市",
-      "source_url": "https://www.pet.gov.tw/Web/L315.aspx?no=127063",
+      "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=UkFBQUcxMDgxMDMwMDAy&UT=UkFBQUc=",
       "location_id": "loc_新竹市南寮里海濱路250號"
     },
     {
@@ -2109,7 +2109,7 @@
       "open_date": "2019-10-29",
       "update_date": "2023-05-16",
       "city": "新竹市",
-      "source_url": "https://www.pet.gov.tw/Web/L315.aspx?no=127059",
+      "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=UkFBQUcxMDgxMDMwMDAx&UT=UkFBQUc=",
       "location_id": "loc_新竹市南寮里海濱路250號"
     },
     {
@@ -2128,7 +2128,7 @@
       "open_date": "2019-09-17",
       "update_date": "2023-05-16",
       "city": "新竹市",
-      "source_url": "https://www.pet.gov.tw/Web/L315.aspx?no=120030",
+      "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=UkFBQUcxMDgwOTE4MDAx&UT=UkFBQUc=",
       "location_id": "loc_新竹市南寮里海濱路250號"
     },
     {
@@ -2147,7 +2147,7 @@
       "open_date": "2019-09-04",
       "update_date": "2023-05-16",
       "city": "新竹市",
-      "source_url": "https://www.pet.gov.tw/Web/L315.aspx?no=115990",
+      "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=UkFBQUcxMDgwODI3MDAy&UT=UkFBQUc=",
       "location_id": "loc_新竹市南寮里海濱路250號"
     },
     {
@@ -2166,7 +2166,7 @@
       "open_date": "2019-08-22",
       "update_date": "2023-05-16",
       "city": "新竹市",
-      "source_url": "https://www.pet.gov.tw/Web/L315.aspx?no=113369",
+      "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=UkFBQUcxMDgwODE0MDA0&UT=UkFBQUc=",
       "location_id": "loc_新竹市南寮里海濱路250號"
     },
     {
@@ -2185,7 +2185,7 @@
       "open_date": "2019-06-14",
       "update_date": "2023-05-16",
       "city": "新竹市",
-      "source_url": "https://www.pet.gov.tw/Web/L315.aspx?no=103293",
+      "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=UkFBQUcxMDgwNjE0MDA5&UT=UkFBQUc=",
       "location_id": "loc_新竹市南寮里海濱路250號"
     },
     {
@@ -2204,7 +2204,7 @@
       "open_date": "2019-06-13",
       "update_date": "2023-05-16",
       "city": "新竹市",
-      "source_url": "https://www.pet.gov.tw/Web/L315.aspx?no=103154",
+      "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=UkFBQUcxMDgwNjE0MDA2&UT=UkFBQUc=",
       "location_id": "loc_新竹市南寮里海濱路250號"
     },
     {
@@ -2223,7 +2223,7 @@
       "open_date": "2019-06-13",
       "update_date": "2023-05-16",
       "city": "新竹市",
-      "source_url": "https://www.pet.gov.tw/Web/L315.aspx?no=103143",
+      "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=UkFBQUcxMDgwNjE0MDAy&UT=UkFBQUc=",
       "location_id": "loc_新竹市南寮里海濱路250號"
     },
     {
@@ -2242,7 +2242,7 @@
       "open_date": "2018-05-16",
       "update_date": "2023-05-16",
       "city": "新竹市",
-      "source_url": "https://www.pet.gov.tw/Web/L315.aspx?no=49044",
+      "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=UkFBQUcxMDcwNTE2MDAx&UT=UkFBQUc=",
       "location_id": "loc_新竹市南寮里海濱路250號"
     },
     {
@@ -2261,7 +2261,7 @@
       "open_date": "2017-05-02",
       "update_date": "2023-05-16",
       "city": "新竹市",
-      "source_url": "https://www.pet.gov.tw/Web/L315.aspx?no=29285",
+      "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=UkFBQUcxMDYwNTAyMDAx&UT=UkFBQUc=",
       "location_id": "loc_新竹市南寮里海濱路250號"
     },
     {
@@ -2280,7 +2280,7 @@
       "open_date": "2016-11-24",
       "update_date": "2023-05-16",
       "city": "新竹市",
-      "source_url": "https://www.pet.gov.tw/Web/L315.aspx?no=29278",
+      "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=UkFBQUcxMDUxMTI0MDAx&UT=UkFBQUc=",
       "location_id": "loc_新竹市南寮里海濱路250號"
     },
     {
@@ -2299,7 +2299,7 @@
       "open_date": "2016-11-22",
       "update_date": "2023-05-16",
       "city": "新竹市",
-      "source_url": "https://www.pet.gov.tw/Web/L315.aspx?no=29277",
+      "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=UkFBQUcxMDUxMTIyMDA0&UT=UkFBQUc=",
       "location_id": "loc_新竹市南寮里海濱路250號"
     },
     {
@@ -2318,7 +2318,7 @@
       "open_date": "2016-11-22",
       "update_date": "2023-05-16",
       "city": "新竹市",
-      "source_url": "https://www.pet.gov.tw/Web/L315.aspx?no=29274",
+      "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=UkFBQUcxMDUxMTIyMDAx&UT=UkFBQUc=",
       "location_id": "loc_新竹市南寮里海濱路250號"
     },
     {
@@ -2337,7 +2337,7 @@
       "open_date": "2016-08-09",
       "update_date": "2023-05-16",
       "city": "新竹市",
-      "source_url": "https://www.pet.gov.tw/Web/L315.aspx?no=29263",
+      "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=UkFBQUcxMDUwODA5MDAx&UT=UkFBQUc=",
       "location_id": "loc_新竹市南寮里海濱路250號"
     },
     {
@@ -2356,7 +2356,7 @@
       "open_date": "2016-05-25",
       "update_date": "2023-05-16",
       "city": "新竹市",
-      "source_url": "https://www.pet.gov.tw/Web/L315.aspx?no=29256",
+      "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=UkFBQUcxMDUwNTI1MDAx&UT=UkFBQUc=",
       "location_id": "loc_新竹市南寮里海濱路250號"
     },
     {
@@ -2375,7 +2375,7 @@
       "open_date": "2016-01-19",
       "update_date": "2023-05-16",
       "city": "新竹市",
-      "source_url": "https://www.pet.gov.tw/Web/L315.aspx?no=29239",
+      "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=UkFBQUcxMDUwMTE5MDAx&UT=UkFBQUc=",
       "location_id": "loc_新竹市南寮里海濱路250號"
     },
     {
@@ -2394,7 +2394,7 @@
       "open_date": "2015-11-18",
       "update_date": "2023-05-16",
       "city": "新竹市",
-      "source_url": "https://www.pet.gov.tw/Web/L315.aspx?no=29236",
+      "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=UkFBQUcxMDQxMTE4MDAx&UT=UkFBQUc=",
       "location_id": "loc_新竹市南寮里海濱路250號"
     },
     {
@@ -2413,7 +2413,7 @@
       "open_date": "2015-06-30",
       "update_date": "2023-05-16",
       "city": "新竹市",
-      "source_url": "https://www.pet.gov.tw/Web/L315.aspx?no=29231",
+      "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=UkFBQUcxMDQwNjMwMDAx&UT=UkFBQUc=",
       "location_id": "loc_新竹市南寮里海濱路250號"
     },
     {
@@ -2432,7 +2432,7 @@
       "open_date": "2022-02-21",
       "update_date": "2023-05-11",
       "city": "新竹市",
-      "source_url": "https://www.pet.gov.tw/Web/L315.aspx?no=201934",
+      "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=UkFBQUcxMTAwNDEwMDAx&UT=UkFBQUc=",
       "location_id": "loc_新竹市南寮里海濱路250號"
     },
     {
@@ -2451,7 +2451,7 @@
       "open_date": "2022-02-21",
       "update_date": "2023-05-11",
       "city": "新竹市",
-      "source_url": "https://www.pet.gov.tw/Web/L315.aspx?no=201936",
+      "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=UkFBQUcxMTAwNDEwMDAy&UT=UkFBQUc=",
       "location_id": "loc_新竹市南寮里海濱路250號"
     },
     {
@@ -2470,7 +2470,7 @@
       "open_date": "2022-02-21",
       "update_date": "2023-05-11",
       "city": "新竹市",
-      "source_url": "https://www.pet.gov.tw/Web/L315.aspx?no=201938",
+      "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=UkFBQUcxMTAwNDEwMDAz&UT=UkFBQUc=",
       "location_id": "loc_新竹市南寮里海濱路250號"
     },
     {
@@ -2489,7 +2489,7 @@
       "open_date": "2022-02-21",
       "update_date": "2023-05-11",
       "city": "新竹市",
-      "source_url": "https://www.pet.gov.tw/Web/L315.aspx?no=201940",
+      "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=UkFBQUcxMTAwNDEwMDA0&UT=UkFBQUc=",
       "location_id": "loc_新竹市南寮里海濱路250號"
     },
     {
@@ -2508,7 +2508,7 @@
       "open_date": "2022-02-21",
       "update_date": "2023-05-11",
       "city": "新竹市",
-      "source_url": "https://www.pet.gov.tw/Web/L315.aspx?no=201950",
+      "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=UkFBQUcxMTAwNDEwMDA3&UT=UkFBQUc=",
       "location_id": "loc_新竹市南寮里海濱路250號"
     },
     {
@@ -2527,7 +2527,7 @@
       "open_date": "2021-05-14",
       "update_date": "2023-05-11",
       "city": "新竹市",
-      "source_url": "https://www.pet.gov.tw/Web/L315.aspx?no=205429",
+      "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=UkFBQUcxMTAwNTA2MDAy&UT=UkFBQUc=",
       "location_id": "loc_新竹市南寮里海濱路250號"
     },
     {
@@ -2546,7 +2546,7 @@
       "open_date": "2020-12-19",
       "update_date": "2023-05-11",
       "city": "新竹市",
-      "source_url": "https://www.pet.gov.tw/Web/L315.aspx?no=188400",
+      "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=UkFBQUcxMDkxMjExMDA1&UT=UkFBQUc=",
       "location_id": "loc_新竹市南寮里海濱路250號"
     },
     {
@@ -2565,7 +2565,7 @@
       "open_date": "2022-03-03",
       "update_date": "2023-05-11",
       "city": "新竹市",
-      "source_url": "https://www.pet.gov.tw/Web/L315.aspx?no=244720",
+      "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=UkFBQUcxMTEwMzAzMDAy&UT=UkFBQUc=",
       "location_id": "loc_新竹市南寮里海濱路250號"
     },
     {
@@ -2584,7 +2584,7 @@
       "open_date": "2022-03-03",
       "update_date": "2023-05-11",
       "city": "新竹市",
-      "source_url": "https://www.pet.gov.tw/Web/L315.aspx?no=244724",
+      "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=UkFBQUcxMTEwMzAzMDAz&UT=UkFBQUc=",
       "location_id": "loc_新竹市南寮里海濱路250號"
     },
     {
@@ -2603,7 +2603,7 @@
       "open_date": "2022-03-18",
       "update_date": "2023-05-11",
       "city": "新竹市",
-      "source_url": "https://www.pet.gov.tw/Web/L315.aspx?no=247121",
+      "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=UkFBQUcxMTEwMzE4MDAx&UT=UkFBQUc=",
       "location_id": "loc_新竹市南寮里海濱路250號"
     },
     {
@@ -2622,7 +2622,7 @@
       "open_date": "2022-04-22",
       "update_date": "2023-05-11",
       "city": "新竹市",
-      "source_url": "https://www.pet.gov.tw/Web/L315.aspx?no=251894",
+      "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=UkFBQUcxMTEwNDIyMDA0&UT=UkFBQUc=",
       "location_id": "loc_新竹市南寮里海濱路250號"
     },
     {
@@ -2641,7 +2641,7 @@
       "open_date": "2022-04-22",
       "update_date": "2023-05-11",
       "city": "新竹市",
-      "source_url": "https://www.pet.gov.tw/Web/L315.aspx?no=251896",
+      "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=UkFBQUcxMTEwNDIyMDA2&UT=UkFBQUc=",
       "location_id": "loc_新竹市南寮里海濱路250號"
     },
     {
@@ -2660,7 +2660,7 @@
       "open_date": "2022-05-17",
       "update_date": "2023-05-11",
       "city": "新竹市",
-      "source_url": "https://www.pet.gov.tw/Web/L315.aspx?no=255500",
+      "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=UkFBQUcxMTEwNTE3MDAy&UT=UkFBQUc=",
       "location_id": "loc_新竹市南寮里海濱路250號"
     },
     {
@@ -2679,7 +2679,7 @@
       "open_date": "2022-07-27",
       "update_date": "2023-05-11",
       "city": "新竹市",
-      "source_url": "https://www.pet.gov.tw/Web/L315.aspx?no=266094",
+      "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=UkFBQUcxMTEwNzIwMDAx&UT=UkFBQUc=",
       "location_id": "loc_新竹市南寮里海濱路250號"
     },
     {
@@ -2698,7 +2698,7 @@
       "open_date": "2022-10-12",
       "update_date": "2023-05-11",
       "city": "新竹市",
-      "source_url": "https://www.pet.gov.tw/Web/L315.aspx?no=278003",
+      "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=UkFBQUcxMTExMDEyMDAx&UT=UkFBQUc=",
       "location_id": "loc_新竹市南寮里海濱路250號"
     },
     {
@@ -2717,7 +2717,7 @@
       "open_date": "2022-11-07",
       "update_date": "2023-05-11",
       "city": "新竹市",
-      "source_url": "https://www.pet.gov.tw/Web/L315.aspx?no=280510",
+      "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=UkFBQUcxMTExMDMxMDA2&UT=UkFBQUc=",
       "location_id": "loc_新竹市南寮里海濱路250號"
     },
     {
@@ -2736,7 +2736,7 @@
       "open_date": "2022-11-17",
       "update_date": "2023-05-10",
       "city": "新竹市",
-      "source_url": "https://www.pet.gov.tw/Web/L315.aspx?no=282498",
+      "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=UkFBQUcxMTExMTEwMDAz&UT=UkFBQUc=",
       "location_id": "loc_新竹市南寮里海濱路250號"
     },
     {
@@ -2755,7 +2755,7 @@
       "open_date": "2022-11-17",
       "update_date": "2023-05-10",
       "city": "新竹市",
-      "source_url": "https://www.pet.gov.tw/Web/L315.aspx?no=282500",
+      "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=UkFBQUcxMTExMTEwMDA1&UT=UkFBQUc=",
       "location_id": "loc_新竹市南寮里海濱路250號"
     },
     {
@@ -2774,7 +2774,7 @@
       "open_date": "2022-11-17",
       "update_date": "2023-05-10",
       "city": "新竹市",
-      "source_url": "https://www.pet.gov.tw/Web/L315.aspx?no=282501",
+      "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=UkFBQUcxMTExMTEwMDA2&UT=UkFBQUc=",
       "location_id": "loc_新竹市南寮里海濱路250號"
     },
     {
@@ -2793,7 +2793,7 @@
       "open_date": "2022-11-17",
       "update_date": "2023-05-10",
       "city": "新竹市",
-      "source_url": "https://www.pet.gov.tw/Web/L315.aspx?no=282502",
+      "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=UkFBQUcxMTExMTEwMDA3&UT=UkFBQUc=",
       "location_id": "loc_新竹市南寮里海濱路250號"
     },
     {
@@ -2812,7 +2812,7 @@
       "open_date": "2022-11-17",
       "update_date": "2023-05-10",
       "city": "新竹市",
-      "source_url": "https://www.pet.gov.tw/Web/L315.aspx?no=282508",
+      "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=UkFBQUcxMTExMTEwMDEy&UT=UkFBQUc=",
       "location_id": "loc_新竹市南寮里海濱路250號"
     },
     {
@@ -2831,7 +2831,7 @@
       "open_date": "2021-12-15",
       "update_date": "2023-05-10",
       "city": "新竹市",
-      "source_url": "https://www.pet.gov.tw/Web/L315.aspx?no=235619",
+      "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=UkFBQUcxMTAxMjE1MDA3&UT=UkFBQUc=",
       "location_id": "loc_新竹市南寮里海濱路250號"
     }
   ]

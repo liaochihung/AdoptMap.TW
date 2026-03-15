@@ -163,12 +163,18 @@ const photoBg = computed(() => {
       @wheel.prevent="onWheel"
     >
       <template v-if="currentAnimal">
+        <!-- Skeleton placeholder while loading -->
+        <div
+          v-if="currentAnimal.photo_url && !imgLoaded && !imgError"
+          class="absolute inset-0 bg-gray-200 animate-pulse"
+        />
         <!-- Blurred bg layer (fills space around letterboxed image) -->
         <img
-          v-if="currentAnimal.photo_url && !imgError"
+          v-if="currentAnimal.photo_url && !imgError && imgLoaded"
           :src="currentAnimal.photo_url"
           aria-hidden="true"
           class="absolute inset-0 w-full h-full object-cover scale-110 blur-xl opacity-50 pointer-events-none"
+          decoding="async"
           draggable="false"
         />
         <!-- Main image: contain = no crop, full animal visible -->
@@ -176,7 +182,10 @@ const photoBg = computed(() => {
           v-if="currentAnimal.photo_url && !imgError"
           :src="currentAnimal.photo_url"
           :alt="displayName"
-          class="relative w-full h-full object-contain pointer-events-none"
+          class="relative w-full h-full object-contain pointer-events-none transition-opacity duration-300"
+          :class="imgLoaded ? 'opacity-100' : 'opacity-0'"
+          loading="lazy"
+          decoding="async"
           draggable="false"
           @error="imgError = true"
           @load="imgLoaded = true"

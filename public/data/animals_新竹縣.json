@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-15T18:02:32+08:00",
+  "updated_at": "2026-03-15T22:16:30+08:00",
   "total": 146,
   "city": "新竹縣",
   "animals": [
@@ -19,7 +19,7 @@
       "open_date": "2024-11-22",
       "update_date": "2025-10-03",
       "city": "新竹縣",
-      "source_url": "https://www.pet.gov.tw/Web/L315.aspx?no=384832",
+      "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=REFBQUcxMTMxMTIyMDA0&UT=REFBQUc=",
       "location_id": "loc_新竹縣竹北市縣政五街192號"
     },
     {
@@ -38,7 +38,7 @@
       "open_date": "2026-03-13",
       "update_date": "2026-03-13",
       "city": "新竹縣",
-      "source_url": "https://www.pet.gov.tw/Web/L315.aspx?no=445494",
+      "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=REFBQUcxMTUwMzEzMDAy&UT=REFBQUc=",
       "location_id": "loc_新竹縣竹北市縣政五街192號"
     },
     {
@@ -57,7 +57,7 @@
       "open_date": "2026-02-18",
       "update_date": "2026-03-13",
       "city": "新竹縣",
-      "source_url": "https://www.pet.gov.tw/Web/L315.aspx?no=442977",
+      "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=REFBQUcxMTUwMjE4MDAx&UT=REFBQUc=",
       "location_id": "loc_新竹縣竹北市縣政五街192號"
     },
     {
@@ -76,7 +76,7 @@
       "open_date": "2026-02-04",
       "update_date": "2026-03-13",
       "city": "新竹縣",
-      "source_url": "https://www.pet.gov.tw/Web/L315.aspx?no=441706",
+      "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=REFBQUcxMTUwMjA0MDA0&UT=REFBQUc=",
       "location_id": "loc_新竹縣竹北市縣政五街192號"
     },
     {
@@ -95,7 +95,7 @@
       "open_date": "2026-03-03",
       "update_date": "2026-03-13",
       "city": "新竹縣",
-      "source_url": "https://www.pet.gov.tw/Web/L315.aspx?no=443983",
+      "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=REFBQUcxMTUwMzAzMDAz&UT=REFBQUc=",
       "location_id": "loc_新竹縣竹北市縣政五街192號"
     },
     {
@@ -114,7 +114,7 @@
       "open_date": "2026-02-25",
       "update_date": "2026-03-12",
       "city": "新竹縣",
-      "source_url": "https://www.pet.gov.tw/Web/L315.aspx?no=443432",
+      "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=REFBQUcxMTUwMjI1MDAx&UT=REFBQUc=",
       "location_id": "loc_新竹縣竹北市縣政五街192號"
     },
     {
@@ -133,7 +133,7 @@
       "open_date": "2026-03-12",
       "update_date": "2026-03-12",
       "city": "新竹縣",
-      "source_url": "https://www.pet.gov.tw/Web/L315.aspx?no=445336",
+      "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=REFBQUcxMTUwMzEyMDAy&UT=REFBQUc=",
       "location_id": "loc_新竹縣竹北市縣政五街192號"
     },
     {
@@ -152,7 +152,7 @@
       "open_date": "2026-03-12",
       "update_date": "2026-03-12",
       "city": "新竹縣",
-      "source_url": "https://www.pet.gov.tw/Web/L315.aspx?no=445305",
+      "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=REFBQUcxMTUwMzEyMDAx&UT=REFBQUc=",
       "location_id": "loc_新竹縣竹北市縣政五街192號"
     },
     {
@@ -171,7 +171,7 @@
       "open_date": "2026-03-11",
       "update_date": "2026-03-12",
       "city": "新竹縣",
-      "source_url": "https://www.pet.gov.tw/Web/L315.aspx?no=445107",
+      "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=REFBQUcxMTUwMzExMDAx&UT=REFBQUc=",
       "location_id": "loc_新竹縣竹北市縣政五街192號"
     },
     {
@@ -190,7 +190,7 @@
       "open_date": "2026-03-11",
       "update_date": "2026-03-12",
       "city": "新竹縣",
-      "source_url": "https://www.pet.gov.tw/Web/L315.aspx?no=445166",
+      "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=REFBQUcxMTUwMzExMDAy&UT=REFBQUc=",
       "location_id": "loc_新竹縣竹北市縣政五街192號"
     },
     {
@@ -209,7 +209,7 @@
       "open_date": "2026-03-18",
       "update_date": "2026-03-11",
       "city": "新竹縣",
-      "source_url": "https://www.pet.gov.tw/Web/L315.aspx?no=444518",
+      "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=REFBQUcxMTUwMzA4MDA1&UT=REFBQUc=",
       "location_id": "loc_新竹縣竹北市縣政五街192號"
     },
     {
@@ -228,7 +228,7 @@
       "open_date": "2026-03-18",
       "update_date": "2026-03-11",
       "city": "新竹縣",
-      "source_url": "https://www.pet.gov.tw/Web/L315.aspx?no=444517",
+      "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=REFBQUcxMTUwMzA4MDA0&UT=REFBQUc=",
       "location_id": "loc_新竹縣竹北市縣政五街192號"
     },
     {
@@ -247,7 +247,7 @@
       "open_date": "2026-03-18",
       "update_date": "2026-03-11",
       "city": "新竹縣",
-      "source_url": "https://www.pet.gov.tw/Web/L315.aspx?no=444514",
+      "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=REFBQUcxMTUwMzA4MDAx&UT=REFBQUc=",
       "location_id": "loc_新竹縣竹北市縣政五街192號"
     },
     {
@@ -266,7 +266,7 @@
       "open_date": "2026-03-18",
       "update_date": "2026-03-11",
       "city": "新竹縣",
-      "source_url": "https://www.pet.gov.tw/Web/L315.aspx?no=444516",
+      "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=REFBQUcxMTUwMzA4MDAz&UT=REFBQUc=",
       "location_id": "loc_新竹縣竹北市縣政五街192號"
     },
     {
@@ -285,7 +285,7 @@
       "open_date": "2026-03-18",
       "update_date": "2026-03-11",
       "city": "新竹縣",
-      "source_url": "https://www.pet.gov.tw/Web/L315.aspx?no=444515",
+      "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=REFBQUcxMTUwMzA4MDAy&UT=REFBQUc=",
       "location_id": "loc_新竹縣竹北市縣政五街192號"
     },
     {
@@ -304,7 +304,7 @@
       "open_date": "2026-03-18",
       "update_date": "2026-03-11",
       "city": "新竹縣",
-      "source_url": "https://www.pet.gov.tw/Web/L315.aspx?no=444519",
+      "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=REFBQUcxMTUwMzA4MDA2&UT=REFBQUc=",
       "location_id": "loc_新竹縣竹北市縣政五街192號"
     },
     {
@@ -323,7 +323,7 @@
       "open_date": "2026-03-02",
       "update_date": "2026-03-11",
       "city": "新竹縣",
-      "source_url": "https://www.pet.gov.tw/Web/L315.aspx?no=443784",
+      "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=REFBQUcxMTUwMzAyMDAy&UT=REFBQUc=",
       "location_id": "loc_新竹縣竹北市縣政五街192號"
     },
     {
@@ -342,7 +342,7 @@
       "open_date": "2026-03-10",
       "update_date": "2026-03-10",
       "city": "新竹縣",
-      "source_url": "https://www.pet.gov.tw/Web/L315.aspx?no=444966",
+      "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=REFBQUcxMTUwMzEwMDAy&UT=REFBQUc=",
       "location_id": "loc_新竹縣竹北市縣政五街192號"
     },
     {
@@ -361,7 +361,7 @@
       "open_date": "2026-02-25",
       "update_date": "2026-03-09",
       "city": "新竹縣",
-      "source_url": "https://www.pet.gov.tw/Web/L315.aspx?no=444687",
+      "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=REFBQUcxMTUwMjI1MDAz&UT=REFBQUc=",
       "location_id": "loc_新竹縣竹北市縣政五街192號"
     },
     {
@@ -380,7 +380,7 @@
       "open_date": "2026-03-08",
       "update_date": "2026-03-10",
       "city": "新竹縣",
-      "source_url": "https://www.pet.gov.tw/Web/L315.aspx?no=444973",
+      "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=REFBQUcxMTUwMzA4MDA3&UT=REFBQUc=",
       "location_id": "loc_新竹縣竹北市縣政五街192號"
     },
     {
@@ -399,7 +399,7 @@
       "open_date": "2026-03-10",
       "update_date": "2026-03-10",
       "city": "新竹縣",
-      "source_url": "https://www.pet.gov.tw/Web/L315.aspx?no=444967",
+      "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=REFBQUcxMTUwMzEwMDAz&UT=REFBQUc=",
       "location_id": "loc_新竹縣竹北市縣政五街192號"
     },
     {
@@ -418,7 +418,7 @@
       "open_date": "2026-03-10",
       "update_date": "2026-03-10",
       "city": "新竹縣",
-      "source_url": "https://www.pet.gov.tw/Web/L315.aspx?no=444951",
+      "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=REFBQUcxMTUwMzEwMDAx&UT=REFBQUc=",
       "location_id": "loc_新竹縣竹北市縣政五街192號"
     },
     {
@@ -437,7 +437,7 @@
       "open_date": "2026-03-18",
       "update_date": "2026-03-09",
       "city": "新竹縣",
-      "source_url": "https://www.pet.gov.tw/Web/L315.aspx?no=432779",
+      "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=REFBQUcxMTQxMTI4MDEw&UT=REFBQUc=",
       "location_id": "loc_新竹縣竹北市縣政五街192號"
     },
     {
@@ -456,7 +456,7 @@
       "open_date": "2026-03-06",
       "update_date": "2026-03-09",
       "city": "新竹縣",
-      "source_url": "https://www.pet.gov.tw/Web/L315.aspx?no=444513",
+      "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=REFBQUcxMTUwMzA2MDAx&UT=REFBQUc=",
       "location_id": "loc_新竹縣竹北市縣政五街192號"
     },
     {
@@ -475,7 +475,7 @@
       "open_date": "2026-03-03",
       "update_date": "2026-03-07",
       "city": "新竹縣",
-      "source_url": "https://www.pet.gov.tw/Web/L315.aspx?no=443982",
+      "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=REFBQUcxMTUwMzAzMDAy&UT=REFBQUc=",
       "location_id": "loc_新竹縣竹北市縣政五街192號"
     },
     {
@@ -494,7 +494,7 @@
       "open_date": "2026-03-05",
       "update_date": "2026-03-06",
       "city": "新竹縣",
-      "source_url": "https://www.pet.gov.tw/Web/L315.aspx?no=444395",
+      "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=REFBQUcxMTUwMzA1MDAx&UT=REFBQUc=",
       "location_id": "loc_新竹縣竹北市縣政五街192號"
     },
     {
@@ -513,7 +513,7 @@
       "open_date": "2026-02-26",
       "update_date": "2026-03-06",
       "city": "新竹縣",
-      "source_url": "https://www.pet.gov.tw/Web/L315.aspx?no=443508",
+      "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=REFBQUcxMTUwMjI2MDAx&UT=REFBQUc=",
       "location_id": "loc_新竹縣竹北市縣政五街192號"
     },
     {
@@ -532,7 +532,7 @@
       "open_date": "2026-03-04",
       "update_date": "2026-03-05",
       "city": "新竹縣",
-      "source_url": "https://www.pet.gov.tw/Web/L315.aspx?no=444330",
+      "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=REFBQUcxMTUwMzA0MDAy&UT=REFBQUc=",
       "location_id": "loc_新竹縣竹北市縣政五街192號"
     },
     {
@@ -551,7 +551,7 @@
       "open_date": "2026-03-04",
       "update_date": "2026-03-04",
       "city": "新竹縣",
-      "source_url": "https://www.pet.gov.tw/Web/L315.aspx?no=444141",
+      "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=REFBQUcxMTUwMzA0MDAx&UT=REFBQUc=",
       "location_id": "loc_新竹縣竹北市縣政五街192號"
     },
     {
@@ -570,7 +570,7 @@
       "open_date": "2026-03-03",
       "update_date": "2026-03-03",
       "city": "新竹縣",
-      "source_url": "https://www.pet.gov.tw/Web/L315.aspx?no=443981",
+      "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=REFBQUcxMTUwMzAzMDAx&UT=REFBQUc=",
       "location_id": "loc_新竹縣竹北市縣政五街192號"
     },
     {
@@ -589,7 +589,7 @@
       "open_date": "2026-02-14",
       "update_date": "2026-03-03",
       "city": "新竹縣",
-      "source_url": "https://www.pet.gov.tw/Web/L315.aspx?no=443157",
+      "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=REFBQUcxMTUwMjE0MDAx&UT=REFBQUc=",
       "location_id": "loc_新竹縣竹北市縣政五街192號"
     },
     {
@@ -608,7 +608,7 @@
       "open_date": "2026-02-26",
       "update_date": "2026-03-03",
       "city": "新竹縣",
-      "source_url": "https://www.pet.gov.tw/Web/L315.aspx?no=443522",
+      "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=REFBQUcxMTUwMjI2MDAy&UT=REFBQUc=",
       "location_id": "loc_新竹縣竹北市縣政五街192號"
     },
     {
@@ -627,7 +627,7 @@
       "open_date": "2026-02-09",
       "update_date": "2026-03-03",
       "city": "新竹縣",
-      "source_url": "https://www.pet.gov.tw/Web/L315.aspx?no=442463",
+      "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=REFBQUcxMTUwMjA5MDAy&UT=REFBQUc=",
       "location_id": "loc_新竹縣竹北市縣政五街192號"
     },
     {
@@ -646,7 +646,7 @@
       "open_date": "2026-01-14",
       "update_date": "2026-03-03",
       "city": "新竹縣",
-      "source_url": "https://www.pet.gov.tw/Web/L315.aspx?no=442493",
+      "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=REFBQUcxMTUwMTE0MDAx&UT=REFBQUc=",
       "location_id": "loc_新竹縣竹北市縣政五街192號"
     },
     {
@@ -665,7 +665,7 @@
       "open_date": "2026-03-04",
       "update_date": "2026-03-03",
       "city": "新竹縣",
-      "source_url": "https://www.pet.gov.tw/Web/L315.aspx?no=442972",
+      "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=REFBQUcxMTUwMjIwMDAx&UT=REFBQUc=",
       "location_id": "loc_新竹縣竹北市縣政五街192號"
     },
     {
@@ -684,7 +684,7 @@
       "open_date": "2026-03-03",
       "update_date": "2026-03-02",
       "city": "新竹縣",
-      "source_url": "https://www.pet.gov.tw/Web/L315.aspx?no=442949",
+      "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=REFBQUcxMTUwMjEzMDAy&UT=REFBQUc=",
       "location_id": "loc_新竹縣竹北市縣政五街192號"
     },
     {
@@ -703,7 +703,7 @@
       "open_date": "2026-02-25",
       "update_date": "2026-02-25",
       "city": "新竹縣",
-      "source_url": "https://www.pet.gov.tw/Web/L315.aspx?no=443483",
+      "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=REFBQUcxMTUwMjI1MDAy&UT=REFBQUc=",
       "location_id": "loc_新竹縣竹北市縣政五街192號"
     },
     {
@@ -722,7 +722,7 @@
       "open_date": "",
       "update_date": "2026-02-24",
       "city": "新竹縣",
-      "source_url": "https://www.pet.gov.tw/Web/L315.aspx?no=443233",
+      "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=REFBQUcxMTUwMjI0MDAx&UT=REFBQUc=",
       "location_id": "loc_新竹縣竹北市縣政五街192號"
     },
     {
@@ -741,7 +741,7 @@
       "open_date": "2025-11-14",
       "update_date": "2026-02-24",
       "city": "新竹縣",
-      "source_url": "https://www.pet.gov.tw/Web/L315.aspx?no=427556",
+      "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=REFBQUcxMTQxMDI4MDA0&UT=REFBQUc=",
       "location_id": "loc_新竹縣竹北市縣政五街192號"
     },
     {
@@ -760,7 +760,7 @@
       "open_date": "2026-02-06",
       "update_date": "2026-02-22",
       "city": "新竹縣",
-      "source_url": "https://www.pet.gov.tw/Web/L315.aspx?no=441963",
+      "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=REFBQUcxMTUwMjA2MDAz&UT=REFBQUc=",
       "location_id": "loc_新竹縣竹北市縣政五街192號"
     },
     {
@@ -779,7 +779,7 @@
       "open_date": "2026-01-13",
       "update_date": "2026-02-18",
       "city": "新竹縣",
-      "source_url": "https://www.pet.gov.tw/Web/L315.aspx?no=435721",
+      "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=REFBQUcxMTQxMjE5MDAx&UT=REFBQUc=",
       "location_id": "loc_新竹縣竹北市縣政五街192號"
     },
     {
@@ -798,7 +798,7 @@
       "open_date": "2026-02-06",
       "update_date": "2026-02-11",
       "city": "新竹縣",
-      "source_url": "https://www.pet.gov.tw/Web/L315.aspx?no=441962",
+      "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=REFBQUcxMTUwMjA2MDAy&UT=REFBQUc=",
       "location_id": "loc_新竹縣竹北市縣政五街192號"
     },
     {
@@ -817,7 +817,7 @@
       "open_date": "2026-01-05",
       "update_date": "2026-02-03",
       "city": "新竹縣",
-      "source_url": "https://www.pet.gov.tw/Web/L315.aspx?no=439408",
+      "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=REFBQUcxMTUwMTA1MDA1&UT=REFBQUc=",
       "location_id": "loc_新竹縣竹北市縣政五街192號"
     },
     {
@@ -836,7 +836,7 @@
       "open_date": "2024-04-02",
       "update_date": "2026-02-09",
       "city": "新竹縣",
-      "source_url": "https://www.pet.gov.tw/Web/L315.aspx?no=352504",
+      "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=REFBQUcxMTMwNDAxMDA4&UT=REFBQUc=",
       "location_id": "loc_新竹縣竹北市縣政五街192號"
     },
     {
@@ -855,7 +855,7 @@
       "open_date": "2025-09-05",
       "update_date": "2026-02-09",
       "city": "新竹縣",
-      "source_url": "https://www.pet.gov.tw/Web/L315.aspx?no=419771",
+      "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=REFBQUcxMTQwODEyMDMx&UT=REFBQUc=",
       "location_id": "loc_新竹縣竹北市縣政五街192號"
     },
     {
@@ -874,7 +874,7 @@
       "open_date": "2023-01-10",
       "update_date": "2025-05-02",
       "city": "新竹縣",
-      "source_url": "https://www.pet.gov.tw/Web/L315.aspx?no=291403",
+      "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=REFBQUcxMTIwMTEwMDAx&UT=REFBQUc=",
       "location_id": "loc_新竹縣竹北市縣政五街192號"
     },
     {
@@ -893,7 +893,7 @@
       "open_date": "2022-05-06",
       "update_date": "2025-04-29",
       "city": "新竹縣",
-      "source_url": "https://www.pet.gov.tw/Web/L315.aspx?no=253907",
+      "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=REFBQUcxMTEwNTA2MDAx&UT=REFBQUc=",
       "location_id": "loc_新竹縣竹北市縣政五街192號"
     },
     {
@@ -912,7 +912,7 @@
       "open_date": "2025-11-17",
       "update_date": "2025-12-12",
       "city": "新竹縣",
-      "source_url": "https://www.pet.gov.tw/Web/L315.aspx?no=432771",
+      "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=REFBQUcxMTQxMTE3MDA0&UT=REFBQUc=",
       "location_id": "loc_新竹縣竹北市縣政五街192號"
     },
     {
@@ -931,7 +931,7 @@
       "open_date": "2025-09-05",
       "update_date": "2026-01-15",
       "city": "新竹縣",
-      "source_url": "https://www.pet.gov.tw/Web/L315.aspx?no=419775",
+      "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=REFBQUcxMTQwODEyMDM1&UT=REFBQUc=",
       "location_id": "loc_新竹縣竹北市縣政五街192號"
     },
     {
@@ -950,7 +950,7 @@
       "open_date": "2023-10-02",
       "update_date": "2026-01-06",
       "city": "新竹縣",
-      "source_url": "https://www.pet.gov.tw/Web/L315.aspx?no=301624",
+      "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=REFBQUcxMTIwMzI5MDAx&UT=REFBQUc=",
       "location_id": "loc_新竹縣竹北市縣政五街192號"
     },
     {
@@ -969,7 +969,7 @@
       "open_date": "2021-05-24",
       "update_date": "2026-01-06",
       "city": "新竹縣",
-      "source_url": "https://www.pet.gov.tw/Web/L315.aspx?no=207845",
+      "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=REFBQUcxMTAwNTI0MDAz&UT=REFBQUc=",
       "location_id": "loc_新竹縣竹北市縣政五街192號"
     },
     {
@@ -988,7 +988,7 @@
       "open_date": "2024-09-05",
       "update_date": "2026-01-06",
       "city": "新竹縣",
-      "source_url": "https://www.pet.gov.tw/Web/L315.aspx?no=373004",
+      "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=REFBQUcxMTMwOTA1MDA0&UT=REFBQUc=",
       "location_id": "loc_新竹縣竹北市縣政五街192號"
     },
     {
@@ -1007,7 +1007,7 @@
       "open_date": "2025-02-19",
       "update_date": "2026-01-06",
       "city": "新竹縣",
-      "source_url": "https://www.pet.gov.tw/Web/L315.aspx?no=394942",
+      "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=REFBQUcxMTQwMjExMDAy&UT=REFBQUc=",
       "location_id": "loc_新竹縣竹北市縣政五街192號"
     },
     {
@@ -1026,7 +1026,7 @@
       "open_date": "2025-09-05",
       "update_date": "2025-12-22",
       "city": "新竹縣",
-      "source_url": "https://www.pet.gov.tw/Web/L315.aspx?no=419768",
+      "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=REFBQUcxMTQwODEyMDI4&UT=REFBQUc=",
       "location_id": "loc_新竹縣竹北市縣政五街192號"
     },
     {
@@ -1045,7 +1045,7 @@
       "open_date": "2021-03-02",
       "update_date": "2025-12-15",
       "city": "新竹縣",
-      "source_url": "https://www.pet.gov.tw/Web/L315.aspx?no=196751",
+      "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=REFBQUcxMTAwMzAyMDA1&UT=REFBQUc=",
       "location_id": "loc_新竹縣竹北市縣政五街192號"
     },
     {
@@ -1064,7 +1064,7 @@
       "open_date": "2025-09-05",
       "update_date": "2025-11-28",
       "city": "新竹縣",
-      "source_url": "https://www.pet.gov.tw/Web/L315.aspx?no=419754",
+      "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=REFBQUcxMTQwODEyMDE0&UT=REFBQUc=",
       "location_id": "loc_新竹縣竹北市縣政五街192號"
     },
     {
@@ -1083,7 +1083,7 @@
       "open_date": "2025-09-05",
       "update_date": "2025-11-28",
       "city": "新竹縣",
-      "source_url": "https://www.pet.gov.tw/Web/L315.aspx?no=419759",
+      "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=REFBQUcxMTQwODEyMDE5&UT=REFBQUc=",
       "location_id": "loc_新竹縣竹北市縣政五街192號"
     },
     {
@@ -1102,7 +1102,7 @@
       "open_date": "2021-07-28",
       "update_date": "2025-11-13",
       "city": "新竹縣",
-      "source_url": "https://www.pet.gov.tw/Web/L315.aspx?no=215744",
+      "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=REFBQUcxMTAwNzI4MDAy&UT=REFBQUc=",
       "location_id": "loc_新竹縣竹北市縣政五街192號"
     },
     {
@@ -1121,7 +1121,7 @@
       "open_date": "2025-09-05",
       "update_date": "2025-11-05",
       "city": "新竹縣",
-      "source_url": "https://www.pet.gov.tw/Web/L315.aspx?no=420976",
+      "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=REFBQUcxMTQwODEyMDQx&UT=REFBQUc=",
       "location_id": "loc_新竹縣竹北市縣政五街192號"
     },
     {
@@ -1140,7 +1140,7 @@
       "open_date": "2025-09-05",
       "update_date": "2025-10-30",
       "city": "新竹縣",
-      "source_url": "https://www.pet.gov.tw/Web/L315.aspx?no=418133",
+      "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=REFBQUcxMTQwODEyMDAy&UT=REFBQUc=",
       "location_id": "loc_新竹縣竹北市縣政五街192號"
     },
     {
@@ -1159,7 +1159,7 @@
       "open_date": "2025-09-05",
       "update_date": "2025-10-30",
       "city": "新竹縣",
-      "source_url": "https://www.pet.gov.tw/Web/L315.aspx?no=420959",
+      "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=REFBQUcxMTQwODEyMDQw&UT=REFBQUc=",
       "location_id": "loc_新竹縣竹北市縣政五街192號"
     },
     {
@@ -1178,7 +1178,7 @@
       "open_date": "2025-09-05",
       "update_date": "2025-10-30",
       "city": "新竹縣",
-      "source_url": "https://www.pet.gov.tw/Web/L315.aspx?no=420958",
+      "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=REFBQUcxMTQwODEyMDM5&UT=REFBQUc=",
       "location_id": "loc_新竹縣竹北市縣政五街192號"
     },
     {
@@ -1197,7 +1197,7 @@
       "open_date": "2024-11-16",
       "update_date": "2025-10-30",
       "city": "新竹縣",
-      "source_url": "https://www.pet.gov.tw/Web/L315.aspx?no=382855",
+      "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=REFBQUcxMTMxMTE2MDAx&UT=REFBQUc=",
       "location_id": "loc_新竹縣竹北市縣政五街192號"
     },
     {
@@ -1216,7 +1216,7 @@
       "open_date": "2025-01-07",
       "update_date": "2025-10-30",
       "city": "新竹縣",
-      "source_url": "https://www.pet.gov.tw/Web/L315.aspx?no=389444",
+      "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=REFBQUcxMTMxMjI3MDAy&UT=REFBQUc=",
       "location_id": "loc_新竹縣竹北市縣政五街192號"
     },
     {
@@ -1235,7 +1235,7 @@
       "open_date": "2025-04-04",
       "update_date": "2025-10-30",
       "city": "新竹縣",
-      "source_url": "https://www.pet.gov.tw/Web/L315.aspx?no=401573",
+      "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=REFBQUcxMTQwNDA0MDAy&UT=REFBQUc=",
       "location_id": "loc_新竹縣竹北市縣政五街192號"
     },
     {
@@ -1254,7 +1254,7 @@
       "open_date": "2025-06-10",
       "update_date": "2025-10-30",
       "city": "新竹縣",
-      "source_url": "https://www.pet.gov.tw/Web/L315.aspx?no=408996",
+      "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=REFBQUcxMTQwNjEwMDAy&UT=REFBQUc=",
       "location_id": "loc_新竹縣竹北市縣政五街192號"
     },
     {
@@ -1273,7 +1273,7 @@
       "open_date": "2024-11-13",
       "update_date": "2025-10-30",
       "city": "新竹縣",
-      "source_url": "https://www.pet.gov.tw/Web/L315.aspx?no=382232",
+      "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=REFBQUcxMTMxMTEzMDAx&UT=REFBQUc=",
       "location_id": "loc_新竹縣竹北市縣政五街192號"
     },
     {
@@ -1292,7 +1292,7 @@
       "open_date": "2020-06-11",
       "update_date": "2025-10-30",
       "city": "新竹縣",
-      "source_url": "https://www.pet.gov.tw/Web/L315.aspx?no=164233",
+      "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=REFBQUcxMDkwNjExMDAx&UT=REFBQUc=",
       "location_id": "loc_新竹縣竹北市縣政五街192號"
     },
     {
@@ -1311,7 +1311,7 @@
       "open_date": "2023-12-29",
       "update_date": "2025-10-30",
       "city": "新竹縣",
-      "source_url": "https://www.pet.gov.tw/Web/L315.aspx?no=326932",
+      "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=REFBQUcxMTIwOTI1MDAy&UT=REFBQUc=",
       "location_id": "loc_新竹縣竹北市縣政五街192號"
     },
     {
@@ -1330,7 +1330,7 @@
       "open_date": "2021-05-24",
       "update_date": "2025-10-30",
       "city": "新竹縣",
-      "source_url": "https://www.pet.gov.tw/Web/L315.aspx?no=207844",
+      "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=REFBQUcxMTAwNTI0MDAy&UT=REFBQUc=",
       "location_id": "loc_新竹縣竹北市縣政五街192號"
     },
     {
@@ -1349,7 +1349,7 @@
       "open_date": "2025-09-05",
       "update_date": "2025-10-30",
       "city": "新竹縣",
-      "source_url": "https://www.pet.gov.tw/Web/L315.aspx?no=418134",
+      "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=REFBQUcxMTQwODEyMDAz&UT=REFBQUc=",
       "location_id": "loc_新竹縣竹北市縣政五街192號"
     },
     {
@@ -1368,7 +1368,7 @@
       "open_date": "2023-10-30",
       "update_date": "2025-10-03",
       "city": "新竹縣",
-      "source_url": "https://www.pet.gov.tw/Web/L315.aspx?no=324704",
+      "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=REFBQUcxMTIwOTEyMDAy&UT=REFBQUc=",
       "location_id": "loc_新竹縣竹北市縣政五街192號"
     },
     {
@@ -1387,7 +1387,7 @@
       "open_date": "2023-06-06",
       "update_date": "2025-10-03",
       "city": "新竹縣",
-      "source_url": "https://www.pet.gov.tw/Web/L315.aspx?no=311470",
+      "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=REFBQUcxMTIwNjA2MDAz&UT=REFBQUc=",
       "location_id": "loc_新竹縣竹北市縣政五街192號"
     },
     {
@@ -1406,7 +1406,7 @@
       "open_date": "2023-12-20",
       "update_date": "2025-10-03",
       "city": "新竹縣",
-      "source_url": "https://www.pet.gov.tw/Web/L315.aspx?no=339720",
+      "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=REFBQUcxMTIxMjIwMDA0&UT=REFBQUc=",
       "location_id": "loc_新竹縣竹北市縣政五街192號"
     },
     {
@@ -1425,7 +1425,7 @@
       "open_date": "2025-05-06",
       "update_date": "2025-08-11",
       "city": "新竹縣",
-      "source_url": "https://www.pet.gov.tw/Web/L315.aspx?no=404538",
+      "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=REFBQUcxMTQwNTA2MDA2&UT=REFBQUc=",
       "location_id": "loc_新竹縣竹北市縣政五街192號"
     },
     {
@@ -1444,7 +1444,7 @@
       "open_date": "2019-10-09",
       "update_date": "2025-08-11",
       "city": "新竹縣",
-      "source_url": "https://www.pet.gov.tw/Web/L315.aspx?no=123398",
+      "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=REFBQUcxMDgxMDA5MDAy&UT=REFBQUc=",
       "location_id": "loc_新竹縣竹北市縣政五街192號"
     },
     {
@@ -1463,7 +1463,7 @@
       "open_date": "2024-05-22",
       "update_date": "2025-08-06",
       "city": "新竹縣",
-      "source_url": "https://www.pet.gov.tw/Web/L315.aspx?no=356557",
+      "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=REFBQUcxMTMwNTA2MDAx&UT=REFBQUc=",
       "location_id": "loc_新竹縣竹北市縣政五街192號"
     },
     {
@@ -1482,7 +1482,7 @@
       "open_date": "2021-10-22",
       "update_date": "2025-08-06",
       "city": "新竹縣",
-      "source_url": "https://www.pet.gov.tw/Web/L315.aspx?no=228055",
+      "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=REFBQUcxMTAxMDIyMDAx&UT=REFBQUc=",
       "location_id": "loc_新竹縣竹北市縣政五街192號"
     },
     {
@@ -1501,7 +1501,7 @@
       "open_date": "",
       "update_date": "2025-07-15",
       "city": "新竹縣",
-      "source_url": "https://www.pet.gov.tw/Web/L315.aspx?no=414278",
+      "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=REFBQUcxMTQwNzE0MDAx&UT=REFBQUc=",
       "location_id": "loc_新竹縣竹北市縣政五街192號"
     },
     {
@@ -1520,7 +1520,7 @@
       "open_date": "2025-07-04",
       "update_date": "2025-07-04",
       "city": "新竹縣",
-      "source_url": "https://www.pet.gov.tw/Web/L315.aspx?no=412059",
+      "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=REFBQUcxMTQwNjA1MDAz&UT=REFBQUc=",
       "location_id": "loc_新竹縣竹北市縣政五街192號"
     },
     {
@@ -1539,7 +1539,7 @@
       "open_date": "2025-04-05",
       "update_date": "2025-05-29",
       "city": "新竹縣",
-      "source_url": "https://www.pet.gov.tw/Web/L315.aspx?no=400586",
+      "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=REFBQUcxMTQwNDA1MDAy&UT=REFBQUc=",
       "location_id": "loc_新竹縣竹北市縣政五街192號"
     },
     {
@@ -1558,7 +1558,7 @@
       "open_date": "2025-01-22",
       "update_date": "2025-05-04",
       "city": "新竹縣",
-      "source_url": "https://www.pet.gov.tw/Web/L315.aspx?no=378390",
+      "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=REFBQUcxMTMxMDE2MDAz&UT=REFBQUc=",
       "location_id": "loc_新竹縣竹北市縣政五街192號"
     },
     {
@@ -1577,7 +1577,7 @@
       "open_date": "2021-04-07",
       "update_date": "2025-05-02",
       "city": "新竹縣",
-      "source_url": "https://www.pet.gov.tw/Web/L315.aspx?no=201449",
+      "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=REFBQUcxMTAwNDA3MDAx&UT=REFBQUc=",
       "location_id": "loc_新竹縣竹北市縣政五街192號"
     },
     {
@@ -1596,7 +1596,7 @@
       "open_date": "2021-04-07",
       "update_date": "2025-05-02",
       "city": "新竹縣",
-      "source_url": "https://www.pet.gov.tw/Web/L315.aspx?no=201450",
+      "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=REFBQUcxMTAwNDA3MDAy&UT=REFBQUc=",
       "location_id": "loc_新竹縣竹北市縣政五街192號"
     },
     {
@@ -1615,7 +1615,7 @@
       "open_date": "2022-09-02",
       "update_date": "2025-05-02",
       "city": "新竹縣",
-      "source_url": "https://www.pet.gov.tw/Web/L315.aspx?no=272615",
+      "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=REFBQUcxMTEwOTAyMDAy&UT=REFBQUc=",
       "location_id": "loc_新竹縣竹北市縣政五街192號"
     },
     {
@@ -1634,7 +1634,7 @@
       "open_date": "2022-10-03",
       "update_date": "2025-05-02",
       "city": "新竹縣",
-      "source_url": "https://www.pet.gov.tw/Web/L315.aspx?no=276712",
+      "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=REFBQUcxMTExMDAzMDAz&UT=REFBQUc=",
       "location_id": "loc_新竹縣竹北市縣政五街192號"
     },
     {
@@ -1653,7 +1653,7 @@
       "open_date": "2020-08-29",
       "update_date": "2025-05-02",
       "city": "新竹縣",
-      "source_url": "https://www.pet.gov.tw/Web/L315.aspx?no=174644",
+      "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=REFBQUcxMDkwODI5MDAy&UT=REFBQUc=",
       "location_id": "loc_新竹縣竹北市縣政五街192號"
     },
     {
@@ -1672,7 +1672,7 @@
       "open_date": "2024-01-09",
       "update_date": "2025-05-02",
       "city": "新竹縣",
-      "source_url": "https://www.pet.gov.tw/Web/L315.aspx?no=342250",
+      "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=REFBQUcxMTMwMTA5MDAy&UT=REFBQUc=",
       "location_id": "loc_新竹縣竹北市縣政五街192號"
     },
     {
@@ -1691,7 +1691,7 @@
       "open_date": "2024-01-09",
       "update_date": "2025-05-02",
       "city": "新竹縣",
-      "source_url": "https://www.pet.gov.tw/Web/L315.aspx?no=342251",
+      "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=REFBQUcxMTMwMTA5MDAz&UT=REFBQUc=",
       "location_id": "loc_新竹縣竹北市縣政五街192號"
     },
     {
@@ -1710,7 +1710,7 @@
       "open_date": "2020-07-13",
       "update_date": "2025-05-02",
       "city": "新竹縣",
-      "source_url": "https://www.pet.gov.tw/Web/L315.aspx?no=167771",
+      "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=REFBQUcxMDkwNzEzMDAx&UT=REFBQUc=",
       "location_id": "loc_新竹縣竹北市縣政五街192號"
     },
     {
@@ -1729,7 +1729,7 @@
       "open_date": "2022-08-31",
       "update_date": "2025-05-02",
       "city": "新竹縣",
-      "source_url": "https://www.pet.gov.tw/Web/L315.aspx?no=272040",
+      "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=REFBQUcxMTEwODMxMDAx&UT=REFBQUc=",
       "location_id": "loc_新竹縣竹北市縣政五街192號"
     },
     {
@@ -1748,7 +1748,7 @@
       "open_date": "2023-01-18",
       "update_date": "2025-05-02",
       "city": "新竹縣",
-      "source_url": "https://www.pet.gov.tw/Web/L315.aspx?no=292431",
+      "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=REFBQUcxMTIwMTE4MDA0&UT=REFBQUc=",
       "location_id": "loc_新竹縣竹北市縣政五街192號"
     },
     {
@@ -1767,7 +1767,7 @@
       "open_date": "2023-03-06",
       "update_date": "2025-05-02",
       "city": "新竹縣",
-      "source_url": "https://www.pet.gov.tw/Web/L315.aspx?no=297772",
+      "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=REFBQUcxMTIwMzA2MDAy&UT=REFBQUc=",
       "location_id": "loc_新竹縣竹北市縣政五街192號"
     },
     {
@@ -1786,7 +1786,7 @@
       "open_date": "2021-11-26",
       "update_date": "2025-05-02",
       "city": "新竹縣",
-      "source_url": "https://www.pet.gov.tw/Web/L315.aspx?no=232797",
+      "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=REFBQUcxMTAxMTI2MDAy&UT=REFBQUc=",
       "location_id": "loc_新竹縣竹北市縣政五街192號"
     },
     {
@@ -1805,7 +1805,7 @@
       "open_date": "2021-03-02",
       "update_date": "2025-05-02",
       "city": "新竹縣",
-      "source_url": "https://www.pet.gov.tw/Web/L315.aspx?no=196750",
+      "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=REFBQUcxMTAwMzAyMDA0&UT=REFBQUc=",
       "location_id": "loc_新竹縣竹北市縣政五街192號"
     },
     {
@@ -1824,7 +1824,7 @@
       "open_date": "2022-10-24",
       "update_date": "2025-05-02",
       "city": "新竹縣",
-      "source_url": "https://www.pet.gov.tw/Web/L315.aspx?no=279607",
+      "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=REFBQUcxMTExMDI0MDA2&UT=REFBQUc=",
       "location_id": "loc_新竹縣竹北市縣政五街192號"
     },
     {
@@ -1843,7 +1843,7 @@
       "open_date": "2023-03-06",
       "update_date": "2025-05-02",
       "city": "新竹縣",
-      "source_url": "https://www.pet.gov.tw/Web/L315.aspx?no=297771",
+      "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=REFBQUcxMTIwMzA2MDAx&UT=REFBQUc=",
       "location_id": "loc_新竹縣竹北市縣政五街192號"
     },
     {
@@ -1862,7 +1862,7 @@
       "open_date": "2024-01-24",
       "update_date": "2025-05-02",
       "city": "新竹縣",
-      "source_url": "https://www.pet.gov.tw/Web/L315.aspx?no=344315",
+      "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=REFBQUcxMTMwMTI0MDA3&UT=REFBQUc=",
       "location_id": "loc_新竹縣竹北市縣政五街192號"
     },
     {
@@ -1881,7 +1881,7 @@
       "open_date": "2021-07-31",
       "update_date": "2025-05-02",
       "city": "新竹縣",
-      "source_url": "https://www.pet.gov.tw/Web/L315.aspx?no=216115",
+      "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=REFBQUcxMTAwNzMxMDAx&UT=REFBQUc=",
       "location_id": "loc_新竹縣竹北市縣政五街192號"
     },
     {
@@ -1900,7 +1900,7 @@
       "open_date": "2022-01-05",
       "update_date": "2025-05-02",
       "city": "新竹縣",
-      "source_url": "https://www.pet.gov.tw/Web/L315.aspx?no=238086",
+      "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=REFBQUcxMTEwMTA1MDAx&UT=REFBQUc=",
       "location_id": "loc_新竹縣竹北市縣政五街192號"
     },
     {
@@ -1919,7 +1919,7 @@
       "open_date": "2022-11-14",
       "update_date": "2025-05-02",
       "city": "新竹縣",
-      "source_url": "https://www.pet.gov.tw/Web/L315.aspx?no=283010",
+      "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=REFBQUcxMTExMTE0MDAz&UT=REFBQUc=",
       "location_id": "loc_新竹縣竹北市縣政五街192號"
     },
     {
@@ -1938,7 +1938,7 @@
       "open_date": "2024-01-24",
       "update_date": "2025-05-02",
       "city": "新竹縣",
-      "source_url": "https://www.pet.gov.tw/Web/L315.aspx?no=344236",
+      "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=REFBQUcxMTMwMTI0MDAx&UT=REFBQUc=",
       "location_id": "loc_新竹縣竹北市縣政五街192號"
     },
     {
@@ -1957,7 +1957,7 @@
       "open_date": "2024-04-19",
       "update_date": "2025-05-02",
       "city": "新竹縣",
-      "source_url": "https://www.pet.gov.tw/Web/L315.aspx?no=354739",
+      "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=REFBQUcxMTMwNDE5MDAy&UT=REFBQUc=",
       "location_id": "loc_新竹縣竹北市縣政五街192號"
     },
     {
@@ -1976,7 +1976,7 @@
       "open_date": "2022-03-07",
       "update_date": "2025-05-02",
       "city": "新竹縣",
-      "source_url": "https://www.pet.gov.tw/Web/L315.aspx?no=245138",
+      "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=REFBQUcxMTEwMzA3MDAy&UT=REFBQUc=",
       "location_id": "loc_新竹縣竹北市縣政五街192號"
     },
     {
@@ -1995,7 +1995,7 @@
       "open_date": "2023-10-24",
       "update_date": "2025-05-02",
       "city": "新竹縣",
-      "source_url": "https://www.pet.gov.tw/Web/L315.aspx?no=330876",
+      "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=REFBQUcxMTIxMDI0MDAx&UT=REFBQUc=",
       "location_id": "loc_新竹縣竹北市縣政五街192號"
     },
     {
@@ -2014,7 +2014,7 @@
       "open_date": "2022-06-01",
       "update_date": "2025-05-02",
       "city": "新竹縣",
-      "source_url": "https://www.pet.gov.tw/Web/L315.aspx?no=257730",
+      "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=REFBQUcxMTEwNjAxMDAx&UT=REFBQUc=",
       "location_id": "loc_新竹縣竹北市縣政五街192號"
     },
     {
@@ -2033,7 +2033,7 @@
       "open_date": "2023-03-14",
       "update_date": "2025-05-02",
       "city": "新竹縣",
-      "source_url": "https://www.pet.gov.tw/Web/L315.aspx?no=298999",
+      "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=REFBQUcxMTIwMzE0MDAx&UT=REFBQUc=",
       "location_id": "loc_新竹縣竹北市縣政五街192號"
     },
     {
@@ -2052,7 +2052,7 @@
       "open_date": "2024-09-16",
       "update_date": "2025-05-02",
       "city": "新竹縣",
-      "source_url": "https://www.pet.gov.tw/Web/L315.aspx?no=374276",
+      "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=REFBQUcxMTMwOTE2MDAx&UT=REFBQUc=",
       "location_id": "loc_新竹縣竹北市縣政五街192號"
     },
     {
@@ -2071,7 +2071,7 @@
       "open_date": "2020-05-20",
       "update_date": "2025-05-02",
       "city": "新竹縣",
-      "source_url": "https://www.pet.gov.tw/Web/L315.aspx?no=160626",
+      "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=REFBQUcxMDkwNTIwMDAx&UT=REFBQUc=",
       "location_id": "loc_新竹縣竹北市縣政五街192號"
     },
     {
@@ -2090,7 +2090,7 @@
       "open_date": "2024-02-05",
       "update_date": "2025-05-02",
       "city": "新竹縣",
-      "source_url": "https://www.pet.gov.tw/Web/L315.aspx?no=345631",
+      "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=REFBQUcxMTMwMjA1MDAz&UT=REFBQUc=",
       "location_id": "loc_新竹縣竹北市縣政五街192號"
     },
     {
@@ -2109,7 +2109,7 @@
       "open_date": "2023-10-02",
       "update_date": "2025-05-02",
       "city": "新竹縣",
-      "source_url": "https://www.pet.gov.tw/Web/L315.aspx?no=328107",
+      "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=REFBQUcxMTIxMDAyMDA1&UT=REFBQUc=",
       "location_id": "loc_新竹縣竹北市縣政五街192號"
     },
     {
@@ -2128,7 +2128,7 @@
       "open_date": "2021-08-15",
       "update_date": "2025-05-02",
       "city": "新竹縣",
-      "source_url": "https://www.pet.gov.tw/Web/L315.aspx?no=217806",
+      "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=REFBQUcxMTAwODE1MDAz&UT=REFBQUc=",
       "location_id": "loc_新竹縣竹北市縣政五街192號"
     },
     {
@@ -2147,7 +2147,7 @@
       "open_date": "2024-05-01",
       "update_date": "2025-05-02",
       "city": "新竹縣",
-      "source_url": "https://www.pet.gov.tw/Web/L315.aspx?no=356173",
+      "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=REFBQUcxMTMwNTAxMDAy&UT=REFBQUc=",
       "location_id": "loc_新竹縣竹北市縣政五街192號"
     },
     {
@@ -2166,7 +2166,7 @@
       "open_date": "2021-12-02",
       "update_date": "2025-04-29",
       "city": "新竹縣",
-      "source_url": "https://www.pet.gov.tw/Web/L315.aspx?no=233804",
+      "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=REFBQUcxMTAxMjAyMDAx&UT=REFBQUc=",
       "location_id": "loc_新竹縣竹北市縣政五街192號"
     },
     {
@@ -2185,7 +2185,7 @@
       "open_date": "2022-01-28",
       "update_date": "2025-04-29",
       "city": "新竹縣",
-      "source_url": "https://www.pet.gov.tw/Web/L315.aspx?no=241214",
+      "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=REFBQUcxMTEwMTI4MDAz&UT=REFBQUc=",
       "location_id": "loc_新竹縣竹北市縣政五街192號"
     },
     {
@@ -2204,7 +2204,7 @@
       "open_date": "2025-03-03",
       "update_date": "2025-03-14",
       "city": "新竹縣",
-      "source_url": "https://www.pet.gov.tw/Web/L315.aspx?no=396124",
+      "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=REFBQUcxMTQwMzAzMDAy&UT=REFBQUc=",
       "location_id": "loc_新竹縣竹北市縣政五街192號"
     },
     {
@@ -2223,7 +2223,7 @@
       "open_date": "2024-12-18",
       "update_date": "2025-01-10",
       "city": "新竹縣",
-      "source_url": "https://www.pet.gov.tw/Web/L315.aspx?no=385103",
+      "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=REFBQUcxMTMxMjAzMDAz&UT=REFBQUc=",
       "location_id": "loc_新竹縣竹北市縣政五街192號"
     },
     {
@@ -2242,7 +2242,7 @@
       "open_date": "2025-01-09",
       "update_date": "2025-01-10",
       "city": "新竹縣",
-      "source_url": "https://www.pet.gov.tw/Web/L315.aspx?no=389796",
+      "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=REFBQUcxMTQwMTA5MDAy&UT=REFBQUc=",
       "location_id": "loc_新竹縣竹北市縣政五街192號"
     },
     {
@@ -2261,7 +2261,7 @@
       "open_date": "2025-01-04",
       "update_date": "2025-01-07",
       "city": "新竹縣",
-      "source_url": "https://www.pet.gov.tw/Web/L315.aspx?no=389272",
+      "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=REFBQUcxMTQwMTA0MDAx&UT=REFBQUc=",
       "location_id": "loc_新竹縣竹北市縣政五街192號"
     },
     {
@@ -2280,7 +2280,7 @@
       "open_date": "2019-08-13",
       "update_date": "2021-08-26",
       "city": "新竹縣",
-      "source_url": "https://www.pet.gov.tw/Web/L315.aspx?no=113131",
+      "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=REFBQUcxMDgwODEzMDA1&UT=REFBQUc=",
       "location_id": "loc_新竹縣竹北市縣政五街192號"
     },
     {
@@ -2299,7 +2299,7 @@
       "open_date": "2024-11-07",
       "update_date": "2024-11-07",
       "city": "新竹縣",
-      "source_url": "https://www.pet.gov.tw/Web/L315.aspx?no=380996",
+      "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=REFBQUcxMTMxMTA2MDAx&UT=REFBQUc=",
       "location_id": "loc_新竹縣竹北市縣政五街192號"
     },
     {
@@ -2318,7 +2318,7 @@
       "open_date": "2024-10-28",
       "update_date": "2024-11-06",
       "city": "新竹縣",
-      "source_url": "https://www.pet.gov.tw/Web/L315.aspx?no=379637",
+      "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=REFBQUcxMTMxMDI1MDA4&UT=REFBQUc=",
       "location_id": "loc_新竹縣竹北市縣政五街192號"
     },
     {
@@ -2337,7 +2337,7 @@
       "open_date": "2024-07-08",
       "update_date": "2024-07-09",
       "city": "新竹縣",
-      "source_url": "https://www.pet.gov.tw/Web/L315.aspx?no=365254",
+      "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=REFBQUcxMTMwNzA0MDAy&UT=REFBQUc=",
       "location_id": "loc_新竹縣竹北市縣政五街192號"
     },
     {
@@ -2356,7 +2356,7 @@
       "open_date": "2024-04-12",
       "update_date": "2024-04-12",
       "city": "新竹縣",
-      "source_url": "https://www.pet.gov.tw/Web/L315.aspx?no=353677",
+      "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=REFBQUcxMTMwNDExMDA2&UT=REFBQUc=",
       "location_id": "loc_新竹縣竹北市縣政五街192號"
     },
     {
@@ -2375,7 +2375,7 @@
       "open_date": "2024-04-11",
       "update_date": "2024-04-12",
       "city": "新竹縣",
-      "source_url": "https://www.pet.gov.tw/Web/L315.aspx?no=353676",
+      "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=REFBQUcxMTMwNDExMDA1&UT=REFBQUc=",
       "location_id": "loc_新竹縣竹北市縣政五街192號"
     },
     {
@@ -2394,7 +2394,7 @@
       "open_date": "2023-11-18",
       "update_date": "2023-11-25",
       "city": "新竹縣",
-      "source_url": "https://www.pet.gov.tw/Web/L315.aspx?no=335063",
+      "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=REFBQUcxMTIxMTE4MDAx&UT=REFBQUc=",
       "location_id": "loc_新竹縣竹北市縣政五街192號"
     },
     {
@@ -2413,7 +2413,7 @@
       "open_date": "2020-09-01",
       "update_date": "2023-11-22",
       "city": "新竹縣",
-      "source_url": "https://www.pet.gov.tw/Web/L315.aspx?no=174978",
+      "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=REFBQUcxMDkwOTAxMDA1&UT=REFBQUc=",
       "location_id": "loc_新竹縣竹北市縣政五街192號"
     },
     {
@@ -2432,7 +2432,7 @@
       "open_date": "2021-04-30",
       "update_date": "2023-11-22",
       "city": "新竹縣",
-      "source_url": "https://www.pet.gov.tw/Web/L315.aspx?no=204750",
+      "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=REFBQUcxMTAwNDMwMDA4&UT=REFBQUc=",
       "location_id": "loc_新竹縣竹北市縣政五街192號"
     },
     {
@@ -2451,7 +2451,7 @@
       "open_date": "2020-11-18",
       "update_date": "2023-11-22",
       "city": "新竹縣",
-      "source_url": "https://www.pet.gov.tw/Web/L315.aspx?no=184870",
+      "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=REFBQUcxMDkxMTE4MDAz&UT=REFBQUc=",
       "location_id": "loc_新竹縣竹北市縣政五街192號"
     },
     {
@@ -2470,7 +2470,7 @@
       "open_date": "2020-09-01",
       "update_date": "2023-11-21",
       "city": "新竹縣",
-      "source_url": "https://www.pet.gov.tw/Web/L315.aspx?no=174960",
+      "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=REFBQUcxMDkwODMxMDA2&UT=REFBQUc=",
       "location_id": "loc_新竹縣竹北市縣政五街192號"
     },
     {
@@ -2489,7 +2489,7 @@
       "open_date": "2020-09-25",
       "update_date": "2023-11-21",
       "city": "新竹縣",
-      "source_url": "https://www.pet.gov.tw/Web/L315.aspx?no=178179",
+      "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=REFBQUcxMDkwOTI1MDAy&UT=REFBQUc=",
       "location_id": "loc_新竹縣竹北市縣政五街192號"
     },
     {
@@ -2508,7 +2508,7 @@
       "open_date": "2020-11-27",
       "update_date": "2023-11-21",
       "city": "新竹縣",
-      "source_url": "https://www.pet.gov.tw/Web/L315.aspx?no=186398",
+      "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=REFBQUcxMDkxMTI3MDA2&UT=REFBQUc=",
       "location_id": "loc_新竹縣竹北市縣政五街192號"
     },
     {
@@ -2527,7 +2527,7 @@
       "open_date": "2020-09-01",
       "update_date": "2023-11-21",
       "city": "新竹縣",
-      "source_url": "https://www.pet.gov.tw/Web/L315.aspx?no=174972",
+      "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=REFBQUcxMDkwOTAxMDAy&UT=REFBQUc=",
       "location_id": "loc_新竹縣竹北市縣政五街192號"
     },
     {
@@ -2546,7 +2546,7 @@
       "open_date": "2022-07-25",
       "update_date": "2023-11-15",
       "city": "新竹縣",
-      "source_url": "https://www.pet.gov.tw/Web/L315.aspx?no=266695",
+      "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=REFBQUcxMTEwNzI1MDA1&UT=REFBQUc=",
       "location_id": "loc_新竹縣竹北市縣政五街192號"
     },
     {
@@ -2565,7 +2565,7 @@
       "open_date": "2023-09-04",
       "update_date": "2023-09-04",
       "city": "新竹縣",
-      "source_url": "https://www.pet.gov.tw/Web/L315.aspx?no=323631",
+      "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=REFBQUcxMTIwOTA0MDAx&UT=REFBQUc=",
       "location_id": "loc_新竹縣竹北市縣政五街192號"
     },
     {
@@ -2584,7 +2584,7 @@
       "open_date": "2023-07-25",
       "update_date": "2023-07-25",
       "city": "新竹縣",
-      "source_url": "https://www.pet.gov.tw/Web/L315.aspx?no=318054",
+      "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=REFBQUcxMTIwNzI1MDA2&UT=REFBQUc=",
       "location_id": "loc_新竹縣竹北市縣政五街192號"
     },
     {
@@ -2603,7 +2603,7 @@
       "open_date": "2023-07-17",
       "update_date": "2023-07-17",
       "city": "新竹縣",
-      "source_url": "https://www.pet.gov.tw/Web/L315.aspx?no=317040",
+      "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=REFBQUcxMTIwNzE3MDEz&UT=REFBQUc=",
       "location_id": "loc_新竹縣竹北市縣政五街192號"
     },
     {
@@ -2622,7 +2622,7 @@
       "open_date": "2023-07-12",
       "update_date": "2023-07-12",
       "city": "新竹縣",
-      "source_url": "https://www.pet.gov.tw/Web/L315.aspx?no=316528",
+      "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=REFBQUcxMTIwNzEyMDA0&UT=REFBQUc=",
       "location_id": "loc_新竹縣竹北市縣政五街192號"
     },
     {
@@ -2641,7 +2641,7 @@
       "open_date": "2023-07-11",
       "update_date": "2023-07-11",
       "city": "新竹縣",
-      "source_url": "https://www.pet.gov.tw/Web/L315.aspx?no=316279",
+      "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=REFBQUcxMTIwNzExMDAx&UT=REFBQUc=",
       "location_id": "loc_新竹縣竹北市縣政五街192號"
     },
     {
@@ -2660,7 +2660,7 @@
       "open_date": "2023-05-26",
       "update_date": "2023-06-28",
       "city": "新竹縣",
-      "source_url": "https://www.pet.gov.tw/Web/L315.aspx?no=309922",
+      "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=REFBQUcxMTIwNTI2MDAx&UT=REFBQUc=",
       "location_id": "loc_新竹縣竹北市縣政五街192號"
     },
     {
@@ -2679,7 +2679,7 @@
       "open_date": "2023-06-27",
       "update_date": "2023-06-27",
       "city": "新竹縣",
-      "source_url": "https://www.pet.gov.tw/Web/L315.aspx?no=314565",
+      "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=REFBQUcxMTIwNjI3MDAx&UT=REFBQUc=",
       "location_id": "loc_新竹縣竹北市縣政五街192號"
     },
     {
@@ -2698,7 +2698,7 @@
       "open_date": "2023-06-12",
       "update_date": "2023-06-15",
       "city": "新竹縣",
-      "source_url": "https://www.pet.gov.tw/Web/L315.aspx?no=312302",
+      "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=REFBQUcxMTIwNjEyMDA0&UT=REFBQUc=",
       "location_id": "loc_新竹縣竹北市縣政五街192號"
     },
     {
@@ -2717,7 +2717,7 @@
       "open_date": "2023-06-12",
       "update_date": "2023-06-12",
       "city": "新竹縣",
-      "source_url": "https://www.pet.gov.tw/Web/L315.aspx?no=312448",
+      "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=REFBQUcxMTIwNjEyMDE1&UT=REFBQUc=",
       "location_id": "loc_新竹縣竹北市縣政五街192號"
     },
     {
@@ -2736,7 +2736,7 @@
       "open_date": "2023-06-12",
       "update_date": "2023-06-12",
       "city": "新竹縣",
-      "source_url": "https://www.pet.gov.tw/Web/L315.aspx?no=312444",
+      "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=REFBQUcxMTIwNjEyMDEz&UT=REFBQUc=",
       "location_id": "loc_新竹縣竹北市縣政五街192號"
     },
     {
@@ -2755,7 +2755,7 @@
       "open_date": "2023-06-12",
       "update_date": "2023-06-12",
       "city": "新竹縣",
-      "source_url": "https://www.pet.gov.tw/Web/L315.aspx?no=312295",
+      "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=REFBQUcxMTIwNjEyMDAx&UT=REFBQUc=",
       "location_id": "loc_新竹縣竹北市縣政五街192號"
     },
     {
@@ -2774,7 +2774,7 @@
       "open_date": "2022-11-28",
       "update_date": "2022-12-06",
       "city": "新竹縣",
-      "source_url": "https://www.pet.gov.tw/Web/L315.aspx?no=285020",
+      "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=REFBQUcxMTExMTI4MDAz&UT=REFBQUc=",
       "location_id": "loc_新竹縣竹北市縣政五街192號"
     }
   ]

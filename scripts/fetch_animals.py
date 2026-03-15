@@ -3,6 +3,7 @@
 從農業部動物認領養 Open Data API 抓取全台待領養動物資料。
 """
 
+import base64
 import re
 import requests
 import urllib3
@@ -119,6 +120,19 @@ def parse_remark_location(remark: str, shelter_zone: str) -> dict | None:
     return None
 
 
+def _build_source_url(rec: dict) -> str:
+    """依據 animal_subid 產生 pet.gov.tw 的正確詳情頁 URL。"""
+    subid = rec.get("animal_subid", "").strip()
+    if not subid or len(subid) < 5:
+        return ""
+    ac_num = base64.b64encode(subid.encode()).decode()
+    user_tag = base64.b64encode(subid[:5].encode()).decode()
+    return (
+        f"https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx"
+        f"?PageType=Adopt&AcNum={ac_num}&UT={user_tag}"
+    )
+
+
 def fetch_animals(city_filter: str | None = None) -> list[dict]:
     """
     分頁抓取農業部 API，回傳所有（或指定縣市）待領養動物的標準化 list。
@@ -197,7 +211,7 @@ def fetch_animals(city_filter: str | None = None) -> list[dict]:
             "_shelter_phone": (parsed["phone"] if parsed and parsed["phone"] else rec.get("shelter_tel", "") or ""),
             "_geo_address": geo_address,
             "_location_type": location_type,
-            "source_url": f"https://www.pet.gov.tw/Web/L315.aspx?no={rec.get('animal_id', '')}",
+            "source_url": _build_source_url(rec),
         })
 
     print(f"符合條件動物 {len(animals)} 筆")

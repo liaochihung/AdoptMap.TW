@@ -1,5 +1,32 @@
 {
-  "updated_at": "2026-03-15T18:02:32+08:00",
+  "updated_at": "2026-03-15T22:16:30+08:00",
   "city": "苗栗縣",
-  "locations": []
+  "locations": [
+    {
+      "id": "loc_苗栗縣銅鑼鄉朝陽村6鄰朝北55_1號_地圖_https___goo_gl_map",
+      "name": "苗栗縣動物保護教育園區",
+      "address": "苗栗縣銅鑼鄉朝陽村6鄰朝北55-1號(地圖：https:／／goo.gl/maps/Bd4sckpEPsrof7Qb8)",
+      "phone": "037-558228",
+      "lat": 24.499853589721166,
+      "lng": 120.7940068355822,
+      "type": "shelter",
+      "counts": {
+        "cat": 41,
+        "dog": 139
+      }
+    },
+    {
+      "id": "loc_苗栗縣銅鑼鄉朝陽村6鄰朝北55_1號_地圖_https___goo_gl_map",
+      "name": "苗栗縣生態保育教育中心(動物收容所)",
+      "address": "苗栗縣銅鑼鄉朝陽村6鄰朝北55-1號(地圖：https://goo.gl/maps/Bd4sckpEPsrof7Qb8)",
+      "phone": "037-558228",
+      "lat": 24.499853589721166,
+      "lng": 120.7940068355822,
+      "type": "shelter",
+      "counts": {
+        "cat": 4,
+        "dog": 7
+      }
+    }
+  ]
 }
