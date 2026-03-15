@@ -41,6 +41,7 @@ const rootEl = ref(null)
 
 // --- popover dismiss ---
 let pointerHandler = null
+let keyHandler = null
 
 function openPopover() {
   open.value = true
@@ -49,12 +50,21 @@ function openPopover() {
   }
   pointerHandler = (e) => {
     if (rootEl.value && !rootEl.value.contains(e.target)) {
-      open.value = false
-      document.removeEventListener('pointerdown', pointerHandler, true)
-      pointerHandler = null
+      closePopover()
     }
   }
   document.addEventListener('pointerdown', pointerHandler, true)
+
+  if (keyHandler) {
+    window.removeEventListener('keydown', keyHandler, true)
+  }
+  keyHandler = (e) => {
+    if (e.key === 'Escape') {
+      e.stopImmediatePropagation()
+      closePopover()
+    }
+  }
+  window.addEventListener('keydown', keyHandler, true)
 }
 
 function closePopover() {
@@ -63,22 +73,22 @@ function closePopover() {
     document.removeEventListener('pointerdown', pointerHandler, true)
     pointerHandler = null
   }
+  if (keyHandler) {
+    window.removeEventListener('keydown', keyHandler, true)
+    keyHandler = null
+  }
 }
 
 function togglePopover() {
   open.value ? closePopover() : openPopover()
 }
 
-function onKeyDown(e) {
-  if (e.key === 'Escape' && open.value) {
-    e.stopPropagation()
-    closePopover()
-  }
-}
-
 onUnmounted(() => {
   if (pointerHandler) {
     document.removeEventListener('pointerdown', pointerHandler, true)
+  }
+  if (keyHandler) {
+    window.removeEventListener('keydown', keyHandler, true)
   }
 })
 
@@ -103,7 +113,7 @@ function islandActive(city) {
 </script>
 
 <template>
-  <div ref="rootEl" class="relative" @keydown="onKeyDown">
+  <div ref="rootEl" class="relative">
     <!-- Trigger button -->
     <button
       class="text-xs sm:text-sm border border-gray-200 rounded-lg px-2 py-1 bg-white text-gray-700
