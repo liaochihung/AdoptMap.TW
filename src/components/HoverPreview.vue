@@ -117,12 +117,45 @@ function onPhotoMounted(id) {
   photoTimers[id] = setTimeout(() => onPhotoError(id), PHOTO_TIMEOUT)
 }
 
+// Lazy loading: only set src when thumbnail enters the scroll viewport
+const visiblePhotoIds = ref(new Set())
+let observer = null
+
+function getObserver() {
+  if (!observer) {
+    observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          const id = entry.target._animalId
+          if (id) visiblePhotoIds.value = new Set([...visiblePhotoIds.value, id])
+          observer.unobserve(entry.target)
+        }
+      })
+    }, { threshold: 0.1 })
+  }
+  return observer
+}
+
+// Custom directive: v-observe-thumb="animalId"
+const vObserveThumb = {
+  mounted(el, binding) {
+    if (visiblePhotoIds.value.has(binding.value)) return
+    el._animalId = binding.value
+    getObserver().observe(el)
+  },
+  unmounted(el) {
+    if (observer) observer.unobserve(el)
+  },
+}
+
 watch(() => props.location?.id, () => {
   // clear all pending timers
   Object.keys(photoTimers).forEach(id => clearTimeout(photoTimers[id]))
   Object.keys(photoTimers).forEach(id => delete photoTimers[id])
   loadedPhotos.value = new Set()
   failedPhotos.value = new Set()
+  visiblePhotoIds.value = new Set()
+  if (observer) { observer.disconnect(); observer = null }
 })
 
 const allPhotosLoaded = computed(() => {
@@ -190,6 +223,7 @@ const allPhotosLoaded = computed(() => {
             @mouseenter="onThumbEnter($event, animal)"
             @mouseleave="hoveredThumb = null"
             @click.stop="emit('select', { location, animalIndex: indexOf(animal) })"
+            v-observe-thumb="animal.id"
           >
             <div
               class="w-full aspect-square rounded-xl overflow-hidden border-2 border-white transition-all duration-150 cursor-pointer relative"
@@ -206,9 +240,9 @@ const allPhotosLoaded = computed(() => {
               >
                 {{ animal.kind === 'cat' ? '🐱' : '🐶' }}
               </div>
-              <!-- real photo -->
+              <!-- real photo: src only set once wrapper enters scroll viewport -->
               <img
-                v-if="animal.photo_url"
+                v-if="animal.photo_url && visiblePhotoIds.has(animal.id)"
                 :src="animal.photo_url"
                 :alt="animalDisplayName(animal)"
                 class="absolute inset-0 w-full h-full object-cover object-center transition-opacity duration-300"
