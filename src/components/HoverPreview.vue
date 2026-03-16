@@ -237,7 +237,7 @@ const allPhotosLoaded = computed(() => {
 
         <!-- Grid thumbnail area -->
         <div
-          class="px-3 py-3 grid gap-2 overflow-y-auto justify-center"
+          class="px-3 py-3 grid gap-2 overflow-y-auto overflow-x-hidden justify-center"
           :style="`grid-template-columns:repeat(${panelCols},96px);max-height:420px;`"
         >
           <div
