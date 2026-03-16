@@ -132,8 +132,8 @@ function islandActive(city) {
         <!-- SVG map -->
         <svg
           viewBox="0 0 220 380"
-          width="165"
-          height="285"
+          width="240"
+          height="414"
           class="block mx-auto"
           xmlns="http://www.w3.org/2000/svg"
         >
@@ -155,7 +155,7 @@ function islandActive(city) {
               :x="item.cx"
               :y="item.cy + 4"
               text-anchor="middle"
-              font-size="8"
+              font-size="11"
               :fill="pathTextFill(item.city)"
               class="pointer-events-none"
               style="font-family:system-ui,sans-serif;"
