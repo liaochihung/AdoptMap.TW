@@ -35,6 +35,8 @@ KNOWN_LOCATIONS = {
 
 # 輸出路徑
 OUTPUT_DIR = "public/data"
+THUMBS_DIR = "public/data/thumbs"
+THUMB_SIZE = (96, 96)
 CACHE_DIR = "scripts/.cache"
 GEOCODE_CACHE_FILE = "scripts/.cache/geocode_cache.json"
 GEOCODE_OVERRIDES_FILE = "scripts/geocode_overrides.json"

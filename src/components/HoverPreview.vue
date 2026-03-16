@@ -241,9 +241,12 @@ const allPhotosLoaded = computed(() => {
                 {{ animal.kind === 'cat' ? '🐱' : '🐶' }}
               </div>
               <!-- real photo: src only set once wrapper enters scroll viewport -->
+              <!-- prefer local thumb (WebP), fall back to original photo_url -->
               <img
                 v-if="animal.photo_url && visiblePhotoIds.has(animal.id)"
-                :src="animal.photo_url"
+                :src="`./data/thumbs/${animal.id.replace(/[^\w\-]/g, '_')}.webp`"
+                :data-fallback="animal.photo_url"
+                @error.once="e => { e.target.src = e.target.dataset.fallback }"
                 :alt="animalDisplayName(animal)"
                 class="absolute inset-0 w-full h-full object-cover object-center transition-opacity duration-300"
                 :class="loadedPhotos.has(animal.id) ? 'opacity-100' : 'opacity-0'"

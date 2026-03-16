@@ -20,6 +20,7 @@ os.chdir(PROJECT_ROOT)
 from fetch_animals import fetch_animals
 from scrape_taichung import scrape_animals
 from geocode import geocode_addresses
+from fetch_thumbs import fetch_thumbs
 from config import KNOWN_LOCATIONS, OUTPUT_DIR, ALL_CITIES, ALL_TAIWAN
 
 TZ_TAIPEI = timezone(timedelta(hours=8))
@@ -213,6 +214,10 @@ def main():
     # 6. 全台合併輸出
     print("\n--- 全台灣 ---")
     build_for_city(ALL_TAIWAN, all_animals, now)
+
+    # 7. 縮圖 cache：下載新縮圖、刪除孤立縮圖
+    print("\n=== 縮圖 cache ===")
+    fetch_thumbs(all_animals)
 
     print("\n✅ 全部完成！")
 
