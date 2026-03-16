@@ -102,13 +102,6 @@ function onPreviewMouseLeave() {
   }, 150)
 }
 
-function formatDate(isoStr) {
-  if (!isoStr) return ''
-  return new Date(isoStr).toLocaleString('zh-TW', {
-    year: 'numeric', month: '2-digit', day: '2-digit',
-    hour: '2-digit', minute: '2-digit',
-  })
-}
 </script>
 
 <template>
@@ -165,6 +158,7 @@ function formatDate(isoStr) {
       <MapView
         ref="mapRef"
         :locations="filteredLocations"
+        :updated-at="updatedAt"
         @location-click="handleLocationClick"
         @location-hover="handleLocationHover"
       />
@@ -213,12 +207,6 @@ function formatDate(isoStr) {
       </Transition>
     </template>
 
-    <!-- Footer -->
-    <div class="absolute bottom-4 left-4 z-[1000] text-xs text-gray-500 bg-white/80 backdrop-blur-sm px-2.5 py-1.5 rounded-lg hidden sm:block"
-      style="box-shadow:0 1px 6px rgba(0,0,0,0.08);">
-      資料更新：{{ formatDate(updatedAt) }}
-      ｜資料來源：農業部動物認領養 Open Data
-    </div>
   </div>
 </template>
 

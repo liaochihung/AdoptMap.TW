@@ -4,14 +4,12 @@ import { onMounted, ref, watch } from 'vue'
 import { useMap } from '../composables/useMap.js'
 
 const props = defineProps({
-  locations: {
-    type: Array,
-    default: () => [],
-  },
+  locations: { type: Array, default: () => [] },
+  updatedAt:  { type: String, default: '' },
 })
 
 const emit = defineEmits(['locationClick', 'locationHover'])
-const { initMap, updateMarkers, flyToCity, locateUser } = useMap()
+const { initMap, updateMarkers, flyToCity, locateUser, setUpdatedAt } = useMap()
 
 // Locate button state
 const locating = ref(false)
@@ -29,6 +27,7 @@ function registerMarkers(locs) {
 onMounted(() => {
   initMap('map-container')
   registerMarkers(props.locations)
+  if (props.updatedAt) setUpdatedAt(props.updatedAt)
 })
 
 watch(
@@ -36,6 +35,8 @@ watch(
   newLocs => registerMarkers(newLocs),
   { deep: true }
 )
+
+watch(() => props.updatedAt, val => setUpdatedAt(val))
 
 function handleLocate() {
   if (locating.value) return

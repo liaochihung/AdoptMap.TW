@@ -20,7 +20,7 @@ export function useMap() {
   function initMap(containerId) {
     map = L.map(containerId).setView([24.15, 120.67], 12)
     L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
-      attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
+      attribution: '',
       maxZoom: 18,
     }).addTo(map)
 
@@ -184,5 +184,14 @@ export function useMap() {
     )
   }
 
-  return { initMap, updateMarkers, flyTo, flyToCity, invalidateSize, locateUser }
+  function setUpdatedAt(isoStr) {
+    if (!map || !isoStr) return
+    const formatted = new Date(isoStr).toLocaleString('zh-TW', {
+      year: 'numeric', month: '2-digit', day: '2-digit',
+      hour: '2-digit', minute: '2-digit',
+    })
+    map.attributionControl.setPrefix(`資料更新：${formatted}<br>資料來源：農業部動物認領養 Open Data<br>&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors`)
+  }
+
+  return { initMap, updateMarkers, flyTo, flyToCity, invalidateSize, locateUser, setUpdatedAt }
 }
