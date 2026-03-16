@@ -33,14 +33,15 @@ KNOWN_LOCATIONS = {
     },
 }
 
-# 輸出路徑
-OUTPUT_DIR = "public/data"
-THUMBS_DIR = "public/data/thumbs"
+# 輸出路徑（相對於專案根目錄）
+_ROOT = __import__("pathlib").Path(__file__).resolve().parent.parent
+OUTPUT_DIR = str(_ROOT / "public/data")
+THUMBS_DIR = str(_ROOT / "public/data/thumbs")
 THUMB_SIZE = (96, 96)
-CACHE_DIR = "scripts/.cache"
-GEOCODE_CACHE_FILE = "scripts/.cache/geocode_cache.json"
-GEOCODE_OVERRIDES_FILE = "scripts/geocode_overrides.json"
-GEOCODE_FAILURES_LOG = "scripts/.cache/geocode_failures.log"
+CACHE_DIR = str(_ROOT / "scripts/.cache")
+GEOCODE_CACHE_FILE = str(_ROOT / "scripts/.cache/geocode_cache.json")
+GEOCODE_OVERRIDES_FILE = str(_ROOT / "scripts/geocode_overrides.json")
+GEOCODE_FAILURES_LOG = str(_ROOT / "scripts/.cache/geocode_failures.log")
 
 # 來源類型常數（對應 location.type）
 LOCATION_TYPES = {
