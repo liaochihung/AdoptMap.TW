@@ -1,6 +1,22 @@
 // src/composables/useAnimals.js
 import { ref, computed } from 'vue'
 
+// Estimate lat/lng bounds from a city center + zoom level.
+// Uses the Web Mercator tile size formula: at zoom Z, one tile covers 360/2^Z degrees longitude.
+// We assume a ~800×600 viewport as reference.
+function estimateBounds(lat, lng, zoom) {
+  const lngDelta = 360 / Math.pow(2, zoom) * (800 / 256) / 2
+  const latDelta = lngDelta * 0.7 // rough aspect correction
+  return {
+    minLat: lat - latDelta,
+    maxLat: lat + latDelta,
+    minLng: lng - lngDelta,
+    maxLng: lng + lngDelta,
+  }
+}
+
+let preloadIdleHandle = null
+
 // City centers for map flyTo (mirrors config.py CITY_CENTERS)
 export const CITY_CENTERS = {
   '臺北市':  { lat: 25.0478, lng: 121.5319, zoom: 12 },
@@ -139,6 +155,43 @@ export function useAnimals() {
     } finally {
       loading.value = false
     }
+
+    preloadVisibleThumbs(city)
+  }
+
+  function preloadVisibleThumbs(city) {
+    if (preloadIdleHandle) cancelIdleCallback(preloadIdleHandle)
+
+    const center = CITY_CENTERS[city]
+    if (!center || !animals.value.length) return
+
+    const bounds = estimateBounds(center.lat, center.lng, center.zoom)
+
+    // Collect photo URLs from animals whose location falls within the initial viewport
+    const locationSet = new Set(
+      locations.value
+        .filter(l => l.lat >= bounds.minLat && l.lat <= bounds.maxLat &&
+                     l.lng >= bounds.minLng && l.lng <= bounds.maxLng)
+        .map(l => l.id)
+    )
+    const urls = animals.value
+      .filter(a => locationSet.has(a.location_id) && a.photo_url)
+      .map(a => a.photo_url)
+
+    if (!urls.length) return
+
+    // Batch-preload via requestIdleCallback so we don't block the main thread
+    let i = 0
+    function loadBatch(deadline) {
+      while (i < urls.length && (deadline.timeRemaining() > 0 || deadline.didTimeout)) {
+        const img = new Image()
+        img.src = urls[i++]
+      }
+      if (i < urls.length) {
+        preloadIdleHandle = requestIdleCallback(loadBatch, { timeout: 2000 })
+      }
+    }
+    preloadIdleHandle = requestIdleCallback(loadBatch, { timeout: 2000 })
   }
 
   return {

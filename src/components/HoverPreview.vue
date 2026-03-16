@@ -1,6 +1,23 @@
 <!-- src/components/HoverPreview.vue -->
 <script setup>
-import { computed, nextTick, ref, watch } from 'vue'
+import { computed, ref, watch } from 'vue'
+
+const tooltipStyle = ref({})
+
+function onThumbEnter(event, animal) {
+  hoveredThumb.value = animal.id
+  const rect = event.currentTarget.getBoundingClientRect()
+  const TOOLTIP_W = 180
+  const cx = rect.left + rect.width / 2
+  const left = Math.max(8, Math.min(cx - TOOLTIP_W / 2, window.innerWidth - TOOLTIP_W - 8))
+  tooltipStyle.value = {
+    position: 'fixed',
+    left: `${left}px`,
+    bottom: `${window.innerHeight - rect.top + 8}px`,
+    width: `${TOOLTIP_W}px`,
+    zIndex: 99999,
+  }
+}
 
 const props = defineProps({
   location:     { type: Object, default: null },
@@ -12,73 +29,20 @@ const props = defineProps({
 const emit = defineEmits(['mouseenter', 'mouseleave', 'select'])
 
 const hoveredThumb = ref(null)
+const loadedPhotos = ref(new Set())
+const failedPhotos = ref(new Set())
+const photoTimers = {}
+const PHOTO_TIMEOUT = 60000 // ms
 
 const locationAnimals = computed(() =>
   props.animals.filter(a => a.location_id === props.location?.id)
 )
 
-// Show all animals in scrollable strip
+// Show all animals in grid
 const visibleAnimals = computed(() => locationAnimals.value)
 
-// Track scroll state precisely using DOM measurements
-const scrollLeft = ref(0)
-const scrollWidth = ref(0)
-const clientWidth = ref(0)
-const ITEM_W = 90 // w-20 (80px) + gap-2.5 (10px)
-
-// How many items are hidden to the RIGHT of current viewport
-const extraCount = computed(() => {
-  if (!scrollEl.value) return 0
-  const remaining = scrollWidth.value - clientWidth.value - scrollLeft.value
-  // Each hidden item takes ~ITEM_W px; clamp to actual total
-  return Math.max(0, Math.round(remaining / ITEM_W))
-})
-
-// Whether user has scrolled far enough to show the left fade (half an item width)
-const hasScrolledLeft = computed(() => scrollLeft.value > ITEM_W / 2)
-
-function onScroll(e) {
-  scrollLeft.value = e.target.scrollLeft
-  scrollWidth.value = e.target.scrollWidth
-  clientWidth.value = e.target.clientWidth
-}
-
-// Sync dimensions whenever the panel appears or location changes
-function syncScrollDimensions() {
-  if (!scrollEl.value) return
-  scrollWidth.value = scrollEl.value.scrollWidth
-  clientWidth.value = scrollEl.value.clientWidth
-}
-
-watch(() => props.location?.id, async () => {
-  scrollLeft.value = 0
-  scrollWidth.value = 0
-  clientWidth.value = 0
-  await nextTick()
-  syncScrollDimensions()
-})
-
-function scrollToMore() {
-  if (!scrollEl.value) return
-  const firstVisible = Math.round(scrollLeft.value / ITEM_W)
-  scrollEl.value.scrollTo({ left: (firstVisible + 4) * ITEM_W, behavior: 'smooth' })
-}
-
-function scrollBack() {
-  if (!scrollEl.value) return
-  const firstVisible = Math.round(scrollLeft.value / ITEM_W)
-  const target = Math.max(0, firstVisible - 4) * ITEM_W
-  scrollEl.value.scrollTo({ left: target, behavior: 'smooth' })
-}
-
-const PANEL_W_MAX = 420
-const PANEL_W = computed(() => {
-  const count = locationAnimals.value.length
-  // px-3 on each side = 12px×2 = 24px; each item is ITEM_W (90px) wide
-  const natural = count * ITEM_W + 24
-  return Math.max(180, Math.min(PANEL_W_MAX, natural))
-})
-const PANEL_H = 220   // approx height for position calc
+const PANEL_W = 420   // fixed width: 4 cols × 96px + padding
+const PANEL_H = 440   // approx height for position calc (4 rows max)
 const MARKER_R = 22   // marker radius px
 const ARROW_H  = 9    // arrow height px
 const MARGIN   = 8    // min distance from viewport edge
@@ -100,7 +64,7 @@ const panelStyle = computed(() => {
     : markerAbsY - MARKER_R - ARROW_H - PANEL_H
 
   // Clamp horizontally so panel never goes off screen
-  const pw = PANEL_W.value
+  const pw = PANEL_W
   const rawLeft = props.position.x - pw / 2
   const left    = Math.max(MARGIN, Math.min(rawLeft, vw - pw - MARGIN))
 
@@ -109,6 +73,10 @@ const panelStyle = computed(() => {
 
   return { top: `${top}px`, left: `${left}px`, '--arrow-offset': `${arrowOffset}px`, '--show-below': showBelow ? '1' : '0' }
 })
+
+const sexLabel    = { M: '公', F: '母' }
+const ageLabel    = { child: '幼年', adult: '成年', senior: '老年' }
+const bodytypeLabel = { small: '小型', medium: '中型', large: '大型' }
 
 const typeLabel = {
   shelter:    '公立收容所',
@@ -132,30 +100,38 @@ function indexOf(animal) {
   return locationAnimals.value.indexOf(animal)
 }
 
-// ── drag-to-scroll ──────────────────────────────────────────────────────────
-const scrollEl = ref(null)
-const drag = ref({ active: false, captured: false, startX: 0, scrollLeft: 0 })
-const DRAG_THRESHOLD = 6 // px — below this is treated as a click, not a drag
+function onPhotoLoad(id) {
+  clearTimeout(photoTimers[id])
+  delete photoTimers[id]
+  loadedPhotos.value = new Set([...loadedPhotos.value, id])
+}
 
-function onPointerDown(e) {
-  drag.value = { active: true, captured: false, startX: e.clientX, scrollLeft: scrollEl.value.scrollLeft }
+function onPhotoError(id) {
+  clearTimeout(photoTimers[id])
+  delete photoTimers[id]
+  failedPhotos.value = new Set([...failedPhotos.value, id])
 }
-function onPointerMove(e) {
-  if (!drag.value.active) return
-  const dx = e.clientX - drag.value.startX
-  // Only capture pointer (blocking clicks) once the user has clearly started dragging
-  if (!drag.value.captured && Math.abs(dx) > DRAG_THRESHOLD) {
-    drag.value.captured = true
-    scrollEl.value.setPointerCapture(e.pointerId)
-  }
-  if (drag.value.captured) {
-    scrollEl.value.scrollLeft = drag.value.scrollLeft - dx
-  }
+
+function onPhotoMounted(id) {
+  if (loadedPhotos.value.has(id) || failedPhotos.value.has(id)) return
+  photoTimers[id] = setTimeout(() => onPhotoError(id), PHOTO_TIMEOUT)
 }
-function onPointerUp() {
-  drag.value.active = false
-  drag.value.captured = false
-}
+
+watch(() => props.location?.id, () => {
+  // clear all pending timers
+  Object.keys(photoTimers).forEach(id => clearTimeout(photoTimers[id]))
+  Object.keys(photoTimers).forEach(id => delete photoTimers[id])
+  loadedPhotos.value = new Set()
+  failedPhotos.value = new Set()
+})
+
+const allPhotosLoaded = computed(() => {
+  const withPhoto = visibleAnimals.value.filter(a => a.photo_url)
+  return withPhoto.length === 0 || withPhoto.every(a =>
+    loadedPhotos.value.has(a.id) || failedPhotos.value.has(a.id)
+  )
+})
+
 </script>
 
 <template>
@@ -182,7 +158,7 @@ function onPointerUp() {
 
       <div
         class="rounded-2xl overflow-hidden"
-        :style="`width:${PANEL_W}px;background:rgba(255,255,255,0.97);backdrop-filter:blur(14px);box-shadow:0 10px 36px rgba(0,0,0,0.16),0 3px 10px rgba(0,0,0,0.08);transition:width 0.18s ease;`"
+        :style="`width:${PANEL_W}px;background:rgba(255,255,255,0.97);backdrop-filter:blur(14px);box-shadow:0 10px 36px rgba(0,0,0,0.16),0 3px 10px rgba(0,0,0,0.08);`"
       >
         <!-- Header -->
         <div class="px-4 pt-3 pb-2 border-b border-gray-100">
@@ -190,115 +166,117 @@ function onPointerUp() {
             <div class="w-2.5 h-2.5 rounded-full flex-shrink-0" :style="{ background: typeColor[location.type] || '#6b7280' }" />
             <span class="text-xs text-gray-500">{{ typeLabel[location.type] || location.type }}</span>
           </div>
-          <div class="font-semibold text-gray-900 text-sm leading-tight mt-0.5 truncate">{{ location.name }}</div>
-        </div>
-
-        <!-- Scrollable thumbnail strip + edge overlays -->
-        <div class="relative">
-          <div
-            ref="scrollEl"
-            class="px-3 py-3 flex items-center gap-2.5 overflow-x-auto"
-            :style="locationAnimals.length <= 4 ? 'justify-content:center' : ''"
-            :class="drag.active ? 'cursor-grabbing' : 'cursor-grab'"
-            style="scrollbar-width:none;-ms-overflow-style:none;scroll-snap-type:x mandatory;"
-            @scroll="onScroll"
-            @wheel.prevent="e => { scrollEl.scrollLeft += e.deltaY !== 0 ? e.deltaY : e.deltaX }"
-            @pointerdown="onPointerDown"
-            @pointermove="onPointerMove"
-            @pointerup="onPointerUp"
-            @pointercancel="onPointerUp"
-          >
-            <div
-              v-for="animal in visibleAnimals"
-              :key="animal.id"
-              class="relative flex-shrink-0"
-              style="scroll-snap-align:start;"
-              @mouseenter="hoveredThumb = animal.id"
-              @mouseleave="hoveredThumb = null"
-              @click.stop="emit('select', { location, animalIndex: indexOf(animal) })"
-            >
-              <div
-                class="w-20 h-20 rounded-xl overflow-hidden bg-gray-100 border-2 border-white transition-all duration-150 cursor-pointer"
-                :style="{
-                  boxShadow: hoveredThumb === animal.id ? '0 6px 16px rgba(0,0,0,0.22)' : '0 2px 6px rgba(0,0,0,0.12)',
-                  transform: hoveredThumb === animal.id ? 'scale(1.07)' : 'scale(1)',
-                }"
-              >
-                <img
-                  v-if="animal.photo_url"
-                  :src="animal.photo_url"
-                  :alt="animalDisplayName(animal)"
-                  class="w-full h-full object-cover object-center"
-                  draggable="false"
-                />
-                <div v-else class="w-full h-full flex items-center justify-center text-3xl pointer-events-none">
-                  {{ animal.kind === 'cat' ? '🐱' : '🐶' }}
-                </div>
-              </div>
-
+          <div class="flex items-center justify-between gap-2 mt-0.5">
+            <div class="font-semibold text-gray-900 text-sm leading-tight truncate">{{ location.name }}</div>
+            <div v-if="!allPhotosLoaded" class="flex items-center gap-1 flex-shrink-0">
+              <svg class="w-3 h-3 text-gray-400 animate-spin" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
+                <circle class="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" stroke-width="4"/>
+                <path class="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8v8z"/>
+              </svg>
+              <span class="text-xs text-gray-400">載入中</span>
             </div>
           </div>
+        </div>
 
-          <!-- Left fade — back to start -->
-          <Transition name="fade-overlay">
+        <!-- Grid thumbnail area -->
+        <div
+          class="px-3 py-3 grid gap-2 overflow-y-auto"
+          style="grid-template-columns:repeat(4,1fr);max-height:420px;"
+        >
+          <div
+            v-for="animal in visibleAnimals"
+            :key="animal.id"
+            class="relative"
+            @mouseenter="onThumbEnter($event, animal)"
+            @mouseleave="hoveredThumb = null"
+            @click.stop="emit('select', { location, animalIndex: indexOf(animal) })"
+          >
             <div
-              v-if="hasScrolledLeft"
-              class="absolute left-0 top-0 bottom-0 pointer-events-none"
-              style="width:56px;background:linear-gradient(to right, rgba(255,255,255,0.97) 40%, transparent);"
+              class="w-full aspect-square rounded-xl overflow-hidden border-2 border-white transition-all duration-150 cursor-pointer relative"
+              :class="animal.photo_url && !loadedPhotos.has(animal.id) && !failedPhotos.has(animal.id) ? 'skeleton' : 'bg-gray-100'"
+              :style="{
+                boxShadow: hoveredThumb === animal.id ? '0 6px 16px rgba(0,0,0,0.22)' : '0 2px 6px rgba(0,0,0,0.12)',
+                transform: hoveredThumb === animal.id ? 'scale(1.07)' : 'scale(1)',
+              }"
             >
+              <!-- emoji placeholder (always shown until photo loads, re-shown on failure) -->
               <div
-                class="h-full flex items-center pl-1.5 pointer-events-auto cursor-pointer"
-                title="往前瀏覽"
-                @click.stop="scrollBack"
+                class="absolute inset-0 flex items-center justify-center text-3xl pointer-events-none"
+                :class="loadedPhotos.has(animal.id) ? 'opacity-0' : 'opacity-100'"
               >
-                <div class="flex items-center justify-center w-8 h-8 rounded-lg bg-white border border-gray-200 shadow-sm hover:bg-gray-50 transition-colors">
-                  <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4 text-gray-500" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5">
-                    <path stroke-linecap="round" stroke-linejoin="round" d="M15 19l-7-7 7-7"/>
-                  </svg>
-                </div>
+                {{ animal.kind === 'cat' ? '🐱' : '🐶' }}
               </div>
+              <!-- real photo -->
+              <img
+                v-if="animal.photo_url"
+                :src="animal.photo_url"
+                :alt="animalDisplayName(animal)"
+                class="absolute inset-0 w-full h-full object-cover object-center transition-opacity duration-300"
+                :class="loadedPhotos.has(animal.id) ? 'opacity-100' : 'opacity-0'"
+                draggable="false"
+                @load="onPhotoLoad(animal.id)"
+                @error="onPhotoError(animal.id)"
+                @vue:mounted="onPhotoMounted(animal.id)"
+              />
             </div>
-          </Transition>
-
-          <!-- Right fade — more items ahead -->
-          <Transition name="fade-overlay">
-            <div
-              v-if="extraCount > 0"
-              class="absolute right-0 top-0 bottom-0 pointer-events-none"
-              style="width:56px;background:linear-gradient(to left, rgba(255,255,255,0.97) 40%, transparent);"
-            >
-              <div
-                class="h-full flex items-center justify-end pr-1.5 pointer-events-auto cursor-pointer"
-                title="捲動查看更多"
-                @click.stop="scrollToMore"
-              >
-                <div class="flex flex-col items-center justify-center w-8 h-8 rounded-lg bg-white border border-gray-200 shadow-sm hover:bg-gray-50 transition-colors">
-                  <span class="text-xs font-bold text-gray-600 leading-none">+{{ extraCount }}</span>
-                  <span class="text-gray-400 leading-none mt-0.5" style="font-size:9px;">更多</span>
-                </div>
-              </div>
-            </div>
-          </Transition>
+          </div>
         </div>
 
         <!-- Footer hint -->
         <div class="px-4 pb-2.5 text-xs text-gray-400 text-center">
-          拖曳左右滑動・點擊照片查看詳情
+          點擊照片查看詳情
         </div>
       </div>
     </div>
   </Transition>
+
+  <!-- Tooltip teleported to body to escape overflow:hidden -->
+  <Teleport to="body">
+    <Transition name="thumb-tip">
+      <div
+        v-if="hoveredThumb"
+        :style="tooltipStyle"
+        class="pointer-events-none"
+      >
+        <template v-for="animal in visibleAnimals" :key="animal.id">
+          <div
+            v-if="animal.id === hoveredThumb"
+            class="bg-white text-gray-700 text-[11px] leading-snug rounded-lg px-2.5 py-2 shadow-lg border border-gray-200 flex flex-wrap gap-x-2 gap-y-0.5"
+          >
+            <span v-if="animal.sex">{{ sexLabel[animal.sex] ?? animal.sex }}</span>
+            <span v-if="animal.age">{{ ageLabel[animal.age] ?? animal.age }}</span>
+            <span v-if="animal.bodytype">{{ bodytypeLabel[animal.bodytype] ?? animal.bodytype }}</span>
+            <span v-if="animal.colour">{{ animal.colour }}</span>
+            <span v-if="animal.sterilized != null">{{ animal.sterilized ? '已結紮' : '未結紮' }}</span>
+          </div>
+        </template>
+        <!-- Arrow -->
+        <div class="absolute top-full left-1/2 -translate-x-1/2 w-0 h-0 border-l-4 border-r-4 border-t-4 border-l-transparent border-r-transparent border-t-white" />
+      </div>
+    </Transition>
+  </Teleport>
 </template>
 
 <style scoped>
 /* Hide scrollbar */
 div[style*="scrollbar-width"]::-webkit-scrollbar { display: none; }
 
+.skeleton {
+  background: linear-gradient(90deg, #e5e7eb 25%, #f3f4f6 50%, #e5e7eb 75%);
+  background-size: 200% 100%;
+  animation: shimmer 1.4s infinite;
+}
+@keyframes shimmer {
+  0%   { background-position: 200% 0; }
+  100% { background-position: -200% 0; }
+}
+
+.thumb-tip-enter-active { transition: opacity 0.1s ease; }
+.thumb-tip-leave-active { transition: opacity 0.1s ease; }
+.thumb-tip-enter-from, .thumb-tip-leave-to { opacity: 0; }
+
 .hover-popup-enter-active { transition: all 0.18s cubic-bezier(0.16,1,0.3,1); }
 .hover-popup-leave-active { transition: all 0.14s ease-in; }
 .hover-popup-enter-from   { opacity:0; transform:translateY(6px) scale(0.95); }
 .hover-popup-leave-to     { opacity:0; transform:translateY(4px) scale(0.96); }
-
-.fade-overlay-enter-active, .fade-overlay-leave-active { transition: opacity 0.2s ease; }
-.fade-overlay-enter-from, .fade-overlay-leave-to { opacity: 0; }
 </style>
