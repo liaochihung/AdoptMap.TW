@@ -1,6 +1,29 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="32" height="32">
-  <!-- Warm orange circle background -->
-  <circle cx="16" cy="16" r="15" fill="#ea580c"/>
-  <!-- Heart shape centered -->
-  <path d="M16 23 C16 23 7 17 7 11.5 C7 8.9 9.1 7 11.5 7 C13.1 7 14.5 7.9 16 9.5 C17.5 7.9 18.9 7 20.5 7 C22.9 7 25 8.9 25 11.5 C25 17 16 23 16 23Z" fill="white"/>
+  <defs>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="1.2" result="blur"/>
+      <feFlood flood-color="white" flood-opacity="1" result="white"/>
+      <feComposite in="white" in2="blur" operator="in" result="glow"/>
+      <feMerge>
+        <feMergeNode in="glow"/>
+        <feMergeNode in="glow"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  <!-- Forest green circle background -->
+  <circle cx="16" cy="16" r="15" fill="#16a34a"/>
+  <!-- Single paw: 4 toe pads + 1 main pad, with white glow -->
+  <g filter="url(#glow)" fill="white">
+    <!-- Far-left toe (spread more) -->
+    <ellipse cx="8.5" cy="13.5" rx="1.9" ry="2.4" transform="rotate(-35 8.5 13.5)"/>
+    <!-- Center-left toe -->
+    <ellipse cx="13" cy="10.5" rx="1.9" ry="2.4" transform="rotate(-12 13 10.5)"/>
+    <!-- Center-right toe -->
+    <ellipse cx="18.5" cy="10.5" rx="1.9" ry="2.4" transform="rotate(12 18.5 10.5)"/>
+    <!-- Far-right toe (spread more) -->
+    <ellipse cx="23" cy="13.5" rx="1.9" ry="2.4" transform="rotate(35 23 13.5)"/>
+    <!-- Main pad: true rounded triangle - wide base, pinched top -->
+    <path d="M16 17.5 C14.5 17 12 17.5 11 19.5 C10 21.5 11 24.5 16 25 C21 24.5 22 21.5 21 19.5 C20 17.5 17.5 17 16 17.5 Z"/>
+  </g>
 </svg>

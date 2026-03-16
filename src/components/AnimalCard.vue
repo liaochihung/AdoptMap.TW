@@ -119,11 +119,21 @@ const displayName = computed(() => {
 })
 
 // ── Photo state ─────────────────────────────────────────────────────────────
+const baseUrl = import.meta.env.BASE_URL
 const imgError = ref(false)
 const imgLoaded = ref(false)
+const thumbError = ref(false)
 watch(() => currentAnimal.value?.id, () => {
   imgError.value = false
   imgLoaded.value = false
+  thumbError.value = false
+})
+
+const photoSrc = computed(() => {
+  const a = currentAnimal.value
+  if (!a?.photo_url) return null
+  if (thumbError.value) return a.photo_url
+  return `${baseUrl}data/thumbs/${a.id.replace(/[^\w\-]/g, '_')}.webp`
 })
 
 // Compute dominant blur color from type accent for the photo background
@@ -165,12 +175,12 @@ const photoBg = computed(() => {
       <template v-if="currentAnimal">
         <!-- Skeleton placeholder while loading -->
         <div
-          v-if="currentAnimal.photo_url && !imgLoaded && !imgError"
+          v-if="photoSrc && !imgLoaded && !imgError"
           class="absolute inset-0 bg-gray-200 animate-pulse"
         />
         <!-- Blurred bg layer (fills space around letterboxed image) -->
         <img
-          v-if="currentAnimal.photo_url && !imgError && imgLoaded"
+          v-if="photoSrc && !imgError && imgLoaded"
           :src="currentAnimal.photo_url"
           aria-hidden="true"
           class="absolute inset-0 w-full h-full object-cover scale-110 blur-xl opacity-50 pointer-events-none"
@@ -179,15 +189,15 @@ const photoBg = computed(() => {
         />
         <!-- Main image: contain = no crop, full animal visible -->
         <img
-          v-if="currentAnimal.photo_url && !imgError"
-          :src="currentAnimal.photo_url"
+          v-if="photoSrc && !imgError"
+          :src="photoSrc"
           :alt="displayName"
           class="relative w-full h-full object-contain pointer-events-none transition-opacity duration-300"
           :class="imgLoaded ? 'opacity-100' : 'opacity-0'"
           loading="lazy"
           decoding="async"
           draggable="false"
-          @error="imgError = true"
+          @error="thumbError ? (imgError = true) : (thumbError = true, imgLoaded = false)"
           @load="imgLoaded = true"
         />
         <div v-else class="w-full h-full flex flex-col items-center justify-center gap-1">
