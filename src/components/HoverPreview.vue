@@ -2,6 +2,8 @@
 <script setup>
 import { computed, ref, watch } from 'vue'
 
+const baseUrl = import.meta.env.BASE_URL
+
 const tooltipStyle = ref({})
 
 function onThumbEnter(event, animal) {
@@ -41,30 +43,52 @@ const locationAnimals = computed(() =>
 // Show all animals in grid
 const visibleAnimals = computed(() => locationAnimals.value)
 
-const PANEL_W = 420   // fixed width: 4 cols × 96px + padding
-const PANEL_H = 440   // approx height for position calc (4 rows max)
-const MARKER_R = 22   // marker radius px
-const ARROW_H  = 9    // arrow height px
-const MARGIN   = 8    // min distance from viewport edge
+const COL_W     = 96   // width per column (px)
+const COL_GAP   = 8    // gap between columns (px)
+const PANEL_PAD = 24   // left+right padding (px)
+const MIN_PANEL_W = 220 // min panel width to avoid title truncation (px)
+const HEADER_H   = 68   // header height (px)
+const FOOTER_H   = 28   // footer height (px)
+const ROW_H      = 104  // approx height per row including gap (px)
+const GRID_MAX_H = 420  // max-height of the grid scroll area (px)
+const MARKER_R   = 22   // marker radius px
+const ARROW_H    = 9    // arrow height px
+const MARGIN     = 8    // min distance from viewport edge
+
+// Computed panel dimensions based on actual animal count
+const panelCols = computed(() => Math.min(4, Math.max(1, locationAnimals.value.length)))
+const panelRows = computed(() => Math.ceil(locationAnimals.value.length / panelCols.value))
+const panelW = computed(() =>
+  Math.max(MIN_PANEL_W, panelCols.value * COL_W + (panelCols.value - 1) * COL_GAP + PANEL_PAD)
+)
+const panelH = computed(() => {
+  const gridH = Math.min(panelRows.value * ROW_H, GRID_MAX_H)
+  return HEADER_H + FOOTER_H + gridH
+})
 
 const panelStyle = computed(() => {
   if (!props.position) return {}
 
   const vw = window.innerWidth
+  const vh = window.innerHeight
+  const pw = panelW.value
+  const ph = panelH.value
 
   // Absolute Y of the marker center in the viewport
   const markerAbsY = props.position.y + props.mapTopOffset
 
-  // Prefer above; flip below if not enough space
-  const spaceAbove = markerAbsY - MARKER_R
-  const showBelow  = spaceAbove < PANEL_H + ARROW_H + MARGIN
+  // Check space above and below
+  const spaceAbove = markerAbsY - MARKER_R - ARROW_H - MARGIN
+  const spaceBelow = vh - (markerAbsY + MARKER_R + ARROW_H) - MARGIN
+
+  // Prefer above; flip below only if not enough space above but enough below
+  const showBelow = spaceAbove < ph && spaceBelow >= ph
 
   const top = showBelow
     ? markerAbsY + MARKER_R + ARROW_H
-    : markerAbsY - MARKER_R - ARROW_H - PANEL_H
+    : markerAbsY - MARKER_R - ARROW_H - ph
 
   // Clamp horizontally so panel never goes off screen
-  const pw = PANEL_W
   const rawLeft = props.position.x - pw / 2
   const left    = Math.max(MARGIN, Math.min(rawLeft, vw - pw - MARGIN))
 
@@ -191,7 +215,7 @@ const allPhotosLoaded = computed(() => {
 
       <div
         class="rounded-2xl overflow-hidden"
-        :style="`width:${PANEL_W}px;background:rgba(255,255,255,0.97);backdrop-filter:blur(14px);box-shadow:0 10px 36px rgba(0,0,0,0.16),0 3px 10px rgba(0,0,0,0.08);`"
+        :style="`width:${panelW}px;background:rgba(255,255,255,0.97);backdrop-filter:blur(14px);box-shadow:0 10px 36px rgba(0,0,0,0.16),0 3px 10px rgba(0,0,0,0.08);`"
       >
         <!-- Header -->
         <div class="px-4 pt-3 pb-2 border-b border-gray-100">
@@ -213,8 +237,8 @@ const allPhotosLoaded = computed(() => {
 
         <!-- Grid thumbnail area -->
         <div
-          class="px-3 py-3 grid gap-2 overflow-y-auto"
-          style="grid-template-columns:repeat(4,1fr);max-height:420px;"
+          class="px-3 py-3 grid gap-2 overflow-y-auto justify-center"
+          :style="`grid-template-columns:repeat(${panelCols},96px);max-height:420px;`"
         >
           <div
             v-for="animal in visibleAnimals"
@@ -244,7 +268,7 @@ const allPhotosLoaded = computed(() => {
               <!-- prefer local thumb (WebP), fall back to original photo_url -->
               <img
                 v-if="animal.photo_url && visiblePhotoIds.has(animal.id)"
-                :src="`${import.meta.env.BASE_URL}data/thumbs/${animal.id.replace(/[^\w\-]/g, '_')}.webp`"
+                :src="`${baseUrl}data/thumbs/${animal.id.replace(/[^\w\-]/g, '_')}.webp`"
                 :data-fallback="animal.photo_url"
                 @error.once="e => { e.target.src = e.target.dataset.fallback }"
                 :alt="animalDisplayName(animal)"
