@@ -244,7 +244,7 @@ const allPhotosLoaded = computed(() => {
               <!-- prefer local thumb (WebP), fall back to original photo_url -->
               <img
                 v-if="animal.photo_url && visiblePhotoIds.has(animal.id)"
-                :src="`./data/thumbs/${animal.id.replace(/[^\w\-]/g, '_')}.webp`"
+                :src="`${import.meta.env.BASE_URL}data/thumbs/${animal.id.replace(/[^\w\-]/g, '_')}.webp`"
                 :data-fallback="animal.photo_url"
                 @error.once="e => { e.target.src = e.target.dataset.fallback }"
                 :alt="animalDisplayName(animal)"

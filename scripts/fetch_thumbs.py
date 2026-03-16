@@ -74,3 +74,13 @@ def fetch_thumbs(animals: list[dict]) -> None:
             failed += 1
 
     print(f"  ✅ 縮圖完成：成功 {success}，失敗 {failed}，共 {len(list(thumbs_dir.glob('*.webp')))} 個檔案")
+
+
+if __name__ == "__main__":
+    import json
+    from pathlib import Path as _Path
+    data_file = _Path(__file__).resolve().parent.parent / "public" / "data" / "animals_全台.json"
+    with open(data_file, encoding="utf-8") as f:
+        animals = json.load(f)["animals"]
+    print(f"從 animals_全台.json 讀取 {len(animals)} 筆動物")
+    fetch_thumbs(animals)
