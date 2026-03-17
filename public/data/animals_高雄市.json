@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-03-17T06:08:08+08:00",
-  "total": 599,
+  "updated_at": "2026-03-17T10:44:13+08:00",
+  "total": 598,
   "city": "高雄市",
   "animals": [
     {
@@ -20,25 +20,6 @@
       "update_date": "2026-03-16",
       "city": "高雄市",
       "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=TEFBQUcxMTUwMzE2UTEy&UT=TEFBQUc=",
-      "location_id": "loc_高雄市鼓山區萬壽路350號"
-    },
-    {
-      "id": "GOV-445578",
-      "source": "gov_shelter",
-      "kind": "dog",
-      "name": "博美犬         ",
-      "sex": "F",
-      "age": "adult",
-      "bodytype": "small",
-      "colour": "白色",
-      "sterilized": null,
-      "vaccinated": false,
-      "photo_url": "https://www.pet.gov.tw/upload/pic/1773559100577.png",
-      "remark": "協尋飼主  暫不開放",
-      "open_date": "",
-      "update_date": "2026-03-15",
-      "city": "高雄市",
-      "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=TEFBQUcxMTUwMzE1VzE=&UT=TEFBQUc=",
       "location_id": "loc_高雄市鼓山區萬壽路350號"
     },
     {
