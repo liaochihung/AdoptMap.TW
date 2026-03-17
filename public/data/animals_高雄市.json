@@ -1,8 +1,27 @@
 {
-  "updated_at": "2026-03-16T06:04:24+08:00",
+  "updated_at": "2026-03-17T06:08:08+08:00",
   "total": 599,
   "city": "高雄市",
   "animals": [
+    {
+      "id": "GOV-445734",
+      "source": "gov_shelter",
+      "kind": "dog",
+      "name": "博美犬         ",
+      "sex": "M",
+      "age": "adult",
+      "bodytype": "small",
+      "colour": "白色",
+      "sterilized": false,
+      "vaccinated": false,
+      "photo_url": "https://www.pet.gov.tw/upload/pic/1773653547745.png",
+      "remark": "協尋飼主 暫不開放",
+      "open_date": "",
+      "update_date": "2026-03-16",
+      "city": "高雄市",
+      "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=TEFBQUcxMTUwMzE2UTEy&UT=TEFBQUc=",
+      "location_id": "loc_高雄市鼓山區萬壽路350號"
+    },
     {
       "id": "GOV-445578",
       "source": "gov_shelter",
@@ -40,25 +59,6 @@
       "city": "高雄市",
       "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=TEFBQkcxMTUwMzEzMTE=&UT=TEFBQkc=",
       "location_id": "loc_高雄市燕巢區師大路98號"
-    },
-    {
-      "id": "GOV-445317",
-      "source": "gov_shelter",
-      "kind": "dog",
-      "name": "柴犬                  ",
-      "sex": "F",
-      "age": "child",
-      "bodytype": "small",
-      "colour": "黑色",
-      "sterilized": false,
-      "vaccinated": false,
-      "photo_url": "https://www.pet.gov.tw/upload/pic/1773300783037.png",
-      "remark": "協尋飼主 暫不開放",
-      "open_date": "",
-      "update_date": "",
-      "city": "高雄市",
-      "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=TEFBQUcxMTUwMzEyVzg=&UT=TEFBQUc=",
-      "location_id": "loc_高雄市鼓山區萬壽路350號"
     },
     {
       "id": "GOV-427190",
