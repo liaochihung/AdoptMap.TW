@@ -10,6 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     permissions:
       contents: write       # 需要 push 權限
+      actions: write        # 需要觸發其他 workflow
 
     steps:
       - uses: actions/checkout@v4
