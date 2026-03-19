@@ -1,8 +1,27 @@
 {
-  "updated_at": "2026-03-19T06:08:14+08:00",
+  "updated_at": "2026-03-20T06:04:09+08:00",
   "total": 102,
   "city": "基隆市",
   "animals": [
+    {
+      "id": "GOV-446086",
+      "source": "gov_shelter",
+      "kind": "cat",
+      "name": "混種貓                 ",
+      "sex": "M",
+      "age": "adult",
+      "bodytype": "medium",
+      "colour": "黑色",
+      "sterilized": null,
+      "vaccinated": false,
+      "photo_url": "https://www.pet.gov.tw/upload/pic/1773886597105.png",
+      "remark": "",
+      "open_date": "2026-03-19",
+      "update_date": "2026-03-19",
+      "city": "基隆市",
+      "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=UUFBQUcxMTUwMzE5MDAy&UT=UUFBQUc=",
+      "location_id": "loc_基隆市七堵區大華三路45_12號_欣欣安樂園旁"
+    },
     {
       "id": "GOV-445993",
       "source": "gov_shelter",
@@ -324,25 +343,6 @@
       "update_date": "2026-03-08",
       "city": "基隆市",
       "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=UUFBQUcxMTUwMzA3MDAx&UT=UUFBQUc=",
-      "location_id": "loc_基隆市七堵區大華三路45_12號_欣欣安樂園旁"
-    },
-    {
-      "id": "GOV-443557",
-      "source": "gov_shelter",
-      "kind": "cat",
-      "name": "混種貓                 ",
-      "sex": "F",
-      "age": "adult",
-      "bodytype": "medium",
-      "colour": "黑白色",
-      "sterilized": null,
-      "vaccinated": false,
-      "photo_url": "https://www.pet.gov.tw/upload/pic/1772088817652.png",
-      "remark": "",
-      "open_date": "2026-03-08",
-      "update_date": "2026-03-08",
-      "city": "基隆市",
-      "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=UUFBQUcxMTUwMjI1MDAx&UT=UUFBQUc=",
       "location_id": "loc_基隆市七堵區大華三路45_12號_欣欣安樂園旁"
     },
     {
