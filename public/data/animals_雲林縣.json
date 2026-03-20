@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-03-20T06:04:09+08:00",
-  "total": 388,
+  "updated_at": "2026-03-21T06:04:15+08:00",
+  "total": 386,
   "city": "雲林縣",
   "animals": [
     {
@@ -20,44 +20,6 @@
       "update_date": "2026-03-18",
       "city": "雲林縣",
       "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=MTE1LUIwMDlE&UT=MTE1LUI=",
-      "location_id": "loc_雲林縣斗六市雲林路二段517號"
-    },
-    {
-      "id": "GOV-445783",
-      "source": "gov_shelter",
-      "kind": "cat",
-      "name": "混種貓                 ",
-      "sex": "F",
-      "age": "adult",
-      "bodytype": "medium",
-      "colour": "黑白色",
-      "sterilized": true,
-      "vaccinated": false,
-      "photo_url": "https://www.pet.gov.tw/upload/pic/1773716578155.png",
-      "remark": "",
-      "open_date": "2026-03-20",
-      "update_date": "2026-03-17",
-      "city": "雲林縣",
-      "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=MTE1LUgwMTVD&UT=MTE1LUg=",
-      "location_id": "loc_雲林縣斗六市雲林路二段517號"
-    },
-    {
-      "id": "GOV-445782",
-      "source": "gov_shelter",
-      "kind": "cat",
-      "name": "混種貓                 ",
-      "sex": "M",
-      "age": "adult",
-      "bodytype": "medium",
-      "colour": "黃色",
-      "sterilized": true,
-      "vaccinated": false,
-      "photo_url": "https://www.pet.gov.tw/upload/pic/1773716501070.png",
-      "remark": "",
-      "open_date": "2026-03-20",
-      "update_date": "2026-03-17",
-      "city": "雲林縣",
-      "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=MTE1LUgwMTRD&UT=MTE1LUg=",
       "location_id": "loc_雲林縣斗六市雲林路二段517號"
     },
     {

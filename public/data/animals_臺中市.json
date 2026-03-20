@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-03-20T06:04:09+08:00",
-  "total": 153,
+  "updated_at": "2026-03-21T06:04:15+08:00",
+  "total": 150,
   "city": "臺中市",
   "animals": [
     {
@@ -551,25 +551,6 @@
       "open_date": "",
       "update_date": "",
       "source_url": "https://www.animal.taichung.gov.tw/1521490/animalCp?nodeId=3898635",
-      "city": "臺中市",
-      "location_id": "loc_houli"
-    },
-    {
-      "id": "TC-11502128007",
-      "source": "taichung_shelter",
-      "kind": "dog",
-      "name": "",
-      "sex": "F",
-      "age": "child",
-      "bodytype": "medium",
-      "colour": "黑白棕",
-      "sterilized": true,
-      "vaccinated": null,
-      "photo_url": "https://www.animal.taichung.gov.tw/media/1320302/11502128007認養-18.jpg",
-      "remark": "",
-      "open_date": "",
-      "update_date": "",
-      "source_url": "https://www.animal.taichung.gov.tw/1521490/animalCp?nodeId=3895636",
       "city": "臺中市",
       "location_id": "loc_houli"
     },
@@ -1522,25 +1503,6 @@
       "source_url": "https://www.animal.taichung.gov.tw/1521490/animalCp?nodeId=3836213",
       "city": "臺中市",
       "location_id": "loc_nantun"
-    },
-    {
-      "id": "TC-11410096001",
-      "source": "taichung_shelter",
-      "kind": "dog",
-      "name": "",
-      "sex": "F",
-      "age": "adult",
-      "bodytype": "medium",
-      "colour": "米黃",
-      "sterilized": true,
-      "vaccinated": null,
-      "photo_url": "https://www.animal.taichung.gov.tw/media/1288134/11410096001認養.jpg",
-      "remark": "",
-      "open_date": "",
-      "update_date": "",
-      "source_url": "https://www.animal.taichung.gov.tw/1521490/animalCp?nodeId=3827152",
-      "city": "臺中市",
-      "location_id": "loc_houli"
     },
     {
       "id": "TC-11410166001",
@@ -2643,25 +2605,6 @@
       "source_url": "https://www.animal.taichung.gov.tw/1521490/animalCp?nodeId=3435697",
       "city": "臺中市",
       "location_id": "loc_houli"
-    },
-    {
-      "id": "TC-11306070028",
-      "source": "taichung_shelter",
-      "kind": "dog",
-      "name": "",
-      "sex": "F",
-      "age": "adult",
-      "bodytype": "medium",
-      "colour": "虎斑",
-      "sterilized": true,
-      "vaccinated": null,
-      "photo_url": "https://www.animal.taichung.gov.tw/media/1237453/11306070028開a29.jpg",
-      "remark": "",
-      "open_date": "",
-      "update_date": "",
-      "source_url": "https://www.animal.taichung.gov.tw/1521490/animalCp?nodeId=3444382",
-      "city": "臺中市",
-      "location_id": "loc_nantun"
     },
     {
       "id": "TC-11306180020",
