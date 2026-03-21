@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-03-21T06:04:15+08:00",
-  "total": 597,
+  "updated_at": "2026-03-22T06:02:43+08:00",
+  "total": 595,
   "city": "高雄市",
   "animals": [
     {
@@ -39,25 +39,6 @@
       "update_date": "2026-03-20",
       "city": "高雄市",
       "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=TEFBQUcxMTUwMzIwRzE=&UT=TEFBQUc=",
-      "location_id": "loc_高雄市鼓山區萬壽路350號"
-    },
-    {
-      "id": "GOV-446222",
-      "source": "gov_shelter",
-      "kind": "cat",
-      "name": "英國短毛貓               ",
-      "sex": "M",
-      "age": "adult",
-      "bodytype": "medium",
-      "colour": "花色",
-      "sterilized": false,
-      "vaccinated": false,
-      "photo_url": "https://www.pet.gov.tw/upload/pic/1773974397434.png",
-      "remark": "協尋飼主  暫不開放",
-      "open_date": "",
-      "update_date": "2026-03-20",
-      "city": "高雄市",
-      "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=TEFBQUcxMTUwMzIwQzQ=&UT=TEFBQUc=",
       "location_id": "loc_高雄市鼓山區萬壽路350號"
     },
     {
@@ -1008,25 +989,6 @@
       "update_date": "2026-01-30",
       "city": "高雄市",
       "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=TEFBQUcxMTQxMjE1Vzg=&UT=TEFBQUc=",
-      "location_id": "loc_高雄市鼓山區萬壽路350號"
-    },
-    {
-      "id": "GOV-438247",
-      "source": "gov_shelter",
-      "kind": "dog",
-      "name": "美國惡霸犬",
-      "sex": "F",
-      "age": "adult",
-      "bodytype": "medium",
-      "colour": "黃色",
-      "sterilized": true,
-      "vaccinated": false,
-      "photo_url": "https://www.pet.gov.tw/upload/pic/1767949627374.png",
-      "remark": "115.1.13開放認養",
-      "open_date": "2026-01-13",
-      "update_date": "2026-01-30",
-      "city": "高雄市",
-      "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=TEFBQUcxMTUwMTA5RzE=&UT=TEFBQUc=",
       "location_id": "loc_高雄市鼓山區萬壽路350號"
     },
     {
