@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-03-22T06:02:43+08:00",
-  "total": 595,
+  "updated_at": "2026-03-23T06:03:56+08:00",
+  "total": 594,
   "city": "高雄市",
   "animals": [
     {
@@ -21,25 +21,6 @@
       "city": "高雄市",
       "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=TEFBQkcxMTUwMzIwMjU=&UT=TEFBQkc=",
       "location_id": "loc_高雄市燕巢區師大路98號"
-    },
-    {
-      "id": "GOV-446236",
-      "source": "gov_shelter",
-      "kind": "dog",
-      "name": "比熊犬",
-      "sex": "F",
-      "age": "adult",
-      "bodytype": "small",
-      "colour": "白色",
-      "sterilized": null,
-      "vaccinated": false,
-      "photo_url": "https://www.pet.gov.tw/upload/pic/1773978301105.png",
-      "remark": "協尋飼主   暫不開放",
-      "open_date": "",
-      "update_date": "2026-03-20",
-      "city": "高雄市",
-      "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=TEFBQUcxMTUwMzIwRzE=&UT=TEFBQUc=",
-      "location_id": "loc_高雄市鼓山區萬壽路350號"
     },
     {
       "id": "GOV-441548",
