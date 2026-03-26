@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-03-26T06:09:07+08:00",
-  "total": 474,
+  "updated_at": "2026-03-27T06:04:21+08:00",
+  "total": 473,
   "city": "桃園市",
   "animals": [
     {
@@ -286,25 +286,6 @@
       "update_date": "2026-03-20",
       "city": "桃園市",
       "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=Q0FBQUcxMTUwMzIwMDAx&UT=Q0FBQUc=",
-      "location_id": "loc_桃園市新屋區永興里3鄰藻礁路1668號"
-    },
-    {
-      "id": "GOV-381481",
-      "source": "gov_shelter",
-      "kind": "cat",
-      "name": "混種貓                 ",
-      "sex": "F",
-      "age": "adult",
-      "bodytype": "medium",
-      "colour": "虎斑色",
-      "sterilized": true,
-      "vaccinated": false,
-      "photo_url": "https://www.pet.gov.tw/upload/pic/1731123541385.png",
-      "remark": "我是沙西米 我在南昌認領養中心 開放認領養~~~",
-      "open_date": "2025-08-15",
-      "update_date": "2026-03-19",
-      "city": "桃園市",
-      "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=Q0FBQUcxMTMxMTA5MDAy&UT=Q0FBQUc=",
       "location_id": "loc_桃園市新屋區永興里3鄰藻礁路1668號"
     },
     {

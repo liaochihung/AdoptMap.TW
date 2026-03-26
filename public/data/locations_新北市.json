@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-26T06:09:07+08:00",
+  "updated_at": "2026-03-27T06:04:21+08:00",
   "city": "新北市",
   "locations": [
     {
@@ -12,7 +12,7 @@
       "type": "shelter",
       "counts": {
         "cat": 52,
-        "dog": 153
+        "dog": 155
       }
     },
     {
@@ -51,7 +51,7 @@
       "type": "shelter",
       "counts": {
         "cat": 19,
-        "dog": 218
+        "dog": 217
       }
     },
     {
