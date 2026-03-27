@@ -1,7 +1,46 @@
 {
-  "updated_at": "2026-03-27T06:04:21+08:00",
+  "updated_at": "2026-03-28T06:05:34+08:00",
   "city": "臺中市",
   "locations": [
+    {
+      "id": "loc_永昌動物醫院",
+      "name": "永昌動物醫院",
+      "address": "永昌動物醫院",
+      "phone": "04-22356236",
+      "lat": 25.0521262,
+      "lng": 121.509257,
+      "type": "vet_transit",
+      "counts": {
+        "cat": 0,
+        "dog": 3
+      }
+    },
+    {
+      "id": "loc_nantun",
+      "name": "臺中市動物之家南屯園區",
+      "address": "臺中市南屯區中台路601號",
+      "phone": "04-23850949",
+      "lat": 24.1366,
+      "lng": 120.6175,
+      "type": "shelter",
+      "counts": {
+        "cat": 4,
+        "dog": 88
+      }
+    },
+    {
+      "id": "loc_houli",
+      "name": "臺中市動物之家后里園區",
+      "address": "臺中市后里區堤防路370號",
+      "phone": "04-25588024",
+      "lat": 24.3049,
+      "lng": 120.7106,
+      "type": "shelter",
+      "counts": {
+        "cat": 7,
+        "dog": 29
+      }
+    },
     {
       "id": "loc_台中市北區崇德路一段516號",
       "name": "可麗愛犬美容屋",
@@ -26,32 +65,6 @@
       "counts": {
         "cat": 0,
         "dog": 1
-      }
-    },
-    {
-      "id": "loc_nantun",
-      "name": "臺中市動物之家南屯園區",
-      "address": "臺中市南屯區中台路601號",
-      "phone": "04-23850949",
-      "lat": 24.1366,
-      "lng": 120.6175,
-      "type": "shelter",
-      "counts": {
-        "cat": 4,
-        "dog": 87
-      }
-    },
-    {
-      "id": "loc_houli",
-      "name": "臺中市動物之家后里園區",
-      "address": "臺中市后里區堤防路370號",
-      "phone": "04-25588024",
-      "lat": 24.3049,
-      "lng": 120.7106,
-      "type": "shelter",
-      "counts": {
-        "cat": 5,
-        "dog": 29
       }
     },
     {

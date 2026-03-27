@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-03-27T06:04:21+08:00",
-  "total": 17,
+  "updated_at": "2026-03-28T06:05:34+08:00",
+  "total": 16,
   "city": "嘉義縣",
   "animals": [
     {
@@ -248,25 +248,6 @@
       "update_date": "2025-05-14",
       "city": "嘉義縣",
       "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=SkFBQUcxMTQwNTE0MDAy&UT=SkFBQUc=",
-      "location_id": "loc_嘉義縣民雄鄉松山村後山仔37之2號"
-    },
-    {
-      "id": "GOV-403557",
-      "source": "gov_shelter",
-      "kind": "dog",
-      "name": "混種犬          ",
-      "sex": "M",
-      "age": "adult",
-      "bodytype": "medium",
-      "colour": "黑色",
-      "sterilized": true,
-      "vaccinated": false,
-      "photo_url": "https://www.pet.gov.tw/upload/pic/1745969992551.png",
-      "remark": "",
-      "open_date": "2025-04-30",
-      "update_date": "2025-04-30",
-      "city": "嘉義縣",
-      "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=SkFBQUcxMTQwNDMwMDAy&UT=SkFBQUc=",
       "location_id": "loc_嘉義縣民雄鄉松山村後山仔37之2號"
     },
     {
