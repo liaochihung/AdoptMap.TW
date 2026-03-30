@@ -1,20 +1,7 @@
 {
-  "updated_at": "2026-03-30T06:04:48+08:00",
+  "updated_at": "2026-03-31T06:09:37+08:00",
   "city": "臺中市",
   "locations": [
-    {
-      "id": "loc_永昌動物醫院",
-      "name": "永昌動物醫院",
-      "address": "永昌動物醫院",
-      "phone": "04-22356236",
-      "lat": 25.0521262,
-      "lng": 121.509257,
-      "type": "vet_transit",
-      "counts": {
-        "cat": 0,
-        "dog": 3
-      }
-    },
     {
       "id": "loc_nantun",
       "name": "臺中市動物之家南屯園區",
@@ -25,7 +12,7 @@
       "type": "shelter",
       "counts": {
         "cat": 1,
-        "dog": 84
+        "dog": 89
       }
     },
     {
@@ -37,7 +24,7 @@
       "lng": 120.7106,
       "type": "shelter",
       "counts": {
-        "cat": 6,
+        "cat": 5,
         "dog": 28
       }
     },

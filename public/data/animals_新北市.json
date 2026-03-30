@@ -1,8 +1,27 @@
 {
-  "updated_at": "2026-03-30T06:04:48+08:00",
-  "total": 1376,
+  "updated_at": "2026-03-31T06:09:37+08:00",
+  "total": 1377,
   "city": "新北市",
   "animals": [
+    {
+      "id": "GOV-447223",
+      "source": "gov_shelter",
+      "kind": "cat",
+      "name": "美國短毛貓               ",
+      "sex": "F",
+      "age": "adult",
+      "bodytype": "medium",
+      "colour": "黑白色",
+      "sterilized": false,
+      "vaccinated": false,
+      "photo_url": "",
+      "remark": "",
+      "open_date": "2026-03-30",
+      "update_date": "",
+      "city": "新北市",
+      "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=QUFBSEcxMTUwMzMwMDAx&UT=QUFBSEc=",
+      "location_id": "loc_新北市五股區外寮路9_9號"
+    },
     {
       "id": "GOV-447167",
       "source": "gov_shelter",
