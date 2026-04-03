@@ -1,8 +1,27 @@
 {
-  "updated_at": "2026-04-03T06:08:47+08:00",
-  "total": 139,
+  "updated_at": "2026-04-04T06:06:14+08:00",
+  "total": 140,
   "city": "臺中市",
   "animals": [
+    {
+      "id": "TC-11503090016",
+      "source": "taichung_shelter",
+      "kind": "dog",
+      "name": "",
+      "sex": "M",
+      "age": "child",
+      "bodytype": "medium",
+      "colour": "黑棕",
+      "sterilized": true,
+      "vaccinated": null,
+      "photo_url": "https://www.animal.taichung.gov.tw/media/1333150/11503090016收-e20.jpg",
+      "remark": "",
+      "open_date": "",
+      "update_date": "",
+      "source_url": "https://www.animal.taichung.gov.tw/1521490/animalCp?nodeId=3923321",
+      "city": "臺中市",
+      "location_id": "loc_nantun"
+    },
     {
       "id": "TC-11503068010",
       "source": "taichung_shelter",
