@@ -1,8 +1,27 @@
 {
-  "updated_at": "2026-04-05T06:04:34+08:00",
-  "total": 485,
+  "updated_at": "2026-04-06T06:04:53+08:00",
+  "total": 486,
   "city": "桃園市",
   "animals": [
+    {
+      "id": "GOV-448020",
+      "source": "gov_shelter",
+      "kind": "dog",
+      "name": "混種犬          ",
+      "sex": "F",
+      "age": "child",
+      "bodytype": "small",
+      "colour": "黑黃色",
+      "sterilized": true,
+      "vaccinated": false,
+      "photo_url": "https://www.pet.gov.tw/upload/pic/1775366415116.png",
+      "remark": "",
+      "open_date": "2026-04-05",
+      "update_date": "2026-04-05",
+      "city": "桃園市",
+      "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=Q0FBQUcxMTUwNDA1MDAx&UT=Q0FBQUc=",
+      "location_id": "loc_桃園市新屋區永興里3鄰藻礁路1668號"
+    },
     {
       "id": "GOV-447982",
       "source": "gov_shelter",
