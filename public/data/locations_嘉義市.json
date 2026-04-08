@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-06T06:04:53+08:00",
+  "updated_at": "2026-04-09T06:12:10+08:00",
   "city": "嘉義市",
   "locations": [
     {
@@ -12,7 +12,7 @@
       "type": "shelter",
       "counts": {
         "cat": 5,
-        "dog": 29
+        "dog": 28
       }
     }
   ]

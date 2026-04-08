@@ -1,7 +1,33 @@
 {
-  "updated_at": "2026-04-06T06:04:53+08:00",
+  "updated_at": "2026-04-09T06:12:10+08:00",
   "city": "臺中市",
   "locations": [
+    {
+      "id": "loc_houli",
+      "name": "臺中市動物之家后里園區",
+      "address": "臺中市后里區堤防路370號",
+      "phone": "04-25588024",
+      "lat": 24.3049,
+      "lng": 120.7106,
+      "type": "shelter",
+      "counts": {
+        "cat": 8,
+        "dog": 33
+      }
+    },
+    {
+      "id": "loc_仁愛犬醫院",
+      "name": "仁愛犬醫院",
+      "address": "仁愛犬醫院",
+      "phone": "04-22126987",
+      "lat": 23.0020621,
+      "lng": 120.2197427,
+      "type": "vet_transit",
+      "counts": {
+        "cat": 0,
+        "dog": 3
+      }
+    },
     {
       "id": "loc_nantun",
       "name": "臺中市動物之家南屯園區",
@@ -12,7 +38,7 @@
       "type": "shelter",
       "counts": {
         "cat": 3,
-        "dog": 84
+        "dog": 86
       }
     },
     {
@@ -26,32 +52,6 @@
       "counts": {
         "cat": 0,
         "dog": 1
-      }
-    },
-    {
-      "id": "loc_houli",
-      "name": "臺中市動物之家后里園區",
-      "address": "臺中市后里區堤防路370號",
-      "phone": "04-25588024",
-      "lat": 24.3049,
-      "lng": 120.7106,
-      "type": "shelter",
-      "counts": {
-        "cat": 5,
-        "dog": 32
-      }
-    },
-    {
-      "id": "loc_永信動物醫院",
-      "name": "永信動物醫院",
-      "address": "永信動物醫院",
-      "phone": "04-24371487",
-      "lat": 25.0423346,
-      "lng": 121.5780267,
-      "type": "vet_transit",
-      "counts": {
-        "cat": 0,
-        "dog": 4
       }
     },
     {

@@ -1,8 +1,27 @@
 {
-  "updated_at": "2026-04-06T06:04:53+08:00",
-  "total": 341,
+  "updated_at": "2026-04-09T06:12:10+08:00",
+  "total": 342,
   "city": "南投縣",
   "animals": [
+    {
+      "id": "GOV-448139",
+      "source": "gov_shelter",
+      "kind": "dog",
+      "name": "法國鬥牛犬",
+      "sex": "M",
+      "age": "adult",
+      "bodytype": "medium",
+      "colour": "黃色",
+      "sterilized": false,
+      "vaccinated": false,
+      "photo_url": "https://www.pet.gov.tw/upload/pic/1775540131482.png",
+      "remark": "通知飼主領回中",
+      "open_date": "",
+      "update_date": "2026-04-07",
+      "city": "南投縣",
+      "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=SEFBQUcxMTUwNDA1MjQz&UT=SEFBQUc=",
+      "location_id": "loc_南投縣南投市嶺興路36_1號"
+    },
     {
       "id": "GOV-447607",
       "source": "gov_shelter",
