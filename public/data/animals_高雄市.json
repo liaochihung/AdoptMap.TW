@@ -1,8 +1,27 @@
 {
-  "updated_at": "2026-04-15T06:14:16+08:00",
-  "total": 579,
+  "updated_at": "2026-04-16T06:13:23+08:00",
+  "total": 580,
   "city": "高雄市",
   "animals": [
+    {
+      "id": "GOV-449326",
+      "source": "gov_shelter",
+      "kind": "dog",
+      "name": "混種犬          ",
+      "sex": "M",
+      "age": "adult",
+      "bodytype": "medium",
+      "colour": "虎斑色",
+      "sterilized": true,
+      "vaccinated": false,
+      "photo_url": "https://www.pet.gov.tw/upload/pic/1776244442880.png",
+      "remark": "協尋飼主  暫不開放",
+      "open_date": "",
+      "update_date": "2026-04-15",
+      "city": "高雄市",
+      "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=TEFBQUcxMTUwNDE1RzE=&UT=TEFBQUc=",
+      "location_id": "loc_高雄市鼓山區萬壽路350號"
+    },
     {
       "id": "GOV-449025",
       "source": "gov_shelter",
