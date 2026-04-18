@@ -1,8 +1,27 @@
 {
-  "updated_at": "2026-04-18T06:11:29+08:00",
-  "total": 581,
+  "updated_at": "2026-04-19T06:07:08+08:00",
+  "total": 579,
   "city": "高雄市",
   "animals": [
+    {
+      "id": "GOV-449657",
+      "source": "gov_shelter",
+      "kind": "dog",
+      "name": "柴犬                  ",
+      "sex": "F",
+      "age": "adult",
+      "bodytype": "medium",
+      "colour": "黑色",
+      "sterilized": false,
+      "vaccinated": false,
+      "photo_url": "https://www.pet.gov.tw/upload/pic/1776503253672.png",
+      "remark": "協尋飼主 暫不開放",
+      "open_date": "",
+      "update_date": "2026-04-18",
+      "city": "高雄市",
+      "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=TEFBQUcxMTUwNDE4VzgtMQ==&UT=TEFBQUc=",
+      "location_id": "loc_高雄市鼓山區萬壽路350號"
+    },
     {
       "id": "GOV-449578",
       "source": "gov_shelter",
@@ -58,25 +77,6 @@
       "update_date": "2026-04-16",
       "city": "高雄市",
       "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=TEFBQUcxMTUwNDE2UTEy&UT=TEFBQUc=",
-      "location_id": "loc_高雄市鼓山區萬壽路350號"
-    },
-    {
-      "id": "GOV-449450",
-      "source": "gov_shelter",
-      "kind": "dog",
-      "name": "混種犬          ",
-      "sex": "M",
-      "age": "adult",
-      "bodytype": "medium",
-      "colour": "黑色",
-      "sterilized": true,
-      "vaccinated": false,
-      "photo_url": "https://www.pet.gov.tw/upload/pic/1776322332461.png",
-      "remark": "協尋飼主 暫不開放",
-      "open_date": "",
-      "update_date": "2026-04-16",
-      "city": "高雄市",
-      "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=TEFBQUcxMTUwNDE2QTE=&UT=TEFBQUc=",
       "location_id": "loc_高雄市鼓山區萬壽路350號"
     },
     {
@@ -286,25 +286,6 @@
       "update_date": "2026-04-01",
       "city": "高雄市",
       "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=TEFBQUcxMTUwMzEzVzQtMQ==&UT=TEFBQUc=",
-      "location_id": "loc_高雄市鼓山區萬壽路350號"
-    },
-    {
-      "id": "GOV-447677",
-      "source": "gov_shelter",
-      "kind": "dog",
-      "name": "混種犬          ",
-      "sex": "F",
-      "age": "child",
-      "bodytype": "small",
-      "colour": "黑色",
-      "sterilized": false,
-      "vaccinated": false,
-      "photo_url": "https://www.pet.gov.tw/upload/pic/1775024946186.png",
-      "remark": "",
-      "open_date": "2026-04-01",
-      "update_date": "2026-04-01",
-      "city": "高雄市",
-      "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=TEFBQUcxMTUwMTEzQTEtMQ==&UT=TEFBQUc=",
       "location_id": "loc_高雄市鼓山區萬壽路350號"
     },
     {
@@ -1977,25 +1958,6 @@
       "update_date": "2025-12-19",
       "city": "高雄市",
       "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=TEFBQUcxMTQxMjE5QTEy&UT=TEFBQUc=",
-      "location_id": "loc_高雄市鼓山區萬壽路350號"
-    },
-    {
-      "id": "GOV-418419",
-      "source": "gov_shelter",
-      "kind": "dog",
-      "name": "混種犬          ",
-      "sex": "M",
-      "age": "adult",
-      "bodytype": "medium",
-      "colour": "白色",
-      "sterilized": true,
-      "vaccinated": false,
-      "photo_url": "https://www.pet.gov.tw/upload/pic/1755236363545.png",
-      "remark": "114.12.2早上9:30開放認養",
-      "open_date": "2025-12-02",
-      "update_date": "2025-11-28",
-      "city": "高雄市",
-      "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=TEFBQUcxMTQwODE0QTE=&UT=TEFBQUc=",
       "location_id": "loc_高雄市鼓山區萬壽路350號"
     },
     {

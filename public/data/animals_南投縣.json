@@ -1,8 +1,27 @@
 {
-  "updated_at": "2026-04-18T06:11:29+08:00",
-  "total": 345,
+  "updated_at": "2026-04-19T06:07:08+08:00",
+  "total": 346,
   "city": "南投縣",
   "animals": [
+    {
+      "id": "GOV-449618",
+      "source": "gov_shelter",
+      "kind": "dog",
+      "name": "比熊犬",
+      "sex": "M",
+      "age": "adult",
+      "bodytype": "small",
+      "colour": "白色",
+      "sterilized": null,
+      "vaccinated": false,
+      "photo_url": "https://www.pet.gov.tw/upload/pic/1776478721678.png",
+      "remark": "公告中暫不開放領養",
+      "open_date": "",
+      "update_date": "2026-04-18",
+      "city": "南投縣",
+      "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=SEFBQUcxMTUwNDE3MTM2&UT=SEFBQUc=",
+      "location_id": "loc_南投縣南投市嶺興路36_1號"
+    },
     {
       "id": "GOV-448787",
       "source": "gov_shelter",
