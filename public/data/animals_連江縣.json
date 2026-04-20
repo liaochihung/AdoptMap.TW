@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-04-19T06:07:08+08:00",
-  "total": 70,
+  "updated_at": "2026-04-21T06:13:48+08:00",
+  "total": 68,
   "city": "連江縣",
   "animals": [
     {
@@ -191,25 +191,6 @@
       "update_date": "2025-09-16",
       "city": "連江縣",
       "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=WEFBQUcxMDgxMTA1MDAy&UT=WEFBQUc=",
-      "location_id": "loc_連江縣南竿鄉復興村223號"
-    },
-    {
-      "id": "GOV-175636",
-      "source": "gov_shelter",
-      "kind": "dog",
-      "name": "混種犬          ",
-      "sex": "F",
-      "age": "adult",
-      "bodytype": "medium",
-      "colour": "黑棕色",
-      "sterilized": false,
-      "vaccinated": false,
-      "photo_url": "https://www.pet.gov.tw/upload/pic/1757921591218.png",
-      "remark": "",
-      "open_date": "2020-08-19",
-      "update_date": "2025-09-15",
-      "city": "連江縣",
-      "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=WEFBQUcxMDkwOTA3MDAz&UT=WEFBQUc=",
       "location_id": "loc_連江縣南竿鄉復興村223號"
     },
     {
@@ -685,25 +666,6 @@
       "update_date": "2018-07-05",
       "city": "連江縣",
       "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=WEFBQUcxMDcwNTA1MDAy&UT=WEFBQUc=",
-      "location_id": "loc_連江縣南竿鄉復興村223號"
-    },
-    {
-      "id": "GOV-55210",
-      "source": "gov_shelter",
-      "kind": "dog",
-      "name": "混種犬          ",
-      "sex": "F",
-      "age": "adult",
-      "bodytype": "medium",
-      "colour": "黃色",
-      "sterilized": false,
-      "vaccinated": false,
-      "photo_url": "https://www.pet.gov.tw/upload/pic/af2e44ff-674e-425c-81bd-ac20e2e7311e.jpg",
-      "remark": "",
-      "open_date": "2018-06-21",
-      "update_date": "2019-02-13",
-      "city": "連江縣",
-      "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=WEFBQUcxMDcwNzA1MDA1&UT=WEFBQUc=",
       "location_id": "loc_連江縣南竿鄉復興村223號"
     },
     {
