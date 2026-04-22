@@ -1,7 +1,20 @@
 {
-  "updated_at": "2026-04-22T06:13:48+08:00",
+  "updated_at": "2026-04-23T06:14:13+08:00",
   "city": "臺中市",
   "locations": [
+    {
+      "id": "loc_houli",
+      "name": "臺中市動物之家后里園區",
+      "address": "臺中市后里區堤防路370號",
+      "phone": "04-25588024",
+      "lat": 24.3049,
+      "lng": 120.7106,
+      "type": "shelter",
+      "counts": {
+        "cat": 8,
+        "dog": 31
+      }
+    },
     {
       "id": "loc_台中市大里區國光路二段505號",
       "name": "魚中魚大里店",
@@ -38,20 +51,7 @@
       "type": "shelter",
       "counts": {
         "cat": 5,
-        "dog": 88
-      }
-    },
-    {
-      "id": "loc_houli",
-      "name": "臺中市動物之家后里園區",
-      "address": "臺中市后里區堤防路370號",
-      "phone": "04-25588024",
-      "lat": 24.3049,
-      "lng": 120.7106,
-      "type": "shelter",
-      "counts": {
-        "cat": 7,
-        "dog": 30
+        "dog": 89
       }
     },
     {
