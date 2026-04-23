@@ -1,8 +1,27 @@
 {
-  "updated_at": "2026-04-23T06:14:13+08:00",
-  "total": 219,
+  "updated_at": "2026-04-24T06:13:32+08:00",
+  "total": 218,
   "city": "苗栗縣",
   "animals": [
+    {
+      "id": "GOV-441514",
+      "source": "gov_shelter",
+      "kind": "dog",
+      "name": "柴犬                  ",
+      "sex": "M",
+      "age": "adult",
+      "bodytype": "medium",
+      "colour": "棕白色",
+      "sterilized": true,
+      "vaccinated": false,
+      "photo_url": "https://www.pet.gov.tw/upload/pic/1770101137074.png",
+      "remark": " 公告:開放認養，2人以上以抽籤方式認養，犬隻個性:非常神經質，需要時間訓練犬隻，需要有耐心的飼主辦理認養犬隻，任何疑問可撥打苗栗縣動物保護教育園區(收容所)電話:037-558228，地址:苗栗縣銅鑼鄉潮陽村朝北55之1號",
+      "open_date": "2026-02-25",
+      "update_date": "2026-04-23",
+      "city": "苗栗縣",
+      "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=RUFBQUcxMTUwMjAzMDA3&UT=RUFBQUc=",
+      "location_id": "loc_苗栗縣銅鑼鄉朝陽村6鄰朝北55_1號_地圖_https___goo_gl_map"
+    },
     {
       "id": "GOV-450116",
       "source": "gov_shelter",
@@ -248,25 +267,6 @@
       "update_date": "2026-04-21",
       "city": "苗栗縣",
       "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=RUFBQUcxMTUwNDIxMDEz&UT=RUFBQUc=",
-      "location_id": "loc_苗栗縣銅鑼鄉朝陽村6鄰朝北55_1號_地圖_https___goo_gl_map"
-    },
-    {
-      "id": "GOV-450007",
-      "source": "gov_shelter",
-      "kind": "dog",
-      "name": "混種犬          ",
-      "sex": "M",
-      "age": "adult",
-      "bodytype": "medium",
-      "colour": "黃色",
-      "sterilized": true,
-      "vaccinated": false,
-      "photo_url": "https://www.pet.gov.tw/upload/pic/1776755004086.png",
-      "remark": "",
-      "open_date": "2026-04-21",
-      "update_date": "2026-04-21",
-      "city": "苗栗縣",
-      "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=RUFBQUcxMTUwNDIxMDEy&UT=RUFBQUc=",
       "location_id": "loc_苗栗縣銅鑼鄉朝陽村6鄰朝北55_1號_地圖_https___goo_gl_map"
     },
     {
@@ -1331,25 +1331,6 @@
       "update_date": "2026-03-07",
       "city": "苗栗縣",
       "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=RUFBQUcxMTQxMjExMDAx&UT=RUFBQUc=",
-      "location_id": "loc_苗栗縣銅鑼鄉朝陽村6鄰朝北55_1號_地圖_https___goo_gl_map"
-    },
-    {
-      "id": "GOV-441514",
-      "source": "gov_shelter",
-      "kind": "dog",
-      "name": "柴犬                  ",
-      "sex": "M",
-      "age": "adult",
-      "bodytype": "medium",
-      "colour": "棕白色",
-      "sterilized": true,
-      "vaccinated": false,
-      "photo_url": "https://www.pet.gov.tw/upload/pic/1770101137074.png",
-      "remark": " 公告:115年3月5日(星期四)下午13:30準時開放認養，2人以上以抽籤方式認養，苗栗縣動物保護教育園區(收容所)地址:苗栗縣銅鑼鄉潮陽村朝北55之1號",
-      "open_date": "2026-02-25",
-      "update_date": "2026-03-05",
-      "city": "苗栗縣",
-      "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=RUFBQUcxMTUwMjAzMDA3&UT=RUFBQUc=",
       "location_id": "loc_苗栗縣銅鑼鄉朝陽村6鄰朝北55_1號_地圖_https___goo_gl_map"
     },
     {
