@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-04-25T06:13:21+08:00",
-  "total": 494,
+  "updated_at": "2026-04-26T06:08:16+08:00",
+  "total": 491,
   "city": "桃園市",
   "animals": [
     {
@@ -327,25 +327,6 @@
       "location_id": "loc_桃園市新屋區永興里3鄰藻礁路1668號"
     },
     {
-      "id": "GOV-429519",
-      "source": "gov_shelter",
-      "kind": "dog",
-      "name": "臘腸犬",
-      "sex": "M",
-      "age": "adult",
-      "bodytype": "small",
-      "colour": "黃色",
-      "sterilized": true,
-      "vaccinated": false,
-      "photo_url": "https://www.pet.gov.tw/upload/pic/1762312435730.png",
-      "remark": "",
-      "open_date": "2026-04-17",
-      "update_date": "2026-04-22",
-      "city": "桃園市",
-      "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=Q0FBQUcxMTQxMTA1MDAz&UT=Q0FBQUc=",
-      "location_id": "loc_桃園市新屋區永興里3鄰藻礁路1668號"
-    },
-    {
       "id": "GOV-429513",
       "source": "gov_shelter",
       "kind": "dog",
@@ -593,25 +574,6 @@
       "location_id": "loc_桃園市新屋區永興里3鄰藻礁路1668號"
     },
     {
-      "id": "GOV-444533",
-      "source": "gov_shelter",
-      "kind": "cat",
-      "name": "混種貓                 ",
-      "sex": "F",
-      "age": "child",
-      "bodytype": "small",
-      "colour": "黑色",
-      "sterilized": null,
-      "vaccinated": false,
-      "photo_url": "https://www.pet.gov.tw/upload/pic/1773021764837.png",
-      "remark": "",
-      "open_date": "2026-04-20",
-      "update_date": "2026-04-20",
-      "city": "桃園市",
-      "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=Q0FBQUcxMTUwMzA5MDAx&UT=Q0FBQUc=",
-      "location_id": "loc_桃園市新屋區永興里3鄰藻礁路1668號"
-    },
-    {
       "id": "GOV-444536",
       "source": "gov_shelter",
       "kind": "cat",
@@ -856,25 +818,6 @@
       "update_date": "2026-04-13",
       "city": "桃園市",
       "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=Q0FBQUcxMTQxMTA1MDA0&UT=Q0FBQUc=",
-      "location_id": "loc_桃園市新屋區永興里3鄰藻礁路1668號"
-    },
-    {
-      "id": "GOV-441262",
-      "source": "gov_shelter",
-      "kind": "cat",
-      "name": "混種貓                 ",
-      "sex": "M",
-      "age": "child",
-      "bodytype": "small",
-      "colour": "虎斑白色",
-      "sterilized": null,
-      "vaccinated": false,
-      "photo_url": "https://www.pet.gov.tw/upload/pic/1770009924813.png",
-      "remark": "",
-      "open_date": "2026-04-13",
-      "update_date": "2026-04-13",
-      "city": "桃園市",
-      "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=Q0FBQUcxMTUwMjAyMDAz&UT=Q0FBQUc=",
       "location_id": "loc_桃園市新屋區永興里3鄰藻礁路1668號"
     },
     {

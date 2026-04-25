@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-04-25T06:13:21+08:00",
-  "total": 30,
+  "updated_at": "2026-04-26T06:08:16+08:00",
+  "total": 29,
   "city": "嘉義市",
   "animals": [
     {
@@ -77,25 +77,6 @@
       "update_date": "2026-04-21",
       "city": "嘉義市",
       "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=VEFBQUcxMTUwNDIxMDA1&UT=VEFBQUc=",
-      "location_id": "loc_嘉義市彌陀路31號"
-    },
-    {
-      "id": "GOV-430709",
-      "source": "gov_shelter",
-      "kind": "dog",
-      "name": "混種犬          ",
-      "sex": "F",
-      "age": "adult",
-      "bodytype": "medium",
-      "colour": "黑白色",
-      "sterilized": true,
-      "vaccinated": false,
-      "photo_url": "https://www.pet.gov.tw/upload/pic/1763085925876.png",
-      "remark": "",
-      "open_date": "2026-03-21",
-      "update_date": "2026-04-14",
-      "city": "嘉義市",
-      "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=VEFBQUcxMTQxMTEzMDA0&UT=VEFBQUc=",
       "location_id": "loc_嘉義市彌陀路31號"
     },
     {
