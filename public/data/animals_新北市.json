@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-04-26T06:08:16+08:00",
-  "total": 1430,
+  "updated_at": "2026-04-27T06:09:23+08:00",
+  "total": 1429,
   "city": "新北市",
   "animals": [
     {
@@ -191,25 +191,6 @@
       "update_date": "2026-04-24",
       "city": "新北市",
       "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=QUFBREcyMDI2MDMwOTAx&UT=QUFBREc=",
-      "location_id": "loc_新北市板橋區板城路28_1號"
-    },
-    {
-      "id": "GOV-445581",
-      "source": "gov_shelter",
-      "kind": "cat",
-      "name": "喜馬拉雅貓(短毛)",
-      "sex": "F",
-      "age": "adult",
-      "bodytype": "small",
-      "colour": "咖啡色",
-      "sterilized": true,
-      "vaccinated": false,
-      "photo_url": "https://www.pet.gov.tw/upload/pic/1773561535649.png",
-      "remark": "可摸.",
-      "open_date": "2026-04-25",
-      "update_date": "2026-04-24",
-      "city": "新北市",
-      "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=QUFBREcyMDI2MDMxNTA0&UT=QUFBREc=",
       "location_id": "loc_新北市板橋區板城路28_1號"
     },
     {
