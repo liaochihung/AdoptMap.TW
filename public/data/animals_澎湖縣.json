@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-04-27T06:09:23+08:00",
-  "total": 323,
+  "updated_at": "2026-04-28T06:15:53+08:00",
+  "total": 322,
   "city": "澎湖縣",
   "animals": [
     {
@@ -58,25 +58,6 @@
       "update_date": "2026-04-25",
       "city": "澎湖縣",
       "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=UEFBQUcxMTUwMzI2MDIw&UT=UEFBQUc=",
-      "location_id": "loc_澎湖縣馬公市烏崁里260_261號"
-    },
-    {
-      "id": "GOV-450375",
-      "source": "gov_shelter",
-      "kind": "dog",
-      "name": "混種犬          ",
-      "sex": "F",
-      "age": "child",
-      "bodytype": "small",
-      "colour": "虎斑色",
-      "sterilized": true,
-      "vaccinated": false,
-      "photo_url": "",
-      "remark": "",
-      "open_date": "2026-05-05",
-      "update_date": "2026-04-24",
-      "city": "澎湖縣",
-      "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=UEFBQUcxMTUwNDIyMDEx&UT=UEFBQUc=",
       "location_id": "loc_澎湖縣馬公市烏崁里260_261號"
     },
     {

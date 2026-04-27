@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-04-27T06:09:23+08:00",
-  "total": 64,
+  "updated_at": "2026-04-28T06:15:53+08:00",
+  "total": 65,
   "city": "連江縣",
   "animals": [
     {
@@ -17,9 +17,28 @@
       "photo_url": "https://www.pet.gov.tw/upload/pic/1777025183618.png",
       "remark": "綠燈、對人:親人、對狗:熟悉的融洽，不熟的挑釁",
       "open_date": "2026-04-24",
-      "update_date": "2026-04-24",
+      "update_date": "2026-04-27",
       "city": "連江縣",
       "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=WEFBQUcxMTUwNDI0MDA5&UT=WEFBQUc=",
+      "location_id": "loc_連江縣南竿鄉復興村223號"
+    },
+    {
+      "id": "GOV-450530",
+      "source": "gov_shelter",
+      "kind": "dog",
+      "name": "拉不拉多犬",
+      "sex": "M",
+      "age": "adult",
+      "bodytype": "medium",
+      "colour": "黑色",
+      "sterilized": true,
+      "vaccinated": false,
+      "photo_url": "https://www.pet.gov.tw/upload/pic/1777258471079.png",
+      "remark": "對人:親人、對狗:強勢、攻擊",
+      "open_date": "2026-04-27",
+      "update_date": "2026-04-27",
+      "city": "連江縣",
+      "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=WEFBQUcxMTUwNDI3MDAx&UT=WEFBQUc=",
       "location_id": "loc_連江縣南竿鄉復興村223號"
     },
     {
