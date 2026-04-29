@@ -1,8 +1,27 @@
 {
-  "updated_at": "2026-04-29T06:18:12+08:00",
-  "total": 214,
+  "updated_at": "2026-04-30T06:17:44+08:00",
+  "total": 215,
   "city": "苗栗縣",
   "animals": [
+    {
+      "id": "GOV-450902",
+      "source": "gov_shelter",
+      "kind": "dog",
+      "name": "博美犬         ",
+      "sex": "M",
+      "age": "adult",
+      "bodytype": "small",
+      "colour": "白色",
+      "sterilized": false,
+      "vaccinated": false,
+      "photo_url": "https://www.pet.gov.tw/upload/pic/1777430808057.png",
+      "remark": "115.4.28犬隻有飼主待領回",
+      "open_date": "",
+      "update_date": "2026-04-29",
+      "city": "苗栗縣",
+      "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=RUFBQUcxMTUwNDI5MDAx&UT=RUFBQUc=",
+      "location_id": "loc_苗栗縣銅鑼鄉朝陽村6鄰朝北55_1號_地圖_https___goo_gl_map"
+    },
     {
       "id": "GOV-450829",
       "source": "gov_shelter",
