@@ -1,8 +1,27 @@
 {
-  "updated_at": "2026-05-03T06:11:39+08:00",
+  "updated_at": "2026-05-04T06:11:54+08:00",
   "total": 126,
   "city": "新竹縣",
   "animals": [
+    {
+      "id": "GOV-451232",
+      "source": "gov_shelter",
+      "kind": "dog",
+      "name": "蝴蝶犬                 ",
+      "sex": "M",
+      "age": "adult",
+      "bodytype": "small",
+      "colour": "黃白色",
+      "sterilized": false,
+      "vaccinated": false,
+      "photo_url": "",
+      "remark": "目前找尋原飼主中，暫不開放其他民眾認養， 若原飼主於115.5.11前未領回，將於絕育後另行更新公告開放認養時間於此。",
+      "open_date": "",
+      "update_date": "2026-05-03",
+      "city": "新竹縣",
+      "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=REFBQUcxMTUwNTAxMDAx&UT=REFBQUc=",
+      "location_id": "loc_新竹縣竹北市縣政五街192號"
+    },
     {
       "id": "GOV-445733",
       "source": "gov_shelter",
@@ -77,25 +96,6 @@
       "update_date": "2026-05-02",
       "city": "新竹縣",
       "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=REFBQUcxMTUwNDI3MDAy&UT=REFBQUc=",
-      "location_id": "loc_新竹縣竹北市縣政五街192號"
-    },
-    {
-      "id": "GOV-451232",
-      "source": "gov_shelter",
-      "kind": "dog",
-      "name": "蝴蝶犬                 ",
-      "sex": "M",
-      "age": "adult",
-      "bodytype": "small",
-      "colour": "黃白色",
-      "sterilized": false,
-      "vaccinated": false,
-      "photo_url": "",
-      "remark": "",
-      "open_date": "",
-      "update_date": "2026-05-01",
-      "city": "新竹縣",
-      "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=REFBQUcxMTUwNTAxMDAx&UT=REFBQUc=",
       "location_id": "loc_新竹縣竹北市縣政五街192號"
     },
     {
