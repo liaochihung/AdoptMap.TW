@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-05-09T06:18:36+08:00",
-  "total": 228,
+  "updated_at": "2026-05-10T06:13:22+08:00",
+  "total": 227,
   "city": "宜蘭縣",
   "animals": [
     {
@@ -1236,25 +1236,6 @@
       "update_date": "2026-03-24",
       "city": "宜蘭縣",
       "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=MTE1MDU0Mg==&UT=MTE1MDU=",
-      "location_id": "loc_宜蘭縣五結鄉成興村利寶路60號"
-    },
-    {
-      "id": "GOV-446497",
-      "source": "gov_shelter",
-      "kind": "cat",
-      "name": "混種貓                 ",
-      "sex": "M",
-      "age": "child",
-      "bodytype": "medium",
-      "colour": "虎斑白色",
-      "sterilized": null,
-      "vaccinated": false,
-      "photo_url": "https://www.pet.gov.tw/upload/pic/1774233503096.png",
-      "remark": "",
-      "open_date": "2026-03-23",
-      "update_date": "2026-03-23",
-      "city": "宜蘭縣",
-      "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=MTE1MDU0MA==&UT=MTE1MDU=",
       "location_id": "loc_宜蘭縣五結鄉成興村利寶路60號"
     },
     {
