@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-05-12T06:21:20+08:00",
-  "total": 191,
+  "updated_at": "2026-05-13T06:24:40+08:00",
+  "total": 189,
   "city": "花蓮縣",
   "animals": [
     {
@@ -533,44 +533,6 @@
       "update_date": "2026-05-05",
       "city": "花蓮縣",
       "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=T0FBQUcxMTUwNTA1MDAy&UT=T0FBQUc=",
-      "location_id": "loc_花蓮縣鳳林鎮林榮里永豐路255號"
-    },
-    {
-      "id": "GOV-448303",
-      "source": "gov_shelter",
-      "kind": "dog",
-      "name": "混種犬          ",
-      "sex": "F",
-      "age": "adult",
-      "bodytype": "medium",
-      "colour": "虎斑色",
-      "sterilized": true,
-      "vaccinated": false,
-      "photo_url": "https://www.pet.gov.tw/upload/pic/1775633999168.png",
-      "remark": "認養動物需現場互動評估，欲認養請先來電預約，恕不作保留。",
-      "open_date": "2026-04-30",
-      "update_date": "2026-04-29",
-      "city": "花蓮縣",
-      "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=T0FBQUcxMTUwNDA4MDAx&UT=T0FBQUc=",
-      "location_id": "loc_花蓮縣鳳林鎮林榮里永豐路255號"
-    },
-    {
-      "id": "GOV-447321",
-      "source": "gov_shelter",
-      "kind": "dog",
-      "name": "混種犬          ",
-      "sex": "M",
-      "age": "adult",
-      "bodytype": "medium",
-      "colour": "三花色",
-      "sterilized": true,
-      "vaccinated": false,
-      "photo_url": "https://www.pet.gov.tw/upload/pic/1774939131306.png",
-      "remark": "認養動物需現場互動評估，欲認養請先來電預約，恕不作保留。",
-      "open_date": "2026-04-29",
-      "update_date": "2026-04-29",
-      "city": "花蓮縣",
-      "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=T0FBQUcxMTUwMzMxMDA2&UT=T0FBQUc=",
       "location_id": "loc_花蓮縣鳳林鎮林榮里永豐路255號"
     },
     {
