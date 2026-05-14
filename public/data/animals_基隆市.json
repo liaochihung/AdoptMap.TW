@@ -1,8 +1,27 @@
 {
-  "updated_at": "2026-05-14T06:25:09+08:00",
-  "total": 105,
+  "updated_at": "2026-05-15T06:21:45+08:00",
+  "total": 106,
   "city": "基隆市",
   "animals": [
+    {
+      "id": "GOV-452810",
+      "source": "gov_shelter",
+      "kind": "dog",
+      "name": "混種犬          ",
+      "sex": "M",
+      "age": "adult",
+      "bodytype": "medium",
+      "colour": "黃色",
+      "sterilized": false,
+      "vaccinated": false,
+      "photo_url": "https://www.pet.gov.tw/upload/pic/1778739102349.png",
+      "remark": "",
+      "open_date": "2026-05-14",
+      "update_date": "2026-05-14",
+      "city": "基隆市",
+      "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=UUFBQUcxMTUwNTE0MDAx&UT=UUFBQUc=",
+      "location_id": "loc_基隆市七堵區大華三路45_12號_欣欣安樂園旁"
+    },
     {
       "id": "GOV-452556",
       "source": "gov_shelter",
