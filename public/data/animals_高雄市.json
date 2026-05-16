@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-05-16T06:18:10+08:00",
-  "total": 550,
+  "updated_at": "2026-05-17T06:14:29+08:00",
+  "total": 549,
   "city": "高雄市",
   "animals": [
     {
@@ -381,25 +381,6 @@
       "update_date": "",
       "city": "高雄市",
       "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=TEFBQUcxMTUwNTEzVzgtMQ==&UT=TEFBQUc=",
-      "location_id": "loc_高雄市鼓山區萬壽路350號"
-    },
-    {
-      "id": "GOV-452685",
-      "source": "gov_shelter",
-      "kind": "dog",
-      "name": "威爾斯柯基犬              ",
-      "sex": "M",
-      "age": "adult",
-      "bodytype": "medium",
-      "colour": "花色",
-      "sterilized": null,
-      "vaccinated": false,
-      "photo_url": "https://www.pet.gov.tw/upload/pic/1778656470644.png",
-      "remark": "協尋飼主 暫不開放",
-      "open_date": "",
-      "update_date": "",
-      "city": "高雄市",
-      "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=TEFBQUcxMTUwNTEzVzg=&UT=TEFBQUc=",
       "location_id": "loc_高雄市鼓山區萬壽路350號"
     },
     {

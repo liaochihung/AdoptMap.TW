@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-05-16T06:18:10+08:00",
-  "total": 191,
+  "updated_at": "2026-05-17T06:14:29+08:00",
+  "total": 190,
   "city": "花蓮縣",
   "animals": [
     {
@@ -837,25 +837,6 @@
       "update_date": "2026-04-29",
       "city": "花蓮縣",
       "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=T0FBQUcxMTUwMzEyMDAz&UT=T0FBQUc=",
-      "location_id": "loc_花蓮縣鳳林鎮林榮里永豐路255號"
-    },
-    {
-      "id": "GOV-396174",
-      "source": "gov_shelter",
-      "kind": "dog",
-      "name": "貴賓犬        ",
-      "sex": "F",
-      "age": "adult",
-      "bodytype": "small",
-      "colour": "棕色",
-      "sterilized": true,
-      "vaccinated": false,
-      "photo_url": "https://www.pet.gov.tw/upload/pic/1741060787704.png",
-      "remark": "認養動物需現場互動評估，欲認養請先來電預約，恕不作保留。",
-      "open_date": "2026-04-29",
-      "update_date": "2026-04-29",
-      "city": "花蓮縣",
-      "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=T0FBQUcxMTQwMzA0MDAz&UT=T0FBQUc=",
       "location_id": "loc_花蓮縣鳳林鎮林榮里永豐路255號"
     },
     {
