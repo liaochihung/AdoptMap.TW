@@ -1,8 +1,27 @@
 {
-  "updated_at": "2026-05-30T06:30:19+08:00",
-  "total": 234,
+  "updated_at": "2026-06-01T06:19:19+08:00",
+  "total": 233,
   "city": "苗栗縣",
   "animals": [
+    {
+      "id": "GOV-410571",
+      "source": "gov_shelter",
+      "kind": "cat",
+      "name": "混種貓                 ",
+      "sex": "F",
+      "age": "adult",
+      "bodytype": "medium",
+      "colour": "黃虎斑色",
+      "sterilized": true,
+      "vaccinated": false,
+      "photo_url": "https://www.pet.gov.tw/upload/pic/1750481118198.png",
+      "remark": "",
+      "open_date": "2026-01-07",
+      "update_date": "2026-05-30",
+      "city": "苗栗縣",
+      "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=RUFBQUcxMTQwNjIxMDA1&UT=RUFBQUc=",
+      "location_id": "loc_苗栗縣銅鑼鄉朝陽村6鄰朝北55_1號_地圖_https___goo_gl_map"
+    },
     {
       "id": "GOV-453591",
       "source": "gov_shelter",
@@ -1125,25 +1144,6 @@
       "location_id": "loc_苗栗縣銅鑼鄉朝陽村6鄰朝北55_1號_地圖_https___goo_gl_map"
     },
     {
-      "id": "GOV-450821",
-      "source": "gov_shelter",
-      "kind": "dog",
-      "name": "混種犬          ",
-      "sex": "F",
-      "age": "child",
-      "bodytype": "small",
-      "colour": "虎斑色",
-      "sterilized": true,
-      "vaccinated": false,
-      "photo_url": "https://www.pet.gov.tw/upload/pic/1777359948589.png",
-      "remark": "",
-      "open_date": "2026-04-28",
-      "update_date": "2026-04-28",
-      "city": "苗栗縣",
-      "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=RUFBQUcxMTUwNDI4MDA3&UT=RUFBQUc=",
-      "location_id": "loc_苗栗縣銅鑼鄉朝陽村6鄰朝北55_1號_地圖_https___goo_gl_map"
-    },
-    {
       "id": "GOV-450818",
       "source": "gov_shelter",
       "kind": "dog",
@@ -1692,25 +1692,6 @@
       "update_date": "2026-03-26",
       "city": "苗栗縣",
       "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=RUFBQUcxMTUwMzI2MDA2&UT=RUFBQUc=",
-      "location_id": "loc_苗栗縣銅鑼鄉朝陽村6鄰朝北55_1號_地圖_https___goo_gl_map"
-    },
-    {
-      "id": "GOV-445827",
-      "source": "gov_shelter",
-      "kind": "dog",
-      "name": "混種犬          ",
-      "sex": "F",
-      "age": "adult",
-      "bodytype": "medium",
-      "colour": "咖啡色",
-      "sterilized": true,
-      "vaccinated": false,
-      "photo_url": "https://www.pet.gov.tw/upload/pic/1773728505050.png",
-      "remark": "",
-      "open_date": "2026-03-17",
-      "update_date": "2026-03-25",
-      "city": "苗栗縣",
-      "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=RUFBQUcxMTUwMzE3MDA1&UT=RUFBQUc=",
       "location_id": "loc_苗栗縣銅鑼鄉朝陽村6鄰朝北55_1號_地圖_https___goo_gl_map"
     },
     {
