@@ -1,7 +1,33 @@
 {
-  "updated_at": "2026-06-01T06:19:19+08:00",
+  "updated_at": "2026-06-02T06:42:44+08:00",
   "city": "臺中市",
   "locations": [
+    {
+      "id": "loc_永信動物醫院",
+      "name": "永信動物醫院",
+      "address": "永信動物醫院",
+      "phone": "04-24371487",
+      "lat": 25.0423346,
+      "lng": 121.5780267,
+      "type": "vet_transit",
+      "counts": {
+        "cat": 0,
+        "dog": 4
+      }
+    },
+    {
+      "id": "loc_仁愛犬醫院",
+      "name": "仁愛犬醫院",
+      "address": "仁愛犬醫院",
+      "phone": "04-22126987",
+      "lat": 23.0020621,
+      "lng": 120.2197427,
+      "type": "vet_transit",
+      "counts": {
+        "cat": 0,
+        "dog": 4
+      }
+    },
     {
       "id": "loc_nantun",
       "name": "臺中市動物之家南屯園區",
@@ -12,7 +38,7 @@
       "type": "shelter",
       "counts": {
         "cat": 3,
-        "dog": 93
+        "dog": 92
       }
     },
     {
