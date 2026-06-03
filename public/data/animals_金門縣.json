@@ -1,8 +1,27 @@
 {
-  "updated_at": "2026-06-03T06:39:09+08:00",
-  "total": 225,
+  "updated_at": "2026-06-04T06:41:20+08:00",
+  "total": 226,
   "city": "金門縣",
   "animals": [
+    {
+      "id": "GOV-456128",
+      "source": "gov_shelter",
+      "kind": "dog",
+      "name": "混種犬          ",
+      "sex": "M",
+      "age": "child",
+      "bodytype": "small",
+      "colour": "黑色",
+      "sterilized": null,
+      "vaccinated": false,
+      "photo_url": "",
+      "remark": "",
+      "open_date": "2026-06-03",
+      "update_date": "",
+      "city": "金門縣",
+      "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=WUFBQUcxMTUwNjAzOTg=&UT=WUFBQUc=",
+      "location_id": "loc_金門縣金湖鎮裕民農莊20號"
+    },
     {
       "id": "GOV-455857",
       "source": "gov_shelter",
