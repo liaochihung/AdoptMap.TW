@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-04T06:41:20+08:00",
+  "updated_at": "2026-06-05T06:28:42+08:00",
   "city": "臺南市",
   "locations": [
     {
@@ -12,7 +12,7 @@
       "type": "shelter",
       "counts": {
         "cat": 10,
-        "dog": 82
+        "dog": 75
       }
     }
   ]
