@@ -1,7 +1,20 @@
 {
-  "updated_at": "2026-06-09T06:30:01+08:00",
+  "updated_at": "2026-06-11T06:34:50+08:00",
   "city": "臺中市",
   "locations": [
+    {
+      "id": "loc_東南動物醫院",
+      "name": "東南動物醫院",
+      "address": "東南動物醫院",
+      "phone": "04-22960753",
+      "lat": 25.0530258,
+      "lng": 121.5566828,
+      "type": "vet_transit",
+      "counts": {
+        "cat": 3,
+        "dog": 0
+      }
+    },
     {
       "id": "loc_houli",
       "name": "臺中市動物之家后里園區",
@@ -12,7 +25,7 @@
       "type": "shelter",
       "counts": {
         "cat": 12,
-        "dog": 25
+        "dog": 27
       }
     },
     {
@@ -24,8 +37,34 @@
       "lng": 120.6175,
       "type": "shelter",
       "counts": {
-        "cat": 3,
+        "cat": 1,
         "dog": 94
+      }
+    },
+    {
+      "id": "loc_中台動物醫院",
+      "name": "中台動物醫院",
+      "address": "中台動物醫院",
+      "phone": "04-22922955",
+      "lat": 24.1748994,
+      "lng": 120.7231971,
+      "type": "vet_transit",
+      "counts": {
+        "cat": 5,
+        "dog": 0
+      }
+    },
+    {
+      "id": "loc_信揚動物醫院",
+      "name": "信揚動物醫院",
+      "address": "信揚動物醫院",
+      "phone": "04-24730000",
+      "lat": 24.137322614919466,
+      "lng": 120.6473189558204,
+      "type": "vet_transit",
+      "counts": {
+        "cat": 1,
+        "dog": 0
       }
     },
     {
