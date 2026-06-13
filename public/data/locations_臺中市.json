@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-13T06:29:22+08:00",
+  "updated_at": "2026-06-14T06:21:47+08:00",
   "city": "臺中市",
   "locations": [
     {
@@ -16,19 +16,6 @@
       }
     },
     {
-      "id": "loc_nantun",
-      "name": "臺中市動物之家南屯園區",
-      "address": "臺中市南屯區中台路601號",
-      "phone": "04-23850949",
-      "lat": 24.1366,
-      "lng": 120.6175,
-      "type": "shelter",
-      "counts": {
-        "cat": 2,
-        "dog": 95
-      }
-    },
-    {
       "id": "loc_houli",
       "name": "臺中市動物之家后里園區",
       "address": "臺中市后里區堤防路370號",
@@ -38,7 +25,7 @@
       "type": "shelter",
       "counts": {
         "cat": 10,
-        "dog": 28
+        "dog": 27
       }
     },
     {
@@ -52,6 +39,19 @@
       "counts": {
         "cat": 0,
         "dog": 1
+      }
+    },
+    {
+      "id": "loc_nantun",
+      "name": "臺中市動物之家南屯園區",
+      "address": "臺中市南屯區中台路601號",
+      "phone": "04-23850949",
+      "lat": 24.1366,
+      "lng": 120.6175,
+      "type": "shelter",
+      "counts": {
+        "cat": 1,
+        "dog": 94
       }
     },
     {

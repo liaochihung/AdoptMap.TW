@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-06-13T06:29:22+08:00",
-  "total": 89,
+  "updated_at": "2026-06-14T06:21:47+08:00",
+  "total": 87,
   "city": "臺東縣",
   "animals": [
     {
@@ -289,25 +289,6 @@
       "location_id": "loc_臺東縣臺東市中華路4段999巷600號"
     },
     {
-      "id": "GOV-455863",
-      "source": "gov_shelter",
-      "kind": "cat",
-      "name": "混種貓                 ",
-      "sex": "F",
-      "age": "adult",
-      "bodytype": "medium",
-      "colour": "黃色",
-      "sterilized": null,
-      "vaccinated": false,
-      "photo_url": "https://www.pet.gov.tw/upload/pic/1780292387027.png",
-      "remark": "",
-      "open_date": "2026-06-01",
-      "update_date": "2026-06-05",
-      "city": "臺東縣",
-      "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=TkFBQUcxMTUwNjAxMDAx&UT=TkFBQUc=",
-      "location_id": "loc_臺東縣臺東市中華路4段999巷600號"
-    },
-    {
       "id": "GOV-456328",
       "source": "gov_shelter",
       "kind": "cat",
@@ -343,25 +324,6 @@
       "update_date": "",
       "city": "臺東縣",
       "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=TkFBQUcxMTUwNjA1MDAx&UT=TkFBQUc=",
-      "location_id": "loc_臺東縣臺東市中華路4段999巷600號"
-    },
-    {
-      "id": "GOV-456173",
-      "source": "gov_shelter",
-      "kind": "cat",
-      "name": "混種貓                 ",
-      "sex": "F",
-      "age": "child",
-      "bodytype": "small",
-      "colour": "虎斑色",
-      "sterilized": null,
-      "vaccinated": false,
-      "photo_url": "https://www.pet.gov.tw/upload/pic/1780534037563.png",
-      "remark": "",
-      "open_date": "2026-06-04",
-      "update_date": "2026-06-04",
-      "city": "臺東縣",
-      "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=TkFBQUcxMTUwNjA0MDAx&UT=TkFBQUc=",
       "location_id": "loc_臺東縣臺東市中華路4段999巷600號"
     },
     {
