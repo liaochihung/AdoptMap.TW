@@ -1,8 +1,27 @@
 {
-  "updated_at": "2026-06-19T06:36:28+08:00",
+  "updated_at": "2026-06-20T06:18:22+08:00",
   "total": 1566,
   "city": "新北市",
   "animals": [
+    {
+      "id": "GOV-458004",
+      "source": "gov_shelter",
+      "kind": "cat",
+      "name": "混種貓                 ",
+      "sex": "M",
+      "age": "adult",
+      "bodytype": "small",
+      "colour": "虎斑色",
+      "sterilized": null,
+      "vaccinated": false,
+      "photo_url": "https://www.pet.gov.tw/upload/pic/1781837543332.png",
+      "remark": "公告協尋ˋ主人115.6.26.星期五10:00開放認養",
+      "open_date": "",
+      "update_date": "2026-06-19",
+      "city": "新北市",
+      "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=QUFBRUcxMTUwNjE5MDAx&UT=QUFBRUc=",
+      "location_id": "loc_新北市中和區興南路三段100號"
+    },
     {
       "id": "GOV-457451",
       "source": "gov_shelter",
@@ -2681,25 +2700,6 @@
       "city": "新北市",
       "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=QUFBRUcxMDUwNDA4MDY=&UT=QUFBRUc=",
       "location_id": "loc_新北市中和區興南路三段100號"
-    },
-    {
-      "id": "GOV-453080",
-      "source": "gov_shelter",
-      "kind": "cat",
-      "name": "混種貓                 ",
-      "sex": "M",
-      "age": "child",
-      "bodytype": "small",
-      "colour": "黑色",
-      "sterilized": false,
-      "vaccinated": false,
-      "photo_url": "https://www.pet.gov.tw/upload/pic/1778903104023.png",
-      "remark": "乖乖的",
-      "open_date": "2026-05-16",
-      "update_date": "2026-05-16",
-      "city": "新北市",
-      "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=QUFBREcyMDI2MDUxNjA0&UT=QUFBREc=",
-      "location_id": "loc_新北市板橋區板城路28_1號"
     },
     {
       "id": "GOV-453009",
