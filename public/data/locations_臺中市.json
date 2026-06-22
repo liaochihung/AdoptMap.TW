@@ -1,7 +1,20 @@
 {
-  "updated_at": "2026-06-22T06:24:13+08:00",
+  "updated_at": "2026-06-23T06:32:15+08:00",
   "city": "臺中市",
   "locations": [
+    {
+      "id": "loc_nantun",
+      "name": "臺中市動物之家南屯園區",
+      "address": "臺中市南屯區中台路601號",
+      "phone": "04-23850949",
+      "lat": 24.1366,
+      "lng": 120.6175,
+      "type": "shelter",
+      "counts": {
+        "cat": 4,
+        "dog": 103
+      }
+    },
     {
       "id": "loc_houli",
       "name": "臺中市動物之家后里園區",
@@ -29,32 +42,6 @@
       }
     },
     {
-      "id": "loc_nantun",
-      "name": "臺中市動物之家南屯園區",
-      "address": "臺中市南屯區中台路601號",
-      "phone": "04-23850949",
-      "lat": 24.1366,
-      "lng": 120.6175,
-      "type": "shelter",
-      "counts": {
-        "cat": 2,
-        "dog": 99
-      }
-    },
-    {
-      "id": "loc_安生動物醫院",
-      "name": "安生動物醫院",
-      "address": "安生動物醫院",
-      "phone": "04-23955466",
-      "lat": 25.0150608,
-      "lng": 121.4727538,
-      "type": "vet_transit",
-      "counts": {
-        "cat": 0,
-        "dog": 4
-      }
-    },
-    {
       "id": "loc_台中市西屯區西屯路三段92_1號",
       "name": "東森寵物台中澄清店",
       "address": "台中市西屯區西屯路三段92-1號",
@@ -77,19 +64,6 @@
       "type": "vet_transit",
       "counts": {
         "cat": 3,
-        "dog": 0
-      }
-    },
-    {
-      "id": "loc_東南動物醫院",
-      "name": "東南動物醫院",
-      "address": "東南動物醫院",
-      "phone": "04-22960753",
-      "lat": 25.0530258,
-      "lng": 121.5566828,
-      "type": "vet_transit",
-      "counts": {
-        "cat": 1,
         "dog": 0
       }
     },
