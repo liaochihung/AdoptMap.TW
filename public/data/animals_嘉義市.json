@@ -1,8 +1,27 @@
 {
-  "updated_at": "2026-06-23T06:32:15+08:00",
-  "total": 28,
+  "updated_at": "2026-06-24T06:24:26+08:00",
+  "total": 27,
   "city": "嘉義市",
   "animals": [
+    {
+      "id": "GOV-420572",
+      "source": "gov_shelter",
+      "kind": "cat",
+      "name": "混種貓                 ",
+      "sex": "M",
+      "age": "child",
+      "bodytype": "medium",
+      "colour": "虎斑色",
+      "sterilized": true,
+      "vaccinated": false,
+      "photo_url": "https://www.pet.gov.tw/upload/pic/1756793775970.png",
+      "remark": "",
+      "open_date": "2026-06-23",
+      "update_date": "2026-06-23",
+      "city": "嘉義市",
+      "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=VEFBQUcxMTQwOTAyMDAx&UT=VEFBQUc=",
+      "location_id": "loc_嘉義市彌陀路31號"
+    },
     {
       "id": "GOV-413730",
       "source": "gov_shelter",
@@ -118,25 +137,6 @@
       "location_id": "loc_嘉義市彌陀路31號"
     },
     {
-      "id": "GOV-451988",
-      "source": "gov_shelter",
-      "kind": "cat",
-      "name": "混種貓                 ",
-      "sex": "F",
-      "age": "adult",
-      "bodytype": "medium",
-      "colour": "虎斑白色",
-      "sterilized": true,
-      "vaccinated": false,
-      "photo_url": "https://www.pet.gov.tw/upload/pic/1778212276735.png",
-      "remark": "",
-      "open_date": "2026-06-03",
-      "update_date": "2026-06-03",
-      "city": "嘉義市",
-      "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=VEFBQUcxMTUwNTA4MDAx&UT=VEFBQUc=",
-      "location_id": "loc_嘉義市彌陀路31號"
-    },
-    {
       "id": "GOV-440434",
       "source": "gov_shelter",
       "kind": "dog",
@@ -248,25 +248,6 @@
       "update_date": "2026-05-19",
       "city": "嘉義市",
       "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=VEFBQUcxMTQwOTIyMDAx&UT=VEFBQUc=",
-      "location_id": "loc_嘉義市彌陀路31號"
-    },
-    {
-      "id": "GOV-418582",
-      "source": "gov_shelter",
-      "kind": "dog",
-      "name": "混種犬          ",
-      "sex": "F",
-      "age": "child",
-      "bodytype": "small",
-      "colour": "咖啡色",
-      "sterilized": true,
-      "vaccinated": false,
-      "photo_url": "https://www.pet.gov.tw/upload/pic/1755479272818.png",
-      "remark": "",
-      "open_date": "2026-03-21",
-      "update_date": "2026-05-19",
-      "city": "嘉義市",
-      "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=VEFBQUcxMTQwODE4MDA0&UT=VEFBQUc=",
       "location_id": "loc_嘉義市彌陀路31號"
     },
     {

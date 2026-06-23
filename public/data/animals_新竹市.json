@@ -1,8 +1,27 @@
 {
-  "updated_at": "2026-06-23T06:32:15+08:00",
+  "updated_at": "2026-06-24T06:24:26+08:00",
   "total": 155,
   "city": "新竹市",
   "animals": [
+    {
+      "id": "GOV-455849",
+      "source": "gov_shelter",
+      "kind": "cat",
+      "name": "混種貓                 ",
+      "sex": "M",
+      "age": "child",
+      "bodytype": "small",
+      "colour": "虎斑白色",
+      "sterilized": false,
+      "vaccinated": false,
+      "photo_url": "https://www.pet.gov.tw/upload/pic/1780280592840.png",
+      "remark": "貓舍K007",
+      "open_date": "2026-06-06",
+      "update_date": "2026-06-23",
+      "city": "新竹市",
+      "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=UkFBQUcxMTUwNTMwMDAy&UT=UkFBQUc=",
+      "location_id": "loc_新竹市南寮里海濱路250號"
+    },
     {
       "id": "GOV-458151",
       "source": "gov_shelter",
@@ -172,25 +191,6 @@
       "update_date": "2026-06-17",
       "city": "新竹市",
       "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=UkFBQUcxMTUwNjE3MDAx&UT=UkFBQUc=",
-      "location_id": "loc_新竹市南寮里海濱路250號"
-    },
-    {
-      "id": "GOV-455849",
-      "source": "gov_shelter",
-      "kind": "cat",
-      "name": "混種貓                 ",
-      "sex": "M",
-      "age": "child",
-      "bodytype": "small",
-      "colour": "虎斑白色",
-      "sterilized": false,
-      "vaccinated": false,
-      "photo_url": "https://www.pet.gov.tw/upload/pic/1780280592840.png",
-      "remark": "隔離舍",
-      "open_date": "2026-06-06",
-      "update_date": "2026-06-17",
-      "city": "新竹市",
-      "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=UkFBQUcxMTUwNTMwMDAy&UT=UkFBQUc=",
       "location_id": "loc_新竹市南寮里海濱路250號"
     },
     {
