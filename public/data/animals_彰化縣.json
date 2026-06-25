@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-06-25T06:26:37+08:00",
-  "total": 319,
+  "updated_at": "2026-06-26T06:28:43+08:00",
+  "total": 316,
   "city": "彰化縣",
   "animals": [
     {
@@ -172,25 +172,6 @@
       "update_date": "2026-06-09",
       "city": "彰化縣",
       "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=R0FBQUcxMTUwNjA5MDE0&UT=R0FBQUc=",
-      "location_id": "loc_彰化縣員林市大峰里阿寶巷426號_大門入口請由彰化縣芬園鄉大彰路一段875巷進入"
-    },
-    {
-      "id": "GOV-454263",
-      "source": "gov_shelter",
-      "kind": "dog",
-      "name": "混種犬          ",
-      "sex": "F",
-      "age": "adult",
-      "bodytype": "medium",
-      "colour": "灰色",
-      "sterilized": true,
-      "vaccinated": false,
-      "photo_url": "https://www.pet.gov.tw/upload/pic/1779780375323.png",
-      "remark": "115年6月6日早上10點起民眾可至收容所認養，本所不受理網路及電話預約，認養前請先來電洽詢。",
-      "open_date": "2026-06-06",
-      "update_date": "2026-06-08",
-      "city": "彰化縣",
-      "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=R0FBQUcxMTUwNTI2MDIx&UT=R0FBQUc=",
       "location_id": "loc_彰化縣員林市大峰里阿寶巷426號_大門入口請由彰化縣芬園鄉大彰路一段875巷進入"
     },
     {
@@ -1809,25 +1790,6 @@
       "location_id": "loc_彰化縣員林市大峰里阿寶巷426號_大門入口請由彰化縣芬園鄉大彰路一段875巷進入"
     },
     {
-      "id": "GOV-450697",
-      "source": "gov_shelter",
-      "kind": "dog",
-      "name": "混種犬          ",
-      "sex": "M",
-      "age": "child",
-      "bodytype": "small",
-      "colour": "黑色",
-      "sterilized": null,
-      "vaccinated": false,
-      "photo_url": "https://www.pet.gov.tw/upload/pic/1777339987789.png",
-      "remark": "115年4月28日早上10點起民眾可至收容所認養，本所不受理網路及電話預約，認養前請先來電洽詢。",
-      "open_date": "2026-04-28",
-      "update_date": "2026-06-03",
-      "city": "彰化縣",
-      "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=R0FBQUcxMTUwNDI4MDA1&UT=R0FBQUc=",
-      "location_id": "loc_彰化縣員林市大峰里阿寶巷426號_大門入口請由彰化縣芬園鄉大彰路一段875巷進入"
-    },
-    {
       "id": "GOV-452405",
       "source": "gov_shelter",
       "kind": "dog",
@@ -2908,25 +2870,6 @@
       "update_date": "2026-05-22",
       "city": "彰化縣",
       "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=R0FBQUcxMTUwNTA3MDEw&UT=R0FBQUc=",
-      "location_id": "loc_彰化縣員林市大峰里阿寶巷426號_大門入口請由彰化縣芬園鄉大彰路一段875巷進入"
-    },
-    {
-      "id": "GOV-453521",
-      "source": "gov_shelter",
-      "kind": "dog",
-      "name": "混種犬          ",
-      "sex": "F",
-      "age": "child",
-      "bodytype": "small",
-      "colour": "黑色",
-      "sterilized": null,
-      "vaccinated": false,
-      "photo_url": "https://www.pet.gov.tw/upload/pic/1779248886348.png",
-      "remark": "115年5月20日早上10點開放現場認養，本所不受理網路及電話預約，認養前請先來電洽詢。",
-      "open_date": "2026-05-20",
-      "update_date": "2026-05-20",
-      "city": "彰化縣",
-      "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=R0FBQUcxMTUwNTIwMDA4&UT=R0FBQUc=",
       "location_id": "loc_彰化縣員林市大峰里阿寶巷426號_大門入口請由彰化縣芬園鄉大彰路一段875巷進入"
     },
     {
