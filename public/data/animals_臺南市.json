@@ -1,8 +1,27 @@
 {
-  "updated_at": "2026-06-26T06:28:43+08:00",
-  "total": 104,
+  "updated_at": "2026-06-28T06:20:39+08:00",
+  "total": 103,
   "city": "臺南市",
   "animals": [
+    {
+      "id": "GOV-458836",
+      "source": "gov_shelter",
+      "kind": "dog",
+      "name": "貴賓犬        ",
+      "sex": "M",
+      "age": "adult",
+      "bodytype": "medium",
+      "colour": "黑色",
+      "sterilized": null,
+      "vaccinated": false,
+      "photo_url": "https://www.pet.gov.tw/upload/pic/1782543381372.png",
+      "remark": "本站動物皆採現場互動面談後評估能否認養，不接受電話或系統上預約",
+      "open_date": "2026-07-04",
+      "update_date": "2026-06-27",
+      "city": "臺南市",
+      "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=UzE1MDYyNy0wMQ==&UT=UzE1MDY=",
+      "location_id": "loc_臺南市善化區昌隆里東勢寮1_19號"
+    },
     {
       "id": "GOV-458715",
       "source": "gov_shelter",
@@ -498,25 +517,6 @@
       "location_id": "loc_臺南市善化區昌隆里東勢寮1_19號"
     },
     {
-      "id": "GOV-457323",
-      "source": "gov_shelter",
-      "kind": "dog",
-      "name": "瑪爾濟斯犬           ",
-      "sex": "F",
-      "age": "adult",
-      "bodytype": "small",
-      "colour": "白色",
-      "sterilized": null,
-      "vaccinated": false,
-      "photo_url": "https://www.pet.gov.tw/upload/pic/1781332214108.png",
-      "remark": "本站動物皆採現場互動面談後評估能否認養，不接受電話或系統上預約。",
-      "open_date": "2026-06-20",
-      "update_date": "2026-06-16",
-      "city": "臺南市",
-      "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=UzE1MDYxMy0wNQ==&UT=UzE1MDY=",
-      "location_id": "loc_臺南市善化區昌隆里東勢寮1_19號"
-    },
-    {
       "id": "GOV-457321",
       "source": "gov_shelter",
       "kind": "dog",
@@ -533,25 +533,6 @@
       "update_date": "2026-06-16",
       "city": "臺南市",
       "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=UzE1MDYxMy0wMw==&UT=UzE1MDY=",
-      "location_id": "loc_臺南市善化區昌隆里東勢寮1_19號"
-    },
-    {
-      "id": "GOV-457322",
-      "source": "gov_shelter",
-      "kind": "dog",
-      "name": "瑪爾濟斯犬           ",
-      "sex": "F",
-      "age": "adult",
-      "bodytype": "small",
-      "colour": "白色",
-      "sterilized": null,
-      "vaccinated": false,
-      "photo_url": "https://www.pet.gov.tw/upload/pic/1781332201084.png",
-      "remark": "本站動物皆採現場互動面談後評估能否認養，不接受電話或系統上預約。",
-      "open_date": "2026-06-20",
-      "update_date": "2026-06-16",
-      "city": "臺南市",
-      "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=UzE1MDYxMy0wNA==&UT=UzE1MDY=",
       "location_id": "loc_臺南市善化區昌隆里東勢寮1_19號"
     },
     {
