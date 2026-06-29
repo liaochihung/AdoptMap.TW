@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-06-29T06:19:41+08:00",
-  "total": 500,
+  "updated_at": "2026-06-30T06:21:55+08:00",
+  "total": 498,
   "city": "桃園市",
   "animals": [
     {
@@ -1692,25 +1692,6 @@
       "update_date": "2026-05-06",
       "city": "桃園市",
       "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=Q0FBQUcxMTEwODI3MDAz&UT=Q0FBQUc=",
-      "location_id": "loc_桃園市新屋區永興里3鄰藻礁路1668號"
-    },
-    {
-      "id": "GOV-439113",
-      "source": "gov_shelter",
-      "kind": "cat",
-      "name": "混種貓                 ",
-      "sex": "F",
-      "age": "adult",
-      "bodytype": "medium",
-      "colour": "黃虎斑色",
-      "sterilized": null,
-      "vaccinated": false,
-      "photo_url": "https://www.pet.gov.tw/upload/pic/1768545543731.png",
-      "remark": "寄送大樹內壢轉運站，目前不在園區收容",
-      "open_date": "2026-03-30",
-      "update_date": "2026-05-04",
-      "city": "桃園市",
-      "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=Q0FBQUcxMTUwMTE2MDA0&UT=Q0FBQUc=",
       "location_id": "loc_桃園市新屋區永興里3鄰藻礁路1668號"
     },
     {
@@ -7525,25 +7506,6 @@
       "update_date": "2021-03-04",
       "city": "桃園市",
       "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=Q0FBQUcxMDYxMDI0MDEy&UT=Q0FBQUc=",
-      "location_id": "loc_桃園市新屋區永興里3鄰藻礁路1668號"
-    },
-    {
-      "id": "GOV-28800",
-      "source": "gov_shelter",
-      "kind": "dog",
-      "name": "混種犬          ",
-      "sex": "F",
-      "age": "adult",
-      "bodytype": "medium",
-      "colour": "黑色",
-      "sterilized": false,
-      "vaccinated": false,
-      "photo_url": "https://www.pet.gov.tw/upload/pic/27f875b1-f1e5-4c7d-a26c-ca27856c75ba.JPG",
-      "remark": "",
-      "open_date": "2018-03-27",
-      "update_date": "2021-07-28",
-      "city": "桃園市",
-      "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=Q0FBQUcxMDYxMDI2MDE3&UT=Q0FBQUc=",
       "location_id": "loc_桃園市新屋區永興里3鄰藻礁路1668號"
     },
     {
