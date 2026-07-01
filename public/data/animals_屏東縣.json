@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-07-01T06:25:28+08:00",
-  "total": 76,
+  "updated_at": "2026-07-02T06:26:39+08:00",
+  "total": 75,
   "city": "屏東縣",
   "animals": [
     {
@@ -1293,25 +1293,6 @@
       "update_date": "2024-07-19",
       "city": "屏東縣",
       "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=TUFBQUcxMTAxMTA1MDAz&UT=TUFBQUc=",
-      "location_id": "loc_屏東縣內埔鄉學府路1號_屏東科技大學內"
-    },
-    {
-      "id": "GOV-248858",
-      "source": "gov_shelter",
-      "kind": "cat",
-      "name": "混種貓                 ",
-      "sex": "F",
-      "age": "adult",
-      "bodytype": "medium",
-      "colour": "虎斑色",
-      "sterilized": true,
-      "vaccinated": false,
-      "photo_url": "https://www.pet.gov.tw/upload/pic/1845bc44-f006-4490-b1c8-8f538822da5f.jpg",
-      "remark": "",
-      "open_date": "2022-11-14",
-      "update_date": "2024-07-19",
-      "city": "屏東縣",
-      "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=TUFBQUcxMTEwMzMxMDAx&UT=TUFBQUc=",
       "location_id": "loc_屏東縣內埔鄉學府路1號_屏東科技大學內"
     },
     {
