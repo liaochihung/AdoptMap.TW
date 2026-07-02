@@ -1,8 +1,27 @@
 {
-  "updated_at": "2026-07-02T06:26:39+08:00",
-  "total": 974,
+  "updated_at": "2026-07-03T06:21:11+08:00",
+  "total": 972,
   "city": "臺北市",
   "animals": [
+    {
+      "id": "GOV-457370",
+      "source": "gov_shelter",
+      "kind": "cat",
+      "name": "混種貓                 ",
+      "sex": "F",
+      "age": "adult",
+      "bodytype": "medium",
+      "colour": "黑色",
+      "sterilized": true,
+      "vaccinated": false,
+      "photo_url": "https://www.pet.gov.tw/upload/pic/1781507207965.png",
+      "remark": "",
+      "open_date": "2026-06-22",
+      "update_date": "2026-07-02",
+      "city": "臺北市",
+      "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=VkFBQUcxMTUwNjE0MDE=&UT=VkFBQUc=",
+      "location_id": "loc_臺北市內湖區安美街191號"
+    },
     {
       "id": "GOV-459307",
       "source": "gov_shelter",
@@ -859,25 +878,6 @@
       "location_id": "loc_臺北市內湖區安美街191號"
     },
     {
-      "id": "GOV-457370",
-      "source": "gov_shelter",
-      "kind": "cat",
-      "name": "混種貓                 ",
-      "sex": "F",
-      "age": "adult",
-      "bodytype": "medium",
-      "colour": "黑色",
-      "sterilized": true,
-      "vaccinated": false,
-      "photo_url": "https://www.pet.gov.tw/upload/pic/1781507207965.png",
-      "remark": "",
-      "open_date": "2026-06-22",
-      "update_date": "2026-06-24",
-      "city": "臺北市",
-      "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=VkFBQUcxMTUwNjE0MDE=&UT=VkFBQUc=",
-      "location_id": "loc_臺北市內湖區安美街191號"
-    },
-    {
       "id": "GOV-439122",
       "source": "gov_shelter",
       "kind": "cat",
@@ -913,25 +913,6 @@
       "update_date": "2026-06-23",
       "city": "臺北市",
       "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=VkFBQUcxMTQwNzE1MDQ=&UT=VkFBQUc=",
-      "location_id": "loc_臺北市內湖區安美街191號"
-    },
-    {
-      "id": "GOV-458305",
-      "source": "gov_shelter",
-      "kind": "cat",
-      "name": "混種貓                 ",
-      "sex": "F",
-      "age": "adult",
-      "bodytype": "small",
-      "colour": "虎斑白色",
-      "sterilized": true,
-      "vaccinated": false,
-      "photo_url": "https://www.pet.gov.tw/upload/pic/1782197298453.png",
-      "remark": "右剪耳,粉色外出籠,本動物尚待協尋飼主，如截至6 月30 日 仍無飼主領回，將開放民眾認養。",
-      "open_date": "2026-06-30",
-      "update_date": "2026-06-23",
-      "city": "臺北市",
-      "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=VkFBQUcxMTUwNjIzMDQ=&UT=VkFBQUc=",
       "location_id": "loc_臺北市內湖區安美街191號"
     },
     {
@@ -1654,25 +1635,6 @@
       "update_date": "2026-06-17",
       "city": "臺北市",
       "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=VkFBQUcxMTQwNzIyMDg=&UT=VkFBQUc=",
-      "location_id": "loc_臺北市內湖區安美街191號"
-    },
-    {
-      "id": "GOV-449632",
-      "source": "gov_shelter",
-      "kind": "cat",
-      "name": "混種貓                 ",
-      "sex": "M",
-      "age": "child",
-      "bodytype": "small",
-      "colour": "虎斑色",
-      "sterilized": false,
-      "vaccinated": false,
-      "photo_url": "https://www.pet.gov.tw/upload/pic/1776486976825.png",
-      "remark": "FPV(-),本動物收容於檢疫區觀察健康情形，如民 眾有認養意願請洽詢動物之家服務員，由 專人導覽及參觀。",
-      "open_date": "2026-04-18",
-      "update_date": "2026-06-17",
-      "city": "臺北市",
-      "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=VkFBQUcxMTUwNDE4MDU=&UT=VkFBQUc=",
       "location_id": "loc_臺北市內湖區安美街191號"
     },
     {
