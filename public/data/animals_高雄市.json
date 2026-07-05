@@ -1,8 +1,27 @@
 {
-  "updated_at": "2026-07-05T06:17:09+08:00",
-  "total": 597,
+  "updated_at": "2026-07-06T06:18:43+08:00",
+  "total": 598,
   "city": "高雄市",
   "animals": [
+    {
+      "id": "GOV-459659",
+      "source": "gov_shelter",
+      "kind": "dog",
+      "name": "吉娃娃犬",
+      "sex": "M",
+      "age": "adult",
+      "bodytype": "small",
+      "colour": "花色",
+      "sterilized": false,
+      "vaccinated": false,
+      "photo_url": "https://www.pet.gov.tw/upload/pic/1783237359652.png",
+      "remark": "協尋飼主.暫不開放",
+      "open_date": "",
+      "update_date": "2026-07-05",
+      "city": "高雄市",
+      "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=TEFBQUcxMTUwNzA0VzgtMQ==&UT=TEFBQUc=",
+      "location_id": "loc_高雄市鼓山區萬壽路350號"
+    },
     {
       "id": "GOV-459516",
       "source": "gov_shelter",
