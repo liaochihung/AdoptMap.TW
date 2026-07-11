@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-07-11T06:50:17+08:00",
-  "total": 976,
+  "updated_at": "2026-07-12T06:36:55+08:00",
+  "total": 975,
   "city": "臺北市",
   "animals": [
     {
@@ -1426,25 +1426,6 @@
       "update_date": "2026-06-28",
       "city": "臺北市",
       "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=VkFBQUcxMTIwODMxMTU=&UT=VkFBQUc=",
-      "location_id": "loc_臺北市內湖區安美街191號"
-    },
-    {
-      "id": "GOV-458018",
-      "source": "gov_shelter",
-      "kind": "cat",
-      "name": "混種貓                 ",
-      "sex": "M",
-      "age": "adult",
-      "bodytype": "small",
-      "colour": "黑白色",
-      "sterilized": true,
-      "vaccinated": false,
-      "photo_url": "https://www.pet.gov.tw/upload/pic/1782099136671.png",
-      "remark": "左剪耳,誘捕籠,本動物尚待協尋飼主，如截至6 月27 日 仍無飼主領回，將開放民眾認養。",
-      "open_date": "2026-06-27",
-      "update_date": "2026-06-28",
-      "city": "臺北市",
-      "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=VkFBQUcxMTUwNjIwMDE=&UT=VkFBQUc=",
       "location_id": "loc_臺北市內湖區安美街191號"
     },
     {
