@@ -1,7 +1,20 @@
 {
-  "updated_at": "2026-07-13T06:37:39+08:00",
+  "updated_at": "2026-07-14T06:44:16+08:00",
   "city": "臺中市",
   "locations": [
+    {
+      "id": "loc_全邑動物醫院",
+      "name": "全邑動物醫院",
+      "address": "全邑動物醫院",
+      "phone": "04-22381858",
+      "lat": 25.0578807,
+      "lng": 121.5266759,
+      "type": "vet_transit",
+      "counts": {
+        "cat": 2,
+        "dog": 0
+      }
+    },
     {
       "id": "loc_houli",
       "name": "臺中市動物之家后里園區",
@@ -11,8 +24,8 @@
       "lng": 120.7106,
       "type": "shelter",
       "counts": {
-        "cat": 6,
-        "dog": 30
+        "cat": 5,
+        "dog": 29
       }
     },
     {
@@ -39,19 +52,6 @@
       "counts": {
         "cat": 0,
         "dog": 1
-      }
-    },
-    {
-      "id": "loc_永信動物醫院",
-      "name": "永信動物醫院",
-      "address": "永信動物醫院",
-      "phone": "04-24371487",
-      "lat": 25.0423346,
-      "lng": 121.5780267,
-      "type": "vet_transit",
-      "counts": {
-        "cat": 0,
-        "dog": 3
       }
     },
     {
@@ -101,19 +101,6 @@
       "lat": 24.1759246,
       "lng": 120.6454674,
       "type": "yiqi",
-      "counts": {
-        "cat": 1,
-        "dog": 0
-      }
-    },
-    {
-      "id": "loc_全邑動物醫院",
-      "name": "全邑動物醫院",
-      "address": "全邑動物醫院",
-      "phone": "04-22381858",
-      "lat": 25.0578807,
-      "lng": 121.5266759,
-      "type": "vet_transit",
       "counts": {
         "cat": 1,
         "dog": 0
