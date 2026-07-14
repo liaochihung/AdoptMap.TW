@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-14T06:44:16+08:00",
+  "updated_at": "2026-07-15T06:45:55+08:00",
   "total": 396,
   "city": "雲林縣",
   "animals": [
@@ -16,8 +16,8 @@
       "vaccinated": false,
       "photo_url": "https://www.pet.gov.tw/upload/pic/1783673537417.png",
       "remark": "",
-      "open_date": "",
-      "update_date": "2026-07-10",
+      "open_date": "2026-07-14",
+      "update_date": "2026-07-14",
       "city": "雲林縣",
       "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=MTE1LUIwMDVD&UT=MTE1LUI=",
       "location_id": "loc_雲林縣斗六市雲林路二段517號"
