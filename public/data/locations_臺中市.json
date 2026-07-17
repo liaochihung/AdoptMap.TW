@@ -1,20 +1,7 @@
 {
-  "updated_at": "2026-07-17T06:48:30+08:00",
+  "updated_at": "2026-07-18T06:38:20+08:00",
   "city": "臺中市",
   "locations": [
-    {
-      "id": "loc_nantun",
-      "name": "臺中市動物之家南屯園區",
-      "address": "臺中市南屯區中台路601號",
-      "phone": "04-23850949",
-      "lat": 24.1366,
-      "lng": 120.6175,
-      "type": "shelter",
-      "counts": {
-        "cat": 3,
-        "dog": 105
-      }
-    },
     {
       "id": "loc_houli",
       "name": "臺中市動物之家后里園區",
@@ -24,8 +11,47 @@
       "lng": 120.7106,
       "type": "shelter",
       "counts": {
-        "cat": 4,
-        "dog": 29
+        "cat": 6,
+        "dog": 32
+      }
+    },
+    {
+      "id": "loc_永昌動物醫院",
+      "name": "永昌動物醫院",
+      "address": "永昌動物醫院",
+      "phone": "04-22356236",
+      "lat": 25.0521262,
+      "lng": 121.509257,
+      "type": "vet_transit",
+      "counts": {
+        "cat": 0,
+        "dog": 4
+      }
+    },
+    {
+      "id": "loc_全邑動物醫院",
+      "name": "全邑動物醫院",
+      "address": "全邑動物醫院",
+      "phone": "04-22381858",
+      "lat": 25.0578807,
+      "lng": 121.5266759,
+      "type": "vet_transit",
+      "counts": {
+        "cat": 3,
+        "dog": 0
+      }
+    },
+    {
+      "id": "loc_nantun",
+      "name": "臺中市動物之家南屯園區",
+      "address": "臺中市南屯區中台路601號",
+      "phone": "04-23850949",
+      "lat": 24.1366,
+      "lng": 120.6175,
+      "type": "shelter",
+      "counts": {
+        "cat": 1,
+        "dog": 107
       }
     },
     {
@@ -38,19 +64,6 @@
       "type": "yiqi",
       "counts": {
         "cat": 1,
-        "dog": 0
-      }
-    },
-    {
-      "id": "loc_全邑動物醫院",
-      "name": "全邑動物醫院",
-      "address": "全邑動物醫院",
-      "phone": "04-22381858",
-      "lat": 25.0578807,
-      "lng": 121.5266759,
-      "type": "vet_transit",
-      "counts": {
-        "cat": 2,
         "dog": 0
       }
     },
@@ -130,19 +143,6 @@
       "counts": {
         "cat": 1,
         "dog": 0
-      }
-    },
-    {
-      "id": "loc_台中市西區精誠路227號",
-      "name": "儷登犬貓美容工作室",
-      "address": "台中市西區精誠路227號",
-      "phone": "04-23200413",
-      "lat": 24.1551475,
-      "lng": 120.6558329,
-      "type": "yiqi",
-      "counts": {
-        "cat": 0,
-        "dog": 1
       }
     },
     {
