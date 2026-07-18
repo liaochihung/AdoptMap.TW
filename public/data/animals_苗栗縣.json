@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-07-18T06:38:20+08:00",
-  "total": 198,
+  "updated_at": "2026-07-19T06:38:18+08:00",
+  "total": 197,
   "city": "苗栗縣",
   "animals": [
     {
@@ -58,25 +58,6 @@
       "update_date": "2026-07-17",
       "city": "苗栗縣",
       "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=RUFBQUcxMTQwMTEwMDAz&UT=RUFBQUc=",
-      "location_id": "loc_苗栗縣銅鑼鄉朝陽村6鄰朝北55_1號_地圖_https___goo_gl_map"
-    },
-    {
-      "id": "GOV-460834",
-      "source": "gov_shelter",
-      "kind": "cat",
-      "name": "混種貓                 ",
-      "sex": "M",
-      "age": "child",
-      "bodytype": "medium",
-      "colour": "虎斑白色",
-      "sterilized": true,
-      "vaccinated": false,
-      "photo_url": "https://www.pet.gov.tw/upload/pic/1784087836360.png",
-      "remark": "",
-      "open_date": "2026-07-15",
-      "update_date": "2026-07-16",
-      "city": "苗栗縣",
-      "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=RUFBQUcxMTUwNzE1MDI2&UT=RUFBQUc=",
       "location_id": "loc_苗栗縣銅鑼鄉朝陽村6鄰朝北55_1號_地圖_https___goo_gl_map"
     },
     {
