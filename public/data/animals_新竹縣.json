@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-07-25T06:52:42+08:00",
-  "total": 135,
+  "updated_at": "2026-07-26T06:42:55+08:00",
+  "total": 133,
   "city": "新竹縣",
   "animals": [
     {
@@ -39,25 +39,6 @@
       "update_date": "2026-07-24",
       "city": "新竹縣",
       "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=REFBQUcxMTUwNzE3MDA2&UT=REFBQUc=",
-      "location_id": "loc_新竹縣竹北市縣政五街192號"
-    },
-    {
-      "id": "GOV-461985",
-      "source": "gov_shelter",
-      "kind": "cat",
-      "name": "混種貓                 ",
-      "sex": "M",
-      "age": "adult",
-      "bodytype": "medium",
-      "colour": "白色",
-      "sterilized": false,
-      "vaccinated": false,
-      "photo_url": "",
-      "remark": "入所時多處脫毛治療中，目前隔離治療照護中，不開放參觀互動。",
-      "open_date": "2026-07-23",
-      "update_date": "2026-07-23",
-      "city": "新竹縣",
-      "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=REFBQUcxMTUwNzIzMDAx&UT=REFBQUc=",
       "location_id": "loc_新竹縣竹北市縣政五街192號"
     },
     {
@@ -343,25 +324,6 @@
       "update_date": "2026-07-20",
       "city": "新竹縣",
       "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=REFBQUcxMTUwNTA0MDA4&UT=REFBQUc=",
-      "location_id": "loc_新竹縣竹北市縣政五街192號"
-    },
-    {
-      "id": "GOV-451599",
-      "source": "gov_shelter",
-      "kind": "cat",
-      "name": "混種貓                 ",
-      "sex": "F",
-      "age": "adult",
-      "bodytype": "medium",
-      "colour": "三花色",
-      "sterilized": true,
-      "vaccinated": false,
-      "photo_url": "https://www.pet.gov.tw/upload/pic/1778834676837.png",
-      "remark": "排115.7.9(四)絕育及9點開放認養，絕育當天認養須等絕育後甦醒。民眾多採抽籤，年滿18歲非屬農業部禁止飼養，家中飼養犬貓須完成寵物登記、絕育及每年狂犬病疫苗注射(提供證明，室內貓免狂犬)，提供3個月內照片。認養至現場不接受線上申請，帶身分證合適牽繩提籠。鼻氣管炎、腹瀉及貓瘟同住病史，請審慎評估",
-      "open_date": "2026-07-09",
-      "update_date": "2026-07-20",
-      "city": "新竹縣",
-      "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=REFBQUcxMTUwNTA0MDEx&UT=REFBQUc=",
       "location_id": "loc_新竹縣竹北市縣政五街192號"
     },
     {
