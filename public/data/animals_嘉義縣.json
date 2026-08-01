@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-07-31T06:55:31+08:00",
-  "total": 16,
+  "updated_at": "2026-08-02T06:43:46+08:00",
+  "total": 15,
   "city": "嘉義縣",
   "animals": [
     {
@@ -39,25 +39,6 @@
       "update_date": "2026-07-20",
       "city": "嘉義縣",
       "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=SkFBQUcxMTUwNzIxMDEw&UT=SkFBQUc=",
-      "location_id": "loc_嘉義縣民雄鄉松山村後山仔37之2號"
-    },
-    {
-      "id": "GOV-461348",
-      "source": "gov_shelter",
-      "kind": "cat",
-      "name": "英國短毛貓               ",
-      "sex": "M",
-      "age": "adult",
-      "bodytype": "medium",
-      "colour": "灰白色",
-      "sterilized": false,
-      "vaccinated": false,
-      "photo_url": "https://www.pet.gov.tw/upload/pic/1784536985518.png",
-      "remark": "如欲認養者可逕予登記認養意願，但後續仍須至本縣動物保護教育園區完成認養評估，經核准後始完成認養程序，非以登記先後順序決定。",
-      "open_date": "2026-07-20",
-      "update_date": "2026-07-20",
-      "city": "嘉義縣",
-      "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=SkFBQUcxMTUwNzIxMDA4&UT=SkFBQUc=",
       "location_id": "loc_嘉義縣民雄鄉松山村後山仔37之2號"
     },
     {
