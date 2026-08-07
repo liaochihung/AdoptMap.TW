@@ -1,8 +1,27 @@
 {
-  "updated_at": "2026-08-07T09:27:13+08:00",
-  "total": 614,
+  "updated_at": "2026-08-08T06:24:36+08:00",
+  "total": 615,
   "city": "高雄市",
   "animals": [
+    {
+      "id": "GOV-463774",
+      "source": "gov_shelter",
+      "kind": "dog",
+      "name": "美國惡霸犬",
+      "sex": "F",
+      "age": "adult",
+      "bodytype": "medium",
+      "colour": "棕色",
+      "sterilized": null,
+      "vaccinated": false,
+      "photo_url": "https://www.pet.gov.tw/upload/pic/1786089564584.png",
+      "remark": "協尋飼主 暫不開放",
+      "open_date": "",
+      "update_date": "2026-08-07",
+      "city": "高雄市",
+      "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=TEFBQUcxMTUwODA3Vzg=&UT=TEFBQUc=",
+      "location_id": "loc_高雄市鼓山區萬壽路350號"
+    },
     {
       "id": "GOV-463599",
       "source": "gov_shelter",
