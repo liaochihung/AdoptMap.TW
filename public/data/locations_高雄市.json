@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-14T06:30:05+08:00",
+  "updated_at": "2026-08-15T06:11:57+08:00",
   "city": "高雄市",
   "locations": [
     {
@@ -12,7 +12,7 @@
       "type": "shelter",
       "counts": {
         "cat": 0,
-        "dog": 494
+        "dog": 525
       }
     },
     {
@@ -25,7 +25,7 @@
       "type": "shelter",
       "counts": {
         "cat": 20,
-        "dog": 126
+        "dog": 128
       }
     }
   ]

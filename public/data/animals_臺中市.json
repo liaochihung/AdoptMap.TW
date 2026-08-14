@@ -1,8 +1,46 @@
 {
-  "updated_at": "2026-08-14T06:30:05+08:00",
-  "total": 149,
+  "updated_at": "2026-08-15T06:11:57+08:00",
+  "total": 151,
   "city": "臺中市",
   "animals": [
+    {
+      "id": "TC-11507106011",
+      "source": "taichung_shelter",
+      "kind": "dog",
+      "name": "",
+      "sex": "M",
+      "age": "child",
+      "bodytype": "medium",
+      "colour": "黃色",
+      "sterilized": true,
+      "vaccinated": null,
+      "photo_url": "https://www.animal.taichung.gov.tw/media/1381737/11507106011認養.jpg",
+      "remark": "",
+      "open_date": "",
+      "update_date": "",
+      "source_url": "https://www.animal.taichung.gov.tw/1521490/animalCp?nodeId=4027080",
+      "city": "臺中市",
+      "location_id": "loc_houli"
+    },
+    {
+      "id": "TC-11507106012",
+      "source": "taichung_shelter",
+      "kind": "dog",
+      "name": "",
+      "sex": "M",
+      "age": "child",
+      "bodytype": "medium",
+      "colour": "黑棕",
+      "sterilized": true,
+      "vaccinated": null,
+      "photo_url": "https://www.animal.taichung.gov.tw/media/1381800/11507106012認養-999.jpg",
+      "remark": "",
+      "open_date": "",
+      "update_date": "",
+      "source_url": "https://www.animal.taichung.gov.tw/1521490/animalCp?nodeId=4027129",
+      "city": "臺中市",
+      "location_id": "loc_houli"
+    },
     {
       "id": "TC-11507158007",
       "source": "taichung_shelter",
@@ -647,7 +685,7 @@
       "update_date": "",
       "source_url": "https://www.animal.taichung.gov.tw/1521490/animalCp?nodeId=4001123",
       "city": "臺中市",
-      "location_id": "loc_nantun"
+      "location_id": "loc_houli"
     },
     {
       "id": "TC-11506088013",
