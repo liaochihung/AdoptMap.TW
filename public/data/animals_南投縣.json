@@ -1,8 +1,27 @@
 {
-  "updated_at": "2026-08-15T06:11:57+08:00",
+  "updated_at": "2026-08-16T06:09:56+08:00",
   "total": 329,
   "city": "南投縣",
   "animals": [
+    {
+      "id": "GOV-464690",
+      "source": "gov_shelter",
+      "kind": "dog",
+      "name": "混種犬          ",
+      "sex": "F",
+      "age": "adult",
+      "bodytype": "medium",
+      "colour": "黑色",
+      "sterilized": true,
+      "vaccinated": false,
+      "photo_url": "https://www.pet.gov.tw/upload/pic/1786756706313.png",
+      "remark": "",
+      "open_date": "",
+      "update_date": "2026-08-15",
+      "city": "南投縣",
+      "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=SEFBQUcxMTUwODE0MDAz&UT=SEFBQUc=",
+      "location_id": "loc_南投縣南投市嶺興路36_1號"
+    },
     {
       "id": "GOV-370281",
       "source": "gov_shelter",
@@ -723,25 +742,6 @@
       "update_date": "2026-08-06",
       "city": "南投縣",
       "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=SEFBQUcxMTUwNzMwNzMw&UT=SEFBQUc=",
-      "location_id": "loc_南投縣南投市嶺興路36_1號"
-    },
-    {
-      "id": "GOV-462737",
-      "source": "gov_shelter",
-      "kind": "cat",
-      "name": "混種貓                 ",
-      "sex": "M",
-      "age": "child",
-      "bodytype": "small",
-      "colour": "黃虎斑色",
-      "sterilized": true,
-      "vaccinated": false,
-      "photo_url": "https://www.pet.gov.tw/upload/pic/1785383198570.png",
-      "remark": "",
-      "open_date": "2026-07-30",
-      "update_date": "2026-07-30",
-      "city": "南投縣",
-      "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=SEFBQUcxMTUwNzMwQzI=&UT=SEFBQUc=",
       "location_id": "loc_南投縣南投市嶺興路36_1號"
     },
     {
