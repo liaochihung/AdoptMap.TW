@@ -1,8 +1,27 @@
 {
-  "updated_at": "2026-08-16T06:09:56+08:00",
+  "updated_at": "2026-08-17T06:10:13+08:00",
   "total": 124,
   "city": "新竹縣",
   "animals": [
+    {
+      "id": "GOV-462356",
+      "source": "gov_shelter",
+      "kind": "dog",
+      "name": "混種犬          ",
+      "sex": "F",
+      "age": "adult",
+      "bodytype": "medium",
+      "colour": "黑色",
+      "sterilized": true,
+      "vaccinated": false,
+      "photo_url": "https://www.pet.gov.tw/upload/pic/1785223403940.png",
+      "remark": "左前肢疑似山豬吊外傷治療中",
+      "open_date": "2026-07-27",
+      "update_date": "2026-08-16",
+      "city": "新竹縣",
+      "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=REFBQUcxMTUwNzI3MDAx&UT=REFBQUc=",
+      "location_id": "loc_新竹縣竹北市縣政五街192號"
+    },
     {
       "id": "GOV-298999",
       "source": "gov_shelter",
@@ -571,25 +590,6 @@
       "update_date": "2026-07-30",
       "city": "新竹縣",
       "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=REFBQUcxMTUwNzIzMDAy&UT=REFBQUc=",
-      "location_id": "loc_新竹縣竹北市縣政五街192號"
-    },
-    {
-      "id": "GOV-462356",
-      "source": "gov_shelter",
-      "kind": "dog",
-      "name": "混種犬          ",
-      "sex": "F",
-      "age": "adult",
-      "bodytype": "medium",
-      "colour": "黑色",
-      "sterilized": true,
-      "vaccinated": false,
-      "photo_url": "https://www.pet.gov.tw/upload/pic/1785223403940.png",
-      "remark": "左前肢疑似山豬吊外傷治療中，後續待評估若組織壞死將進行截肢。",
-      "open_date": "2026-07-27",
-      "update_date": "2026-07-28",
-      "city": "新竹縣",
-      "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=REFBQUcxMTUwNzI3MDAx&UT=REFBQUc=",
       "location_id": "loc_新竹縣竹北市縣政五街192號"
     },
     {
