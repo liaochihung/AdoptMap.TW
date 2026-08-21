@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-08-21T06:16:02+08:00",
-  "total": 315,
+  "updated_at": "2026-08-22T06:12:22+08:00",
+  "total": 312,
   "city": "南投縣",
   "animals": [
     {
@@ -346,25 +346,6 @@
       "location_id": "loc_南投縣南投市嶺興路36_1號"
     },
     {
-      "id": "GOV-463673",
-      "source": "gov_shelter",
-      "kind": "dog",
-      "name": "貴賓犬        ",
-      "sex": "M",
-      "age": "adult",
-      "bodytype": "small",
-      "colour": "咖啡色",
-      "sterilized": true,
-      "vaccinated": false,
-      "photo_url": "https://www.pet.gov.tw/upload/pic/1786066447025.png",
-      "remark": "",
-      "open_date": "2026-08-12",
-      "update_date": "2026-08-13",
-      "city": "南投縣",
-      "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=SEFBQUcxMTUwODA1NjEz&UT=SEFBQUc=",
-      "location_id": "loc_南投縣南投市嶺興路36_1號"
-    },
-    {
       "id": "GOV-463296",
       "source": "gov_shelter",
       "kind": "dog",
@@ -438,25 +419,6 @@
       "update_date": "2026-08-11",
       "city": "南投縣",
       "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=SEFBQUcxMTUwMTA4ODkx&UT=SEFBQUc=",
-      "location_id": "loc_南投縣南投市嶺興路36_1號"
-    },
-    {
-      "id": "GOV-463672",
-      "source": "gov_shelter",
-      "kind": "cat",
-      "name": "混種貓                 ",
-      "sex": "F",
-      "age": "adult",
-      "bodytype": "small",
-      "colour": "虎斑色",
-      "sterilized": true,
-      "vaccinated": false,
-      "photo_url": "https://www.pet.gov.tw/upload/pic/1786066378391.png",
-      "remark": "",
-      "open_date": "2026-08-10",
-      "update_date": "2026-08-11",
-      "city": "南投縣",
-      "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=SEFBQUcxMTUwODA1QzY=&UT=SEFBQUc=",
       "location_id": "loc_南投縣南投市嶺興路36_1號"
     },
     {
@@ -1749,25 +1711,6 @@
       "update_date": "2026-07-18",
       "city": "南投縣",
       "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=SEFBQUcxMTMwMzA2ODky&UT=SEFBQUc=",
-      "location_id": "loc_南投縣南投市嶺興路36_1號"
-    },
-    {
-      "id": "GOV-461191",
-      "source": "gov_shelter",
-      "kind": "dog",
-      "name": "貴賓犬        ",
-      "sex": "M",
-      "age": "adult",
-      "bodytype": "small",
-      "colour": "棕色",
-      "sterilized": true,
-      "vaccinated": false,
-      "photo_url": "https://www.pet.gov.tw/upload/pic/1784334503241.png",
-      "remark": "",
-      "open_date": "2026-07-17",
-      "update_date": "2026-07-18",
-      "city": "南投縣",
-      "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=SEFBQUcxMTUwNzE3ODk4&UT=SEFBQUc=",
       "location_id": "loc_南投縣南投市嶺興路36_1號"
     },
     {
