@@ -1,8 +1,27 @@
 {
-  "updated_at": "2026-08-22T06:12:22+08:00",
-  "total": 169,
+  "updated_at": "2026-08-23T06:10:50+08:00",
+  "total": 168,
   "city": "臺南市",
   "animals": [
+    {
+      "id": "GOV-465481",
+      "source": "gov_shelter",
+      "kind": "dog",
+      "name": "混種犬          ",
+      "sex": "M",
+      "age": "child",
+      "bodytype": "small",
+      "colour": "黃白色",
+      "sterilized": null,
+      "vaccinated": false,
+      "photo_url": "",
+      "remark": "",
+      "open_date": "2026-08-22",
+      "update_date": "",
+      "city": "臺南市",
+      "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=MDgyMi1C&UT=MDgyMi0=",
+      "location_id": "loc_臺南市善化區昌隆里東勢寮1_19號"
+    },
     {
       "id": "GOV-465451",
       "source": "gov_shelter",
@@ -764,25 +783,6 @@
       "location_id": "loc_臺南市善化區昌隆里東勢寮1_19號"
     },
     {
-      "id": "GOV-464152",
-      "source": "gov_shelter",
-      "kind": "dog",
-      "name": "混種犬          ",
-      "sex": "F",
-      "age": "child",
-      "bodytype": "medium",
-      "colour": "黃色",
-      "sterilized": false,
-      "vaccinated": false,
-      "photo_url": "https://www.pet.gov.tw/upload/pic/1786428419736.png",
-      "remark": "本站動物皆採現場互動面談後評估能否認養，不接受電話或系統上預約。",
-      "open_date": "2026-08-18",
-      "update_date": "2026-08-11",
-      "city": "臺南市",
-      "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=UzE1MDgxMS0wMQ==&UT=UzE1MDg=",
-      "location_id": "loc_臺南市善化區昌隆里東勢寮1_19號"
-    },
-    {
       "id": "GOV-464464",
       "source": "gov_shelter",
       "kind": "dog",
@@ -894,25 +894,6 @@
       "update_date": "2026-08-12",
       "city": "臺南市",
       "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=UzE1MDgxMi0wMQ==&UT=UzE1MDg=",
-      "location_id": "loc_臺南市善化區昌隆里東勢寮1_19號"
-    },
-    {
-      "id": "GOV-464153",
-      "source": "gov_shelter",
-      "kind": "dog",
-      "name": "混種犬          ",
-      "sex": "F",
-      "age": "adult",
-      "bodytype": "medium",
-      "colour": "黃色",
-      "sterilized": false,
-      "vaccinated": false,
-      "photo_url": "https://www.pet.gov.tw/upload/pic/1786428971736.png",
-      "remark": "本站動物皆採現場互動面談後評估能否認養，不接受電話或系統上預約。",
-      "open_date": "",
-      "update_date": "2026-08-11",
-      "city": "臺南市",
-      "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=UzE1MDgxMS0wMg==&UT=UzE1MDg=",
       "location_id": "loc_臺南市善化區昌隆里東勢寮1_19號"
     },
     {
