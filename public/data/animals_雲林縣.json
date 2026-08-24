@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-08-24T06:11:06+08:00",
-  "total": 381,
+  "updated_at": "2026-08-25T06:15:08+08:00",
+  "total": 378,
   "city": "雲林縣",
   "animals": [
     {
@@ -96,25 +96,6 @@
       "update_date": "",
       "city": "雲林縣",
       "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=MTUtVE5WUi1CMTI0RA==&UT=MTUtVE4=",
-      "location_id": "loc_雲林縣斗六市雲林路二段517號"
-    },
-    {
-      "id": "GOV-463538",
-      "source": "gov_shelter",
-      "kind": "dog",
-      "name": "混種犬          ",
-      "sex": "F",
-      "age": "adult",
-      "bodytype": "medium",
-      "colour": "虎斑色",
-      "sterilized": true,
-      "vaccinated": false,
-      "photo_url": "https://www.pet.gov.tw/upload/pic/1786094498968.png",
-      "remark": "",
-      "open_date": "2026-08-07",
-      "update_date": "2026-08-07",
-      "city": "雲林縣",
-      "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=MTE1LUgwNzJE&UT=MTE1LUg=",
       "location_id": "loc_雲林縣斗六市雲林路二段517號"
     },
     {
@@ -4279,25 +4260,6 @@
       "location_id": "loc_雲林縣斗六市雲林路二段517號"
     },
     {
-      "id": "GOV-27005",
-      "source": "gov_shelter",
-      "kind": "dog",
-      "name": "混種犬          ",
-      "sex": "F",
-      "age": "adult",
-      "bodytype": "medium",
-      "colour": "黑黃色",
-      "sterilized": true,
-      "vaccinated": false,
-      "photo_url": "https://www.pet.gov.tw/upload/pic/dde37730-4784-4fd7-b6ef-3117eeffbc35.jpg",
-      "remark": "動物安置所  華林代養場  0983-524207  斗南鎮新崙里2之30號",
-      "open_date": "2017-04-05",
-      "update_date": "2018-03-05",
-      "city": "雲林縣",
-      "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=MTA2LUMwMDdE&UT=MTA2LUM=",
-      "location_id": "loc_雲林縣斗六市雲林路二段517號"
-    },
-    {
       "id": "GOV-399969",
       "source": "gov_shelter",
       "kind": "dog",
@@ -6195,25 +6157,6 @@
       "update_date": "2019-05-02",
       "city": "雲林縣",
       "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=MTA4LUUwMzRE&UT=MTA4LUU=",
-      "location_id": "loc_雲林縣斗六市雲林路二段517號"
-    },
-    {
-      "id": "GOV-434064",
-      "source": "gov_shelter",
-      "kind": "dog",
-      "name": "混種犬          ",
-      "sex": "M",
-      "age": "adult",
-      "bodytype": "medium",
-      "colour": "黑棕色",
-      "sterilized": true,
-      "vaccinated": false,
-      "photo_url": "https://www.pet.gov.tw/upload/pic/1765183672650.png",
-      "remark": "",
-      "open_date": "2025-12-12",
-      "update_date": "2025-12-12",
-      "city": "雲林縣",
-      "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=MTE0LUIxMDRE&UT=MTE0LUI=",
       "location_id": "loc_雲林縣斗六市雲林路二段517號"
     },
     {
