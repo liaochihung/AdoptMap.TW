@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-08-28T13:52:09+08:00",
-  "total": 162,
+  "updated_at": "2026-08-29T11:25:02+08:00",
+  "total": 160,
   "city": "基隆市",
   "animals": [
     {
@@ -115,25 +115,6 @@
       "update_date": "2026-08-26",
       "city": "基隆市",
       "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=UUFBQUcxMTUwNTE1MDAx&UT=UUFBQUc=",
-      "location_id": "loc_基隆市七堵區大華三路45_12號_欣欣安樂園旁"
-    },
-    {
-      "id": "GOV-460831",
-      "source": "gov_shelter",
-      "kind": "cat",
-      "name": "緬因貓                 ",
-      "sex": "M",
-      "age": "adult",
-      "bodytype": "medium",
-      "colour": "",
-      "sterilized": true,
-      "vaccinated": false,
-      "photo_url": "https://www.pet.gov.tw/upload/pic/1784088006212.png",
-      "remark": "115.08.29(六)開放認養，欲認養者請於早上10:00-10:10攜帶運輸籠、身分證(滿18歲且無棄養紀錄或違反動保法等)、環境照片(至少六張)臨櫃登記，完成登記始得參與認養流程。登記人數為複數，將進行抽籤程序。如第一順位不通過認養審核，則由第二順位補上，依此類推。",
-      "open_date": "2026-08-29",
-      "update_date": "2026-08-26",
-      "city": "基隆市",
-      "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=UUFBQUcxMTUwNzE1MDAx&UT=UUFBQUc=",
       "location_id": "loc_基隆市七堵區大華三路45_12號_欣欣安樂園旁"
     },
     {
@@ -1255,25 +1236,6 @@
       "update_date": "2026-07-25",
       "city": "基隆市",
       "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=UUFBQUcxMTUwNjI5MDAz&UT=UUFBQUc=",
-      "location_id": "loc_基隆市七堵區大華三路45_12號_欣欣安樂園旁"
-    },
-    {
-      "id": "GOV-462116",
-      "source": "gov_shelter",
-      "kind": "cat",
-      "name": "混種貓                 ",
-      "sex": "N",
-      "age": "child",
-      "bodytype": "small",
-      "colour": "黃白色",
-      "sterilized": false,
-      "vaccinated": false,
-      "photo_url": "https://www.pet.gov.tw/upload/pic/1784940685635.png",
-      "remark": "",
-      "open_date": "2026-07-25",
-      "update_date": "2026-07-25",
-      "city": "基隆市",
-      "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=UUFBQUcxMTUwNzI1MDAx&UT=UUFBQUc=",
       "location_id": "loc_基隆市七堵區大華三路45_12號_欣欣安樂園旁"
     },
     {

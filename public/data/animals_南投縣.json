@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-08-28T13:52:09+08:00",
-  "total": 311,
+  "updated_at": "2026-08-29T11:25:02+08:00",
+  "total": 310,
   "city": "南投縣",
   "animals": [
     {
@@ -400,25 +400,6 @@
       "update_date": "2026-08-14",
       "city": "南投縣",
       "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=SEFBQUcxMTUwODEzQzU=&UT=SEFBQUc=",
-      "location_id": "loc_南投縣南投市嶺興路36_1號"
-    },
-    {
-      "id": "GOV-464530",
-      "source": "gov_shelter",
-      "kind": "cat",
-      "name": "混種貓                 ",
-      "sex": "F",
-      "age": "child",
-      "bodytype": "small",
-      "colour": "黃白色",
-      "sterilized": true,
-      "vaccinated": false,
-      "photo_url": "https://www.pet.gov.tw/upload/pic/1786670933743.png",
-      "remark": "",
-      "open_date": "2026-08-13",
-      "update_date": "2026-08-14",
-      "city": "南投縣",
-      "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=SEFBQUcxMTUwODEzQzM=&UT=SEFBQUc=",
       "location_id": "loc_南投縣南投市嶺興路36_1號"
     },
     {

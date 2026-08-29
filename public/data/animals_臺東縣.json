@@ -1,8 +1,27 @@
 {
-  "updated_at": "2026-08-28T13:52:09+08:00",
-  "total": 65,
+  "updated_at": "2026-08-29T11:25:02+08:00",
+  "total": 66,
   "city": "臺東縣",
   "animals": [
+    {
+      "id": "GOV-466072",
+      "source": "gov_shelter",
+      "kind": "dog",
+      "name": "混種犬          ",
+      "sex": "F",
+      "age": "adult",
+      "bodytype": "medium",
+      "colour": "棕灰色",
+      "sterilized": null,
+      "vaccinated": false,
+      "photo_url": "https://www.pet.gov.tw/upload/pic/1787897593050.png",
+      "remark": "",
+      "open_date": "2026-08-28",
+      "update_date": "2026-08-28",
+      "city": "臺東縣",
+      "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=TkFBQUcxMTUwODI4MDA2&UT=TkFBQUc=",
+      "location_id": "loc_臺東縣臺東市中華路4段999巷600號"
+    },
     {
       "id": "GOV-466043",
       "source": "gov_shelter",
