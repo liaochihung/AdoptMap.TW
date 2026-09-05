@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-09-05T07:33:13+08:00",
-  "total": 499,
+  "updated_at": "2026-09-06T07:26:43+08:00",
+  "total": 496,
   "city": "桃園市",
   "animals": [
     {
@@ -305,44 +305,6 @@
       "update_date": "2026-08-31",
       "city": "桃園市",
       "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=Q0FBQUcxMDYwNTIzMDEz&UT=Q0FBQUc=",
-      "location_id": "loc_桃園市新屋區永興里3鄰藻礁路1668號"
-    },
-    {
-      "id": "GOV-466200",
-      "source": "gov_shelter",
-      "kind": "cat",
-      "name": "英國長毛貓",
-      "sex": "M",
-      "age": "adult",
-      "bodytype": "medium",
-      "colour": "灰白色",
-      "sterilized": true,
-      "vaccinated": false,
-      "photo_url": "https://www.pet.gov.tw/upload/pic/1788072567181.png",
-      "remark": "我在南昌認領養中心 開放抽籤日期:115年9月5日上午10點~10點10分",
-      "open_date": "2026-09-05",
-      "update_date": "2026-08-30",
-      "city": "桃園市",
-      "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=Q0FBQUcxMTUwODMwMDAx&UT=Q0FBQUc=",
-      "location_id": "loc_桃園市新屋區永興里3鄰藻礁路1668號"
-    },
-    {
-      "id": "GOV-458334",
-      "source": "gov_shelter",
-      "kind": "dog",
-      "name": "臘腸犬",
-      "sex": "M",
-      "age": "adult",
-      "bodytype": "small",
-      "colour": "黃色",
-      "sterilized": true,
-      "vaccinated": false,
-      "photo_url": "https://www.pet.gov.tw/upload/pic/1782201421642.png",
-      "remark": "我在南昌認領養中心 開放抽籤日期:115年9月5日上午10點~10點10分",
-      "open_date": "2026-09-05",
-      "update_date": "2026-08-30",
-      "city": "桃園市",
-      "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=Q0FBQUcxMTUwNjIzMDAy&UT=Q0FBQUc=",
       "location_id": "loc_桃園市新屋區永興里3鄰藻礁路1668號"
     },
     {
@@ -704,25 +666,6 @@
       "update_date": "2026-08-23",
       "city": "桃園市",
       "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=Q0FBQUcxMDYwNzAzMDAy&UT=Q0FBQUc=",
-      "location_id": "loc_桃園市新屋區永興里3鄰藻礁路1668號"
-    },
-    {
-      "id": "GOV-458678",
-      "source": "gov_shelter",
-      "kind": "dog",
-      "name": "混種犬          ",
-      "sex": "F",
-      "age": "child",
-      "bodytype": "small",
-      "colour": "黑色",
-      "sterilized": true,
-      "vaccinated": false,
-      "photo_url": "https://www.pet.gov.tw/upload/pic/1782371999511.png",
-      "remark": "我在南昌動物保護園區 快來帶我回家~",
-      "open_date": "2026-08-22",
-      "update_date": "2026-08-22",
-      "city": "桃園市",
-      "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=Q0FBQUcxMTUwNjI1MDAz&UT=Q0FBQUc=",
       "location_id": "loc_桃園市新屋區永興里3鄰藻礁路1668號"
     },
     {

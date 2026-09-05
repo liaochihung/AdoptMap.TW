@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-05T07:33:13+08:00",
+  "updated_at": "2026-09-06T07:26:43+08:00",
   "total": 85,
   "city": "臺東縣",
   "animals": [
@@ -14,7 +14,7 @@
       "colour": "",
       "sterilized": null,
       "vaccinated": false,
-      "photo_url": "",
+      "photo_url": "https://www.pet.gov.tw/upload/pic/1788569130076.png",
       "remark": "",
       "open_date": "2026-09-04",
       "update_date": "2026-09-04",
