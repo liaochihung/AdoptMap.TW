@@ -1,8 +1,27 @@
 {
-  "updated_at": "2026-09-06T07:26:43+08:00",
-  "total": 133,
+  "updated_at": "2026-09-07T07:20:12+08:00",
+  "total": 134,
   "city": "新竹縣",
   "animals": [
+    {
+      "id": "GOV-467029",
+      "source": "gov_shelter",
+      "kind": "dog",
+      "name": "混種犬          ",
+      "sex": "M",
+      "age": "adult",
+      "bodytype": "medium",
+      "colour": "黃色",
+      "sterilized": false,
+      "vaccinated": false,
+      "photo_url": "",
+      "remark": "通知飼主領回程序中，暫不開放領養。若原飼主未領回，後續將於絕育後另行更新公告開放認養時間於此。",
+      "open_date": "",
+      "update_date": "2026-09-06",
+      "city": "新竹縣",
+      "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=REFBQUcxMTUwOTA2MDAx&UT=REFBQUc=",
+      "location_id": "loc_新竹縣竹北市縣政五街192號"
+    },
     {
       "id": "GOV-466333",
       "source": "gov_shelter",
