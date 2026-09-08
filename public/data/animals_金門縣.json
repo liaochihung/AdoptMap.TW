@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-09-08T07:51:13+08:00",
-  "total": 331,
+  "updated_at": "2026-09-09T07:45:00+08:00",
+  "total": 330,
   "city": "金門縣",
   "animals": [
     {
@@ -2699,25 +2699,6 @@
       "update_date": "2026-04-16",
       "city": "金門縣",
       "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=MTE1MDQwOUMwNQ==&UT=MTE1MDQ=",
-      "location_id": "loc_金門縣金湖鎮裕民農莊20號"
-    },
-    {
-      "id": "GOV-449307",
-      "source": "gov_shelter",
-      "kind": "cat",
-      "name": "混種貓                 ",
-      "sex": "M",
-      "age": "adult",
-      "bodytype": "small",
-      "colour": "",
-      "sterilized": false,
-      "vaccinated": false,
-      "photo_url": "https://www.pet.gov.tw/upload/pic/1776243433649.png",
-      "remark": "",
-      "open_date": "2026-04-08",
-      "update_date": "2026-04-15",
-      "city": "金門縣",
-      "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=MTE1MDQwOEMwMg==&UT=MTE1MDQ=",
       "location_id": "loc_金門縣金湖鎮裕民農莊20號"
     },
     {
