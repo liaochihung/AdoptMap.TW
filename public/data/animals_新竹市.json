@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-09-09T07:45:00+08:00",
-  "total": 148,
+  "updated_at": "2026-09-10T07:39:43+08:00",
+  "total": 147,
   "city": "新竹市",
   "animals": [
     {
@@ -20,25 +20,6 @@
       "update_date": "2026-09-07",
       "city": "新竹市",
       "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=UkFBQUcxMTUwOTA0MDAx&UT=UkFBQUc=",
-      "location_id": "loc_新竹市南寮里海濱路250號"
-    },
-    {
-      "id": "GOV-467058",
-      "source": "gov_shelter",
-      "kind": "dog",
-      "name": "貴賓犬        ",
-      "sex": "M",
-      "age": "adult",
-      "bodytype": "small",
-      "colour": "棕色",
-      "sterilized": false,
-      "vaccinated": false,
-      "photo_url": "https://www.pet.gov.tw/upload/pic/1788754011167.png",
-      "remark": "隔離舍",
-      "open_date": "",
-      "update_date": "2026-09-07",
-      "city": "新竹市",
-      "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=UkFBQUcxMTUwOTA3MDAx&UT=UkFBQUc=",
       "location_id": "loc_新竹市南寮里海濱路250號"
     },
     {
