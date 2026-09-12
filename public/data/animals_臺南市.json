@@ -1,8 +1,27 @@
 {
-  "updated_at": "2026-09-12T07:40:47+08:00",
-  "total": 166,
+  "updated_at": "2026-09-13T07:33:27+08:00",
+  "total": 167,
   "city": "臺南市",
   "animals": [
+    {
+      "id": "GOV-467893",
+      "source": "gov_shelter",
+      "kind": "cat",
+      "name": "混種貓                 ",
+      "sex": "M",
+      "age": "child",
+      "bodytype": "small",
+      "colour": "虎斑色",
+      "sterilized": null,
+      "vaccinated": false,
+      "photo_url": "https://www.pet.gov.tw/upload/pic/1789201945903.png",
+      "remark": "本站動物皆採現場互動面談後評估能否認養，不接受電話或系統上預約。",
+      "open_date": "2026-09-12",
+      "update_date": "2026-09-12",
+      "city": "臺南市",
+      "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=UzE1QzA5MTItMDI=&UT=UzE1QzA=",
+      "location_id": "loc_臺南市善化區昌隆里東勢寮1_19號"
+    },
     {
       "id": "GOV-467799",
       "source": "gov_shelter",

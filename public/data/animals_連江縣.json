@@ -1,8 +1,27 @@
 {
-  "updated_at": "2026-09-12T07:40:47+08:00",
+  "updated_at": "2026-09-13T07:33:27+08:00",
   "total": 61,
   "city": "連江縣",
   "animals": [
+    {
+      "id": "GOV-197133",
+      "source": "gov_shelter",
+      "kind": "dog",
+      "name": "混種犬          ",
+      "sex": "F",
+      "age": "adult",
+      "bodytype": "medium",
+      "colour": "黑色",
+      "sterilized": true,
+      "vaccinated": false,
+      "photo_url": "https://www.pet.gov.tw/upload/pic/1776072222865.png",
+      "remark": "溫和 膽小 可牽繩外出",
+      "open_date": "2021-03-04",
+      "update_date": "2026-09-12",
+      "city": "連江縣",
+      "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=WEFBQUcxMTAwMzA0MDAx&UT=WEFBQUc=",
+      "location_id": "loc_連江縣南竿鄉復興村223號"
+    },
     {
       "id": "GOV-439249",
       "source": "gov_shelter",
@@ -39,25 +58,6 @@
       "update_date": "2026-04-29",
       "city": "連江縣",
       "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=WEFBQUcxMTAwMjAzMDAy&UT=WEFBQUc=",
-      "location_id": "loc_連江縣南竿鄉復興村223號"
-    },
-    {
-      "id": "GOV-197133",
-      "source": "gov_shelter",
-      "kind": "dog",
-      "name": "混種犬          ",
-      "sex": "F",
-      "age": "adult",
-      "bodytype": "medium",
-      "colour": "黑色",
-      "sterilized": true,
-      "vaccinated": false,
-      "photo_url": "https://www.pet.gov.tw/upload/pic/1776072222865.png",
-      "remark": "溫和 膽小 可牽繩外出",
-      "open_date": "2021-03-04",
-      "update_date": "2026-04-29",
-      "city": "連江縣",
-      "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=WEFBQUcxMTAwMzA0MDAx&UT=WEFBQUc=",
       "location_id": "loc_連江縣南竿鄉復興村223號"
     },
     {
