@@ -1,8 +1,27 @@
 {
-  "updated_at": "2026-09-13T07:33:27+08:00",
-  "total": 309,
+  "updated_at": "2026-09-14T07:46:19+08:00",
+  "total": 310,
   "city": "澎湖縣",
   "animals": [
+    {
+      "id": "GOV-467903",
+      "source": "gov_shelter",
+      "kind": "dog",
+      "name": "柴犬                  ",
+      "sex": "M",
+      "age": "adult",
+      "bodytype": "medium",
+      "colour": "黃色",
+      "sterilized": true,
+      "vaccinated": false,
+      "photo_url": "",
+      "remark": "",
+      "open_date": "",
+      "update_date": "2026-09-13",
+      "city": "澎湖縣",
+      "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=UEFBQUcxMTUwOTEyMDAx&UT=UEFBQUc=",
+      "location_id": "loc_澎湖縣馬公市烏崁里260_261號"
+    },
     {
       "id": "GOV-461056",
       "source": "gov_shelter",
