@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-21T07:42:05+08:00",
+  "updated_at": "2026-09-22T08:22:58+08:00",
   "city": "臺中市",
   "locations": [
     {
@@ -11,7 +11,7 @@
       "lng": 120.7106,
       "type": "shelter",
       "counts": {
-        "cat": 9,
+        "cat": 8,
         "dog": 33
       }
     },
@@ -24,8 +24,8 @@
       "lng": 120.6175,
       "type": "shelter",
       "counts": {
-        "cat": 2,
-        "dog": 96
+        "cat": 1,
+        "dog": 93
       }
     },
     {
@@ -52,32 +52,6 @@
       "counts": {
         "cat": 0,
         "dog": 2
-      }
-    },
-    {
-      "id": "loc_仁愛犬醫院",
-      "name": "仁愛犬醫院",
-      "address": "仁愛犬醫院",
-      "phone": "04-22126987",
-      "lat": 23.0020621,
-      "lng": 120.2197427,
-      "type": "vet_transit",
-      "counts": {
-        "cat": 0,
-        "dog": 2
-      }
-    },
-    {
-      "id": "loc_中台動物醫院",
-      "name": "中台動物醫院",
-      "address": "中台動物醫院",
-      "phone": "",
-      "lat": 24.1748994,
-      "lng": 120.7231971,
-      "type": "vet_transit",
-      "counts": {
-        "cat": 0,
-        "dog": 3
       }
     },
     {
