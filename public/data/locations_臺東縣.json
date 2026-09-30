@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-28T08:07:00+08:00",
+  "updated_at": "2026-09-30T08:52:30+08:00",
   "city": "臺東縣",
   "locations": [
     {
@@ -12,7 +12,7 @@
       "type": "shelter",
       "counts": {
         "cat": 12,
-        "dog": 49
+        "dog": 50
       }
     }
   ]
