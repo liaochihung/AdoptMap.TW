@@ -1,8 +1,27 @@
 {
-  "updated_at": "2026-10-11T08:34:34+08:00",
+  "updated_at": "2026-10-12T08:49:07+08:00",
   "total": 500,
   "city": "桃園市",
   "animals": [
+    {
+      "id": "GOV-97412",
+      "source": "gov_shelter",
+      "kind": "dog",
+      "name": "混種犬          ",
+      "sex": "F",
+      "age": "adult",
+      "bodytype": "medium",
+      "colour": "花色",
+      "sterilized": false,
+      "vaccinated": false,
+      "photo_url": "https://www.pet.gov.tw/upload/pic/248af3ae-10b9-4143-bde8-df39abf3cae1.JPG",
+      "remark": "",
+      "open_date": "2019-05-09",
+      "update_date": "2026-10-11",
+      "city": "桃園市",
+      "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=Q0FBQUcxMDgwNTA5MDIz&UT=Q0FBQUc=",
+      "location_id": "loc_桃園市新屋區永興里3鄰藻礁路1668號"
+    },
     {
       "id": "GOV-28845",
       "source": "gov_shelter",
@@ -3915,25 +3934,6 @@
       "update_date": "2025-09-13",
       "city": "桃園市",
       "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=Q0FBQUcxMTAwODE3MDAy&UT=Q0FBQUc=",
-      "location_id": "loc_桃園市新屋區永興里3鄰藻礁路1668號"
-    },
-    {
-      "id": "GOV-97412",
-      "source": "gov_shelter",
-      "kind": "dog",
-      "name": "混種犬          ",
-      "sex": "F",
-      "age": "adult",
-      "bodytype": "medium",
-      "colour": "花色",
-      "sterilized": false,
-      "vaccinated": false,
-      "photo_url": "https://www.pet.gov.tw/upload/pic/248af3ae-10b9-4143-bde8-df39abf3cae1.JPG",
-      "remark": "",
-      "open_date": "2019-05-09",
-      "update_date": "2025-08-30",
-      "city": "桃園市",
-      "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=Q0FBQUcxMDgwNTA5MDIz&UT=Q0FBQUc=",
       "location_id": "loc_桃園市新屋區永興里3鄰藻礁路1668號"
     },
     {
