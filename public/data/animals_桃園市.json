@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-10-15T08:10:34+08:00",
-  "total": 505,
+  "updated_at": "2026-10-16T07:58:05+08:00",
+  "total": 503,
   "city": "桃園市",
   "animals": [
     {
@@ -590,25 +590,6 @@
       "update_date": "2026-10-06",
       "city": "桃園市",
       "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=Q0FBQUcxMTUwNjAyMDA5&UT=Q0FBQUc=",
-      "location_id": "loc_桃園市新屋區永興里3鄰藻礁路1668號"
-    },
-    {
-      "id": "GOV-460461",
-      "source": "gov_shelter",
-      "kind": "cat",
-      "name": "混種貓                 ",
-      "sex": "M",
-      "age": "child",
-      "bodytype": "small",
-      "colour": "虎斑白色",
-      "sterilized": false,
-      "vaccinated": false,
-      "photo_url": "https://www.pet.gov.tw/upload/pic/1783834010025.png",
-      "remark": "寄送藍世界經國店 目前不在園區收容",
-      "open_date": "2026-07-31",
-      "update_date": "2026-10-02",
-      "city": "桃園市",
-      "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=Q0FBQUcxMTUwNzEyMDAy&UT=Q0FBQUc=",
       "location_id": "loc_桃園市新屋區永興里3鄰藻礁路1668號"
     },
     {
@@ -1217,25 +1198,6 @@
       "update_date": "",
       "city": "桃園市",
       "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=Q0FBQUcxMTUwODMxMDAx&UT=Q0FBQUc=",
-      "location_id": "loc_桃園市新屋區永興里3鄰藻礁路1668號"
-    },
-    {
-      "id": "GOV-466161",
-      "source": "gov_shelter",
-      "kind": "dog",
-      "name": "混種犬          ",
-      "sex": "F",
-      "age": "adult",
-      "bodytype": "medium",
-      "colour": "黃色",
-      "sterilized": false,
-      "vaccinated": false,
-      "photo_url": "https://www.pet.gov.tw/upload/pic/1787988923750.png",
-      "remark": "",
-      "open_date": "2026-08-29",
-      "update_date": "2026-08-29",
-      "city": "桃園市",
-      "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=Q0FBQUcxMTUwODI5MDA3&UT=Q0FBQUc=",
       "location_id": "loc_桃園市新屋區永興里3鄰藻礁路1668號"
     },
     {

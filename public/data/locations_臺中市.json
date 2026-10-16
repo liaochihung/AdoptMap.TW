@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-15T08:10:34+08:00",
+  "updated_at": "2026-10-16T07:58:05+08:00",
   "city": "臺中市",
   "locations": [
     {
@@ -12,7 +12,7 @@
       "type": "shelter",
       "counts": {
         "cat": 2,
-        "dog": 91
+        "dog": 90
       }
     },
     {
@@ -24,8 +24,8 @@
       "lng": 120.7106,
       "type": "shelter",
       "counts": {
-        "cat": 9,
-        "dog": 31
+        "cat": 8,
+        "dog": 29
       }
     },
     {
