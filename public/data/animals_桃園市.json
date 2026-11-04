@@ -1,8 +1,27 @@
 {
-  "updated_at": "2026-11-03T11:09:02+08:00",
-  "total": 495,
+  "updated_at": "2026-11-04T09:45:08+08:00",
+  "total": 496,
   "city": "桃園市",
   "animals": [
+    {
+      "id": "GOV-433178",
+      "source": "gov_shelter",
+      "kind": "dog",
+      "name": "哈士奇(西伯利亞雪橇犬)",
+      "sex": "F",
+      "age": "adult",
+      "bodytype": "medium",
+      "colour": "黃色",
+      "sterilized": false,
+      "vaccinated": false,
+      "photo_url": "https://www.pet.gov.tw/upload/pic/1764648117947.png",
+      "remark": "我在南昌認領養中心~攻擊性犬隻，多次咬人紀錄。上下牙齒斷裂、腸胃道差，目前持續治療中，經過三位獸醫師評估「行為問題咬人，不適合認領養。」抽籤日期:115早上9:30115年10月03日上午10點-10點10分 1.需簽切結書。  2.需年滿18歲，抽籤以身分證正本為準。 3.每一戶家庭限認養1隻，不",
+      "open_date": "2026-11-03",
+      "update_date": "2026-11-03",
+      "city": "桃園市",
+      "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=Q0FBQUcxMTQxMjAyMDAx&UT=Q0FBQUc=",
+      "location_id": "loc_桃園市新屋區永興里3鄰藻礁路1668號"
+    },
     {
       "id": "GOV-473297",
       "source": "gov_shelter",
