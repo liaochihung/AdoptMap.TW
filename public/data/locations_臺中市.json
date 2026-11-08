@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-07T09:26:06+08:00",
+  "updated_at": "2026-11-08T08:57:48+08:00",
   "city": "臺中市",
   "locations": [
     {
@@ -11,8 +11,34 @@
       "lng": 120.7106,
       "type": "shelter",
       "counts": {
-        "cat": 13,
-        "dog": 39
+        "cat": 12,
+        "dog": 36
+      }
+    },
+    {
+      "id": "loc_nantun",
+      "name": "臺中市動物之家南屯園區",
+      "address": "臺中市南屯區中台路601號",
+      "phone": "04-23850949",
+      "lat": 24.1366,
+      "lng": 120.6175,
+      "type": "shelter",
+      "counts": {
+        "cat": 1,
+        "dog": 81
+      }
+    },
+    {
+      "id": "loc_台中市大里區國光路二段505號",
+      "name": "魚中魚大里店",
+      "address": "台中市大里區國光路二段505號",
+      "phone": "04-24073388",
+      "lat": 24.1136403,
+      "lng": 120.6790526,
+      "type": "yiqi",
+      "counts": {
+        "cat": 0,
+        "dog": 1
       }
     },
     {
@@ -38,20 +64,7 @@
       "type": "yiqi",
       "counts": {
         "cat": 0,
-        "dog": 3
-      }
-    },
-    {
-      "id": "loc_nantun",
-      "name": "臺中市動物之家南屯園區",
-      "address": "臺中市南屯區中台路601號",
-      "phone": "04-23850949",
-      "lat": 24.1366,
-      "lng": 120.6175,
-      "type": "shelter",
-      "counts": {
-        "cat": 1,
-        "dog": 80
+        "dog": 1
       }
     },
     {
@@ -103,7 +116,7 @@
       "type": "yiqi",
       "counts": {
         "cat": 0,
-        "dog": 2
+        "dog": 1
       }
     },
     {
