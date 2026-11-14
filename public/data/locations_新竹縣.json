@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-13T10:16:31+08:00",
+  "updated_at": "2026-11-14T09:53:55+08:00",
   "city": "新竹縣",
   "locations": [
     {
@@ -12,7 +12,7 @@
       "type": "shelter",
       "counts": {
         "cat": 21,
-        "dog": 99
+        "dog": 98
       }
     }
   ]
