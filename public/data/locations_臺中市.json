@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-14T09:53:55+08:00",
+  "updated_at": "2026-11-15T09:25:44+08:00",
   "city": "臺中市",
   "locations": [
     {
@@ -24,7 +24,7 @@
       "lng": 120.6175,
       "type": "shelter",
       "counts": {
-        "cat": 1,
+        "cat": 0,
         "dog": 87
       }
     },
@@ -63,7 +63,7 @@
       "lng": 120.7106,
       "type": "shelter",
       "counts": {
-        "cat": 13,
+        "cat": 12,
         "dog": 37
       }
     },
@@ -117,19 +117,6 @@
       "counts": {
         "cat": 2,
         "dog": 0
-      }
-    },
-    {
-      "id": "loc_中途動物醫院",
-      "name": "中途動物醫院",
-      "address": "中途動物醫院",
-      "phone": "",
-      "lat": 24.1106731,
-      "lng": 120.6791942,
-      "type": "shelter",
-      "counts": {
-        "cat": 0,
-        "dog": 1
       }
     },
     {
