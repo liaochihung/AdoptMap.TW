@@ -1,8 +1,27 @@
 {
-  "updated_at": "2026-11-15T09:25:44+08:00",
+  "updated_at": "2026-11-16T09:28:16+08:00",
   "total": 116,
   "city": "新竹縣",
   "animals": [
+    {
+      "id": "GOV-472556",
+      "source": "gov_shelter",
+      "kind": "cat",
+      "name": "混種貓                 ",
+      "sex": "M",
+      "age": "child",
+      "bodytype": "small",
+      "colour": "虎斑白色",
+      "sterilized": true,
+      "vaccinated": false,
+      "photo_url": "https://www.pet.gov.tw/upload/pic/1793981708271.png",
+      "remark": "協助脫困無外傷",
+      "open_date": "2026-10-15",
+      "update_date": "2026-11-15",
+      "city": "新竹縣",
+      "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=REFBQUcxMTUxMDE1MDAz&UT=REFBQUc=",
+      "location_id": "loc_新竹縣竹北市縣政五街192號"
+    },
     {
       "id": "GOV-472553",
       "source": "gov_shelter",
@@ -229,25 +248,6 @@
       "update_date": "2026-11-10",
       "city": "新竹縣",
       "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=REFBQUcxMTUxMTEwMDAx&UT=REFBQUc=",
-      "location_id": "loc_新竹縣竹北市縣政五街192號"
-    },
-    {
-      "id": "GOV-472556",
-      "source": "gov_shelter",
-      "kind": "cat",
-      "name": "混種貓                 ",
-      "sex": "M",
-      "age": "child",
-      "bodytype": "small",
-      "colour": "虎斑白色",
-      "sterilized": true,
-      "vaccinated": false,
-      "photo_url": "https://www.pet.gov.tw/upload/pic/1793090667557.png",
-      "remark": "協助脫困無外傷",
-      "open_date": "2026-10-15",
-      "update_date": "2026-11-04",
-      "city": "新竹縣",
-      "source_url": "https://www.pet.gov.tw/AnimalApp/AnnounceSingle.aspx?PageType=Adopt&AcNum=REFBQUcxMTUxMDE1MDAz&UT=REFBQUc=",
       "location_id": "loc_新竹縣竹北市縣政五街192號"
     },
     {

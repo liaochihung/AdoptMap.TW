@@ -1,8 +1,27 @@
 {
-  "updated_at": "2026-11-15T09:25:44+08:00",
-  "total": 153,
+  "updated_at": "2026-11-16T09:28:16+08:00",
+  "total": 154,
   "city": "臺中市",
   "animals": [
+    {
+      "id": "TC-11508318008",
+      "source": "taichung_shelter",
+      "kind": "cat",
+      "name": "",
+      "sex": "M",
+      "age": "child",
+      "bodytype": "small",
+      "colour": "虎斑",
+      "sterilized": true,
+      "vaccinated": null,
+      "photo_url": "https://www.animal.taichung.gov.tw/media/1408747/11508318008認養-5.jpg",
+      "remark": "我在豐原區\"魚中魚豐原店\"等待主人的愛心認養喔！聯絡電話：04-25158666 台中市豐原區豐原大道6段835號",
+      "open_date": "",
+      "update_date": "",
+      "source_url": "https://www.animal.taichung.gov.tw/1521490/animalCp?nodeId=4085679",
+      "city": "臺中市",
+      "location_id": "loc_台中市豐原區豐原大道6段835號"
+    },
     {
       "id": "TC-11504168007",
       "source": "taichung_shelter",
